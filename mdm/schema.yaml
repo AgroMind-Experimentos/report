@@ -16,10 +16,6 @@
 - title: Student Outcome
   alias: outcome
 
-- title: "Student Outcome"
-  alias: "cover"
-  skip_title: true
-
 - title: "Capítulo I: Introducción"
   alias: capitulo 1
   has_intro: true

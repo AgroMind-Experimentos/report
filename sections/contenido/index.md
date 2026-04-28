@@ -3,7 +3,6 @@
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capitulo-i-introduccion)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
