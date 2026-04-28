@@ -18,7 +18,6 @@
 
 - title: "Capítulo I: Introducción"
   alias: capitulo 1
-  has_intro: true
   children:
     - title: "1.1. Startup Profile"
       alias: startup
