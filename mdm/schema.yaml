@@ -51,7 +51,6 @@
 
 - title: "Capítulo II: Requirements Elicitation & Analysis"
   alias: capitulo 2
-  has_intro: true
   children:
     - title: "2.1. Competidores"
       alias: competitors
@@ -63,6 +62,7 @@
           alias: competitive strategy
     - title: "2.2. Entrevistas"
       alias: interviews
+      has_intro: true
       children:
         - title: "2.2.1. Diseño de entrevistas"
           alias: interview design
