@@ -1,0 +1,1 @@
+En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", nos enfocamos en ofrecer una experiencia intuitiva, eficiente y visualmente atractiva. Asimismo, seguimos las guías de diseño para optimizar el rendimiento y garantizar que cada parte de la aplicación se adapte de manera fluida a los clientes y trabajadores.

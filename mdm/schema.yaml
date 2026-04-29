@@ -99,7 +99,6 @@
 
 - title: "Capítulo IV: Product Design"
   alias: capitulo 4
-  has_intro: true
   children:
     - title: "4.1. Style Guidelines"
       alias: style guidelines

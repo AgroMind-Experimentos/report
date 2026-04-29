@@ -1,3 +1,5 @@
+# Caratula
+
 <div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
     <div style="margin-bottom: 20px;">
         <img src="./img/cover/upc_logo.png" alt="UPC Logo" style="width: 150px;">
@@ -55,19 +57,13 @@
     </div>
 </div>
 
-<div style="page-break-after: always;"></div>
-
 # Registro de Versiones del Informe
 
 
 
-<div style="page-break-after: always;"></div>
-
 # Project Report Collaboration Insights
 
 
-
-<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -172,13 +168,9 @@
 - [Anexos](#anexos)
 
 
-<div style="page-break-after: always;"></div>
-
 # Student Outcome
 
 
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -192,8 +184,6 @@
 
 **Visión:** Convertirnos en la startup agrotech líder en Latinoamérica, reconocida por transformar la manera en que se gestiona la producción agrícola mediante tecnología intuitiva, generando un impacto positivo en la productividad, la trazabilidad y la competitividad del sector.
 
-
-<div style="page-break-after: always;"></div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -277,8 +267,6 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -345,14 +333,10 @@ Sin embargo, existe un potencial de mejora: un 36,6% de los agricultores de subs
 
 Estas cifras muestran que gran parte de la agricultura en el país carece de herramientas digitales que faciliten la organización y la trazabilidad. En este contexto, EcoTrack puede ser una solución útil al permitir que agricultores y agrónomos registren información, organicen sus actividades y generen reportes que respalden la calidad de la producción, mejorando la productividad y el acceso a mercados más competitivos.
 
-<div style="page-break-after: always;"></div>
-
 ### 1.2.2. Lean UX Process
 
 El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
 
-
-<div style="page-break-after: always;"></div>
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -470,8 +454,6 @@ Aquí se presenta el Lean UX Canvas desarrollado para Ecotrack:
 
 ![Lean UX Canvas](./img/capitulo_1/lean_ux_process/lean-ux-canvas.png)
 
-<div style="page-break-after: always;"></div>
-
 ## 1.3. Segmentos objetivo
 
 En el análisis del segmento objetivo para                                                              , hemos previsto que nuestros principales usuarios serán **agricultores y agrónomos.**
@@ -500,8 +482,6 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 
 - **Uso de tecnología:** Familiarizados con herramientas digitales, pero necesitan soluciones específicas para el sector agro.
 
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -628,13 +608,9 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 * Proveer funcionalidades integradas superiores, incluyendo seguimiento de cultivos, control de inventario/ganancias, alertas climáticas y modo colaborativo.
 * Capturar a los usuarios sensibles al costo mediante la demostración clara del retorno de inversión (ROI) a largo plazo.
 
-<div style="page-break-after: always;"></div>
-
 ## 2.2. Entrevistas
 
 Esta sección expone la investigación basada en entrevistas realizadas a agricultores y agrónomos, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión agrícola y explorar cómo una solución digital podría responder de manera efectiva a sus necesidades.
-
-<div style="page-break-after: always;"></div>
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -688,8 +664,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Expectativas**
 * Si contaras con una herramienta digital para tu labor, ¿qué funciones te facilitarían el trabajo con los agricultores?
 * ¿Qué tipo de datos o reportes consideras indispensables para brindar recomendaciones más precisas?
-
-<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -991,8 +965,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento: Agricultores**
@@ -1056,8 +1028,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 
 - **Reconocimiento de oportunidades en jóvenes agricultores:** 33% (1/3: Lucas) percibe que los jóvenes son más receptivos a adaptarse al cambio tecnológico.
 
-<div style="page-break-after: always;"></div>
-
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -1069,8 +1039,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Agrónomos**
 
 ![Agrónomos](./img/capitulo_2/needfinding/personas/ana_morales.jpg)
-
-<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1115,8 +1083,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 
 ![AgronomoMap](./img/capitulo_2/needfinding/journey_mapping/ana_morales.jpg)
 
-<div style="page-break-after: always;"></div>
-
 ### 2.3.4. Empathy Mapping
 
 **Agricultores**
@@ -1126,8 +1092,6 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Agrónomos**
 
 ![AgronomoEmpathy](./img/capitulo_2/needfinding/empathy/ana_morales.jpg)
-
-<div style="page-break-after: always;"></div>
 
 ## 2.4. Big Picture EventStoring
 
@@ -1159,8 +1123,6 @@ Finalmente, se presenta el Big Picture Event Storming:
 
 ![Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming-final-events.png)
 
-<div style="page-break-after: always;"></div>
-
 ## 2.5. Ubiquitous Language
 
 **Farmer (Agricultor)**
@@ -1187,8 +1149,6 @@ Es la revisión del entorno donde crece el cultivo como la temperatura, humedad 
 
 **Activity management (Gestión de actividades)**
 Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias parcelas, donde también se registra el material empleado dado el caso.
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2096,8 +2056,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 ## 3.2. Impact Mapping
 
 **Agricultores**
@@ -2107,8 +2065,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 **Agrónomos**
 
 ![AgronomoEmpathy](./img/capitulo_3/impact_mapping/ana_morales.png)
-
-<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
 
@@ -2364,147 +2320,739 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div>
-
 # Capítulo IV: Product Design
-
-
-
-<div style="page-break-after: always;"></div>
 
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
 
 
+El propósito de esta sección es establecer las pautas generales de estilo que guiarán el desarrollo visual y comunicacional de EcoTrack, una plataforma digital diseñada para apoyar a agricultores y agrónomos en la gestión eficiente de sus cultivos, facilitando la trazabilidad, organización de labores agrícolas y toma de decisiones basadas en datos.
+Estas directrices buscan asegurar la coherencia estética, funcional y de experiencia de usuario en todos los puntos de contacto de la plataforma web, empleando herramientas de diseño como Figma. Funcionan como una guía centralizada para el equipo de diseño, desarrollo y marketing, garantizando que la identidad de EcoTrack se mantenga consistente, accesible y alineada con sus valores de sostenibilidad, innovación y confianza.
+
+### Branding:
+
+El logotipo de EcoTrack es el principal símbolo de identidad de la marca y comunica el enfoque tecnológico y sostenible de la startup. El diseño del logo combina elementos naturales con un estilo moderno, utilizando tonos verdes y azules que evocan agricultura, confianza y tecnología.
+
+<img src="./img/capitulo_4/style_guidelines/ecotrack-logo.png" width="35%">
+
+A continuación, se detallan las decisiones relacionadas con su uso y aplicación:
+
+- Logo principal: Se debe usar en su versión completa siempre que sea posible, preferentemente sobre fondos claros o naturales que refuercen la conexión con la sostenibilidad.
+
+### Typography:
+
+La tipografía es uno de los elementos más importantes en la creación de una identidad visual coherente. Para EcoTrack , hemos seleccionado fuentes que transmiten tecnología, claridad y profesionalismo:
+
+- Fuente principal: La fuente seleccionada es Poppins, moderna y legible, que comunica tecnología cercana y simple. Se usará en Bold para encabezados y títulos principales, y en Regular para el cuerpo de texto.
+- Fuente secundaria:
+  Para descripciones, subtítulos y formularios se recomienda Inter, una tipografía limpia y altamente legible en pantallas pequeñas, ideal para la experiencia móvil de agricultores y agrónomos.
+
+### Colors:
+
+La paleta de colores busca transmitir sostenibilidad, confianza y modernidad, alineada con la misión de Agromind de impulsar la digitalización agrícola.
+
+<table>
+  <tr>
+    <td><div style="background-color:#2E7D32;width:48px;height:48px;border-radius:8px;border:1px solid #ccc;"></div></td>
+    <td><strong>Color primario — #2E7D32 (Verde Sustentable)</strong><br/>Representa el vínculo con la tierra, la productividad y la sostenibilidad. Será utilizado en botones principales, encabezados y elementos de énfasis.</td>
+  </tr>
+  <tr>
+    <td><div style="background-color:#FFFFFF;width:48px;height:48px;border-radius:8px;border:1px solid #ccc;"></div></td>
+    <td><strong>Color secundario — #FFFFFF (Blanco)</strong><br/>Aporta limpieza y equilibrio. Servirá como color de fondo en la mayoría de interfaces, permitiendo claridad y foco en la información.</td>
+  </tr>
+  <tr>
+    <td><div style="background-color:#1A1A1A;width:48px;height:48px;border-radius:8px;border:1px solid #ccc;"></div></td>
+    <td><strong>Color terciario — #1A1A1A (Negro Suave)</strong><br/>Se empleará para los textos principales sobre fondos claros, asegurando una excelente legibilidad.</td>
+  </tr>
+  <tr>
+    <td><div style="background-color:#2196F3;width:48px;height:48px;border-radius:8px;border:1px solid #ccc;"></div></td>
+    <td><strong>Color de realce — #2196F3 (Azul Tecnológico)</strong><br/>Evoca confianza y tecnología. Se usará en botones secundarios, hipervínculos e iconos interactivos que requieran captar la atención del usuario.</td>
+  </tr>
+  <tr>
+    <td><div style="background-color:#FF7A00;width:48px;height:48px;border-radius:8px;border:1px solid #ccc;"></div></td>
+    <td><strong>Color de alerta — #FF7A00 (Naranja Cálido)</strong><br/>Para llamadas a la acción inmediatas o notificaciones relevantes, captando la atención de forma amigable.</td>
+  </tr>
+</table>
+
+### Spacing: 
+
+El uso correcto del espacio refuerza la claridad, simplicidad y organización que EcoTrack quiere transmitir a sus usuarios, facilitando una navegación sin fricciones.
+
+- Padding y Márgenes:
+
+Para mantener una sensación de estructura y simplicidad, se recomienda utilizar 60px de padding entre secciones .entre secciones principales en pantallas de escritorio. Entre bloques de contenido debe haber un espacio de alrededor de 40px , asegurando que cada componente tenga espacio para “respirar” y que la información pueda ser escaneada visualmente con facilidad.
+
+- Espaciado entre Elementos:
+
+El espacio entre elementos interactivos (botones, íconos y campos de entrada) debe ser de 20px . Esto mejora la legibilidad, facilita la interacción con el contenido y permite una experiencia fluida tanto en pantallas grandes como en resoluciones adaptativas.
+
+- Aplicación en Figma:
+
+En Figma, se utilizará el sistema de Auto Layout para mantener la consistencia en los espacios y asegurar que los elementos se ajusten correctamente en diferentes tamaños de pantalla. Los componentes deberán incluir valores predefinidos de padding y margen.
+
+### Tono de comunicación:
+
+El tono de EcoTrack debe reflejar cercanía, claridad y empoderamiento, alineado con el objetivo de acompañar al agricultor en su digitalización sin generar barreras.
+
+- Cercano y accesible: El lenguaje debe ser sencillo, evitando tecnicismos innecesarios, de manera que agricultores con distintos niveles de experiencia tecnológica puedan comprender fácilmente la plataforma.
+
+
+- Positivo y motivador: El tono debe transmitir confianza en que el agricultor puede mejorar su productividad y trazabilidad con pequeñas acciones dentro de la app.
+
+
+- Profesional y confiable: En la comunicación hacia agrónomos, el estilo debe ser más técnico, reforzando la idea de datos confiables y soporte para decisiones estratégicas.
 
 ### 4.1.2. Web Style Guidelines
 
+### Typography
 
+La plataforma web utiliza una combinación tipográfica que prioriza la legibilidad y la identidad moderna de EcoTrack.
 
-<div style="page-break-after: always;"></div>
+**Tipografía principal: Poppins**
+
+- Título principal: 32px
+- Subtítulo: 24px
+- Cuerpo de texto: 16px
+
+**Tipografía secundaria: Inter**
+
+- Descripciones y textos pequeños: 14px
+- Etiquetas y formularios: 12px
+
+### Colors
+
+La siguiente imagen presenta la paleta de colores definida para la versión web, junto con sus respectivos códigos identificadores en Figma.
+
+<img src="./img/capitulo_4/style_guidelines/colors.png" width="35%">
+
+### Spacing
+
+Las siguientes decisiones de espaciado garantizan una distribución visual equilibrada y consistente entre los elementos de la plataforma web.
+
+<img src="./img/capitulo_4/style_guidelines/spacing.png" width="25%">
+
+### Assets
+
+A continuación se muestran los assets visuales definidos para la interfaz web de EcoTrack.
+
+**Plantilla base — versión Desktop**
+
+<img src="./img/capitulo_4/style_guidelines/plantilla-landing.png" width="60%">
+
+**Pantalla de inicio**
+
+<img src="./img/capitulo_4/style_guidelines/inicio-landing.png" width="60%">
+
 
 ## 4.2. Information Architecture
 
+En esta sección, presentaremos las decisiones y las razones que guían la manera en que se estructura el contenido de la experiencia web, incluyendo la página de inicio (Landing Page) y las aplicación. Estas propuestas se enfocan mayormente en garantizar que los usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto y encuentren sin dificultad lo que busquen.
 
-
-<div style="page-break-after: always;"></div>
 
 ### 4.2.1. Organization Systems
 
+Cuadro de cómo se estructura la información del landing page
+
+<img src="./img/capitulo_4/architecture/landing-org.png" width="70%">
+
+Cuadro de cómo se estructura la información de la aplicación web
 
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado en **EcoTrack** está diseñado para ser intuitivo, breve y cercano al vocabulario agrícola. Se busca que las etiquetas comuniquen con pocas palabras la función de cada sección, evitando tecnicismos innecesarios y facilitando la adopción por parte de usuarios con distintos niveles de experiencia digital.
+
+Las etiquetas se dividen según los dos perfiles principales de la plataforma: **agrónomos** (gestión y supervisión) y **agricultores** (ejecución de tareas y registro de datos).
+
+#### Agrónomo (enfoque de gestión y control)
+- **Panel de Control:** vista general con indicadores clave como parcelas activas, tareas pendientes y alertas recientes.
+- **Organización:** gestión de miembros (invitar, asignar o remover agricultores).
+- **Parcelas:** listado de todas las parcelas registradas con acceso al detalle de cada una.
+- **Cultivos:** catálogo de cultivos existentes y opción de registrar nuevos.
+- **Tareas:** planificación, asignación y seguimiento de laborgges agrícolas.
+- **Reportes:** generación de reportes detallados por parcela o generales de la organización.
+
+#### Agricultor (enfoque operativo y de ejecución)
+- **Panel:** vista principal con las tareas asignadas y notificaciones inmediatas.
+- **Mis Parcelas:** parcelas en las que está involucrado, con acceso al registro de datos del cultivo.
+- **Tareas:** lista de tareas pendientes con la opción de aceptarlas, iniciarlas o marcarlas como completadas.
+- **Registros:** formulario para ingresar datos fenológicos (hojas, botones) y condiciones ambientales (temperatura, humedad).
+
+---
 
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Con el fin de aumentar la visibilidad de **EcoTrack** en buscadores y ofrecer una navegación más clara y optimizada, se han definido un conjunto de **SEO Tags y Meta Tags** que acompañarán tanto a la landing page como a la aplicación web.
+
+Estas etiquetas cumplen un papel esencial en el **posicionamiento en motores de búsqueda**, la **adaptación a distintos dispositivos** y la correcta interpretación del contenido por parte de navegadores y servicios externos.
+
+Cada etiqueta tiene un rol específico:
+- **Title:** se muestra en la pestaña del navegador y aparece como título principal en los resultados de búsqueda.
+- **Description:** ofrece un resumen breve y atractivo de la página, pensado para captar al usuario en segundos.
+- **Author:** identifica al equipo responsable de la solución.
+- **Viewport:** asegura que el contenido se ajuste a todo tipo de pantallas, desde móviles hasta monitores de escritorio.
+- **Charset:** define el sistema de codificación de caracteres, en este caso UTF-8, garantizando compatibilidad global.
+- **Keywords:** lista de palabras clave que facilitan la clasificación de la página por los motores de búsqueda.
+
+#### Landing Page SEO Tags and Meta Tags
+- **Title:** "EcoTrack - Plataforma inteligente para la gestión agrícola"
+- **Description:** "EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar."
+- **Author:** "Equipo EcoTrack"
+- **Viewport:** configurado para ofrecer una experiencia fluida en móviles, tablets y computadoras.
+- **Charset:** UTF-8 para soportar distintos alfabetos y símbolos.
+- **Keywords:** "agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack - Plataforma inteligente para la gestión agrícola</title>
+  <meta name="description" content="EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar.">
+  <meta name="keywords" content="agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+```
+
+#### Web Application SEO Tags and Meta Tags
+Web Application SEO Tags and Meta Tags
+
+* **Title**: "EcoTrack App - Panel digital para agrónomos y agricultores"
+* **Description**: "Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo."
+* **Author**: "Equipo EcoTrack"
+* **Viewport**: preparado para que la aplicación sea completamente responsiva y usable en móviles, tablets y PC.
+* **Charset**: UTF-8 como estándar de compatibilidad.
+* **Keywords**: "ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack App - Panel digital para agrónomos y agricultores</title>
+  <meta name="description" content="Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo.">
+  <meta name="keywords" content="ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+```
 
 
 ### 4.2.4. Searching Systems
 
+El sistema de búsqueda de EcoTrack se basa en mecanismos de filtrado y selección dentro de cada módulo, en lugar de un buscador global. Este enfoque facilita el acceso rápido a información específica y mantiene la simplicidad de la aplicación.
+
+* Parcelas: filtros por nombre, cultivo y responsable asignado.
+* Registros: organización cronológica de datos fenológicos y ambientales, con posibilidad de acotar por rango de fechas.
+* Reportes: criterios de selección por parcela o periodo de tiempo.
+
+Este sistema asegura que los usuarios puedan acceder de manera ágil a los datos que requieren, evitando la saturación de la interfaz con funciones innecesarias.
 
 
 ### 4.2.5. Navigation Systems
 
+El sistema de navegación de EcoTrack se ha diseñado con base en los principios de claridad, consistencia y adaptabilidad, de modo que los usuarios puedan desplazarse con facilidad tanto en la landing page como en la aplicación web.
+Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo que garantiza que la navegación sea fluida en distintos tamaños de pantalla (computadora, tablet o móvil).
 
+* **Landing Page:** cuenta con un menú superior fijo que da acceso a las secciones principales: Inicio, Funcionalidades, Planes y Contacto. Este menú acompaña al usuario durante todo el recorrido, facilitando la exploración sin importar en qué parte de la página se encuentre.
+* **Aplicación Web:** utiliza una barra lateral de navegación con accesos directos a las secciones clave: Panel de Control, Organización, Parcelas, Tareas, Alertas y Reportes. En vistas más específicas se integran breadcrumbs, que permiten al usuario mantener el contexto y regresar fácilmente a niveles superiores de la aplicación.
 
-<div style="page-break-after: always;"></div>
+Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
+
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
+Con respecto a la arquitectura de la Landing Page, para versiones web hemos decidido adoptar un diseño estándar, como lo sería tener en la parte superior la barra de opciones como "Acerca de", "Servicios", "Testimonios", "Contacto", " Iniciar sesión" y "Registrarse". Mientras que la posición de las estructuras de texto e imágenes es bastante amplia separadas lo suficiente una de la otra en su mayoría, aprovechando al máximo la cantidad de espacio que ofrece la visualización desde un monitor, lo que nos permite tener un gran espacio disponible que podemos rellenar con información pero sin llegar a exagerar y hacer ver como si estuviera sobrecargado.
 
+Para su mejor visualización se adjunta el enlace del figma:
+https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
 
-<div style="page-break-after: always;"></div>
+- Ventana de inicio
+
+<img src="./img/capitulo_4/landing_design/wireframe-landing-1.png" width="60%">
+
+- Ventana de Acerca de
+
+<img src="./img/capitulo_4/landing_design/wireframe-landing-2.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./img/capitulo_4/landing_design/wireframe-landing-3.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./img/capitulo_4/landing_design/wireframe-landing-4.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./img/capitulo_4/landing_design/wireframe-landing-5.png" width="60%">
+
 
 ### 4.3.2. Landing Page Mock-up
 
+- Ventana de inicio
 
+<img src="./img/capitulo_4/landing_design/inicio-landing.png" width="60%">
 
-<div style="page-break-after: always;"></div>
+- Ventana de Acerca de
+
+<img src="./img/capitulo_4/landing_design/mockup-landing-1.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./img/capitulo_4/landing_design/mockup-landing-2.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./img/capitulo_4/landing_design/mockup-landing-3.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./img/capitulo_4/landing_design/mockup-landing-4.png" width="60%">
+
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
+- Vista de Inicio de Sesion
 
+<img src="./img/capitulo_4/apps_design/wireframe-1.jpg" width="60%">
 
-<div style="page-break-after: always;"></div>
+- Vista de Crear Cuenta
+
+<img src="./img/capitulo_4/apps_design/wireframe-2.jpg" width="60%">
+
+- Vista de Inicio de Agrónomo
+
+<img src="./img/capitulo_4/apps_design/wireframe-5.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-6.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-7.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-8.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-9.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-10.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-11.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-12.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-13.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-14.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-15.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-16.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-17.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-18.jpg" width="60%">
+
+- Vista de Perfil del Agrónomo
+
+<img src="./img/capitulo_4/apps_design/wireframe-19.jpg" width="60%">
+
+- Vista de Configuraciondes del Agrónomo
+
+<img src="./img/capitulo_4/apps_design/wireframe-20.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-21.jpg" width="60%">
+
+- Vista de Inicio del Agricultor
+
+<img src="./img/capitulo_4/apps_design/wireframe-22.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-23.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-24.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-25.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-26.jpg" width="60%">
+
+- Vista del Perfil del Agricultor
+
+<img src="./img/capitulo_4/apps_design/wireframe-27.jpg" width="60%">
+
+- Vista de Configuraciones del Agricultor
+
+<img src="./img/capitulo_4/apps_design/wireframe-28.jpg" width="60%">
+<img src="./img/capitulo_4/apps_design/wireframe-29.jpg" width="60%">
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+En esta seccion se presentan los Wireflows para cada objetivo del usuario. Por ello se considero de los User Persona correspondientes. Cada diagrama muerstra el flujo de interaccion
 
+### Vista General
 
-<div style="page-break-after: always;"></div>
+ Gestionar cuenta: Inicio de Sesión / Crear cuenta
+
+El usuario desea registrarse o iniciar sesión en la plataforma para
+acceder a sus funcionalidades. El usuario ve opciones para **"Iniciar
+sesión"** o **"Registrarse"**. Si selecciona **"Registrarse"**, el usuario completa un formulario con
+su nombre, correo electrónico y su contraseña. Finalmente, el sistema valida los datos ingresados y es redirigido al
+apartado de planes, donde puede seleccionar el plan que mejor se le
+acomode. Luego, es redirigido al apartado de pago, donde puede completar su
+información bancaria. Una vez culmina todo el proceso de registro, es redirigido al
+
+<img src="./img/capitulo_4/apps_design/wireflow-1.jpg" width="60%">
+
+Edición de Perfil
+
+En el apartado de **Perfil**, el usuario puede editar la información de
+su perfil, como nombre, apellido, contraseña y correo, además de poder
+subir o cambiar la foto registrada en el aplicativo.\
+Al finalizar, puede guardar los cambios.
+
+<img src="./img/capitulo_4/apps_design/wireflow-12.jpg" width="60%">
+
+Configuraciones
+
+En el apartado de **Configuración**, el usuario puede visualizar el plan
+actual con el que cuenta, así como la fecha de pago.\
+También puede realizar el cambio de idioma por el idioma de su
+preferencia.
+
+<img src="./img/capitulo_4/apps_design/wireflow-13.jpg" width="60%">
+
+### Vista de Agrónomo
+
+Crear una organización
+
+El usuario registra una nueva organización para poder gestionar sus
+parcelas y asignar agricultores.\
+Completa un formulario con los datos de la organización como nombre,
+descripción y ubicación, además le permite añadir miembros a la
+organización y confirma su creación.
+
+<img src="./img/capitulo_4/apps_design/wireflow-2.jpg" width="60%">
+
+Gestionar Parcelas y cultivos
+
+Desde la vista de la organización, el agrónomo puede crear parcelas.\
+Completa un formulario con el nombre, área, ubicación y cultivo de la
+parcela, además puede asignar encargados a dicha parcela y confirmar su
+creación.
+
+<img src="./img/capitulo_4/apps_design/wireflow-3.jpg" width="60%">
+
+Asignar Tareas y checklist
+
+Dentro de una parcela, el agrónomo puede crear tareas nuevas, asignarles
+una checklist y delegar a un agricultor encargado de realizar dicha
+tarea, todo dentro de una sola interacción.
+
+<img src="./img/capitulo_4/apps_design/wireflow-4.jpg" width="60%">
+
+Editar Parcela
+
+Al seleccionar una parcela existente, el agrónomo puede editar los datos
+de la misma.\
+Cuando complete el formulario con el área, ubicación y cultivo, puede
+guardar los datos de la parcela y se actualizará en el sistema.
+
+<img src="./img/capitulo_4/apps_design/wireflow-6.jpg" width="60%">
+
+Gestión de Reportes
+
+Dentro de la organización, el agrónomo puede visualizar y descargar los
+reportes realizados anteriormente, así como solicitar un nuevo reporte.\
+Para ello, llena un formulario con el intervalo de fechas para el que
+desea el reporte.
+
+<img src="./img/capitulo_4/apps_design/wireflow-7.jpg" width="60%">
+
+### Vista de Agricultor
+
+Visualizar Tareas
+
+Desde el Dashboard, el agricultor puede visualizar las tareas que fueron
+asignadas a él, dependiendo del estado de estas. Dentro del mismo flujo, puede visualizar tareas completadas, tareas en
+curso y tareas pendientes. Asimismo, al ingresar a una tarea puede visualizar la checklist, de modo
+que podrá ir completando todas las actividades pendientes y finalizar la
+tarea. En caso la tarea se encuentre pendiente, puede iniciarla.
+
+<img src="./img/capitulo_4/apps_design/wireflow-10.jpg" width="60%">
+
+Visualización de bitácoras
+
+Desde el Dashboard, el agricultor puede visualizar las bitácoras
+registradas en la parcela de la cual se encuentra encargado.
+
+<img src="./img/capitulo_4/apps_design/wireflow-11.jpg" width="60%">
+
 
 ### 4.4.2. Web Applications Mock-ups
 
+Para su mejor visualización se adjunta el enlace del figma: https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
 
+- Vista de Iniciar sesión
 
-<div style="page-break-after: always;"></div>
+<img src="./img/capitulo_4/apps_design/mockup-1.png" width="60%">
+
+- Vista de Crear Cuenta
+  
+<img src="./img/capitulo_4/apps_design/mockup-2.png" width="60%">
+
+- Vista de Planes
+
+<img src="./img/capitulo_4/apps_design/mockup-3.png" width="60%">
+
+- Vista de Método de pago
+
+<img src="./img/capitulo_4/apps_design/mockup-4.png" width="60%">
+
+- Vista de Inicio del Agrónomo
+
+<img src="./img/capitulo_4/apps_design/mockup-5.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-6.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-7.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-8.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-9.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-10.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-11.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-12.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-13.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-14.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-15.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-16.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-17.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-18.png" width="60%">
+
+- Vista de Perfil del Agrónomo
+
+<img src="./img/capitulo_4/apps_design/mockup-19.png" width="60%">
+
+- Vista de Configuración del Agrónomo
+
+<img src="./img/capitulo_4/apps_design/mockup-20.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-21.png" width="60%">
+
+- Vista de Inicio del Agricultor
+
+<img src="./img/capitulo_4/apps_design/mockup-22.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-23.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-24.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-25.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-26.png" width="60%">
+
+- Vista de Perfil del Agricultor
+
+<img src="./img/capitulo_4/apps_design/mockup-27.png" width="60%">
+
+- Vista de Configuración del Agricultor
+
+<img src="./img/capitulo_4/apps_design/mockup-28.png" width="60%">
+<img src="./img/capitulo_4/apps_design/mockup-29.png" width="60%">
+
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
+- User Flow – Agricultor Juan Carlos
+  
+        User goal: "Juan Carlos quiere organizar y dar seguimiento a sus cultivos de manera sencilla para mejorar el control de su producción y reducir pérdidas."
+
+<img src="./img/capitulo_4/apps_design/userflow-1.png" width="80%">
+
+- Explicación de los flujos y condiciones
+
+  - Inicio de sesión / acceso
+
+        Ingresa con usuario y contraseña.
+
+        Happy path: Accede correctamente al Dashboard.
+
+        Unhappy path: Credenciales erróneas o error de conexión → mensaje de error con opción de reintentar.
+
+  - Visualización de tareas del cultivo
+
+        Ve una lista organizada de tareas pendientes: riego, fertilización, control de plagas, cosecha.
+
+        Cada tarea incluye estado (pendiente, en proceso, completada).
+
+        Happy path: Puede consultar y entender fácilmente las tareas.
+
+        Unhappy path: No tiene tareas, pide crear tarea".
+
+- User Flow – Ingeniera Agrónoma (Ana Morales)
 
 
-<div style="page-break-after: always;"></div>
+    - User Goal: Ana quiere gestionar y consultar información confiable de los agricultores y sus cultivos para garantizar la trazabilidad y brindar asesorías técnicas precisas.
+
+<img src="./img/capitulo_4/apps_design/userflow-2.png" width="80%">
+
+
+- Explicación de los flujos y condiciones
+
+  - Inicio de sesión / acceso
+
+        Ana ingresa a la aplicación con sus credenciales.
+
+        Happy path: Accede correctamente a su Dashboard.
+
+        Unhappy path: Error en credenciales o conexión → mensaje de error con opción de reintentar.
+
+  - Dashboard de agrónoma
+
+        Visualiza las organizaciones creadas y la lista de agricultores a su cargo o que asesora.
+
+        Desde aquí puede crear una nueva organización o seleccionar una existente para acceder a la información.
+
+        Happy path: Accede al detalle de la organización seleccionada.
+
+        Unhappy path: Error de carga de organizaciones → mensaje de reintento.
+
+  - Creación de organización
+
+        Ana puede registrar una organización y asociar agricultores.
+
+        Happy path: Organización creada correctamente y agricultores vinculados.
+
+        Unhappy path: Datos incompletos (ej. falta nombre) → mensaje de validación para corregir.
+
+  - Creación de parcelas
+
+        Dentro de la organización, Ana puede crear una parcela con nombre, área, ubicación y cultivo.
+
+        Happy path: Parcela registrada y disponible en la lista de parcelas.
+
+        Unhappy path: Datos incompletos o error de red → advertencia "No se pudo registrar la parcela".
+
+  - Visualización de parcelas y tareas
+
+        Ana accede a la lista de parcelas creadas y selecciona una para visualizar sus tareas (riego, fertilización, control de plagas, etc.).
+
+        Happy path: Visualiza las tareas organizadas por estado (pendiente, en proceso, completada).
+
+        Unhappy path: Error de conexión o falta de datos → mensaje "No se pudieron cargar las tareas".
+
+  - Gestión de tareas
+
+        Ana puede crear nuevas tareas dentro de la parcela o consultar las ya registradas.
+
+        Happy path: La tarea se guarda correctamente y se actualiza la lista.
+
+        Unhappy path: Datos faltantes (ej. sin fecha asignada) o error de carga → mensaje de advertencia.
 
 ## 4.5. Web Applications Prototyping
 
 
 
-<div style="page-break-after: always;"></div>
-
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level EventStorming
 
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+
+**Step 1: Unstructured Exploration**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-1.png" width="80%">  
+En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.
+
+**Step 2: Timelines**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-2.png" width="80%">  
+En este segundo paso, el equipo ordeno los eventos de dominio en el orden que ocurren en el dominio empresarial.  
+Se tuvo en cuenta los happy path y luego se agregaron los escenarios alternativos.
+
+**Step 3: Pain Points**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-3.png" width="80%">  
+En este tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+
+**Step 4: Pivotal Points**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-4.png" width="80%">  
+En este cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+
+**Step 5: Commands**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-5.png" width="80%">  
+En este quinto paso, el equipo añadió comandos que desencadenen eventos o el flujo de eventos, junto a sus actores.
+
+**Step 6: Policies**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-6.png" width="80%">  
+En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
+
+**Step 7: Read Models**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-7.png" width="80%">  
+En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
+
+**Step 8: External Systems**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-8.png" width="80%">  
+En este octavo paso, el equipo identifico sistemas externos, en este caso solo se tiene uno que es la API que usaremos para el consumo de datos climáticos.
+
+**Step 9: Aggregates**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-9.png" width="80%">  
+En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en los read models, policies, eventos y commands.
 
 
-<div style="page-break-after: always;"></div>
+**Step 10: Bounded Contexts**  
+<img src="./img/capitulo_4/software_architecture/design-level-eventstorming-step-10.png" width="80%">  
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
+[Ver en Miro](https://miro.com/welcomeonboard/Tkt0b0FqK3BGdThsbmVRKytveUdDdTBMeHZtNW52aTcvaHBHQ3dKYTlCS2FzMlhLYVZhNnAwaHpkRHNhOTlTSzFLRVhFeW5JQlZJck5hUzNBSlMrbVpqbVB1M3ErOFNsY0hQTDNXbStrSXZ0WnFBK2I3dlk0YXl0OFJwamdhcXB0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=129166886960)
+
 
 ### 4.6.2. Software Architecture Context Diagram
 
+EcoTrack es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objectivos principales: el agronomo utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicacion intercambia datos con servicios externos para obtener información climática en tiempo real y notificaciones.
 
+<img src="./img/capitulo_4/software_architecture/context-diagram.png" width="80%">
 
-<div style="page-break-after: always;"></div>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+En el diagrama de contenedores de EcoTrack se representan los principales componentes del sistema y la forma en que interactúan entre sí. Los usuarios acceden inicialmente a través de la Landing Page, desde donde son redirigidos a la Single Page Application (SPA). En esta aplicación se gestionan funcionalidades clave como la creación de parcelas, la invitación de nuevos miembros, así como el registro y asignación de tareas.
+La SPA se comunica con la API de EcoTrack, que a su vez realiza consultas a la base de datos para recuperar y administrar la información registrada en el sistema.
 
+<img src="./img/capitulo_4/software_architecture/container-diagram.png" width="80%">
 
-<div style="page-break-after: always;"></div>
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+En el diagrama de componentes de EcoTrack se muestran los distintos bounded contexts que conforman la arquitectura del sistema y sus interacciones. El contexto de Reports gestiona los reportes de cada parcela, Organization administra las organizaciones y la creación de parcelas, IAM maneja la autenticación y el control de accesos, Profile gestiona perfiles y suscripciones, y Monitoring & Control se encarga del monitoreo de las parcelas, integrándose con servicios externos como Open Weather Map. Todos estos contextos se comunican con la base de datos relacional, donde se almacena la información centralizada, y son consumidos por la Single Page Application, que actúa como interfaz principal para los usuarios.
 
+<img src="./img/capitulo_4/software_architecture/component-diagram.png" width="80%">
 
-<div style="page-break-after: always;"></div>
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
+El diagrama representa una visión general del sistema Ecotrack, organizado en distintos bounded contexts que delimitan responsabilidades y entidades clave. En él se observa cómo los usuarios gestionan sus cuentas y perfiles, cómo las organizaciones administran parcelas, planes de suscripción y tipos de cultivos, y cómo se articulan los procesos de monitoreo y control mediante checklists, tareas, lecturas ambientales y alertas. Además, se incluyen objetos compartidos que permiten mantener coherencia en la identificación y manejo de valores comunes. En conjunto, este modelo refleja la estructura conceptual del dominio y la interacción entre sus principales componentes.
+
+<img src="./img/capitulo_4/oop/class-diagram.png" width="80%">
 
 
-<div style="page-break-after: always;"></div>
+### IAM Bounded Context
+
+Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
+
+<img src="./img/capitulo_4/oop/iam-diagram.png" width="80%">
+
+
+### Profile Bounded Context
+
+Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
+
+<img src="./img/capitulo_4/oop/profile-diagram.png" width="80%">
+
+
+### Organization Bounded Context
+
+Este diagrama corresponde al Organization Bounded Context, encargado de estructurar y administrar las organizaciones dentro del sistema. Aquí, el agregado principal Organization gestiona el nombre, estado, miembros, número máximo de parcelas y la suscripción activa. A su vez, las Plot representan las parcelas asociadas a la organización, con atributos como tamaño, ubicación y tipo de cultivo. Los cultivos se definen mediante la entidad PlantType, que puede vincularse a una lista de tipos predefinidos como papa, maíz, trigo, café, entre otros. Finalmente, el modelo incluye la entidad Subscription, que permite a la organización acceder a planes (AgroStart, AgroSmart, AgroExpert) y mantener control sobre la vigencia y estado de la suscripción. En conjunto, este contexto regula tanto la estructura organizacional como la gestión de recursos y servicios contratados.
+
+<img src="./img/capitulo_4/oop/organization-diagram.png" width="80%">
+
+### Monitoring and Control Bounded Context
+
+Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
+
+<img src="./img/capitulo_4/oop/monitoring-diagram.png" width="80%">
+
+### Reports Bounded Context
+
+Este diagrama corresponde al Reports Bounded Context, encargado de la generación y gestión de reportes dentro del sistema. El agregado principal es Report, que contiene información sobre el usuario que lo solicita, la parcela asociada, el tipo de reporte, el rango de fechas, el estado del proceso y el contenido generado. Los reportes pueden ser de tipo Parcel o General, y su ciclo de vida se refleja en el ReportStatus, que abarca estados como REQUESTED, PROCESSING, GENERATED o FAILED. A través de este contexto, los usuarios pueden solicitar reportes, generar información consolidada y manejar errores en caso de fallos durante la generación.
+
+<img src="./img/capitulo_4/oop/report-diagram.png" width="80%">
+
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
 
+El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
+<img src="./img/capitulo_4/database/db-diagram.png" width="80%">
 
-<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
 
-
-<div style="page-break-after: always;"></div>
 
 ## 5.1. Software Configuration Management
 
@@ -2512,31 +3060,21 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.1.2. Source Code Management
 
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.1.4. Software Deployment Configuration
 
 
 
-<div style="page-break-after: always;"></div>
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.2.1. Sprint 1
 
@@ -2572,8 +3110,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2.
@@ -2584,43 +3120,29 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 
 
 
-<div style="page-break-after: always;"></div>
-
 #### 5.2.2.3. Sprint Backlog 2.
 
 
-
-<div style="page-break-after: always;"></div>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
 
 
-<div style="page-break-after: always;"></div>
-
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 
-
-<div style="page-break-after: always;"></div>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 
 
-<div style="page-break-after: always;"></div>
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 
 
-<div style="page-break-after: always;"></div>
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 
-
-<div style="page-break-after: always;"></div>
 
 ## 5.3. Validation Interviews
 
@@ -2628,41 +3150,27 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 
 
 
-<div style="page-break-after: always;"></div>
-
 ### 5.3.2. Registro de entrevistas
 
 
-
-<div style="page-break-after: always;"></div>
 
 ### 5.3.3. Evaluaciones según heurísticas
 
 
 
-<div style="page-break-after: always;"></div>
-
 ## 5.4. Video About the Product
 
 
-
-<div style="page-break-after: always;"></div>
 
 # Conclusiones
 
 
 
-<div style="page-break-after: always;"></div>
-
 # Bibliografía
 
 
 
-<div style="page-break-after: always;"></div>
-
 # Anexos
 
 
-
-<div style="page-break-after: always;"></div>
 
