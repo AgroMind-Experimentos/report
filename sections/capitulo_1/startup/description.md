@@ -1,0 +1,5 @@
+**Agromind** es una startup tecnológica creada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, enfocada en el desarrollo de soluciones digitales para el sector agrícola. Nuestro producto principal, **EcoTrack**, es una aplicación diseñada para mejorar la productividad y la trazabilidad en el campo, conectando a agricultores y agrónomos a través de un ecosistema digital colaborativo que facilita el registro, monitoreo y análisis de cultivos en tiempo real.
+
+**Misión:** Desarrollar soluciones tecnológicas innovadoras que impulsen la eficiencia y sostenibilidad del sector agrícola, ofreciendo herramientas que fortalezcan la relación entre agricultores y agrónomos, y que contribuyan al crecimiento económico y la seguridad alimentaria.
+
+**Visión:** Convertirnos en la startup agrotech líder en Latinoamérica, reconocida por transformar la manera en que se gestiona la producción agrícola mediante tecnología intuitiva, generando un impacto positivo en la productividad, la trazabilidad y la competitividad del sector.
