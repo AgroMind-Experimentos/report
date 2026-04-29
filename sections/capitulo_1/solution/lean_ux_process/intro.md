@@ -1,0 +1,1 @@
+El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
