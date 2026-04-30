@@ -6198,7 +6198,11 @@ Para este primer avance, se consideran las siguientes conclusiones:
 
 # Bibliografía
 
+Ley N° 29733. Ley de Protección de Datos Personales. (2011). Diario Oficial El Peruano. [https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779](https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779)
 
+Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. [https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela](https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela)
+
+Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. [https://doi.org/10.1071/CP21759](https://doi.org/10.1071/CP21759)
 
 <div style="page-break-after: always;"></div>
 
