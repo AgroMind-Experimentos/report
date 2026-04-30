@@ -158,6 +158,24 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -3052,115 +3070,3005 @@ El diagrama de base de datos de EcoTrack refleja la estructura relacional del si
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-
+El equipo ha definido un conjunto de herramientas para garantizar una configuración de entorno de desarrollo coherente; de esta maenra, se facilita una colaboración eficiente y el cumplimiento de los objetivos del proyecto. Estas herramientas abarcan diversas fases del ciclo de vida del producto.
 
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
 
+En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
 
+<table>
+    <thead>
+        <tr>
+            <th><strong>Herramienta</strong></th>
+            <th><strong>Uso principal</strong></th>
+            <th><strong>Enlace / Ruta de Acceso</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>YouTrack</strong></td>
+            <td>Gestión ágil de proyectos, requisitos y tareas</td>
+            <td><a href="https://www.jetbrains.com/youtrack/">https://www.jetbrains.com/youtrack/</a></td>
+        </tr>
+        <tr>
+            <td><strong>Google Stitch</strong></td>
+            <td>Diseño colaborativo de wireframes, mockups y prototipos integrados con el ecosistema de Google.</td>
+            <td><a href="https://stitch.google.com">https://stitch.google.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>UXPressia</strong></td>
+            <td>Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.</td>
+            <td><a href="https://uxpressia.com">https://uxpressia.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>JetBrains Rider</strong></td>
+            <td>Entorno de desarrollo integrado (IDE) para el desarrollo de servicios backend y lógica de negocio.</td>
+            <td><a href="https://www.jetbrains.com/rider">https://www.jetbrains.com/rider</a></td>
+        </tr>
+        <tr>
+            <td><strong>Jetbrains WebStorm</strong></td>
+            <td>Desarrollo de la landing page con HTML5, CSS3, JavaScript y Tailwind CSS.</td>
+            <td><a href="https://www.jetbrains.com/webstorm">https://www.jetbrains.com/webstorm</a></td>
+        </tr>
+        <tr>
+            <td><strong>Visual Studio Code</strong></td>
+            <td>Editor de código fuente para tareas de edición rápida y soporte de diversos lenguajes mediante extensiones.</td>
+            <td><a href="https://code.visualstudio.com">https://code.visualstudio.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>MDM</strong></td>
+            <td>Framework para organizar y gestionar la documentación en Markdown, asegurando consistencia y reduciendo colisiones en trabajo colaborativo.</td>
+            <td><a href="https://github.com/overGDev/mdm">https://github.com/overGDev/mdm</a></td>
+        </tr>
+        <tr>
+            <td><strong>NUnit</strong></td>
+            <td>Marco de trabajo de pruebas unitarias para .NET que permite la ejecución y gestión de pruebas automatizadas para asegurar la calidad del código.</td>
+            <td><a href="https://nunit.org/">https://nunit.org/</a></td>
+        </tr>
+        <tr>
+            <td><strong>Netlify</strong></td>
+            <td>Despliegue automático y gratuito de la landing page.</td>
+            <td><a href="https://www.netlify.com">https://www.netlify.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>Azure Container Instances</strong></td>
+            <td>Despliegue y ejecución de servicios backend mediante contenedores de forma escalable.</td>
+            <td><a href="https://azure.microsoft.com/products/container-instances/">https://azure.microsoft.com/products/container-instances/</a></td>
+        </tr>
+        <tr>
+            <td><strong>C#</strong></td>
+            <td>Lenguaje de programación orientado a objetos utilizado para la implementación de la lógica del lado del servidor.</td>
+            <td><a href="https://learn.microsoft.com/dotnet/csharp/">https://learn.microsoft.com/dotnet/csharp/</a></td>
+        </tr>
+        <tr>
+            <td><strong>JavaScript</strong></td>
+            <td>Lenguaje de programación para manipular el DOM e implementar la lógica dinámica en la landing page.</td>
+            <td><a href="https://developer.mozilla.org/docs/Web/JavaScript">https://developer.mozilla.org/docs/Web/JavaScript</a></td>
+        </tr>
+        <tr>
+            <td><strong>HTML5</strong></td>
+            <td>Lenguaje de marcado para estructurar el contenido de la landing page.</td>
+            <td><a href="https://developer.mozilla.org/docs/Web/HTML">https://developer.mozilla.org/docs/Web/HTML</a></td>
+        </tr>
+        <tr>
+            <td><strong>CSS3</strong></td>
+            <td>Lenguaje de estilos para definir la apariencia visual de la landing page.</td>
+            <td><a href="https://developer.mozilla.org/docs/Web/CSS">https://developer.mozilla.org/docs/Web/CSS</a></td>
+        </tr>
+        <tr>
+            <td><strong>Structurizr DSL</strong></td>
+            <td>Modelado de arquitectura con el enfoque C4, mediante la técnica <em>Diagrams-as-Code</em>.</td>
+            <td><a href="https://structurizr.com/dsl">https://structurizr.com/dsl</a></td>
+        </tr>
+        <tr>
+            <td><strong>PlantUML</strong></td>
+            <td>Creación de diagramas UML a partir de texto, compatible con Markdown y documentación técnica.</td>
+            <td><a href="https://plantuml.com">https://plantuml.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>Vertabelo</strong></td>
+            <td>Diseño visual y profesional de bases de datos relacionales.</td>
+            <td><a href="https://vertabelo.com">https://vertabelo.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>Git</strong></td>
+            <td>Sistema distribuido de control de versiones para la gestión del código fuente.</td>
+            <td><a href="https://git-scm.com">https://git-scm.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>GitHub</strong></td>
+            <td>Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs.</td>
+            <td><a href="https://github.com">https://github.com</a></td>
+        </tr>
+        <tr>
+            <td><strong>GitHub Actions</strong></td>
+            <td>Automatización de flujos de trabajo para integración y despliegue continuo (CI/CD) dentro del repositorio.</td>
+            <td><a href="https://github.com/features/actions">https://github.com/features/actions</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 5.1.2. Source Code Management
 
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Demy. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
 
+**Repositorios del Proyecto**
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Producto</strong></th>
+            <th><strong>Repositorio GitHub</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Landing Page</strong></td>
+            <td><a href="https://github.com/AgroMind-Experimentos/landing">https://github.com/AgroMind-Experimentos/landing</a></td>
+        </tr>
+        <tr>
+            <td><strong>Report</strong></td>
+            <td><a href="https://github.com/AgroMind-Experimentos/report">https://github.com/AgroMind-Experimentos/report</a></td>
+        </tr>
+        <tr>
+            <td><strong>Frontend</strong></td>
+            <td><a href="https://github.com/AgroMind-Experimentos/frontend">https://github.com/AgroMind-Experimentos/frontend</a></td>
+        </tr>
+        <tr>
+            <td><strong>Backend</strong></td>
+            <td><a href="https://github.com/AgroMind-Experimentos/backend">https://github.com/AgroMind-Experimentos/backend</a></td>
+        </tr>
+    </tbody>
+</table>
+
+**Modelo GitFlow**
+
+Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
+
+* **main**: contiene las versiones estables listas para producción.
+* **develop**: integra nuevas funcionalidades antes de pasar al entorno de producción.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Tipo de rama</strong></th>
+            <th><strong>Uso principal</strong></th>
+            <th><strong>Convención de nombres</strong></th>
+            <th><strong>Ejemplo</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>feature</strong></td>
+            <td>Desarrollo de funcionalidades nuevas.</td>
+            <td><code>feature/&lt;nombre-descriptivo&gt;</code></td>
+            <td><code>feature/sprint1-salim</code></td>
+        </tr>
+        <tr>
+            <td><strong>release</strong></td>
+            <td>Preparación de una versión previa al despliegue.</td>
+            <td><code>release/vX.Y.Z</code></td>
+            <td><code>release/v1.0.0</code></td>
+        </tr>
+        <tr>
+            <td><strong>hotfix</strong></td>
+            <td>Corrección rápida de errores en producción.</td>
+            <td><code>hotfix/&lt;problema&gt;</code></td>
+            <td><code>hotfix/fix-crash-navbar</code></td>
+        </tr>
+    </tbody>
+</table>
+
+**Versionado Semántico**
+
+Se implementará el esquema Semantic Versioning 2.0.0, con el formato:
+
+**MAJOR.MINOR.PATCH**
+
+* **MAJOR**: cambios incompatibles con versiones anteriores.
+* **MINOR**: incorporación de nuevas funciones compatibles.
+* **PATCH**: corrección de errores o mejoras menores.
+
+**Conventional Commits**
+
+Los mensajes de commit seguirán el estándar Conventional Commits para asegurar trazabilidad y generar changelogs automáticos.
+
+**Formato general:**
+`<tipo>(opcional-scope): descripción breve`
+
+* **Tipos de commit definidos:**
+    * **feat**: nueva funcionalidad
+    * **fix**: corrección de errores
+    * **docs**: cambios en documentación
+    * **style**: ajustes de formato (espacios, comas, etc.)
+    * **refactor**: modificaciones de código sin impacto en funciones o errores
+    * **test**: adición o modificación de pruebas
+    * **chore**: tareas de mantenimiento o generales
+
+**Permisos**
+
+Los roles y niveles de acceso detallados a continuación se mantienen de manera íntegra y consistente en la totalidad de los repositorios que conforman el ecosistema de la organización.
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Persona</strong></th>
+            <th><strong>Permiso</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Orozco Torres, Alvaro Joaquin</td>
+            <td>Admin</td>
+        </tr>
+        <tr>
+            <td>Reaño Delgadillo, Henry Paolo</td>
+            <td>Admin</td>
+        </tr>
+        <tr>
+            <td>Chi Cruzatt, Kevin Jorge</td>
+            <td>Write</td>
+        </tr>
+        <tr>
+            <td>Mostajo Orosco, Maria Fernanda</td>
+            <td>Write</td>
+        </tr>
+        <tr>
+            <td>Paucar De La Cruz, Tatiana Medalith</td>
+            <td>Write</td>
+        </tr>
+        <tr>
+            <td>Ramos Aguirre, Aldair Joaquin</td>
+            <td>Write</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
 
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**Google TypeScript Style Guide**
+
+Basado en el [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html), se adoptan las siguientes reglas para mantener un código limpio y coherente:
+
+Nombres y sintaxis:
+- **camelCase** para variables, funciones y parámetros.
+- **PascalCase** para clases, interfaces, enums y tipos.
+- Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+- Preferir **imports explícitos y ordenados**: primero bibliotecas externas, luego internas.
+- Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+- Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+- Evitar `any` excepto cuando sea estrictamente necesario.
+- Usar `readonly` para propiedades que no deben cambiarse.
+- Interfaces en lugar de `type` cuando sea posible.
+
+Buenas prácticas:
+- Preferir `const` sobre `let`, y evitar `var`.
+- Evitar usar `this` fuera de clases.
+- No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
 
 ### 5.1.4. Software Deployment Configuration
 
+La estrategia de despliegue se divide en dos entornos diferenciados para optimizar la entrega de contenido estático y la ejecución de servicios de lógica de negocio.
 
+* **Frontend (Landing Page):** Se utiliza **Netlify** para el alojamiento de la landing page. Esta plataforma permite un despliegue continuo (Continuous Deployment) mediante la sincronización directa con el repositorio de GitHub. Ante cualquier cambio en la rama principal, Netlify ejecuta automáticamente los procesos de construcción y distribuye los archivos a través de su red de entrega de contenido (CDN).
+
+* **Backend:** Los servicios del lado del servidor se despliegan utilizando **Azure Container Instances (ACI)**. Este servicio permite ejecutar contenedores de Docker de forma serverless en la nube de Azure, eliminando la necesidad de gestionar máquinas virtuales y facilitando la escalabilidad de los servicios mediante una infraestructura bajo demanda.
+
+* **Flujos de CI/CD con GitHub Actions:** Se implementan flujos de trabajo automatizados mediante **GitHub Actions** para garantizar la integridad y entrega del software:
+    * **Integración Continua (CI):** Ante cada *push* o *pull request*, se ejecutan disparadores que realizan el linting del código y las pruebas unitarias con **NUnit** para validar la calidad del incremento.
+    * **Despliegue Continuo (CD):** Una vez superadas las pruebas, las *actions* se encargan de compilar los artefactos, construir las imágenes de contenedor, subirlas al registro correspondiente y actualizar automáticamente las instancias en Azure y Netlify.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+La presente sección recopila la documentación técnica y de gestión correspondiente a los ciclos de desarrollo (sprints) del proyecto. Es importante precisar que los registros aquí expuestos reflejan las actividades, acuerdos y planificación llevados a cabo por el equipo de trabajo anterior.
 
+Con el objetivo de evidenciar su participación histórica y contribución al proyecto, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
+Esta sección describe los aspectos principales tratados durante el Sprint Planning Meeting que dio inicio al Sprint 1. En esta reunión, el equipo definió los objetivos específicos del sprint, seleccionó los elementos del Product Backlog que serían abordados y estableció un plan de trabajo que permitiera alcanzar los entregables comprometidos.
 
+A continuación, se presenta el cuadro de resumen del Sprint Planning Meeting, el cual sintetiza los puntos clave acordados:
+
+**Sprint Planning Background**
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint</strong></td>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <td><strong>Date</strong></td>
+            <td>03/09/2025</td>
+        </tr>
+        <tr>
+            <td><strong>Time</strong></td>
+            <td>15:00 PM</td>
+        </tr>
+        <tr>
+            <td><strong>Location</strong></td>
+            <td>Reunión realizada presencial (sede monterrico UPC)</td>
+        </tr>
+        <tr>
+            <td><strong>Prepared By</strong></td>
+            <td>Amaro Villar, Anjali</td>
+        </tr>
+        <tr>
+            <td><strong>Attendees (to planning meeting)</strong></td>
+            <td>Amaro Villar Anjali, Tuesta Marin Romina, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco Maria Fernanda y Navarro Correa César Augusto</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 1 – 1 Review Summary</strong></td>
+            <td>No aplica (primer sprint)</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 1 – 1 Retrospective Summary</strong></td>
+            <td>No aplica (primer sprint)</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint 1 Goal</strong></td>
+            <td><strong>Nuestro enfoque está</strong> en establecer la estructura base y lanzar la versión inicial de la landing page del producto. <strong>Creemos que</strong> esto brindará claridad sobre el propósito del producto y servirá como primer punto de contacto con potenciales usuarios y partes interesadas. <strong>Esto se confirmará</strong> cuando la landing page esté disponible públicamente y muestre de forma clara la propuesta de valor, mientras que la documentación interna incluya los wireframes y diagramas aprobados que guiarán el desarrollo futuro.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 1 Velocity</strong></td>
+            <td>26 points</td>
+        </tr>
+    </tbody>
+</table>
+
+**Cálculo de Story Points Totales del Sprint 1**
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>ID</strong></th>
+            <th><strong>Historia</strong></th>
+            <th><strong>Points</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>LPS01</td>
+            <td>Información de la Landing Page</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>LPS02</td>
+            <td>Visualizar información de la página</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>LPS03</td>
+            <td>Visualización de beneficios y características</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>LPS04</td>
+            <td>Consultar planes y precios</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>LPS05</td>
+            <td>Formulario de contacto</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>LPS06</td>
+            <td>Sección de testimonios</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><strong>TOTAL</strong></td>
+            <td></td>
+            <td><strong>26</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Sum of Story Points</strong></td>
+            <td>26 story points</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-
+<table>
+    <thead>
+        <tr>
+            <th>Team Member (Last Name, First Name)</th>
+            <th>Github Username</th>
+            <th>wireframes y MockUps landing</th>
+            <th>Visualización beneficios y características</th>
+            <th>Consultar planes y precios</th>
+            <th>Formulario de contacto</th>
+            <th>Sección de testimonios</th>
+            <th>Despliegue de servicio</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Amaro Villar Anjali</td>
+            <td>njlmrvllr</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Romina Alejanda Tuesta Marin</td>
+            <td>Romimi1</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(L)</td>
+        </tr>
+        <tr>
+            <td>Baquerizo Cirilo Aaron Santiago</td>
+            <td>AaronBaquerizo2005</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Mostajo Orosco Maria Fernanda</td>
+            <td>Mafer-m30</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Navarro Correa César Augusto</td>
+            <td>csr555-ui</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.3. Sprint Backlog 1
 
+En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que servirá como punto de presentación del producto. Se crearán las secciones informativas clave (propuesta de valor, explicación del producto, beneficios, planes y precios, formulario de contacto y testimonios), estableciendo así las bases visuales y funcionales del proyecto.
 
+**Herramienta de control: Trello**
+
+<img alt="upc-logo" src="./img/capitulo_5/implementation/sprint_1/backlog/trello.png"><br>
+
+URL del Board: [(Link trello)](https://trello.com/b/eZyvjxmL/sprint-1-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">LPS01</td>
+            <td rowspan="2">Información de la Landing Page</td>
+            <td>T01</td>
+            <td>Diseño de wireframe</td>
+            <td>Crear wireframe de la estructura inicial de la landing</td>
+            <td>4</td>
+            <td>Maria Mostajo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Desarrollo de encabezado y subtítulo</td>
+            <td>Implementar el encabezado con la propuesta de valor y subtítulo de beneficios clave</td>
+            <td>4</td>
+            <td>Aaron Baquerizo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS02</td>
+            <td rowspan="2">Visualizar información de la página</td>
+            <td>T03</td>
+            <td>Sección “About”</td>
+            <td>Implementar la sección About con descripción breve del producto y gráficos ilustrativos</td>
+            <td>5</td>
+            <td>Romina Tuesta</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Métricas clave</td>
+            <td>Incluir métricas clave que refuercen la propuesta de valor</td>
+            <td>5</td>
+            <td>Aaron Baquerizo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>LPS03</td>
+            <td>Visualización de beneficios y características</td>
+            <td>T05</td>
+            <td>Listado de beneficios</td>
+            <td>Crear sección “Servicios” con lista de beneficios e íconos</td>
+            <td>4</td>
+            <td>Romina Tuesta</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS04</td>
+            <td rowspan="2">Consultar planes y precios</td>
+            <td>T07</td>
+            <td>Sección de planes</td>
+            <td>Crear la sección con los diferentes planes, precios y botones “Start”</td>
+            <td>5</td>
+            <td>Maria Mostajo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>FAQ de precios</td>
+            <td>Añadir íconos de ayuda con menú FAQ sobre pagos y condiciones</td>
+            <td>6</td>
+            <td>Cesar Navarro</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS05</td>
+            <td rowspan="2">Formulario de contacto</td>
+            <td>T09</td>
+            <td>Implementación del formulario</td>
+            <td>Diseñar y desarrollar formulario de contacto con validaciones</td>
+            <td>4</td>
+            <td>Maria Mostajo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T10</td>
+            <td>Confirmación por correo</td>
+            <td>Configurar envío de correo de confirmación al visitante</td>
+            <td>5</td>
+            <td>Anjali Amaro</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>LPS06</td>
+            <td>Sección de testimonios</td>
+            <td>T11</td>
+            <td>Diseño de testimonios</td>
+            <td>Implementar testimonios con foto, nombre y comentario</td>
+            <td>4</td>
+            <td>Romina Tuesta</td>
+            <td>To-Review</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+En esta sección se presentan los avances en la implementación de la solución EcoTrack, considerando los productos contemplados en el alcance del Sprint: Landing Page. Durante este periodo se trabajó principalmente en el desarrollo de la Landing Page, incorporando mejoras visuales, de usabilidad y funcionalidad. Entre los principales avances se encuentran la creación de la página principal, la integración de estilos y animaciones, la optimización del comportamiento de la navegación y la incorporación de nuevas funciones interactivas.
 
+A continuación, se detallan los commits realizados en los repositorios vinculados a la implementación:
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Repository</strong></th>
+            <th><strong>Branch</strong></th>
+            <th><strong>Commit Id</strong></th>
+            <th><strong>Commit Message</strong></th>
+            <th><strong>Commit Message Body</strong></th>
+            <th><strong>Commited on (Date)</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>1bc1861</td>
+            <td>feat: add index.html as main page</td>
+            <td>Se creó el archivo index.html como la página principal de la landing, estructurando la base inicial del proyecto.</td>
+            <td>18/09/25</td>
+        </tr>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>d9866fd</td>
+            <td>feat: update testimonials</td>
+            <td>Se actualizaron las secciones de testimonios para mejorar la credibilidad y experiencia de usuario</td>
+            <td>19/09/25</td>
+        </tr>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>c40012d</td>
+            <td>feat: add css and main.js for animations</td>
+            <td>Se añadieron los archivos style.css y main.js para implementar animaciones y mejorar la interacción visual</td>
+            <td>19/09/25</td>
+        </tr>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>62b0113</td>
+            <td>fix: navbar on html</td>
+            <td>Se corrigió el comportamiento del navbar para mejorar la navegación en la landing.</td>
+            <td>19/09/25</td>
+        </tr>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>8b15636</td>
+            <td>fix: behavior of scrolling</td>
+            <td>Se ajustó el scroll de la página para hacerlo más fluido y mejorar la experiencia del usuario.</td>
+            <td>19/09/25</td>
+        </tr>
+        <tr>
+            <td>Romini1/github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage</td>
+            <td>develop</td>
+            <td>7fb18b8</td>
+            <td>feat: add new funtion for slider</td>
+            <td>Se implementó una nueva función en el slider para permitir transiciones más dinámicas entre secciones.</td>
+            <td>19/09/25</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante este Sprint se avanzó de manera significativa en el desarrollo de la Landing Page del proyecto EcoTrack, la cual constituye el primer punto de contacto con los usuarios. Se implementó la estructura base con la página principal, se integraron estilos y animaciones, y se añadieron funcionalidades interactivas como el slider y un scroll más fluido. Asimismo, se realizaron correcciones en la navegación para garantizar una experiencia más clara e intuitiva, además se implementó exitosamente la funcionalidad del cambio de idioma, de español a ingles.
+
+Con estos avances, se ha logrado contar con una primera versión navegable de la landing page, lo que permite mostrar la propuesta de valor de EcoTrack y establecer la base para siguientes mejoras visuales y técnicas.
+
+
+*Figura 1.* Página principal con navbar y sección de bienvenida.
+
+![Hero](./img/capitulo_5/implementation/sprint_1/exec_evidence/hero.png)
+
+
+*Figura 2.* Sección acerca de EcoTrack.
+
+![About](./img/capitulo_5/implementation/sprint_1/exec_evidence/about.png)
+
+
+*Figura 3.* Sección acerca de servicios.
+
+![Services](./img/capitulo_5/implementation/sprint_1/exec_evidence/features.png)
+
+
+*Figura 4.* Sección de testimonios.
+
+![Testimonials](./img/capitulo_5/implementation/sprint_1/exec_evidence/testimonios.png)
+![numers](./img/capitulo_5/implementation/sprint_1/exec_evidence/num.png)
+
+*Figura 5.* Sección de planes y subscripción.
+
+![Plans](./img/capitulo_5/implementation/sprint_1/exec_evidence/planes.png)
+
+
+*Figura 6.* Sección de formulario de contacto.
+
+![Form](./img/capitulo_5/implementation/sprint_1/exec_evidence/form.png)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este Sprint, el trabajo realizado se centró en el desarrollo de la Landing Page de EcoTrack, implementada únicamente con HTML, CSS y JavaScript. Dado que se trata de una página estática cuyo alcance se limita a la presentación de información y a la interacción en el lado del cliente, no se definieron ni consumieron Web Services.
+
+En consecuencia, durante este Sprint no corresponde la elaboración de documentación con OpenAPI (Swagger), ya que esta herramienta se utiliza exclusivamente para describir y documentar APIs REST que exponen endpoints de un backend. La integración con Web Services y su respectiva documentación será abordada en Sprints posteriores, cuando la solución incluya funcionalidades dinámicas que requieran intercambio de datos entre frontend y backend.
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint se avanzó en los procesos de Deployment relacionados con la solución EcoTrack, con el objetivo de asegurar la disponibilidad de los productos desarrollados para su validación y demostración. Dentro de este Sprint, el esfuerzo principal estuvo orientado al despliegue de la Landing Page, que fue implementada con HTML, CSS y JavaScript.
 
+El despliegue se realizó utilizando GitHub Pages, lo que permitió contar con un entorno accesible de manera pública sin necesidad de un proveedor de cloud externo. Esta estrategia fue seleccionada por su facilidad de integración con los repositorios de GitHub y por brindar un proceso automatizado de publicación a partir de la rama develop del proyecto.
+
+**Acciones realizadas en el proceso de Deployment**
+
+1. **Creación y configuración del repositorio en GitHub.**
+   Se configuró el repositorio ecotrack-landingpage en la cuenta de GitHub del equipo.
+
+2. **Configuración de GitHub Pages.**
+   - Se habilitó la opción de GitHub Pages en la sección de Settings.
+   - Se seleccionó la rama develop como fuente de publicación.
+   - Se configuró la carpeta raíz del proyecto como directorio base de la publicación.
+
+3. **Automatización de despliegue.**
+   Gracias a la integración nativa de GitHub Pages, cada nuevo commit realizado en la rama develop se despliega automáticamente en la URL pública asignada.
+
+4. **Validación del despliegue.**
+   Se realizó la verificación de la publicación, comprobando que la landing page se visualiza correctamente en la dirección generada por GitHub Pages.
+
+**Evidencia del Deployment**
+
+*Figura 1.* Configuración de GitHub Pages en el repositorio de la landing page.
+
+![Form](./img/capitulo_5/implementation/sprint_1/deploy/1.png)
+
+*Figura 2.* Se ingresó a setting y luego a pages.
+
+![Form](./img/capitulo_5/implementation/sprint_1/deploy/2.png)
+
+*Figura 3.* seleccionamos la rama en la que se encuentre alojado el proyecto.
+
+![Form](./img/capitulo_5/implementation/sprint_1/deploy/3.png)
+
+*Figura 4.* Esperamos la URL autogenerada por githubpages.
+
+![Form](./img/capitulo_5/implementation/sprint_1/deploy/5.png)
+
+**Link a continuación:**
+
+https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Dentro del insight during sprint presentamos los colaboradores del desarollo de la landing page y la cantidad de commits que realizaron:
 
+![colaboratos](./img/capitulo_5/implementation/sprint_1/insights/landing.png)
+
+Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, Anjali Amaro y Cesar Navarro, siendo Romina la que cuenta con la mayor cantidad de commits, continuado por Anjali y finalmente Cesar.
 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2.
 
+**Sprint Planning Background**
 
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint</strong></td>
+            <td>Sprint 2</td>
+        </tr>
+        <tr>
+            <td><strong>Date</strong></td>
+            <td>01/10/25</td>
+        </tr>
+        <tr>
+            <td><strong>Time</strong></td>
+            <td>15:00 PM</td>
+        </tr>
+        <tr>
+            <td><strong>Location</strong></td>
+            <td>Reunión virtual (discord)</td>
+        </tr>
+        <tr>
+            <td><strong>Prepared By</strong></td>
+            <td>Tuesta Marín, Romina</td>
+        </tr>
+        <tr>
+            <td><strong>Attendees (to planning meeting)</strong></td>
+            <td>Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 2 – 1 Review Summary</strong></td>
+            <td>Se completó la estructura base y el despliegue de la landing page del producto. Además, se aprobó la documentación técnica (wireframes, diagramas y guía de estilos) que servirá como referencia visual para el desarrollo de la interfaz del sistema.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 2 – 1 Retrospective Summary</strong></td>
+            <td>Se identificó la necesidad de definir un flujo de commits más ordenado en GitHub y una mejor asignación de tareas por módulos. Se acordó establecer una convención de nombres para componentes y commits, además de reuniones de seguimiento cada 3 días.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint 2 Goal</strong></td>
+            <td>Nuestro enfoque se centra en entregar la primera versión funcional del front end de EcoTrack con Vue.js y Vite, implementando las vistas principales, el enrutamiento y una estructura de componentes reutilizables. Buscamos ofrecer una <strong>interfaz coherente y dinámica</strong>, validada mediante datos simulados. Esto se confirmará cuando los usuarios puedan navegar entre las vistas sin errores y el equipo de desarrollo pueda ampliar las funcionalidades sin alterar la estructura base.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 2 Velocity</strong></td>
+            <td>28 points</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-
+<table>
+    <thead>
+        <tr>
+            <th><strong>Team Member (Last Name, First Name)</strong></th>
+            <th><strong>Github Username</strong></th>
+            <th><strong>wireframes y MockUps frontend</strong></th>
+            <th><strong>Vista Inicio de Sesión</strong></th>
+            <th><strong>Vista de Dashboard</strong></th>
+            <th><strong>Vista de perfil de usuario</strong></th>
+            <th><strong>Establecer estructura</strong></th>
+            <th><strong>Despliegue de servicio</strong></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Amaro Villar Anjali</td>
+            <td>njlmrvllr</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Romina Alejanda Tuesta Marin</td>
+            <td>Romimi1</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+        </tr>
+        <tr>
+            <td>Baquerizo Cirilo Aaron Santiago</td>
+            <td>AaronBaquerizo2005</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Mostajo Orosco Maria Fernanda</td>
+            <td>Mafer-m30</td>
+            <td>(L)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Navarro Correa César Augusto</td>
+            <td>csr555-ui</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.3. Sprint Backlog 2.
 
+En este sprint se desarrollará y desplegará la primera version del Front-end completo de EcoTrack. El equipo se enfocó en crear todas las vistas criticas del sistema utilizando una API simulada. Esto estableció las bases visuales y funcionales que permitieron la validación temprana de la experiencia de usuario.
 
+**Herramienta de control: Trello**
+
+![Trello](./img/capitulo_5/implementation/sprint_2/backlog/trello.png)
+
+URL del Board: [(Link trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>User Story ID</strong></th>
+            <th><strong>User Story Title</strong></th>
+            <th><strong>Task ID</strong></th>
+            <th><strong>Task Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Asigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">US01</td>
+            <td rowspan="2">Crear organización</td>
+            <td>T03</td>
+            <td>Desarrollo de Formulario Org</td>
+            <td>Diseñar y maquetar el formulario de "Crear Organización" con validaciones FE.</td>
+            <td>6</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Implementar Flujo de Creación</td>
+            <td>Desarrollar la lógica de creación y la visualización de la vista de inicio del Agrónomo.</td>
+            <td>6</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Invitar miembros</td>
+            <td>T06</td>
+            <td>Desarrollo de Flujo de Invitación</td>
+            <td>Diseñar e implementar la modal de "Invitar Miembro" y el flujo de envío de invitación simulada.</td>
+            <td>9</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Bitácora de parcela</td>
+            <td>T08</td>
+            <td>Desarrollo de Bitácora y Registro</td>
+            <td>Diseñar e implementar la vista de la línea de tiempo y el formulario "Registrar Actividad".</td>
+            <td>10</td>
+            <td>Romina</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Historial de cultivo</td>
+            <td>T09</td>
+            <td>Desarrollo de Historial/Filtros</td>
+            <td>Diseñar e implementar la vista de "Historial de Cultivo" y los componentes de filtrado.</td>
+            <td>9</td>
+            <td>Anjali</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US10</td>
+            <td>Creación de parcela</td>
+            <td>T05</td>
+            <td>Desarrollo de Formulario Parcela</td>
+            <td>Diseñar e implementar el formulario "Crear Parcela" con campos de datos y ubicación simulada.</td>
+            <td>9</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US13</td>
+            <td rowspan="2">Registro de Cultivo</td>
+            <td>T01</td>
+            <td>Diseño de Formulario de Registro</td>
+            <td>Diseñar e implementar el Front-end del formulario de registro (nombre, ubicación simulada, superficie, fecha de siembra).</td>
+            <td>8</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar Lógica de Guardado</td>
+            <td>Desarrollar la lógica de Front-end para guardar la información del cultivo con mensaje de confirmación (usando fake API).</td>
+            <td>7</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US16</td>
+            <td>Creación de tareas</td>
+            <td>T10</td>
+            <td>Desarrollo de Formulario Tarea</td>
+            <td>Diseñar e implementar la modal "Crear Tarea" (responsable, fecha, prioridad, checklist).</td>
+            <td>9</td>
+            <td>Romina</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US18</td>
+            <td>Iniciar tarea</td>
+            <td>T11</td>
+            <td>Implementar Botón Iniciar</td>
+            <td>Diseñar la interfaz de la tarea en detalle y la lógica del botón "Iniciar Tarea" (cambio de estado).</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US19</td>
+            <td>Completar tarea</td>
+            <td>T12</td>
+            <td>Implementar Checklist y Cierre</td>
+            <td>Desarrollar la interacción de la checklist y el flujo de cierre (botón "Completar Tarea").</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US21</td>
+            <td>Reporte general</td>
+            <td>T01</td>
+            <td>Diseño e Implemntación de Reportes</td>
+            <td>Diseñar la interfaz de visualizacion de reportes y el flujo de solicitud de un nuevo reporte</td>
+            <td>12</td>
+            <td>Anjali</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US25</td>
+            <td>Editar perfil</td>
+            <td>T02</td>
+            <td>Desarrollo de Edición</td>
+            <td>Diseñar e implementar la pantalla de configuración y la lógica de actualización con fake API.</td>
+            <td>9</td>
+            <td>Cesar</td>
+            <td>In-Progress</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+En esta sección se presentan los avances del desarrollo de la página web y las mejoras implementadas en la solución EcoTrack, enfocadas principalmente en la Landing Page. Durante este periodo, el equipo trabajó en la consolidación del Front-End, incorporando nuevas funcionalidades, componentes reutilizables, simulaciones de datos mediante una Fake API, integración de servicios externos y optimización del código existente. Asimismo, se mejoraron los mecanismos de traducción, la organización del entorno de desarrollo y la documentación técnica del proyecto, fortaleciendo la arquitectura y la mantenibilidad del código.
 
+<table>
+    <thead>
+        <tr>
+            <th>Repositorio</th>
+            <th>Rama</th>
+            <th>ID de Commit</th>
+            <th>Mensaje de Commit</th>
+            <th>Descripción del Commit</th>
+            <th>Fecha de Commit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>develop</td>
+            <td>9558c83</td>
+            <td>feat: upload bounded context</td>
+            <td>-</td>
+            <td>02/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>develop</td>
+            <td>021dd42</td>
+            <td>feat: add user-organization    component</td>
+            <td>-</td>
+            <td>06/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-maria</td>
+            <td>b643780</td>
+            <td>chore: upload db.json</td>
+            <td>-</td>
+            <td>07/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-romina</td>
+            <td>b643780</td>
+            <td>chore: upload db.json</td>
+            <td>-</td>
+            <td>07/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-romina</td>
+            <td>740f294</td>
+            <td>chore: upload new files</td>
+            <td>-</td>
+            <td>07/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-aaron</td>
+            <td>a261aa1</td>
+            <td>feat: add task and cultivation components, and integrate external weather api</td>
+            <td>-</td>
+            <td>10/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-anjali</td>
+            <td>5eaee94</td>
+            <td>feat(fake-api): add json-server and configure fake api.</td>
+            <td>-</td>
+            <td>10/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-anjali</td>
+            <td>c6401bd</td>
+            <td>feat: add environment configuration and base API classes</td>
+            <td>-</td>
+            <td>10/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/sprint-2-aaron</td>
+            <td>58f72f9</td>
+            <td>feat: add initial API contract and frontend structure documentation</td>
+            <td>-</td>
+            <td>10/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-landingpage</td>
+            <td>main</td>
+            <td>ec1bc58</td>
+            <td>feat: update translations and improve code</td>
+            <td>-</td>
+            <td>10/10/2025</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+- **Login**
+![Vista de Inicio de Sesión](./img/capitulo_5/implementation/sprint_2/exec_evidence/login.png)
 
+- **Register**
+![Vista de Registro de Usuario](./img/capitulo_5/implementation/sprint_2/exec_evidence/register.png)
+
+- **Organization**
+![Vista de Gestión de Organización](./img/capitulo_5/implementation/sprint_2/exec_evidence/organization.png)
+
+- **Plots**
+![Vista de Gestión de Parcelas](./img/capitulo_5/implementation/sprint_2/exec_evidence/plots.png)
+
+- **Reports**
+![Vista de Reportes y Estadísticas](./img/capitulo_5/implementation/sprint_2/exec_evidence/reports.png)
+
+- **Tasks**
+![Vista de Gestión de Tareas](./img/capitulo_5/implementation/sprint_2/exec_evidence/tasks.png)
+
+- **Weather**
+![Vista de Información Meteorológica](./img/capitulo_5/implementation/sprint_2/exec_evidence/weather.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Para este segundo sprint, el enfoque se centró exclusivamente en el desarrollo del frontend de la aplicación, utilizando una herramienta para la simulación de un backend.
 
+Se realizó el despliegue de un JSON Server en la plataforma de Azure para simular los servicios de servidor y permitir el consumo de datos desde el frontend.
+
+Link del JSON Server: [agrotrack-mockapi.azurewebsites.net](http://agrotrack-mockapi.azurewebsites.net)
+
+**Endpoints de la API Simulada**
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Endpoint</strong></th>
+            <th><strong>Descripción</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>/users</code></td>
+            <td>Gestión de usuarios (registro, autenticación, perfil).</td>
+        </tr>
+        <tr>
+            <td><code>/organizations</code></td>
+            <td>Gestión de organizaciones agrícolas.</td>
+        </tr>
+        <tr>
+            <td><code>/plots</code></td>
+            <td>Gestión de parcelas (creación, edición, eliminación).</td>
+        </tr>
+        <tr>
+            <td><code>/tasks</code></td>
+            <td>Gestión de tareas agrícolas (asignación, seguimiento, recordatorios).</td>
+        </tr>
+        <tr>
+            <td><code>/reports</code></td>
+            <td>Generación y visualización de reportes agrícolas.</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
 
+Los pasos para la connexion del netlify con el github.
+
+![img.png](./img/capitulo_5/implementation/sprint_2/deploy/1.png)
+![img.png](./img/capitulo_5/implementation/sprint_2/deploy/2.png)
+![img.png](./img/capitulo_5/implementation/sprint_2/deploy/3.png)
+![img.png](./img/capitulo_5/implementation/sprint_2/deploy/4.png)
+![img.png](./img/capitulo_5/implementation/sprint_2/deploy/5.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+![img_13.png](./img/capitulo_5/implementation/sprint_2/insights/branches.png)
+![img_14.png](./img/capitulo_5/implementation/sprint_2/insights/commits.png)
 
+<div style="page-break-after: always;"></div>
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+**Sprint Planning Background**
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint</strong></td>
+            <td>Sprint 3</td>
+        </tr>
+        <tr>
+            <td><strong>Date</strong></td>
+            <td>27/10/25</td>
+        </tr>
+        <tr>
+            <td><strong>Time</strong></td>
+            <td>15:00 PM</td>
+        </tr>
+        <tr>
+            <td><strong>Location</strong></td>
+            <td>Reunión virtual (discord)</td>
+        </tr>
+        <tr>
+            <td><strong>Prepared By</strong></td>
+            <td>Tuesta Marín, Romina</td>
+        </tr>
+        <tr>
+            <td><strong>Attendees (to planning meeting)</strong></td>
+            <td>Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 3 – 2 Review Summary</strong></td>
+            <td>Se completó la estructura base y el despliegue del frontend del producto. Además, se coordinó la estructura para el desarrollo del backend.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 3 – 2 Retrospective Summary</strong></td>
+            <td>Se identificó la necesidad de definir un flujo de commits más ordenado en GitHub y una mejor asignación de tareas por módulos. Se acordó establecer una convención de nombres para componentes y commits, además de reuniones de seguimiento cada 3 días.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Campo</strong></th>
+            <th><strong>Contenido</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint 3 Goal</strong></td>
+            <td>Nuestro enfoque se centra en entregar la versión completa del front end de EcoTrack con Vue.js y Vite. Así como, entregar la primera versión del backend y realizar las correciones dadas en la anterior entrega.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 3 Velocity</strong></td>
+            <td>32 points</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Team Member (Last Name, First Name)</strong></th>
+            <th><strong>Github Username</strong></th>
+            <th><strong>Completar las vistas del frontend</strong></th>
+            <th><strong>Gestionar cuenta</strong></th>
+            <th><strong>Vista de Agrónomo y agricultor</strong></th>
+            <th><strong>Asignar tareas y gestión de bitácoras</strong></th>
+            <th><strong>Visualizar tareas y bitácoras</strong></th>
+            <th><strong>Gestión de reportes y generar ficha técnica</strong></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Amaro Villar Anjali</td>
+            <td>njlmrvllr</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Romina Alejanda Tuesta Marin</td>
+            <td>Romimi1</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+        </tr>
+        <tr>
+            <td>Baquerizo Cirilo Aaron Santiago</td>
+            <td>AaronBaquerizo2005</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Mostajo Orosco Maria Fernanda</td>
+            <td>Mafer-m30</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Navarro Correa César Augusto</td>
+            <td>csr555-ui</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3
+
+A continuación podremos observar la organización de tareas dadas para el presente spint dedicado al inicio de la implementación Backend del proyecto, primero se utilizó la herramienta trello para detallas cada tarea, tiempo, complejidad y desarrollador que tomó la tarea.
+
+**Herramienta de control: Trello**
+
+![Trello](./img/capitulo_5/implementation/sprint_3/backlog/trello.png)
+
+URL del Board: [(Link trello)](https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">US01</td>
+            <td rowspan="3">Gestión de cuenta</td>
+            <td>T01</td>
+            <td>Gestionar cuenta</td>
+            <td>Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).</td>
+            <td>4</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Edición de perfil</td>
+            <td>Implementar funcionalidad para editar la información del perfil del usuario.</td>
+            <td>6</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Configuraciones</td>
+            <td>Implementar sección de configuraciones del usuario.</td>
+            <td>4</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US02</td>
+            <td rowspan="3">Vista del agrónomo</td>
+            <td>T04</td>
+            <td>Crear organización</td>
+            <td>Desarrollar vista que permita al agrónomo crear una organización.</td>
+            <td>5</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T05</td>
+            <td>Gestionar parcelas y cultivos</td>
+            <td>Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.</td>
+            <td>4</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T06</td>
+            <td>Editar parcela</td>
+            <td>Implementar funcionalidad para editar la información de las parcelas.</td>
+            <td>3</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>Vista del agricultor</td>
+            <td>T07</td>
+            <td>Registrar cultivo</td>
+            <td>Desarrollar funcionalidad para registrar nuevos cultivos.</td>
+            <td>5</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US03</td>
+            <td rowspan="2">Vista del agrónomo</td>
+            <td>T08</td>
+            <td>Asignar tareas y checklist</td>
+            <td>Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T09</td>
+            <td>Gestión de bitácoras</td>
+            <td>Implementar módulo para registrar y gestionar bitácoras.</td>
+            <td>5</td>
+            <td>Cesar</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Vista del agricultor</td>
+            <td>T10</td>
+            <td>Visualizar tareas</td>
+            <td>Desarrollar vista para que el agricultor visualice sus tareas asignadas.</td>
+            <td>4</td>
+            <td>Cesar</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T11</td>
+            <td>Visualizar bitácoras</td>
+            <td>Implementar vista que permita al agricultor visualizar las bitácoras.</td>
+            <td>4</td>
+            <td>Aaron</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Gestión de reportes</td>
+            <td>T12</td>
+            <td>Generar ficha técnica</td>
+            <td>Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.</td>
+            <td>5</td>
+            <td>Anjali</td>
+            <td>To-do</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+**Avances en la Implementación del Back-End**
+
+En esta sección se presentan los avances del desarrollo del Back-End de la solución Ecotrack, completando la lógica interna del sistema. Se consolidó la arquitectura utilizando Clean Architecture y Domain Driven Design, configurando la infraestructura base, el acceso a datos, la documentación con Swagger y la estructura de servicios e interfaces. Además, se implementaron los módulos principales del dominio, incluyendo la gestión de tareas y checklists, la gestión de bitácoras, al igual que la gestión de parcelas y usuarios, habilitando endpoints funcionales y estables para su integración con el Front-End. Estos avances fortalecen la mantenibilidad del proyecto y dejan el Back-End en un estado completo para las siguientes etapas del desarrollo.
+
+A continuación, se detallan los commits realizados en el repositorio vinculado a la implementación del servidor:
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Repositorio</strong></th>
+            <th><strong>Rama</strong></th>
+            <th><strong>ID de Commit</strong></th>
+            <th><strong>Mensaje de Commit</strong></th>
+            <th><strong>Descripción del Commit</strong></th>
+            <th><strong>Fecha de Commit</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/user-management</td>
+            <td>48912f6</td>
+            <td>feat(profile): add profile, configuration, iam</td>
+            <td>-</td>
+            <td>13/11/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/user-management</td>
+            <td>aee4ce8</td>
+            <td>feat(database): update connection strings to use environment variables</td>
+            <td>-</td>
+            <td>13/11/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/task-management</td>
+            <td>f7eb91b</td>
+            <td>feat(monitoringandcontrol): add tasks and checklists management</td>
+            <td>-</td>
+            <td>13/11/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/task-management</td>
+            <td>5a3a7f7</td>
+            <td>feat: add logbooks and improve code</td>
+            <td>-</td>
+            <td>13/11/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/initial-structure</td>
+            <td>6a9d0e6</td>
+            <td>feat(shared): add IEvent interface and configure dependency injection for shared context and Cortex mediator</td>
+            <td>-</td>
+            <td>12/11/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/initial-structure</td>
+            <td>bfb42fd</td>
+            <td>build: add database connection settings and update package references</td>
+            <td>-</td>
+            <td>22/10/2025</td>
+        </tr>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>feature/initial-structure</td>
+            <td>72e6b2a</td>
+            <td>feat(shared): implement AppDbContext and repository pattern with snake_case naming convention</td>
+            <td>-</td>
+            <td>22/10/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+<img src="./img/capitulo_5/implementation/sprint_3/docs_evidence/1.png">
+<img src="./img/capitulo_5/implementation/sprint_3/docs_evidence/2.png">
+<img src="./img/capitulo_5/implementation/sprint_3/docs_evidence/3.png">
+<img src="./img/capitulo_5/implementation/sprint_3/docs_evidence/4.png">
+<img src="./img/capitulo_5/implementation/sprint_3/docs_evidence/5.png">
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Operaciones</th>
+      <th>Parámetros</th>
+      <th>URL</th>
+      <th>Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Auth</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/auth/login</td>
+      <td>Inicia sesión y retorna token</td>
+    </tr>
+    <tr>
+      <td>Auth</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/auth/logout</td>
+      <td>Cierra sesión del usuario actual</td>
+    </tr>
+    <tr>
+      <td>Checklists</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/api/checklists</td>
+      <td>Crea un nuevo checklist</td>
+    </tr>
+    <tr>
+      <td>Checklists</td>
+      <td>GET</td>
+      <td>taskId</td>
+      <td>/api/checklists</td>
+      <td>Obtiene checklists por Task Id</td>
+    </tr>
+    <tr>
+      <td>Config</td>
+      <td>GET</td>
+      <td>No tiene</td>
+      <td>/config/public</td>
+      <td>Obtiene configuración pública para el front</td>
+    </tr>
+    <tr>
+      <td>Logbooks</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/api/logbooks</td>
+      <td>Crea un nuevo logbook</td>
+    </tr>
+    <tr>
+      <td>Logbooks</td>
+      <td>GET</td>
+      <td>No tiene</td>
+      <td>/api/logbooks</td>
+      <td>Obtiene todos los logbooks</td>
+    </tr>
+    <tr>
+      <td>Logbooks</td>
+      <td>GET</td>
+      <td>{logbookId}</td>
+      <td>/api/logbooks/{logbookId}</td>
+      <td>Obtiene un logbook por id</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>No tiene</td>
+      <td>/users</td>
+      <td>Lista todos los usuarios</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/users</td>
+      <td>Crea un nuevo usuario</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>{id}</td>
+      <td>/users/{id}</td>
+      <td>Obtiene un usuario por id</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>PATCH</td>
+      <td>{id}</td>
+      <td>/users/{id}</td>
+      <td>Actualiza un usuario</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>DELETE</td>
+      <td>{id}</td>
+      <td>/users/{id}</td>
+      <td>Elimina un usuario</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>GET</td>
+      <td>No tiene</td>
+      <td>/users/me</td>
+      <td>Obtiene el usuario actual (requiere sesión)</td>
+    </tr>
+    <tr>
+      <td>Reports</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/api/reports/tasks</td>
+      <td>Solicita un nuevo reporte de tareas</td>
+    </tr>
+    <tr>
+      <td>Reports</td>
+      <td>POST</td>
+      <td>{reportId}</td>
+      <td>/api/reports/{reportId}/generate</td>
+      <td>Genera el contenido de un reporte</td>
+    </tr>
+    <tr>
+      <td>Reports</td>
+      <td>GET</td>
+      <td>{reportId}</td>
+      <td>/api/reports/{reportId}</td>
+      <td>Obtiene un reporte por id</td>
+    </tr>
+    <tr>
+      <td>Reports</td>
+      <td>GET</td>
+      <td>{profileId}</td>
+      <td>/api/reports/profile/{profileId}</td>
+      <td>Obtiene todos los reportes de un perfil</td>
+    </tr>
+    <tr>
+      <td>Settings</td>
+      <td>GET</td>
+      <td>No tiene</td>
+      <td>/settings</td>
+      <td>Obtiene ajustes del usuario actual</td>
+    </tr>
+    <tr>
+      <td>Settings</td>
+      <td>PATCH</td>
+      <td>No tiene</td>
+      <td>/settings</td>
+      <td>Actualiza los ajustes del usuario actual</td>
+    </tr>
+    <tr>
+      <td>Settings</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/settings/password</td>
+      <td>Cambia la contraseña del usuario</td>
+    </tr>
+    <tr>
+      <td>Tasks</td>
+      <td>POST</td>
+      <td>No tiene</td>
+      <td>/api/tasks</td>
+      <td>Crea una nueva tarea</td>
+    </tr>
+    <tr>
+      <td>Tasks</td>
+      <td>GET</td>
+      <td>status</td>
+      <td>/api/tasks</td>
+      <td>Obtiene tareas por estado</td>
+    </tr>
+    <tr>
+      <td>Tasks</td>
+      <td>PATCH</td>
+      <td>{taskId}</td>
+      <td>/api/tasks/{taskId}/status</td>
+      <td>Actualiza el estado de una tarea</td>
+    </tr>
+    <tr>
+      <td>Tasks</td>
+      <td>GET</td>
+      <td>{taskId}</td>
+      <td>/api/tasks/{taskId}</td>
+      <td>Obtiene una tarea por id</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para la entrega de este tercer sprint, se implementó el backend en swagger y se desplego con Render
+
+Pasos para el despliegue del backend en Rendee:
+
+1. Entrar a la pagina principal
+
+![img_5.png](./img/capitulo_5/implementation/sprint_3/deploy/1.png)
+
+2. Iniciar sesión con github
+
+![img_6.png](./img/capitulo_5/implementation/sprint_3/deploy/2.png)
+
+3. Crear un nuevo proyecto
+
+![img.png](./img/capitulo_5/implementation/sprint_3/deploy/3.png)
+
+4. Seleccionar el repositorio correspondiente
+
+![img_1.png](./img/capitulo_5/implementation/sprint_3/deploy/4.png)
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+![img_9.png](./img/capitulo_5/implementation/sprint_3/insights/1.png)
+![img_10.png](./img/capitulo_5/implementation/sprint_3/insights/2.png)
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Contenido</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint 4</strong></td>
+            <td>Sprint 4</td>
+        </tr>
+        <tr>
+            <td><strong>Date</strong></td>
+            <td>11/11/25</td>
+        </tr>
+        <tr>
+            <td><strong>Time</strong></td>
+            <td>15:00 PM</td>
+        </tr>
+        <tr>
+            <td><strong>Location</strong></td>
+            <td>Reunión virtual (discord)</td>
+        </tr>
+        <tr>
+            <td><strong>Prepared By</strong></td>
+            <td>Tuesta Marín, Romina</td>
+        </tr>
+        <tr>
+            <td><strong>Attendees (to planning meeting)</strong></td>
+            <td>Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 4 – 3 Review Summary</strong></td>
+            <td>Durante este sprint se avanzó en la integración del backend con el frontend, se ajustaron componentes visuales y se finalizó la lógica principal de búsqueda de envíos. También se realizaron correcciones derivadas de pruebas internas.</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 4 – 3 Retrospective Summary</strong></td>
+            <td>Se destacó mejoras en la organización del código y mayor coordinación entre los responsables del backend y frontend. Se detectó como oportunidad de mejora una mayor definición técnica antes de iniciar cada tarea para evitar retrabajos.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Contenido</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sprint 4 Goal</strong></td>
+            <td>Nuestro enfoque se centra en entregar la versión completa del frontend integrado con el backend. Asimismo, realizar las correcciones con respecto a la anterior entrega</td>
+        </tr>
+        <tr>
+            <td><strong>Sprint 4 Velocity</strong></td>
+            <td>21 points</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<table>
+    <thead>
+        <tr>
+            <th>Team Member (Last Name, First Name)</th>
+            <th>Github Username</th>
+            <th>Autenticación</th>
+            <th>Gestionar cuenta</th>
+            <th>Checklists</th>
+            <th>Reportes</th>
+            <th>Gestión de tareas</th>
+            <th>Gestión de reportes y generar ficha técnica</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Amaro Villar Anjali</td>
+            <td>njlmrvllr</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Romina Alejanda Tuesta Marin</td>
+            <td>Romimi1</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+        </tr>
+        <tr>
+            <td>Baquerizo Cirilo Aaron Santiago</td>
+            <td>AaronBaquerizo2005</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Mostajo Orosco Maria Fernanda</td>
+            <td>Mafer-m30</td>
+            <td>(L)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+        <tr>
+            <td>Navarro Correa César Augusto</td>
+            <td>csr555-ui</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+            <td>(L)</td>
+            <td>(C)</td>
+            <td>(C)</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+A continuacion se podra observar la organizacion de tareas correspondientes al presente sprint, dedicado a la implementacion y conexion del backend con el frontend. Para ello, se utilizo la herramienta Trello, detallando cada tarea, el tiempo estimado, la complejidad y el desarrollador encargado de la misma.
+
+Herramienta de control: Trello
+
+![trello-sprint4.png](./img/capitulo_5/implementation/sprint_4/backlog/trello.png)
+
+URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Title</th>
+      <th>Work-Item / Task</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned To</td>
+      <td>Status (To-do / In-Process / To-Review / Done)</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T01</td>
+      <td>Gestionar cuenta</td>
+      <td>Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).</td>
+      <td>4</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T02</td>
+      <td>Edición de perfil</td>
+      <td>Implementar funcionalidad para editar la información del perfil del usuario.</td>
+      <td>6</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T03</td>
+      <td>Configuraciones</td>
+      <td>Implementar sección de configuraciones del usuario.</td>
+      <td>4</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T04</td>
+      <td>Crear organización</td>
+      <td>Desarrollar vista que permita al agrónomo crear una organización.</td>
+      <td>5</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T05</td>
+      <td>Gestionar parcelas y cultivos</td>
+      <td>Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.</td>
+      <td>4</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T06</td>
+      <td>Editar parcela</td>
+      <td>Implementar funcionalidad para editar la información de las parcelas.</td>
+      <td>3</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agricultor</td>
+      <td>T07</td>
+      <td>Registrar cultivo</td>
+      <td>Desarrollar funcionalidad para registrar nuevos cultivos.</td>
+      <td>5</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agrónomo</td>
+      <td>T08</td>
+      <td>Asignar tareas y checklist</td>
+      <td>Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.</td>
+      <td>5</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agrónomo</td>
+      <td>T09</td>
+      <td>Gestión de bitácoras</td>
+      <td>Implementar módulo para registrar y gestionar bitácoras.</td>
+      <td>5</td>
+      <td>Cesar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T10</td>
+      <td>Visualizar tareas</td>
+      <td>Desarrollar vista para que el agricultor visualice sus tareas asignadas.</td>
+      <td>4</td>
+      <td>Cesar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T11</td>
+      <td>Visualizar bitácoras</td>
+      <td>Implementar vista que permita al agricultor visualizar las bitácoras.</td>
+      <td>4</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T12</td>
+      <td>Crear una nueva tarea</td>
+      <td>Implementar funcionalidad para crear tareas, asignando al agricultor responsable y la checklist correspondiente.</td>
+      <td>5</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Gestión de reportes</td>
+      <td>T13</td>
+      <td>Generar ficha técnica</td>
+      <td>Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.</td>
+      <td>5</td>
+      <td>Anjali</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+<table>
+    <thead>
+        <tr>
+            <th>Repositorio</th>
+            <th>Rama</th>
+            <th>ID de Commit</th>
+            <th>Mensaje de Commit</th>
+            <th>Descripción del Commit</th>
+            <th>Fecha de Commit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ecotrack-backend</td>
+            <td>main</td>
+            <td>da4509f</td>
+            <td>fix(database): correct variable name for database connection port in Program.cs</td>
+            <td>-</td>
+            <td>26/11/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-backend</td>
+            <td>feature/auth</td>
+            <td>da5e00b</td>
+            <td>feature: update auth</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-backend</td>
+            <td>main</td>
+            <td>984ebb9</td>
+            <td>feat(organization): implement crop and organization query services with corresponding queries and controller actions</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-landingpage</td>
+            <td>main</td>
+            <td>0318118</td>
+            <td>feat: add product and team video sections with descriptions and styles</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-backend</td>
+            <td>main</td>
+            <td>4ec8c21</td>
+            <td>feat(auth): implement user registration functionality with email validation and password hashing</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/auth</td>
+            <td>891f13f</td>
+            <td>feature: update auth</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+	<tr>
+            <td>ecotrack-frontend</td>
+            <td>feature/tasks-management</td>
+            <td>374945a</td>
+            <td>feat: update Monitoring and Control bounded context and add new task component</td>
+            <td>-</td>
+            <td>2/12/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+![img_22.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/1.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/2.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/3.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/4.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Operaciones</th>
+            <th>Parámetros</th>
+            <th>URL</th>
+            <th>Response</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Auth – Register</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ email, password, fullName }</code></td>
+            <td>/auth/register</td>
+            <td>201 Created – Usuario registrado, retorna usuario + token</td>
+        </tr>
+        <tr>
+            <td><strong>Auth – Login</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ email, password }</code></td>
+            <td>/auth/login</td>
+            <td>200 OK – Retorna token JWT + datos del usuario</td>
+        </tr>
+        <tr>
+            <td><strong>Auth – Logout</strong></td>
+            <td>POST</td>
+            <td>Header: <code>Authorization: Bearer token</code></td>
+            <td>/auth/logout</td>
+            <td>200 OK – Sesión cerrada correctamente</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Crear cultivo</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ name, type, organizationId, ... }</code></td>
+            <td>/api/v1/crops</td>
+            <td>201 Created – Cultivo registrado</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Listar cultivos</strong></td>
+            <td>GET</td>
+            <td>Ninguno</td>
+            <td>/api/v1/crops</td>
+            <td>200 OK – Lista de cultivos</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Obtener cultivo por ID</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{id}</code></td>
+            <td>/api/v1/crops/{id}</td>
+            <td>200 OK – Detalles del cultivo</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Cultivos por organización</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{organizationId}</code></td>
+            <td>/api/v1/crops/organization/{organizationId}</td>
+            <td>200 OK – Lista de cultivos filtrados</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Crear organización</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ name, address, ownerId }</code></td>
+            <td>/api/v1/organizations</td>
+            <td>201 Created – Organización registrada</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Listar organizaciones</strong></td>
+            <td>GET</td>
+            <td>Ninguno</td>
+            <td>/api/v1/organizations</td>
+            <td>200 OK – Lista de organizaciones</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Obtener organización por ID</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{id}</code></td>
+            <td>/api/v1/organizations/{id}</td>
+            <td>200 OK – Datos de la organización</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+![a](./img/capitulo_5/implementation/sprint_4/deploy/1.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/2.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/3.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/4.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/5.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/6.png)
+![a](./img/capitulo_5/implementation/sprint_4/deploy/7.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+![a](./img/capitulo_5/implementation/sprint_4/insights/1.png)
+![a](./img/capitulo_5/implementation/sprint_4/insights/2.png)
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
 
+**Objetivo de las entrevista**
 
+El objetivo de las entrevistas es validar las hipótesis planteadas en la fase de descubrimiento, obteniendo retroalimentación directa de los usuarios potenciales sobre sus necesidades, desafíos y expectativas en relación con la gestión agrícola digital. Se busca comprender mejor el contexto de uso, identificar posibles mejoras en la propuesta de valor y evaluar la aceptación del producto EcoTrack.
+
+**Landing page**
+
+Se diseñó una landing page que presenta de manera clara y atractiva la propuesta de valor de EcoTrack, destacando sus beneficios, características principales y planes de suscripción. La landing page incluye secciones informativas, testimonios de usuarios y un formulario de contacto para captar el interés de los visitantes.
+
+**Preguntas de validación**
+
+* ¿Qué tan claro te resultó entender qué es EcoTrack y qué beneficios ofrece?
+* ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo?
+* ¿Encontraste fácilmente la información que buscabas (funciones, beneficios, contacto)?
+* ¿Los botones o llamados a la acción te motivaron a registrarte o pedir más información?
+* ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios?
+
+**Aplicación web**
+
+Se preparó una demostración funcional de la aplicación web EcoTrack, enfocándose en las características clave que abordan las necesidades identificadas durante la fase de descubrimiento. La demo incluye flujos de trabajo típicos, como la creación de parcelas, el registro de cultivos y la gestión de tareas agrícolas.
+
+**Preguntas de validación**
+
+*Agricultor*
+
+1. Inicio de sesión y acceso
+    - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
+2. Seeleccion de cultivo
+    - ¿Pudiste identificar y seleccionar fácilmente tu cultivo principal?
+3. Visializacion de tareas
+    - ¿Entendiste claramente las tareas pendientes y su estado actual?
+4. Alertas asociadas al cultivo
+    - ¿Las alertas mostradas te resultaron útiles y comprensibles para tomar decisiones?
+
+*Agrónomo*
+
+1. Inicio de sesión y acceso
+    - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
+2. Dashboard de organización
+    - ¿Pudiste navegar fácilmente por el dashboard y encontrar la información relevante?
+3. Creacion de parcelas
+    - ¿El proceso de creación de parcelas fue intuitivo y claro?
+4. Visualizacion de tareas
+    - ¿Te resultó fácil supervisar o actualizar las tareas de los agricultores?
+5. Reportes generados
+    - ¿Los reportes presentaron información útil y relevante para la gestión agrícola?
 
 ### 5.3.2. Registro de entrevistas
 
+**Segmento: Ingenieros Agrónomos**
 
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Luis Mendoza</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>30 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Villa El Salvador</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Ingeniero Agrónomo</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>10 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/IgBwuU7WAsq8T4yiW9A2MDNgAf1oLC4FNp-M7UgV6y70Kk0?e=av9yhd">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/capitulo_5/validation/registry/luis.png" alt="Entrevista-1"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>El agrónomo Luis Mendoza comentó que la landing page le permitió comprender de manera clara y rápida qué es EcoTrack y cuál es su propósito. No obstante, recalcó en varias oportunidades que la página carece de imágenes reales relacionadas directamente con el trabajo agrícola, lo cual considera un elemento importante para generar mayor confianza y conexión con los usuarios del sector. Sobre el proceso de inicio de sesión, mencionó que le resultó sencillo y accesible, señalando que esto sería especialmente beneficioso para agricultores que no están acostumbrados a utilizar herramientas digitales. Durante su recorrido por la aplicación web, indicó que la navegación fue fluida e intuitiva, y destacó como oportunidad de mejora la incorporación de gráficos y estadísticas que permitan visualizar mejor la información y apoyar la toma de decisiones en el manejo de cultivos y tareas.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Diego Armando Huamán Rojas</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>27 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Ayacucho</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Ingeniero Agrónomo</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>10 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/IgBwuU7WAsq8T4yiW9A2MDNgAf1oLC4FNp-M7UgV6y70Kk0?e=av9yhd">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/capitulo_5/validation/registry/diego.png" alt="Entrevista-2"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>El agrónomo Diego Huamán señaló que la landing page le permitió entender claramente qué es EcoTrack y cuáles son sus beneficios principales. Mencionó que la explicación inicial fue suficiente para captar la propuesta de valor, aunque consideró que se podría reforzar con ejemplos reales de uso en el campo. También destacó que el diseño le transmitió profesionalismo y una buena primera impresión, pero sugirió incluir imágenes auténticas de cooperativas o parcelas para lograr una conexión más directa con usuarios agrícolas. Sobre los llamados a la acción, indicó que eran visibles y fáciles de identificar, aunque comentó que preferiría un botón pensado específicamente para solicitar una demostración. En cuanto a la aplicación web, Diego indicó que el proceso de inicio de sesión fue directo y sin dificultades, aunque sugirió integrar opciones como Google o correos institucionales para facilitar el acceso. El dashboard le pareció útil para obtener una vista general del estado de parcelas y tareas, pero consideró importante incorporar alertas críticas más visibles. Al crear parcelas, destacó que el flujo fue intuitivo y que los campos solicitados eran claros, aunque le gustaría contar con herramientas geográficas como mapas o la opción de cargar límites. Sobre la visualización de tareas, resaltó que la organización era adecuada, pero que filtros más rápidos por fecha o responsable mejorarían la experiencia. Finalmente, comentó que los reportes eran bastante completos.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Renzo Sebastián Paredes Castillo</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>29 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Cusco</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Ingeniero Agrónomo</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>10 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/IgBwuU7WAsq8T4yiW9A2MDNgAf1oLC4FNp-M7UgV6y70Kk0?e=av9yhd">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/capitulo_5/validation/registry/williams.png" alt="Entrevista-3"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>El agrónomo Renzo Paredes indicó que la landing page comunicaba de manera clara el valor de EcoTrack desde el primer vistazo, especialmente las partes relacionadas con trazabilidad y reportes, las cuales considera muy importantes en su labor. El diseño le pareció limpio, profesional y fácil de recorrer, aunque sugirió incorporar más ejemplos visuales reales del uso de la plataforma en contextos agrícolas para fortalecer la comprensión. También comentó que encontró rápidamente la información relevante y que quizá sería útil agregar un detalle más explícito sobre precios o planes. Dentro de la aplicación web, Renzo mencionó que el inicio de sesión funcionó bien y sin dificultades, aunque una opción de "recordar sesión" sería muy conveniente. Sobre el dashboard, destacó que ofrece una buena vista general, pero le gustaría ver más elementos visuales como gráficos rápidos o indicadores clave para facilitar la lectura del estado de la organización. En la creación de parcelas, el flujo le pareció rápido y práctico, aunque consideró necesaria una ayuda visual como un mapa para ubicar las parcelas de forma más precisa. En la visualización de tareas encontró útil la organización y el seguimiento de actividades, sugiriendo la incorporación de un calendario para optimizar la planificación. Con respecto a los reportes, opinó que están bien estructurados, pero que sería valioso poder personalizar métricas según cultivo o temporada. Concluyó que sí usaría EcoTrack, ya que podría reducir su carga administrativa y mejorar la supervisión del personal.</td>
+        </tr>
+    </tbody>
+</table>
+
+**Segmento: Agricultores**
+
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Erica Marin Rios</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>45 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Lima</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Agricultor</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>13 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/IQB_flnKF7aESYCUKao0crInAeAfP8ickNdFOBT_elO4Pf8?e=4CgOo9">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/capitulo_5/validation/registry/erica.png" alt="Entrevista-5"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>La agricultora Erica Marin manifiesta que La visibilidad de la landing page es buena, atractiva y facil de entender, además que le brinda la información básica de EcoTrack y le da curiosidad conocer más acerca de sus servicios. Sin embargo hay algunos mensajes perdidos que no se pudieron identificar facilmente en la landing, en la parte del slider podría ser más intuitivo, ya que la animación no se puede devolver, las llamadas a la acción fueron intuitivas, pero los iconos deberían ser más grandes para mejor visuazilación, además de agregar un pequeño video en el que planeteen la ayuda en el campo. Para la pagina web, la navegación fue fácil e intuitiva.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Luis Alberto Campos Salvatierra</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>25 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Chiclayo</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Agricultor</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>10 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/IgBwuU7WAsq8T4yiW9A2MDNgAf1oLC4FNp-M7UgV6y70Kk0?e=av9yhd">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/capitulo_5/validation/registry/luis_alberto.png" alt="Entrevista-4"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>El agricultor Luis Campos mencionó que comprendió sin dificultad qué hace EcoTrack al revisar la landing page, ya que explica de manera sencilla cómo ayuda a organizar cultivos y tareas diarias. Indicó que la página le pareció confiable y ordenada, aunque preferiría ver ejemplos más concretos de cómo usar la plataforma en situaciones reales del campo. También señaló que estaría dispuesto a registrarse, pero comentó que inicialmente necesitaría apoyo porque no está acostumbrado a usar plataformas digitales. En la aplicación web, Luis señaló que el inicio de sesión fue sencillo, pero que él preferiría ingresar con su número de celular, ya que es su método más habitual. Sobre la selección de cultivos, indicó que pudo encontrar el suyo con facilidad, aunque fotos o iconos ayudarían a diferenciar cultivos con nombres similares. La visualización de tareas le resultó clara y útil, destacando especialmente que se indique qué actividades corresponden al día, aunque sugirió mejorar la identificación de tareas urgentes con colores. En cuanto a las alertas del cultivo, mencionó que fue la parte que más valor le generó, ya que lo ayudaría a evitar problemas, y agregó que sería ideal recibirlas también por WhatsApp. Concluyó que sí usaría EcoTrack si le facilita organizar su trabajo y si su agrónomo también adopta la plataforma.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre</td>
+            <td>Rommer Tuesta Gatica</td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>63 años</td>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Lima</td>
+        </tr>
+        <tr>
+            <td>Ocupación</td>
+            <td>Agricultor</td>
+        </tr>
+        <tr>
+            <td>Fecha de entrevista</td>
+            <td>13 de noviembre del 2025</td>
+        </tr>
+        <tr>
+            <td>Timing</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Enlace a la grabación</td>
+            <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/IgBJqYFVv4_vQZiN05e2Twx7Aam9e7TBxqESM_TZfBtLI1w?e=7vo2LH">Ver en Microsoft Stream</a></td>
+        </tr>
+        <tr>
+            <td>Captura de pantalla de la grabación</td>
+            <td><img src="./img/shared/placeholder.jpg" alt="Entrevista-4"></td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td>El agricultor Rommer Tuesta señaló que al ingresar a la landing page entendió de forma general qué ofrece EcoTrack, aunque mencionó que algunos términos técnicos podrían simplificarse para que resulten más familiares para agricultores con menor experiencia digital. Consideró que la página transmite seriedad y orden, pero que un video corto mostrando el uso de la plataforma ayudaría a reforzar la confianza. Dentro de la aplicación web, indicó que el proceso de registro y acceso fue intuitivo, aunque mencionó que sería útil mostrar mensajes más visibles de confirmación cuando realiza una acción. En la selección de cultivos, pudo identificar los suyos sin dificultad, pero sugirió incluir filtros por región para acelerar la búsqueda. Al revisar la sección de tareas, valoró que se muestre de forma clara qué actividades corresponden a cada cultivo, aunque recomendó permitir reorganizarlas según sus prioridades diarias. Sobre las alertas del cultivo, comentó que le parecieron muy útiles para anticipar riesgos, especialmente las relacionadas con riego y plagas. Sin embargo, indicó que le gustaría recibir un breve resumen semanal que integre todas las alertas para planificar mejor. Finalmente, mencionó que usaría EcoTrack si se mantiene como una herramienta sencilla y si puede integrarla en la rutina del trabajo que realiza junto a su familia.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+**CARRERA:** Ingeniería de Software
 
+**CURSO:** Aplicaciones Web
+
+**CLIENTE:** Usuarios agrícolas (Agricultores y Agrónomos)
+
+**AUDITOR:** Equipo del proyecto EcoTrack
+
+**APP A EVALUAR: EcoTrack – Plataforma Web para Gestión Agrícola**
+
+**TAREAS EVALUADAS**
+
+Las tareas incluidas en la evaluación fueron:
+
+1. Registro e inicio de sesión
+2. Visualización del dashboard
+3. Selección de cultivos
+4. Creación de parcelas
+5. Visualización y gestión de tareas
+6. Revisión de alertas del cultivo
+7. Generación y consulta de reportes
+8. Uso de la landing page para conocer el producto
+
+**TABLA DE ESCALA DE SEVERIDAD**
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>1</strong></td>
+            <td>Problema superficial: puede ser superado fácilmente o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible.</td>
+        </tr>
+        <tr>
+            <td><strong>2</strong></td>
+            <td>Problema menor: ocurre más frecuentemente o es algo más difícil para el usuario. Recomendado arreglarlo en un siguiente release con baja prioridad.</td>
+        </tr>
+        <tr>
+            <td><strong>3</strong></td>
+            <td>Problema mayor: ocurre frecuentemente o el usuario no puede resolverlo. Se debe corregir con prioridad alta.</td>
+        </tr>
+        <tr>
+            <td><strong>4</strong></td>
+            <td>Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+
+**TABLA RESUMEN DE PROBLEMAS**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema identificado</th>
+            <th>Severidad</th>
+            <th>Heurística / Principio violado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Falta opción de inicio de sesión alternativo (Google, celular)</td>
+            <td>2</td>
+            <td>Usability – Flexibilidad y eficiencia</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Landing page sin imágenes reales del campo</td>
+            <td>2</td>
+            <td>Inclusive Design – Experiencias comparables</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Selección de cultivos sin apoyo visual (iconos/fotos)</td>
+            <td>3</td>
+            <td>Usability – Reconocimiento mejor que recuerdo</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Alertas poco visibles; falta diferenciación por criticidad</td>
+            <td>3</td>
+            <td>Usability – Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Tareas urgentes no tienen color o jerarquía destacada</td>
+            <td>3</td>
+            <td>Usability – Señalización y prioridades</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Dashboard con pocos gráficos o indicadores visuales</td>
+            <td>2</td>
+            <td>Information Architecture – Is it understandable?</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Crear parcelas sin mapa o soporte geográfico visual</td>
+            <td>3</td>
+            <td>Usability – Correspondencia con el mundo real</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Falta opción “Recordar sesión”</td>
+            <td>1</td>
+            <td>Usability – Minimizar carga del usuario</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Falta calendario para ver tareas</td>
+            <td>2</td>
+            <td>Usability – Control del usuario</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Alertas importantes no enviadas por WhatsApp</td>
+            <td>2</td>
+            <td>Inclusive Design – Ajuste al contexto real</td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DETALLADA DE PROBLEMAS**
+
+## **Problema #1 – Falta opción de inicio de sesión alternativo**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Flexibilidad y eficiencia del uso
+
+**Problema:**
+
+Los usuarios prefieren iniciar sesión con Google, correo institucional o número de celular, lo cual no está disponible y genera fricción.
+
+**Recomendación:**
+
+Agregar login con Google, instituciones y celular.
+
+
+## **Problema #2 – Falta de imágenes reales en la landing page**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design – Experiencias comparables
+
+**Problema:**
+
+Las imágenes no representan el contexto real agrícola, lo que reduce conexión emocional.
+
+**Recomendación:**
+
+Incluir fotografías reales del campo, cooperativas o agrónomos.
+
+
+## **Problema #3 – Selección de cultivos sin apoyo visual**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Reconocimiento mejor que recuerdo
+
+**Problema:**
+
+Los cultivos con nombres similares generan confusión sin iconos o fotos de referencia.
+
+**Recomendación:**
+
+Añadir iconografía o imágenes pequeñas para cada cultivo.
+
+
+## **Problema #4 – Alertas poco visibles**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**
+
+Las alertas no destacan ni indican su severidad.
+
+**Recomendación:**
+
+Usar colores por nivel, banners y señales visuales fuertes para alertas críticas.
+
+
+## **Problema #5 – Tareas urgentes sin jerarquía visual**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Señalización y prioridades
+
+**Problema:**
+Las tareas urgentes se ven idénticas a las normales.
+
+**Recomendación:**
+Colores, etiquetas o iconos para urgencia.
+
+
+## **Problema #6 – Dashboard con poca visualización gráfica**
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it understandable?
+
+**Problema:**
+
+La vista inicial carece de indicadores gráficos que permitan interpretar rápidamente el estado de la organización.
+
+**Recomendación:**
+
+Añadir KPIs, gráficos de barras, indicadores de cultivo y alertas activas.
+
+
+## **Problema #7 – Crear parcelas sin soporte geográfico**
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Correspondencia con el mundo real
+
+**Problema:**
+
+Los usuarios necesitan ubicar parcelas en un mapa, no solo datos textuales.
+
+**Recomendación:**
+
+Integrar mapas interactivos para delimitar la parcela.
+
+
+## **Problema #8 – Falta opción “Recordar sesión”**
+
+**Severidad:** 1
+
+**Heurística violada:** Usability – Minimizar carga del usuario
+
+**Problema:**
+El usuario debe loguearse siempre, poco ideal en campo.
+
+**Recomendación:**
+Implementar “Mantener sesión iniciada”.
+
+## **Problema #9 – Falta calendario para visualizar tareas**
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Control y eficiencia del usuario
+
+**Problema:**
+
+No existe vista de calendario para planificar semanal o mensualmente.
+
+**Recomendación:**
+
+Añadir calendario con vista semanal, mensual y por responsable.
+
+
+## **Problema #10 – Alertas no enviadas por WhatsApp**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design – Adaptación al contexto
+
+**Problema:**
+Los usuarios agrícolas dependen más de WhatsApp que del correo.
+
+**Recomendación:**
+Integrar notificaciones vía WhatsApp API.
 
 ## 5.4. Video About the Product
 
+A continuación, presentaremos el video about the product de Agromind.
 
+El video "About-the-Product" está dirigido principalmente a los visitantes del Landing Page de Agromind, quienes desean conocer más sobre el modelo de negocio y las características principales de la solución. Además, este video tiene como objetivo proporcionar información útil a los usuarios de las aplicaciones que ya están utilizando la plataforma, mostrando cómo la herramienta apoya en su gestión de los cultivos y generar métricas claras.
+
+Link del video en Youtube: [https://youtu.be/q8EpvrpFKiU](https://youtu.be/q8EpvrpFKiU)
+
+Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr)
 
 # Conclusiones
 
