@@ -6,11 +6,15 @@ En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de
 
 ![Step 1 Big Picture Event Storming](../../img/capitulo_2/event_storming/big-picture-event-storming-step-1.png)
 
+<div style="page-break-after: always;"></div>
+
 **2. Explore:**
 
 Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
 
 ![Step 2 Big Picture Event Storming](../../img/capitulo_2/event_storming/big-picture-event-storming-step-2.png)
+
+<div style="page-break-after: always;"></div>
 
 **3. Close:**
 
@@ -18,9 +22,13 @@ En esta última etapa, se documentaron en post-its rosados los problemas más re
 
 ![Step 3 Big Picture Event Storming](../../img/capitulo_2/event_storming/big-picture-event-storming-step-3.png)
 
+<div style="page-break-after: always;"></div>
+
 Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
 
 ![Final events of Big Picture Event Storming](../../img/capitulo_2/event_storming/big-picture-event-storming.png)
+
+<div style="page-break-after: always;"></div>
 
 Finalmente, se presenta el Big Picture Event Storming:
 
