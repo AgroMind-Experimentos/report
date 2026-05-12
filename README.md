@@ -1565,7 +1565,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP02</td>
         </tr>
         <tr>
-            <td>US11</td>
+            <td>US13</td>
             <td>Completar tarea</td>
             <td>Como Agricultor asignado, quiero marcar una tarea como completada para registrar la finalización de mi labor asignada en la parcela</td>
             <td>
@@ -1598,7 +1598,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US12</td>
+            <td>US14</td>
             <td>Crear organización</td>
             <td>Como Agrónomo, quiero crear una organización para centralizar a mi equipo de trabajo y gestionar las parcelas de manera conjunta</td>
             <td>
@@ -1624,7 +1624,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US13</td>
+            <td>US15</td>
             <td>Listado de organizaciones</td>
             <td>Como Agrónomo, quiero visualizar el listado de mis organizaciones para acceder rápidamente a su información y gestión</td>
             <td>
@@ -1648,7 +1648,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US14</td>
+            <td>US16</td>
             <td>Modificar organización</td>
             <td>Como Agrónomo dueño, quiero editar los datos de mi organización para mantener la información corporativa actualizada</td>
             <td>
@@ -1678,7 +1678,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US15</td>
+            <td>US17</td>
             <td>Eliminar organización</td>
             <td>Como Agrónomo dueño, quiero eliminar mi organización para dar de baja el espacio de trabajo de manera definitiva</td>
             <td>
@@ -1708,7 +1708,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US16</td>
+            <td>US18</td>
             <td>Crear invitación</td>
             <td>Como Agrónomo dueño, quiero enviar una invitación por correo electrónico para incorporar nuevos agricultores a la organización</td>
             <td>
@@ -1733,7 +1733,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US17</td>
+            <td>US19</td>
             <td>Listado de invitaciones</td>
             <td>Como Agrónomo dueño, quiero visualizar las invitaciones enviadas filtrando por su estado para gestionar las solicitudes de ingreso pendientes y procesadas</td>
             <td>
@@ -1757,7 +1757,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US18</td>
+            <td>US20</td>
             <td>Eliminar invitación</td>
             <td>Como Agrónomo dueño, quiero eliminar una invitación pendiente para anular el acceso a un usuario antes de que sea aceptado</td>
             <td>
@@ -1782,7 +1782,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US19</td>
+            <td>US21</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>
             <td>
@@ -1806,7 +1806,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US20</td>
+            <td>US22</td>
             <td>Aceptar invitación</td>
             <td>Como Agricultor, quiero aceptar una invitación pendiente para ingresar como miembro activo a la organización</td>
             <td>
@@ -1826,7 +1826,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US21</td>
+            <td>US23</td>
             <td>Rechazar invitación</td>
             <td>Como Agricultor, quiero declinar una invitación pendiente para notificar mi rechazo a unirme a la organización</td>
             <td>
@@ -1845,7 +1845,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US22</td>
+            <td>US24</td>
             <td>Listar miembros de la organización</td>
             <td>Como Agrónomo dueño, quiero visualizar un listado de los miembros vinculados a mi organización para conocer el equipo de trabajo actual</td>
             <td>
@@ -1869,7 +1869,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US23</td>
+            <td>US25</td>
             <td>Eliminar miembro</td>
             <td>Como Agrónomo dueño, quiero remover a un miembro de la organización para revocar su acceso y desvincularlo del equipo de trabajo</td>
             <td>
@@ -1900,7 +1900,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US24</td>
+            <td>US26</td>
             <td>Consultar clima y recomendaciones técnicas</td>
             <td>Como usuario, quiero consultar el pronóstico del clima según mi ubicación y recibir recomendaciones de actividades para planificar mis labores de manera eficiente</td>
             <td>
@@ -1922,7 +1922,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US25</td>
+            <td>US27</td>
             <td>Visualizar resumen estadístico de tareas</td>
             <td>Como Agrónomo dueño, quiero visualizar un resumen estadístico de las tareas de mi organización para analizar el desempeño y avance de las labores</td>
             <td>
@@ -1946,7 +1946,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US26</td>
+            <td>US28</td>
             <td>Exportar resumen estadístico a PDF</td>
             <td>Como Agrónomo dueño, quiero exportar el resumen estadístico de tareas a un archivo PDF para compartir los reportes de gestión fuera de la plataforma</td>
             <td>
@@ -1963,7 +1963,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
 <tr>
-            <td>US27</td>
+            <td>US29</td>
             <td>Registrar cuenta de usuario</td>
             <td>Como usuario visitante, quiero registrar una cuenta con mi nombre, apellido, correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td>
@@ -1991,7 +1991,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US28</td>
+            <td>US30</td>
             <td>Iniciar sesión</td>
             <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td>
@@ -2016,7 +2016,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US29</td>
+            <td>US31</td>
             <td>Información de la Landing Page</td>
             <td>Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo</td>
             <td>
@@ -2033,7 +2033,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US30</td>
+            <td>US32</td>
             <td>Visualizar información de la página</td>
             <td>Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito</td>
             <td>
@@ -2050,7 +2050,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US31</td>
+            <td>US33</td>
             <td>Visualización de beneficios y características</td>
             <td>Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades</td>
             <td>
@@ -2067,7 +2067,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US32</td>
+            <td>US34</td>
             <td>Sección de testimonios</td>
             <td>Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución</td>
             <td>
@@ -2158,70 +2158,70 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </thead>
     <tbody>
         <tr>
-            <td>US29</td>
+            <td>US31</td>
             <td>Información de la Landing Page</td>
             <td>Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US30</td>
+            <td>US32</td>
             <td>Visualizar información de la página</td>
             <td>Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US31</td>
+            <td>US33</td>
             <td>Visualización de beneficios y características</td>
             <td>Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US32</td>
+            <td>US34</td>
             <td>Sección de testimonios</td>
             <td>Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US12</td>
+            <td>US14</td>
             <td>Crear organización</td>
             <td>Como Agrónomo, quiero crear una organización para centralizar a mi equipo de trabajo y gestionar las parcelas de manera conjunta</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US13</td>
+            <td>US15</td>
             <td>Listado de organizaciones</td>
             <td>Como Agrónomo, quiero visualizar el listado de mis organizaciones para acceder rápidamente a su información y gestión</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US16</td>
+            <td>US18</td>
             <td>Crear invitación</td>
             <td>Como Agrónomo dueño, quiero enviar una invitación por correo electrónico para incorporar nuevos agricultores a la organización</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US17</td>
+            <td>US19</td>
             <td>Listado de invitaciones</td>
             <td>Como Agrónomo dueño, quiero visualizar las invitaciones enviadas filtrando por su estado para gestionar las solicitudes de ingreso pendientes y procesadas</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US19</td>
+            <td>US21</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US22</td>
+            <td>US24</td>
             <td>Listar miembros de la organización</td>
             <td>Como Agrónomo dueño, quiero visualizar un listado de los miembros vinculados a mi organización para conocer el equipo de trabajo actual</td>
             <td></td>
@@ -2270,42 +2270,42 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US24</td>
+            <td>US26</td>
             <td>Consultar clima y recomendaciones técnicas</td>
             <td>Como usuario, quiero consultar el pronóstico del clima según mi ubicación y recibir recomendaciones de actividades para planificar mis labores de manera eficiente</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US25</td>
+            <td>US27</td>
             <td>Visualizar resumen estadístico de tareas</td>
             <td>Como Agrónomo dueño, quiero visualizar un resumen estadístico de las tareas de mi organización para analizar el desempeño y avance de las labores</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US26</td>
+            <td>US28</td>
             <td>Exportar resumen estadístico a PDF</td>
             <td>Como Agrónomo dueño, quiero exportar el resumen estadístico de tareas a un archivo PDF para compartir los reportes de gestión fuera de la plataforma</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US14</td>
+            <td>US16</td>
             <td>Modificar organización</td>
             <td>Como Agrónomo dueño, quiero editar los datos de mi organización para mantener la información corporativa actualizada</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US20</td>
+            <td>US22</td>
             <td>Aceptar invitación</td>
             <td>Como Agricultor, quiero aceptar una invitación pendiente para ingresar como miembro activo a la organización</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US21</td>
+            <td>US23</td>
             <td>Rechazar invitación</td>
             <td>Como Agricultor, quiero declinar una invitación pendiente para notificar mi rechazo a unirme a la organización</td>
             <td></td>
@@ -2333,28 +2333,28 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP02</td>
         </tr>
         <tr>
-            <td>US11</td>
+            <td>US13</td>
             <td>Completar tarea</td>
             <td>Como Agricultor asignado, quiero marcar una tarea como completada para registrar la finalización de mi labor asignada en la parcela</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US15</td>
+            <td>US17</td>
             <td>Eliminar organización</td>
             <td>Como Agrónomo dueño, quiero eliminar mi organización para dar de baja el espacio de trabajo de manera definitiva</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US18</td>
+            <td>US20</td>
             <td>Eliminar invitación</td>
             <td>Como Agrónomo dueño, quiero eliminar una invitación pendiente para anular el acceso a un usuario antes de que sea aceptado</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US23</td>
+            <td>US25</td>
             <td>Eliminar miembro</td>
             <td>Como Agrónomo dueño, quiero remover a un miembro de la organización para revocar su acceso y desvincularlo del equipo de trabajo</td>
             <td></td>
@@ -2382,14 +2382,14 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP02</td>
         </tr>
         <tr>
-            <td>US27</td>
+            <td>US29</td>
             <td>Registrar cuenta de usuario</td>
             <td>Como usuario visitante, quiero registrar una cuenta con mi nombre, apellido, correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td></td>
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US28</td>
+            <td>US30</td>
             <td>Iniciar sesión</td>
             <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td></td>
@@ -6236,6 +6236,8 @@ Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Actions. Cada vez que se realiza un push o pull request al repositorio, se ejecuta automáticamente un pipeline que valida la integridad del código, compila el proyecto y ejecuta pruebas automatizadas. Esto permite detectar errores de manera temprana y asegurar la calidad del código antes de su integración.
 
+Para la ejecución de pruebas automatizadas en el backend se utiliza NUnit, framework de testing para aplicaciones desarrolladas en .NET. Esto permite validar el correcto funcionamiento de los distintos componentes del sistema durante el proceso de integración.
+
 <div style="page-break-after: always;"></div>
 
 ### 7.1.2. Build & Test Suite Pipeline Components
@@ -6243,10 +6245,10 @@ El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Acti
 El pipeline de integración continua está compuesto por las siguientes etapas:
 - Instalación de dependencias del proyecto (frontend y backend).
 - Compilación del proyecto (build).
-- Ejecución de pruebas automatizadas (unitarias o de integración, según el módulo).
+- Ejecución de pruebas automatizadas mediante NUnit.
 - Validación de calidad de código.
-En el frontend se utilizan comandos como `npm install` y `npm run build`, mientras que en el backend se utilizan comandos como `dotnet build`.
 
+En el frontend se utilizan comandos como `npm install` y `npm run build`, mientras que en el backend se utilizan comandos como `dotnet build` y `dotnet test`.
 
 <div style="page-break-after: always;"></div>
 
@@ -6254,8 +6256,7 @@ En el frontend se utilizan comandos como `npm install` y `npm run build`, mientr
 
 ### 7.2.1. Tools and Practices
 
-El proyecto implementa entrega continua mediante GitHub Actions, donde los artefactos generados en el pipeline de integración son desplegados automáticamente en un entorno de staging. Esto permite validar los cambios antes de su publicación en producción.
-
+El proyecto implementa entrega continua mediante GitHub Actions, donde los artefactos generados en el pipeline de integración son preparados para su despliegue en un entorno de staging. Esto permite validar los cambios antes de su publicación en producción.
 
 <div style="page-break-after: always;"></div>
 
@@ -6264,10 +6265,8 @@ El proyecto implementa entrega continua mediante GitHub Actions, donde los artef
 El pipeline de entrega continua incluye:
 - Generación del build del frontend y backend.
 - Creación de artefactos listos para despliegue.
-- Despliegue automático en un entorno de pruebas (staging).
-- Validación del funcionamiento del sistema en el entorno de preproducción.
-
-
+- Preparación para despliegue en un entorno de pruebas (staging).
+- Validación del funcionamiento del sistema antes de producción.
 
 <div style="page-break-after: always;"></div>
 

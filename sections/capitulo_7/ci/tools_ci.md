@@ -1,1 +1,3 @@
 El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Actions. Cada vez que se realiza un push o pull request al repositorio, se ejecuta automáticamente un pipeline que valida la integridad del código, compila el proyecto y ejecuta pruebas automatizadas. Esto permite detectar errores de manera temprana y asegurar la calidad del código antes de su integración.
+
+Para la ejecución de pruebas automatizadas en el backend se utiliza NUnit, framework de testing para aplicaciones desarrolladas en .NET. Esto permite validar el correcto funcionamiento de los distintos componentes del sistema durante el proceso de integración.
