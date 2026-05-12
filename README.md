@@ -6234,12 +6234,18 @@ Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 ### 7.1.1. Tools and Practices
 
-
+El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Actions. Cada vez que se realiza un push o pull request al repositorio, se ejecuta automáticamente un pipeline que valida la integridad del código, compila el proyecto y ejecuta pruebas automatizadas. Esto permite detectar errores de manera temprana y asegurar la calidad del código antes de su integración.
 
 <div style="page-break-after: always;"></div>
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
+El pipeline de integración continua está compuesto por las siguientes etapas:
+- Instalación de dependencias del proyecto (frontend y backend).
+- Compilación del proyecto (build).
+- Ejecución de pruebas automatizadas (unitarias o de integración, según el módulo).
+- Validación de calidad de código.
+En el frontend se utilizan comandos como `npm install` y `npm run build`, mientras que en el backend se utilizan comandos como `dotnet build`.
 
 
 <div style="page-break-after: always;"></div>
@@ -6248,11 +6254,18 @@ Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 ### 7.2.1. Tools and Practices
 
+El proyecto implementa entrega continua mediante GitHub Actions, donde los artefactos generados en el pipeline de integración son desplegados automáticamente en un entorno de staging. Esto permite validar los cambios antes de su publicación en producción.
 
 
 <div style="page-break-after: always;"></div>
 
 ### 7.2.2. Stages Deployment Pipeline Components
+
+El pipeline de entrega continua incluye:
+- Generación del build del frontend y backend.
+- Creación de artefactos listos para despliegue.
+- Despliegue automático en un entorno de pruebas (staging).
+- Validación del funcionamiento del sistema en el entorno de preproducción.
 
 
 
