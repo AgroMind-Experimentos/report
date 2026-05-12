@@ -1,5 +1,3 @@
-# Caratula
-
 <div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
     <div style="margin-bottom: 20px;">
         <img src="./img/cover/upc_logo.png" alt="UPC Logo" style="width: 150px;">
@@ -57,13 +55,19 @@
     </div>
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe
 
 
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
 
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -181,14 +185,34 @@
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
   - [5.4. Video About the Product](#54-video-about-the-product)
+- [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+- [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous Deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
 
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -202,6 +226,8 @@
 
 **Visión:** Convertirnos en la startup agrotech líder en Latinoamérica, reconocida por transformar la manera en que se gestiona la producción agrícola mediante tecnología intuitiva, generando un impacto positivo en la productividad, la trazabilidad y la competitividad del sector.
 
+
+<div style="page-break-after: always;"></div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -285,6 +311,8 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -351,10 +379,14 @@ Sin embargo, existe un potencial de mejora: un 36,6% de los agricultores de subs
 
 Estas cifras muestran que gran parte de la agricultura en el país carece de herramientas digitales que faciliten la organización y la trazabilidad. En este contexto, EcoTrack puede ser una solución útil al permitir que agricultores y agrónomos registren información, organicen sus actividades y generen reportes que respalden la calidad de la producción, mejorando la productividad y el acceso a mercados más competitivos.
 
+<div style="page-break-after: always;"></div>
+
 ### 1.2.2. Lean UX Process
 
 El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
 
+
+<div style="page-break-after: always;"></div>
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -472,6 +504,8 @@ Aquí se presenta el Lean UX Canvas desarrollado para Ecotrack:
 
 ![Lean UX Canvas](./img/capitulo_1/lean_ux_process/lean-ux-canvas.png)
 
+<div style="page-break-after: always;"></div>
+
 ## 1.3. Segmentos objetivo
 
 En el análisis del segmento objetivo para                                                              , hemos previsto que nuestros principales usuarios serán **agricultores y agrónomos.**
@@ -500,6 +534,8 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 
 - **Uso de tecnología:** Familiarizados con herramientas digitales, pero necesitan soluciones específicas para el sector agro.
 
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -626,9 +662,13 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 * Proveer funcionalidades integradas superiores, incluyendo seguimiento de cultivos, control de inventario/ganancias, alertas climáticas y modo colaborativo.
 * Capturar a los usuarios sensibles al costo mediante la demostración clara del retorno de inversión (ROI) a largo plazo.
 
+<div style="page-break-after: always;"></div>
+
 ## 2.2. Entrevistas
 
 Esta sección expone la investigación basada en entrevistas realizadas a agricultores y agrónomos, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión agrícola y explorar cómo una solución digital podría responder de manera efectiva a sus necesidades.
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -682,6 +722,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Expectativas**
 * Si contaras con una herramienta digital para tu labor, ¿qué funciones te facilitarían el trabajo con los agricultores?
 * ¿Qué tipo de datos o reportes consideras indispensables para brindar recomendaciones más precisas?
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -983,6 +1025,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento: Agricultores**
@@ -1046,6 +1090,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 
 - **Reconocimiento de oportunidades en jóvenes agricultores:** 33% (1/3: Lucas) percibe que los jóvenes son más receptivos a adaptarse al cambio tecnológico.
 
+<div style="page-break-after: always;"></div>
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -1057,6 +1103,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Agrónomos**
 
 ![Agrónomos](./img/capitulo_2/needfinding/personas/ana_morales.jpg)
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1101,6 +1149,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 
 ![AgronomoMap](./img/capitulo_2/needfinding/journey_mapping/ana_morales.jpg)
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3.4. Empathy Mapping
 
 **Agricultores**
@@ -1110,6 +1160,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Agrónomos**
 
 ![AgronomoEmpathy](./img/capitulo_2/needfinding/empathy/ana_morales.jpg)
+
+<div style="page-break-after: always;"></div>
 
 ## 2.4. Big Picture EventStoring
 
@@ -1141,6 +1193,8 @@ Finalmente, se presenta el Big Picture Event Storming:
 
 ![Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming-final-events.png)
 
+<div style="page-break-after: always;"></div>
+
 ## 2.5. Ubiquitous Language
 
 **Farmer (Agricultor)**
@@ -1167,6 +1221,8 @@ Es la revisión del entorno donde crece el cultivo como la temperatura, humedad 
 
 **Activity management (Gestión de actividades)**
 Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias parcelas, donde también se registra el material empleado dado el caso.
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -2074,6 +2130,8 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 3.2. Impact Mapping
 
 **Agricultores**
@@ -2083,6 +2141,8 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 **Agrónomos**
 
 ![AgronomoEmpathy](./img/capitulo_3/impact_mapping/ana_morales.png)
+
+<div style="page-break-after: always;"></div>
 
 ## 3.3. Product Backlog
 
@@ -2338,6 +2398,8 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
@@ -2463,10 +2525,14 @@ A continuación se muestran los assets visuales definidos para la interfaz web d
 <img src="./img/capitulo_4/style_guidelines/inicio-landing.png" width="60%">
 
 
+<div style="page-break-after: always;"></div>
+
 ## 4.2. Information Architecture
 
 En esta sección, presentaremos las decisiones y las razones que guían la manera en que se estructura el contenido de la experiencia web, incluyendo la página de inicio (Landing Page) y las aplicación. Estas propuestas se enfocan mayormente en garantizar que los usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto y encuentren sin dificultad lo que busquen.
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.2.1. Organization Systems
 
@@ -2577,6 +2643,8 @@ Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo qu
 Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
 
 
+<div style="page-break-after: always;"></div>
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
@@ -2607,6 +2675,8 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 <img src="./img/capitulo_4/landing_design/wireframe-landing-5.png" width="60%">
 
 
+<div style="page-break-after: always;"></div>
+
 ### 4.3.2. Landing Page Mock-up
 
 - Ventana de inicio
@@ -2629,6 +2699,8 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 
 <img src="./img/capitulo_4/landing_design/mockup-landing-4.png" width="60%">
 
+
+<div style="page-break-after: always;"></div>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -2685,6 +2757,8 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 <img src="./img/capitulo_4/apps_design/wireframe-28.jpg" width="60%">
 <img src="./img/capitulo_4/apps_design/wireframe-29.jpg" width="60%">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -2789,6 +2863,8 @@ registradas en la parcela de la cual se encuentra encargado.
 <img src="./img/capitulo_4/apps_design/wireflow-11.jpg" width="60%">
 
 
+<div style="page-break-after: always;"></div>
+
 ### 4.4.2. Web Applications Mock-ups
 
 Para su mejor visualización se adjunta el enlace del figma: https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
@@ -2852,6 +2928,8 @@ Para su mejor visualización se adjunta el enlace del figma: https://www.figma.c
 <img src="./img/capitulo_4/apps_design/mockup-28.png" width="60%">
 <img src="./img/capitulo_4/apps_design/mockup-29.png" width="60%">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
@@ -2941,9 +3019,13 @@ Para su mejor visualización se adjunta el enlace del figma: https://www.figma.c
 
         Unhappy path: Datos faltantes (ej. sin fecha asignada) o error de carga → mensaje de advertencia.
 
+<div style="page-break-after: always;"></div>
+
 ## 4.5. Web Applications Prototyping
 
 
+
+<div style="page-break-after: always;"></div>
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -2995,12 +3077,16 @@ En este último paso, el equipo buscó agregados que estén relacionados entre s
 [Ver en Miro](https://miro.com/welcomeonboard/Tkt0b0FqK3BGdThsbmVRKytveUdDdTBMeHZtNW52aTcvaHBHQ3dKYTlCS2FzMlhLYVZhNnAwaHpkRHNhOTlTSzFLRVhFeW5JQlZJck5hUzNBSlMrbVpqbVB1M3ErOFNsY0hQTDNXbStrSXZ0WnFBK2I3dlk0YXl0OFJwamdhcXB0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=129166886960)
 
 
+<div style="page-break-after: always;"></div>
+
 ### 4.6.2. Software Architecture Context Diagram
 
 EcoTrack es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objectivos principales: el agronomo utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicacion intercambia datos con servicios externos para obtener información climática en tiempo real y notificaciones.
 
 <img src="./img/capitulo_4/software_architecture/context-diagram.png" width="80%">
 
+
+<div style="page-break-after: always;"></div>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
@@ -3010,12 +3096,16 @@ La SPA se comunica con la API de EcoTrack, que a su vez realiza consultas a la b
 <img src="./img/capitulo_4/software_architecture/container-diagram.png" width="80%">
 
 
+<div style="page-break-after: always;"></div>
+
 ### 4.6.4. Software Architecture Components Diagrams
 
 En el diagrama de componentes de EcoTrack se muestran los distintos bounded contexts que conforman la arquitectura del sistema y sus interacciones. El contexto de Reports gestiona los reportes de cada parcela, Organization administra las organizaciones y la creación de parcelas, IAM maneja la autenticación y el control de accesos, Profile gestiona perfiles y suscripciones, y Monitoring & Control se encarga del monitoreo de las parcelas, integrándose con servicios externos como Open Weather Map. Todos estos contextos se comunican con la base de datos relacional, donde se almacena la información centralizada, y son consumidos por la Single Page Application, que actúa como interfaz principal para los usuarios.
 
 <img src="./img/capitulo_4/software_architecture/component-diagram.png" width="80%">
 
+
+<div style="page-break-after: always;"></div>
 
 ## 4.7. Software Object-Oriented Design
 
@@ -3059,6 +3149,8 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 <img src="./img/capitulo_4/oop/report-diagram.png" width="80%">
 
 
+<div style="page-break-after: always;"></div>
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
@@ -3068,9 +3160,13 @@ El diagrama de base de datos de EcoTrack refleja la estructura relacional del si
 <img src="./img/capitulo_4/database/db-diagram.png" width="80%">
 
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 El equipo ha definido un conjunto de herramientas para garantizar una configuración de entorno de desarrollo coherente; de esta maenra, se facilita una colaboración eficiente y el cumplimiento de los objetivos del proyecto. Estas herramientas abarcan diversas fases del ciclo de vida del producto.
+
+<div style="page-break-after: always;"></div>
 
 ## 5.1. Software Configuration Management
 
@@ -3189,6 +3285,8 @@ En esta sección se describen las herramientas de software seleccionadas para da
         </tr>
     </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ### 5.1.2. Source Code Management
 
@@ -3326,6 +3424,8 @@ Los roles y niveles de acceso detallados a continuación se mantienen de manera 
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
@@ -3378,6 +3478,8 @@ Buenas prácticas:
 - Evitar lógica compleja dentro de los templates.
 - Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
 
+<div style="page-break-after: always;"></div>
+
 ### 5.1.4. Software Deployment Configuration
 
 La estrategia de despliegue se divide en dos entornos diferenciados para optimizar la entrega de contenido estático y la ejecución de servicios de lógica de negocio.
@@ -3390,11 +3492,15 @@ La estrategia de despliegue se divide en dos entornos diferenciados para optimiz
     * **Integración Continua (CI):** Ante cada *push* o *pull request*, se ejecutan disparadores que realizan el linting del código y las pruebas unitarias con **NUnit** para validar la calidad del incremento.
     * **Despliegue Continuo (CD):** Una vez superadas las pruebas, las *actions* se encargan de compilar los artefactos, construir las imágenes de contenedor, subirlas al registro correspondiente y actualizar automáticamente las instancias en Azure y Netlify.
 
+<div style="page-break-after: always;"></div>
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 La presente sección recopila la documentación técnica y de gestión correspondiente a los ciclos de desarrollo (sprints) del proyecto. Es importante precisar que los registros aquí expuestos reflejan las actividades, acuerdos y planificación llevados a cabo por el equipo de trabajo anterior.
 
 Con el objetivo de evidenciar su participación histórica y contribución al proyecto, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
+
+<div style="page-break-after: always;"></div>
 
 ### 5.2.1. Sprint 1
 
@@ -3889,6 +3995,8 @@ Dentro del insight during sprint presentamos los colaboradores del desarollo de 
 
 Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, Anjali Amaro y Cesar Navarro, siendo Romina la que cuenta con la mayor cantidad de commits, continuado por Anjali y finalmente Cesar.
 
+<div style="page-break-after: always;"></div>
+
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2.
@@ -4031,6 +4139,8 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
         </tr>
     </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 #### 5.2.2.3. Sprint Backlog 2.
 
@@ -4185,6 +4295,8 @@ URL del Board: [(Link trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
 En esta sección se presentan los avances del desarrollo de la página web y las mejoras implementadas en la solución EcoTrack, enfocadas principalmente en la Landing Page. Durante este periodo, el equipo trabajó en la consolidación del Front-End, incorporando nuevas funcionalidades, componentes reutilizables, simulaciones de datos mediante una Fake API, integración de servicios externos y optimización del código existente. Asimismo, se mejoraron los mecanismos de traducción, la organización del entorno de desarrollo y la documentación técnica del proyecto, fortaleciendo la arquitectura y la mantenibilidad del código.
@@ -4284,6 +4396,8 @@ En esta sección se presentan los avances del desarrollo de la página web y las
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 - **Login**
@@ -4306,6 +4420,8 @@ En esta sección se presentan los avances del desarrollo de la página web y las
 
 - **Weather**
 ![Vista de Información Meteorológica](./img/capitulo_5/implementation/sprint_2/exec_evidence/weather.png)
+
+<div style="page-break-after: always;"></div>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -4348,6 +4464,8 @@ Link del JSON Server: [agrotrack-mockapi.azurewebsites.net](http://agrotrack-moc
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
@@ -4359,6 +4477,8 @@ Los pasos para la connexion del netlify con el github.
 ![img.png](./img/capitulo_5/implementation/sprint_2/deploy/3.png)
 ![img.png](./img/capitulo_5/implementation/sprint_2/deploy/4.png)
 ![img.png](./img/capitulo_5/implementation/sprint_2/deploy/5.png)
+
+<div style="page-break-after: always;"></div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -5448,6 +5568,8 @@ URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrac
 ![a](./img/capitulo_5/implementation/sprint_4/insights/1.png)
 ![a](./img/capitulo_5/implementation/sprint_4/insights/2.png)
 
+<div style="page-break-after: always;"></div>
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
@@ -5497,6 +5619,8 @@ Se preparó una demostración funcional de la aplicación web EcoTrack, enfocán
     - ¿Te resultó fácil supervisar o actualizar las tareas de los agricultores?
 5. Reportes generados
     - ¿Los reportes presentaron información útil y relevante para la gestión agrícola?
+
+<div style="page-break-after: always;"></div>
 
 ### 5.3.2. Registro de entrevistas
 
@@ -5786,6 +5910,8 @@ Se preparó una demostración funcional de la aplicación web EcoTrack, enfocán
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 **CARRERA:** Ingeniería de Software
@@ -6060,6 +6186,8 @@ Los usuarios agrícolas dependen más de WhatsApp que del correo.
 **Recomendación:**
 Integrar notificaciones vía WhatsApp API.
 
+<div style="page-break-after: always;"></div>
+
 ## 5.4. Video About the Product
 
 A continuación, presentaremos el video about the product de Agromind.
@@ -6070,15 +6198,95 @@ Link del video en Youtube: [https://youtu.be/q8EpvrpFKiU](https://youtu.be/q8Epv
 
 Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr)
 
+<div style="page-break-after: always;"></div>
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+
+### 6.1.1. Core Entities Unit Tests
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.2. Core Integration Tests
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.3. Core Behavior-Driven Development
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.1.4. Core System Tests
+
+
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 7.2. Continuous Delivery
+
+### 7.2.1. Tools and Practices
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 7.3. Continuous Deployment
+
+### 7.3.1. Tools and Practices
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.3.2. Production Deployment Pipeline Components
+
+
+
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 
 
+
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
 
 
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
 
+
+<div style="page-break-after: always;"></div>
 
