@@ -1,0 +1,1 @@
+El proyecto implementa entrega continua mediante GitHub Actions, donde los artefactos generados en el pipeline de integración son desplegados automáticamente en un entorno de staging. Esto permite validar los cambios antes de su publicación en producción.

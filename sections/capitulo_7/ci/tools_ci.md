@@ -1,0 +1,1 @@
+El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Actions. Cada vez que se realiza un push o pull request al repositorio, se ejecuta automáticamente un pipeline que valida la integridad del código, compila el proyecto y ejecuta pruebas automatizadas. Esto permite detectar errores de manera temprana y asegurar la calidad del código antes de su integración.
