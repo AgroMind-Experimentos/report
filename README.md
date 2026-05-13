@@ -1,4 +1,4 @@
-<div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
+﻿<div style="font-family: Arial, sans-serif; padding: 40px; width: 600px; margin: auto; text-align: center;">
     <div style="margin-bottom: 20px;">
         <img src="./img/cover/upc_logo.png" alt="UPC Logo" style="width: 150px;">
     </div>
@@ -213,42 +213,18 @@
     - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
-      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4](#524-sprint-4)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+      - [5.2.1.1. Sprint Backlog 1](#5211-sprint-backlog-1)
+      - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
+      - [5.2.1.3. Sprint Backlog 3](#5213-sprint-backlog-3)
+      - [5.2.1.4. Sprint Backlog 4](#5214-sprint-backlog-4)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -3508,7 +3484,604 @@ Con el objetivo de evidenciar su participación histórica y contribución al pr
 
 <div style="page-break-after: always;"></div>
 
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint Backlogs
+
+#### 5.2.1.1. Sprint Backlog 1
+
+En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que servirá como punto de presentación del producto. Se crearán las secciones informativas clave (propuesta de valor, explicación del producto, beneficios, planes y precios, formulario de contacto y testimonios), estableciendo así las bases visuales y funcionales del proyecto.
+
+**Herramienta de control: Trello**
+
+<img alt="upc-logo" src="./img/capitulo_5/implementation/sprint_1/backlog/trello.png"><br>
+
+URL del Board: [(Link trello)](https://trello.com/b/eZyvjxmL/sprint-1-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">LPS01</td>
+            <td rowspan="2">Información de la Landing Page</td>
+            <td>T01</td>
+            <td>Diseño de wireframe</td>
+            <td>Crear wireframe de la estructura inicial de la landing</td>
+            <td>4</td>
+            <td>Maria Mostajo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Desarrollo de encabezado y subtítulo</td>
+            <td>Implementar el encabezado con la propuesta de valor y subtítulo de beneficios clave</td>
+            <td>4</td>
+            <td>Aaron Baquerizo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS02</td>
+            <td rowspan="2">Visualizar información de la página</td>
+            <td>T03</td>
+            <td>Sección "About"</td>
+            <td>Implementar la sección About con descripción breve del producto y gráficos ilustrativos</td>
+            <td>5</td>
+            <td>Romina Tuesta</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Métricas clave</td>
+            <td>Incluir métricas clave que refuercen la propuesta de valor</td>
+            <td>5</td>
+            <td>Aaron Baquerizo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>LPS03</td>
+            <td>Visualización de beneficios y características</td>
+            <td>T05</td>
+            <td>Listado de beneficios</td>
+            <td>Crear sección "Servicios" con lista de beneficios e íconos</td>
+            <td>4</td>
+            <td>Romina Tuesta</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS04</td>
+            <td rowspan="2">Consultar planes y precios</td>
+            <td>T07</td>
+            <td>Sección de planes</td>
+            <td>Crear la sección con los diferentes planes, precios y botones "Start"</td>
+            <td>5</td>
+            <td>Maria Mostajo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>FAQ de precios</td>
+            <td>Añadir íconos de ayuda con menú FAQ sobre pagos y condiciones</td>
+            <td>6</td>
+            <td>Cesar Navarro</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">LPS05</td>
+            <td rowspan="2">Formulario de contacto</td>
+            <td>T09</td>
+            <td>Implementación del formulario</td>
+            <td>Diseñar y desarrollar formulario de contacto con validaciones</td>
+            <td>4</td>
+            <td>Maria Mostajo</td>
+            <td>In-Process</td>
+        </tr>
+        <tr>
+            <td>T10</td>
+            <td>Confirmación por correo</td>
+            <td>Configurar envío de correo de confirmación al visitante</td>
+            <td>5</td>
+            <td>Anjali Amaro</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>LPS06</td>
+            <td>Sección de testimonios</td>
+            <td>T11</td>
+            <td>Diseño de testimonios</td>
+            <td>Implementar testimonios con foto, nombre y comentario</td>
+            <td>4</td>
+            <td>Romina Tuesta</td>
+            <td>To-Review</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.1.2. Sprint Backlog 2
+
+En este sprint se desarrollará y desplegará la primera version del Front-end completo de EcoTrack. El equipo se enfocó en crear todas las vistas criticas del sistema utilizando una API simulada. Esto estableció las bases visuales y funcionales que permitieron la validación temprana de la experiencia de usuario.
+
+**Herramienta de control: Trello**
+
+![Trello](./img/capitulo_5/implementation/sprint_2/backlog/trello.png)
+
+URL del Board: [(Link trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>User Story ID</strong></th>
+            <th><strong>User Story Title</strong></th>
+            <th><strong>Task ID</strong></th>
+            <th><strong>Task Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Asigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">US01</td>
+            <td rowspan="2">Crear organización</td>
+            <td>T03</td>
+            <td>Desarrollo de Formulario Org</td>
+            <td>Diseñar y maquetar el formulario de "Crear Organización" con validaciones FE.</td>
+            <td>6</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04</td>
+            <td>Implementar Flujo de Creación</td>
+            <td>Desarrollar la lógica de creación y la visualización de la vista de inicio del Agrónomo.</td>
+            <td>6</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US02</td>
+            <td>Invitar miembros</td>
+            <td>T06</td>
+            <td>Desarrollo de Flujo de Invitación</td>
+            <td>Diseñar e implementar la modal de "Invitar Miembro" y el flujo de envío de invitación simulada.</td>
+            <td>9</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Bitácora de parcela</td>
+            <td>T08</td>
+            <td>Desarrollo de Bitácora y Registro</td>
+            <td>Diseñar e implementar la vista de la línea de tiempo y el formulario "Registrar Actividad".</td>
+            <td>10</td>
+            <td>Romina</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Historial de cultivo</td>
+            <td>T09</td>
+            <td>Desarrollo de Historial/Filtros</td>
+            <td>Diseñar e implementar la vista de "Historial de Cultivo" y los componentes de filtrado.</td>
+            <td>9</td>
+            <td>Anjali</td>
+            <td>In-Progress</td>
+        </tr>
+        <tr>
+            <td>US10</td>
+            <td>Creación de parcela</td>
+            <td>T05</td>
+            <td>Desarrollo de Formulario Parcela</td>
+            <td>Diseñar e implementar el formulario "Crear Parcela" con campos de datos y ubicación simulada.</td>
+            <td>9</td>
+            <td>Maria</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US13</td>
+            <td rowspan="2">Registro de Cultivo</td>
+            <td>T01</td>
+            <td>Diseño de Formulario de Registro</td>
+            <td>Diseñar e implementar el Front-end del formulario de registro (nombre, ubicación simulada, superficie, fecha de siembra).</td>
+            <td>8</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar Lógica de Guardado</td>
+            <td>Desarrollar la lógica de Front-end para guardar la información del cultivo con mensaje de confirmación (usando fake API).</td>
+            <td>7</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US16</td>
+            <td>Creación de tareas</td>
+            <td>T10</td>
+            <td>Desarrollo de Formulario Tarea</td>
+            <td>Diseñar e implementar la modal "Crear Tarea" (responsable, fecha, prioridad, checklist).</td>
+            <td>9</td>
+            <td>Romina</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US18</td>
+            <td>Iniciar tarea</td>
+            <td>T11</td>
+            <td>Implementar Botón Iniciar</td>
+            <td>Diseñar la interfaz de la tarea en detalle y la lógica del botón "Iniciar Tarea" (cambio de estado).</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US19</td>
+            <td>Completar tarea</td>
+            <td>T12</td>
+            <td>Implementar Checklist y Cierre</td>
+            <td>Desarrollar la interacción de la checklist y el flujo de cierre (botón "Completar Tarea").</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US21</td>
+            <td>Reporte general</td>
+            <td>T01</td>
+            <td>Diseño e Implemntación de Reportes</td>
+            <td>Diseñar la interfaz de visualizacion de reportes y el flujo de solicitud de un nuevo reporte</td>
+            <td>12</td>
+            <td>Anjali</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US25</td>
+            <td>Editar perfil</td>
+            <td>T02</td>
+            <td>Desarrollo de Edición</td>
+            <td>Diseñar e implementar la pantalla de configuración y la lógica de actualización con fake API.</td>
+            <td>9</td>
+            <td>Cesar</td>
+            <td>In-Progress</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.1.3. Sprint Backlog 3
+
+A continuación podremos observar la organización de tareas dadas para el presente spint dedicado al inicio de la implementación Backend del proyecto, primero se utilizó la herramienta trello para detallas cada tarea, tiempo, complejidad y desarrollador que tomó la tarea.
+
+**Herramienta de control: Trello**
+
+![Trello](./img/capitulo_5/implementation/sprint_3/backlog/trello.png)
+
+URL del Board: [(Link trello)](https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack)
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Id</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Description</strong></th>
+            <th><strong>Estimation (Hours)</strong></th>
+            <th><strong>Assigned To</strong></th>
+            <th><strong>Status</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">US01</td>
+            <td rowspan="3">Gestión de cuenta</td>
+            <td>T01</td>
+            <td>Gestionar cuenta</td>
+            <td>Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).</td>
+            <td>4</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Edición de perfil</td>
+            <td>Implementar funcionalidad para editar la información del perfil del usuario.</td>
+            <td>6</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Configuraciones</td>
+            <td>Implementar sección de configuraciones del usuario.</td>
+            <td>4</td>
+            <td>Maria Fernanda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US02</td>
+            <td rowspan="3">Vista del agrónomo</td>
+            <td>T04</td>
+            <td>Crear organización</td>
+            <td>Desarrollar vista que permita al agrónomo crear una organización.</td>
+            <td>5</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T05</td>
+            <td>Gestionar parcelas y cultivos</td>
+            <td>Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.</td>
+            <td>4</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T06</td>
+            <td>Editar parcela</td>
+            <td>Implementar funcionalidad para editar la información de las parcelas.</td>
+            <td>3</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>Vista del agricultor</td>
+            <td>T07</td>
+            <td>Registrar cultivo</td>
+            <td>Desarrollar funcionalidad para registrar nuevos cultivos.</td>
+            <td>5</td>
+            <td>Romina</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="4">US03</td>
+            <td rowspan="2">Vista del agrónomo</td>
+            <td>T08</td>
+            <td>Asignar tareas y checklist</td>
+            <td>Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.</td>
+            <td>5</td>
+            <td>Aaron</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T09</td>
+            <td>Gestión de bitácoras</td>
+            <td>Implementar módulo para registrar y gestionar bitácoras.</td>
+            <td>5</td>
+            <td>Cesar</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Vista del agricultor</td>
+            <td>T10</td>
+            <td>Visualizar tareas</td>
+            <td>Desarrollar vista para que el agricultor visualice sus tareas asignadas.</td>
+            <td>4</td>
+            <td>Cesar</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>T11</td>
+            <td>Visualizar bitácoras</td>
+            <td>Implementar vista que permita al agricultor visualizar las bitácoras.</td>
+            <td>4</td>
+            <td>Aaron</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Gestión de reportes</td>
+            <td>T12</td>
+            <td>Generar ficha técnica</td>
+            <td>Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.</td>
+            <td>5</td>
+            <td>Anjali</td>
+            <td>To-do</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.1.4. Sprint Backlog 4
+
+A continuacion se podra observar la organizacion de tareas correspondientes al presente sprint, dedicado a la implementacion y conexion del backend con el frontend. Para ello, se utilizo la herramienta Trello, detallando cada tarea, el tiempo estimado, la complejidad y el desarrollador encargado de la misma.
+
+Herramienta de control: Trello
+
+![trello-sprint4.png](./img/capitulo_5/implementation/sprint_4/backlog/trello.png)
+
+URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story</th>
+      <th>Title</th>
+      <th>Work-Item / Task</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned To</td>
+      <td>Status (To-do / In-Process / To-Review / Done)</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T01</td>
+      <td>Gestionar cuenta</td>
+      <td>Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).</td>
+      <td>4</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T02</td>
+      <td>Edición de perfil</td>
+      <td>Implementar funcionalidad para editar la información del perfil del usuario.</td>
+      <td>6</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Gestión de cuenta</td>
+      <td>T03</td>
+      <td>Configuraciones</td>
+      <td>Implementar sección de configuraciones del usuario.</td>
+      <td>4</td>
+      <td>Maria Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T04</td>
+      <td>Crear organización</td>
+      <td>Desarrollar vista que permita al agrónomo crear una organización.</td>
+      <td>5</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T05</td>
+      <td>Gestionar parcelas y cultivos</td>
+      <td>Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.</td>
+      <td>4</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agrónomo</td>
+      <td>T06</td>
+      <td>Editar parcela</td>
+      <td>Implementar funcionalidad para editar la información de las parcelas.</td>
+      <td>3</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Vista del agricultor</td>
+      <td>T07</td>
+      <td>Registrar cultivo</td>
+      <td>Desarrollar funcionalidad para registrar nuevos cultivos.</td>
+      <td>5</td>
+      <td>Romina</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agrónomo</td>
+      <td>T08</td>
+      <td>Asignar tareas y checklist</td>
+      <td>Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.</td>
+      <td>5</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agrónomo</td>
+      <td>T09</td>
+      <td>Gestión de bitácoras</td>
+      <td>Implementar módulo para registrar y gestionar bitácoras.</td>
+      <td>5</td>
+      <td>Cesar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T10</td>
+      <td>Visualizar tareas</td>
+      <td>Desarrollar vista para que el agricultor visualice sus tareas asignadas.</td>
+      <td>4</td>
+      <td>Cesar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T11</td>
+      <td>Visualizar bitácoras</td>
+      <td>Implementar vista que permita al agricultor visualizar las bitácoras.</td>
+      <td>4</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Vista del agricultor</td>
+      <td>T12</td>
+      <td>Crear una nueva tarea</td>
+      <td>Implementar funcionalidad para crear tareas, asignando al agricultor responsable y la checklist correspondiente.</td>
+      <td>5</td>
+      <td>Aaron</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Gestión de reportes</td>
+      <td>T13</td>
+      <td>Generar ficha técnica</td>
+      <td>Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.</td>
+      <td>5</td>
+      <td>Anjali</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+### 5.2.2. Implemented Landing Page Evidence
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
+
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+### 5.2.7. RESTful API documentation
+
+### 5.2.8. Team Collaboration Insights
+
+<div style="page-break-after: always;"></div>
+### [HISTÓRICO] Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -4003,7 +4576,7 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 
 <div style="page-break-after: always;"></div>
 
-### 5.2.2. Sprint 2
+### [HISTÓRICO] Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2.
 
@@ -4493,7 +5066,7 @@ Los pasos para la connexion del netlify con el github.
 
 <div style="page-break-after: always;"></div>
 
-### 5.2.3. Sprint 3
+### [HISTÓRICO] Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
 
@@ -5081,7 +5654,7 @@ Pasos para el despliegue del backend en Rendee:
 
 <div style="page-break-after: always;"></div>
 
-### 5.2.4. Sprint 4
+### [HISTÓRICO] Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4
 
