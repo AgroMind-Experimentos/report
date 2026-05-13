@@ -59,7 +59,76 @@
 
 # Registro de Versiones del Informe
 
-
+<table width="100%">
+    <thead>
+        <tr>
+            <th>Versión</th>
+            <th>Fecha</th>
+            <th>Autor</th>
+            <th>Descripción de modificación</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.0</td>
+            <td>30/04/2026</td>
+            <td>Orozco Torres, Álvaro Joaquín<br>Chi Cruzatt, Kevin Jorge</td>
+            <td>
+                <ul>
+                    <li>Registro de Versiones del Informe</li>
+                    <li>Project Report Collaboration Insights</li>
+                    <li>Student Outcome</li>
+                    <li><b>Capítulo I: Introducción</b>
+                        <ul>
+                            <li>1.1. Startup Profile (Descripción, Perfiles)</li>
+                            <li>1.2. Solution Profile (Antecedentes, Lean UX Process: Problem Statements, Assumptions, Hypothesis, Canvas)</li>
+                            <li>1.3. Segmentos objetivo</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo II: Requirements Elicitation & Analysis</b>
+                        <ul>
+                            <li>2.1. Competidores (Análisis, Estrategias)</li>
+                            <li>2.2. Entrevistas (Diseño, Registro, Análisis)</li>
+                            <li>2.3. Needfinding (User Personas, Task Matrix, Journey Mapping, Empathy Mapping)</li>
+                            <li>2.4. Big Picture EventStoring</li>
+                            <li>2.5. Ubiquitous Language</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo III: Requirements Specification</b>
+                        <ul>
+                            <li>3.1. User Stories</li>
+                            <li>3.2. Impact Mapping</li>
+                            <li>3.3. Product Backlog</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo IV: Product Design</b>
+                        <ul>
+                            <li>4.1. Style Guidelines (General, Web)</li>
+                            <li>4.2. Information Architecture (Organization, Labeling, SEO, Searching, Navigation)</li>
+                            <li>4.3. Landing Page UI Design (Wireframe, Mock-up)</li>
+                            <li>4.4. Web Applications UX/UI Design (Wireframes, Wireflow, Mock-ups, User Flow)</li>
+                            <li>4.5. Web Applications Prototyping</li>
+                            <li>4.6. Domain-Driven Software Architecture (EventStorming, Context, Container, Components Diagrams)</li>
+                            <li>4.7. Software Object-Oriented Design (Class Diagrams)</li>
+                            <li>4.8. Database Design (Diagram)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo V: Product Implementation, Validation & Deployment</b>
+                        <ul>
+                            <li>5.1. Software Configuration Management (Environment, Source Code, Style Guide, Deployment Config)</li>
+                            <li>5.2. Landing Page, Services & Applications Implementation (Sprints 1, 2, 3 y 4: Planning, Leaders, Backlog, Evidence, Insights)</li>
+                            <li>5.3. Validation Interviews (Diseño, Registro, Heurísticas)</li>
+                            <li>5.4. Video About the Product</li>
+                        </ul>
+                    </li>
+                    <li><b>Conclusiones</b></li>
+                    <li><b>Bibliografía</b></li>
+                    <li><b>Anexos</b></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
@@ -210,7 +279,45 @@
 
 # Student Outcome
 
-
+<table width="100%">
+    <thead>
+        <tr>
+            <th>Criterio específico</th>
+            <th>Acciones realizadas</th>
+            <th>Conclusiones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <b>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</b>
+            </td>
+            <td>
+                <strong>TB1</strong><br>
+                <strong>Kevin Chi:</strong> Implementé protocolos de seguridad y buenas prácticas de codificación para mitigar las vulnerabilidades detectadas, asegurando la integridad de los datos y la fiabilidad técnica del sistema.<br>
+                <strong>Álvaro Orozco:</strong> Integré formalmente los requerimientos legales y normativos dentro de la documentación técnica, garantizando que el desarrollo cumpla con los estándares profesionales de transparencia y legalidad vigentes.<br>
+                <strong>Henry Reaño:</strong> Asumí la responsabilidad de la calidad del producto final mediante la documentación rigurosa de errores de software, asegurando que el equipo de desarrollo reciba retroalimentación técnica precisa para cumplir con los estándares de calidad profesional.<br>
+            </td>
+            <td>
+                Se concluye que los integrantes demuestran un compromiso con la ética profesional al priorizar la corrección de fallos técnicos, la seguridad del código y el cumplimiento de marcos normativos, garantizando un producto robusto y confiable.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</b>
+            </td>
+            <td>
+                <strong>TB1</strong><br>
+                <strong>Kevin Chi:</strong> En el proceso de evaluación del estado actual del producto reconocí las deficiencias y vulnerabilidades en la implementación que representan riesgos para los usuarios y el negocio.<br>
+                <strong>Álvaro Orozco:</strong> En la revisión del informe ahora con la transición del equipo de trabajo del proyecto, identifiqué algunos elementos que no se tuvieron en cuenta como el cumplimiento de la ley de protección de datos personales.<br>
+                <strong>Henry Reaño:</strong> Tras haber realizado una prueba manual de los flujos de usuario, reconocí las deficiencias a nivel de servicio y experiencia de usuario dentro de los flujos planteados por el producto, documentando los cambios y correcciones a realizar para el equipo de desarrollo.<br>
+            </td>
+            <td>
+                Se concluye que el equipo posee una visión crítica sobre el impacto de su trabajo, identificando riesgos económicos para el negocio, implicaciones sociales respecto a la privacidad de datos y la importancia de la experiencia del usuario en el contexto social.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
@@ -6185,19 +6292,29 @@ El pipeline de entrega continua incluye:
 
 # Conclusiones
 
+**TB1**
 
+Para este primer avance, se consideran las siguientes conclusiones:
+
+- Se ha evaluado el estado del producto a raíz del anterior equipo de trabajo, encontrando una serie de deficiencias a nivel de implementación en la lógica de negocio y la experiencia de usuario.
+- A raíz de ello, y a fin de cumplir con el alcance del curso Desarrollo de Experimentos de Ingeniería de Software, se ha ajustado el alcance del producto reescribiendo las historias de usuario.
+- Incluso con el ajuste de alcance del proyecto, se están respetando las decisiones de alto nivel tomadas por el anterior equipo de trabajo, como el diseño UX/UI, arquitectura de software y los progresos realizados por el equipo a lo largo de 4 sprints de desarrollo.
 
 <div style="page-break-after: always;"></div>
 
 # Bibliografía
 
+Ley N° 29733. Ley de Protección de Datos Personales. (2011). Diario Oficial El Peruano. [https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779](https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779)
 
+Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. [https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela](https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela)
+
+Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. [https://doi.org/10.1071/CP21759](https://doi.org/10.1071/CP21759)
 
 <div style="page-break-after: always;"></div>
 
 # Anexos
 
-
+- **Video DEMO TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL)
 
 <div style="page-break-after: always;"></div>
 
