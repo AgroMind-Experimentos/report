@@ -4076,6 +4076,23 @@ El presente Acuerdo de Servicio - SaaS establece las condiciones bajo las cuales
 
 Este acuerdo será publicado de manera visible dentro de la sección Terms and Conditions del website de EcoTrack, con el propósito de informar de forma clara los derechos, obligaciones y restricciones aplicables al uso del servicio.
 
+#### 1. Aceptación del acuerdo
+
+Al registrarse, iniciar sesión o utilizar cualquiera de las funcionalidades de EcoTrack, el usuario declara haber leído, comprendido y aceptado los presentes términos y condiciones. En caso de no estar de acuerdo con alguna de las disposiciones establecidas, el usuario deberá abstenerse de utilizar la plataforma.
+
+#### 2. Descripción del servicio
+
+EcoTrack es una solución SaaS orientada a agricultores y agrónomos que permite centralizar información relacionada con la gestión agrícola. Entre sus principales funcionalidades se incluyen el registro de parcelas, seguimiento de cultivos, organización de tareas, control de inventario, visualización de alertas climáticas o ambientales, generación de reportes y acceso a información para apoyar la toma de decisiones en campo.
+
+El servicio se ofrece mediante una plataforma web responsive, accesible desde navegadores en computadoras, tablets o teléfonos móviles, sin necesidad de instalación local.
+
+#### 3. Registro y cuentas de usuario
+
+Para utilizar determinadas funcionalidades de EcoTrack, el usuario deberá crear una cuenta proporcionando información verdadera, actualizada y completa. Cada usuario será responsable de mantener la confidencialidad de sus credenciales de acceso y de todas las actividades realizadas desde su cuenta.
+
+EcoTrack podrá suspender o restringir el acceso a cuentas que presenten información falsa, uso indebido del sistema, actividades sospechosas o incumplimiento de los presentes términos.
+
+
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
