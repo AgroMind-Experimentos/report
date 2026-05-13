@@ -1374,20 +1374,20 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             </td>
             <td>EP02</td>
         </tr>
-<tr>
+        <tr>
             <td>US06</td>
-            <td>Listado de tareas general</td>
-            <td>Como Agrónomo, quiero visualizar un listado de todas las tareas registradas para tener un panorama global de la planificación de labores en mi organización</td>
+            <td>Listado de estado de tareas general</td>
+            <td>Como Agrónomo, quiero visualizar el estado de todas las tareas registradas para tener un panorama global de la planificación de labores</td>
             <td>
                 <strong>Escenario 1: Visualización de tareas con registros</strong><br>
                 <strong>Dado que</strong> el Agrónomo está autenticado<br>
-                <strong>Y</strong> la organización tiene tareas registradas<br>
-                <strong>Cuando</strong> solicite visualizar el listado de tareas<br>
-                <strong>Entonces</strong> el sistema retorna todas las tareas correspondientes a su organización<br>
+                <strong>Y</strong> tiene tareas registradas en sus organizaciones<br>
+                <strong>Cuando</strong> solicite visualizar el estado de tareas<br>
+                <strong>Entonces</strong> el sistema retorna todas las tareas correspondientes y su estado<br>
                 <strong>Escenario 2: Visualización de listado vacío</strong><br>
                 <strong>Dado que</strong> el Agrónomo está autenticado<br>
-                <strong>Y</strong> la organización no tiene tareas registradas<br>
-                <strong>Cuando</strong> solicite visualizar el listado de tareas<br>
+                <strong>Y</strong> no tiene tareas registradas en ninguna organización<br>
+                <strong>Cuando</strong> solicite visualizar el estado de tareas<br>
                 <strong>Entonces</strong> el sistema retorna un listado vacío<br>
                 <strong>Y</strong> notifica la ausencia de registros<br>
                 <strong>Escenario 3: Fallo general</strong><br>
@@ -1400,13 +1400,13 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
         </tr>
         <tr>
             <td>US07</td>
-            <td>Listado de tareas asignadas</td>
-            <td>Como Agricultor, quiero visualizar un listado de las tareas específicas asignadas a mi usuario para conocer mis responsabilidades pendientes</td>
+            <td>Estado de tareas asignadas</td>
+            <td>Como Agricultor, quiero visualizar el estado de las tareas específicas asignadas a mi usuario para conocer mis responsabilidades pendientes</td>
             <td>
                 <strong>Escenario 1: Visualización de tareas asignadas</strong><br>
                 <strong>Dado que</strong> el Agricultor está autenticado<br>
-                <strong>Y</strong> tiene tareas asignadas dentro de la organización<br>
-                <strong>Cuando</strong> solicite visualizar el listado de tareas asignadas<br>
+                <strong>Y</strong> tiene tareas asignadas dentro de sus organizaciones<br>
+                <strong>Cuando</strong> solicite visualizar el estado de sus tareas asignadas<br>
                 <strong>Entonces</strong> el sistema retorna únicamente las tareas vinculadas a su perfil de usuario<br>
                 <strong>Escenario 2: Visualización de listado asignado vacío</strong><br>
                 <strong>Dado que</strong> el Agricultor está autenticado<br>
@@ -1758,31 +1758,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
         </tr>
         <tr>
             <td>US20</td>
-            <td>Eliminar invitación</td>
-            <td>Como Agrónomo dueño, quiero eliminar una invitación pendiente para anular el acceso a un usuario antes de que sea aceptado</td>
-            <td>
-                <strong>Escenario 1: Eliminación de invitación exitosa</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> la invitación seleccionada se encuentra en estado "Pendiente"<br>
-                <strong>Cuando</strong> confirme la eliminación de la invitación<br>
-                <strong>Entonces</strong> el sistema remueve la invitación de forma permanente<br>
-                <strong>Y</strong> muestra un mensaje de confirmación<br>
-                <strong>Y</strong> actualiza el listado de invitaciones de la organización<br>
-                <strong>Escenario 2: Cancelación de la eliminación</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> se requiere confirmación para eliminar la invitación<br>
-                <strong>Cuando</strong> rechace la eliminación de la invitación<br>
-                <strong>Entonces</strong> el sistema conserva el registro de la invitación inalterado<br>
-                <strong>Escenario 3: Fallo general</strong><br>
-                <strong>Dado que</strong> el Agrónomo confirmó la eliminación de la invitación<br>
-                <strong>Cuando</strong> la operación falla por pérdida de conexión a internet, tiempo de espera agotado u otro error generalizado<br>
-                <strong>Entonces</strong> el sistema no remueve la invitación ni altera los datos existentes<br>
-                <strong>Y</strong> muestra un mensaje alertando sobre la causa del error
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US21</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>
             <td>
@@ -1806,7 +1781,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US22</td>
+            <td>US21</td>
             <td>Aceptar invitación</td>
             <td>Como Agricultor, quiero aceptar una invitación pendiente para ingresar como miembro activo a la organización</td>
             <td>
@@ -1826,7 +1801,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US23</td>
+            <td>US22</td>
             <td>Rechazar invitación</td>
             <td>Como Agricultor, quiero declinar una invitación pendiente para notificar mi rechazo a unirme a la organización</td>
             <td>
@@ -1845,62 +1820,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US24</td>
-            <td>Listar miembros de la organización</td>
-            <td>Como Agrónomo dueño, quiero visualizar un listado de los miembros vinculados a mi organización para conocer el equipo de trabajo actual</td>
-            <td>
-                <strong>Escenario 1: Visualización con miembros registrados</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> la organización tiene miembros activos vinculados<br>
-                <strong>Cuando</strong> solicite visualizar el listado de miembros<br>
-                <strong>Entonces</strong> el sistema retorna los usuarios que pertenecen a la organización<br>
-                <strong>Escenario 2: Visualización sin miembros adicionales</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> no existen otros miembros vinculados a la organización<br>
-                <strong>Cuando</strong> solicite visualizar el listado de miembros<br>
-                <strong>Entonces</strong> el sistema retorna un listado únicamente con sus propios datos<br>
-                <strong>Y</strong> notifica la ausencia de otros integrantes<br>
-                <strong>Escenario 3: Fallo general</strong><br>
-                <strong>Dado que</strong> el Agrónomo solicitó visualizar el listado de miembros<br>
-                <strong>Cuando</strong> la operación falla por pérdida de conexión a internet, tiempo de espera agotado u otro error generalizado<br>
-                <strong>Entonces</strong> el sistema no retorna la información ni altera los datos existentes<br>
-                <strong>Y</strong> muestra un mensaje alertando sobre la causa del error
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US25</td>
-            <td>Eliminar miembro</td>
-            <td>Como Agrónomo dueño, quiero remover a un miembro de la organización para revocar su acceso y desvincularlo del equipo de trabajo</td>
-            <td>
-                <strong>Escenario 1: Eliminación de miembro exitosa</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> seleccionó a un miembro válido de la organización distinto a sí mismo<br>
-                <strong>Cuando</strong> confirme la eliminación del miembro<br>
-                <strong>Entonces</strong> el sistema remueve al usuario de la organización de forma permanente<br>
-                <strong>Y</strong> actualiza el listado de miembros<br>
-                <strong>Y</strong> muestra un mensaje de éxito<br>
-                <strong>Escenario 2: Intento de auto-eliminación</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> la organización requiere mantener a su creador<br>
-                <strong>Cuando</strong> confirme la eliminación de su propio usuario<br>
-                <strong>Entonces</strong> el sistema rechaza la operación<br>
-                <strong>Y</strong> alerta que el dueño no puede ser removido<br>
-                <strong>Escenario 3: Cancelación de la eliminación</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> se requiere confirmación para eliminar a un miembro<br>
-                <strong>Cuando</strong> rechace la eliminación del miembro<br>
-                <strong>Entonces</strong> el sistema conserva la vinculación del usuario inalterada<br>
-                <strong>Escenario 4: Fallo general</strong><br>
-                <strong>Dado que</strong> el Agrónomo confirmó la eliminación del miembro<br>
-                <strong>Cuando</strong> la operación falla por pérdida de conexión a internet, tiempo de espera agotado u otro error generalizado<br>
-                <strong>Entonces</strong> el sistema no remueve al miembro ni altera los datos existentes<br>
-                <strong>Y</strong> muestra un mensaje alertando sobre la causa del error
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US26</td>
+            <td>US23</td>
             <td>Consultar clima y recomendaciones técnicas</td>
             <td>Como usuario, quiero consultar el pronóstico del clima según mi ubicación y recibir recomendaciones de actividades para planificar mis labores de manera eficiente</td>
             <td>
@@ -1922,7 +1842,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US27</td>
+            <td>US24</td>
             <td>Visualizar resumen estadístico de tareas</td>
             <td>Como Agrónomo dueño, quiero visualizar un resumen estadístico de las tareas de mi organización para analizar el desempeño y avance de las labores</td>
             <td>
@@ -1946,7 +1866,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US28</td>
+            <td>US25</td>
             <td>Exportar resumen estadístico a PDF</td>
             <td>Como Agrónomo dueño, quiero exportar el resumen estadístico de tareas a un archivo PDF para compartir los reportes de gestión fuera de la plataforma</td>
             <td>
@@ -1963,7 +1883,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
 <tr>
-            <td>US29</td>
+            <td>US26</td>
             <td>Registrar cuenta de usuario</td>
             <td>Como usuario visitante, quiero registrar una cuenta con mi nombre, apellido, correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td>
@@ -1991,7 +1911,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US30</td>
+            <td>US27</td>
             <td>Iniciar sesión</td>
             <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td>
@@ -2016,7 +1936,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US31</td>
+            <td>US28</td>
             <td>Información de la Landing Page</td>
             <td>Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo</td>
             <td>
@@ -2033,7 +1953,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US32</td>
+            <td>US29</td>
             <td>Visualizar información de la página</td>
             <td>Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito</td>
             <td>
@@ -2050,7 +1970,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US33</td>
+            <td>US30</td>
             <td>Visualización de beneficios y características</td>
             <td>Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades</td>
             <td>
@@ -2067,7 +1987,7 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US34</td>
+            <td>US31</td>
             <td>Sección de testimonios</td>
             <td>Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución</td>
             <td>
@@ -2158,28 +2078,28 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
     </thead>
     <tbody>
         <tr>
-            <td>US31</td>
+            <td>US28</td>
             <td>Información de la Landing Page</td>
             <td>Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US32</td>
+            <td>US29</td>
             <td>Visualizar información de la página</td>
             <td>Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US33</td>
+            <td>US30</td>
             <td>Visualización de beneficios y características</td>
             <td>Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades</td>
             <td></td>
             <td>EP06</td>
         </tr>
         <tr>
-            <td>US34</td>
+            <td>US31</td>
             <td>Sección de testimonios</td>
             <td>Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución</td>
             <td></td>
@@ -2214,16 +2134,9 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US21</td>
+            <td>US20</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>
-            <td></td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US24</td>
-            <td>Listar miembros de la organización</td>
-            <td>Como Agrónomo dueño, quiero visualizar un listado de los miembros vinculados a mi organización para conocer el equipo de trabajo actual</td>
             <td></td>
             <td>EP03</td>
         </tr>
@@ -2270,21 +2183,21 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US26</td>
+            <td>US23</td>
             <td>Consultar clima y recomendaciones técnicas</td>
             <td>Como usuario, quiero consultar el pronóstico del clima según mi ubicación y recibir recomendaciones de actividades para planificar mis labores de manera eficiente</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US27</td>
+            <td>US24</td>
             <td>Visualizar resumen estadístico de tareas</td>
             <td>Como Agrónomo dueño, quiero visualizar un resumen estadístico de las tareas de mi organización para analizar el desempeño y avance de las labores</td>
             <td></td>
             <td>EP04</td>
         </tr>
         <tr>
-            <td>US28</td>
+            <td>US25</td>
             <td>Exportar resumen estadístico a PDF</td>
             <td>Como Agrónomo dueño, quiero exportar el resumen estadístico de tareas a un archivo PDF para compartir los reportes de gestión fuera de la plataforma</td>
             <td></td>
@@ -2298,14 +2211,14 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US22</td>
+            <td>US21</td>
             <td>Aceptar invitación</td>
             <td>Como Agricultor, quiero aceptar una invitación pendiente para ingresar como miembro activo a la organización</td>
             <td></td>
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US23</td>
+            <td>US22</td>
             <td>Rechazar invitación</td>
             <td>Como Agricultor, quiero declinar una invitación pendiente para notificar mi rechazo a unirme a la organización</td>
             <td></td>
@@ -2347,20 +2260,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US20</td>
-            <td>Eliminar invitación</td>
-            <td>Como Agrónomo dueño, quiero eliminar una invitación pendiente para anular el acceso a un usuario antes de que sea aceptado</td>
-            <td></td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US25</td>
-            <td>Eliminar miembro</td>
-            <td>Como Agrónomo dueño, quiero remover a un miembro de la organización para revocar su acceso y desvincularlo del equipo de trabajo</td>
-            <td></td>
-            <td>EP03</td>
-        </tr>
-        <tr>
             <td>US04</td>
             <td>Eliminar parcela</td>
             <td>Como Agrónomo, quiero eliminar una parcela para remover áreas que ya no son administradas por la organización</td>
@@ -2382,14 +2281,14 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP02</td>
         </tr>
         <tr>
-            <td>US29</td>
+            <td>US26</td>
             <td>Registrar cuenta de usuario</td>
             <td>Como usuario visitante, quiero registrar una cuenta con mi nombre, apellido, correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td></td>
             <td>EP05</td>
         </tr>
         <tr>
-            <td>US30</td>
+            <td>US27</td>
             <td>Iniciar sesión</td>
             <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a las funcionalidades de la plataforma</td>
             <td></td>
