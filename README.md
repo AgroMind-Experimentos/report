@@ -5171,14 +5171,15 @@ En el frontend se utilizan comandos como `npm install` y `npm run build`, mientr
 
 ### Practices 
 
-## 1. Feature Branching y Merge Requests
-Es una forma de trabajar con ramas en Git. Cada nueva funcionalidad se desarrolla en una rama separada (feature branch), sin afectar el código principal. Cuando ya está lista, se crea un Merge Request (o Pull Request) para revisar el código antes de integrarlo a la rama principal. Normalmente pasa revisiones y pruebas automáticas antes de aprobarse.
+**Feature Branching y Pull Requests:** Las nuevas funcionalidades o correcciones se desarrollan en ramas separadas siguiendo el flujo de GitFlow. Una vez lista la funcionalidad, se crea un Pull Request hacia la rama principal. GitHub Actions ejecuta automáticamente las pruebas y validaciones antes de permitir la fusión, asegurando que solo el código aprobado llegue a producción.
 
-## 2. Despliegue semiautomático
-El sistema de CI/CD prepara todo automáticamente (build, tests, empaquetado), pero el paso de ponerlo en producción no ocurre solo. Se necesita una acción humana para ejecutar el despliegue final. Es un punto intermedio entre automático y manual.
+**Pipeline Automatizado con GitHub Actions:** Cada push o merge a las ramas principales activa un pipeline en GitHub Actions que ejecuta las pruebas, valida el build y coordina el despliegue automático hacia Railway (backend) y Vercel (frontend/landing). Esto garantiza que el software esté siempre en un estado desplegable.
 
-## 3. Aprobación manual
-Es un “filtro de seguridad” antes de lanzar a producción. Una persona responsable revisa los resultados de las pruebas, logs o reportes del pipeline y decide si se puede desplegar o no. Esto reduce riesgos de errores en producción.
+**Despliegue Continuo por Plataforma:** El despliegue se realiza de forma separada según la capa de la aplicación. Railway gestiona el despliegue automático del backend al detectar cambios en el repositorio conectado, mientras que Vercel hace lo propio con el frontend y la landing page, asegurando consistencia y rapidez en cada entrega.
+
+**Integración con Repositorio GitHub:** Tanto Railway como Vercel están directamente conectados al repositorio de GitHub, lo que elimina pasos manuales en el proceso de entrega. Cada cambio validado se refleja automáticamente en los entornos de producción correspondientes.
+
+**Rollback y Control de Versiones:** En caso de errores tras un despliegue, tanto Railway como Vercel permiten revertir rápidamente a una versión anterior desde sus paneles de control, reduciendo el tiempo de inactividad y minimizando el impacto en los usuarios finales.
 
 <div style="page-break-after: always;"></div>
 
@@ -5232,7 +5233,70 @@ En esta etapa, el pipeline se detiene temporalmente hasta recibir la validación
 
 ### 7.3.2. Production Deployment Pipeline Components
 
+Este apartado describe los componentes del pipeline de despliegue a producción y cómo se integran para automatizar el flujo de entrega continua en el proyecto. La arquitectura se basa en integración con GitHub Actions como motor de CI/CD, Railway para el backend y Vercel para el frontend.
 
+---
+
+### Pipeline de CI/CD (GitHub Actions)
+
+El pipeline principal de integración y despliegue está gestionado mediante GitHub Actions, el cual se activa automáticamente ante eventos como commits o pull requests en ramas configuradas (por ejemplo, develop o main).
+
+1. Integración continua (CI):  
+   Cada commit dispara workflows automatizados que ejecutan instalación de dependencias, compilación del proyecto y pruebas unitarias para validar la estabilidad del código.
+
+2. Validación automática:  
+   El pipeline verifica que el código cumpla con los estándares definidos antes de permitir su despliegue, evitando la integración de cambios defectuosos.
+
+3. Despliegue automatizado:  
+   Si las pruebas son exitosas, GitHub Actions ejecuta los procesos de despliegue hacia los entornos configurados (backend en Railway y frontend en Vercel).
+
+---
+
+### Pipeline del Backend (Railway)
+
+El backend del proyecto, desarrollado en Spring Boot, se despliega utilizando Railway como plataforma cloud.
+
+1. Despliegue continuo del backend:  
+   Cada actualización en la rama configurada activa el despliegue automático del backend en Railway.
+
+2. Construcción del servicio:  
+   Railway compila el proyecto backend y resuelve las dependencias necesarias para su ejecución.
+
+3. Gestión de variables de entorno:  
+   Railway permite la configuración segura de credenciales, conexión a base de datos y parámetros de ejecución.
+
+4. Monitoreo del servicio:  
+   La plataforma proporciona métricas básicas y logs para detectar errores o problemas de rendimiento en el backend desplegado.
+
+---
+
+### Pipeline del Frontend (Vercel)
+
+El frontend se despliega utilizando Vercel.
+
+1. Compilación del frontend:  
+   Vercel detecta cambios en el repositorio y genera automáticamente una build optimizada del proyecto.
+
+2. Despliegue automático:  
+   Tras una compilación exitosa, la nueva versión del frontend se despliega en producción sin intervención manual.
+
+3. Preview deployments:  
+   Cada pull request genera un entorno de vista previa para validar cambios antes de su integración final.
+
+4. Distribución global:  
+   Vercel utiliza una CDN para asegurar tiempos de carga rápidos y disponibilidad global de la aplicación.
+
+---
+
+### Integración general del sistema
+
+El flujo completo del sistema se basa en la siguiente arquitectura:
+
+GitHub Actions → Validación y CI/CD  
+Railway → Backend
+Vercel → Frontend y Landing Page  
+
+Este enfoque permite un proceso de entrega continua automatizado, escalable y con mínima intervención manual.
 
 <div style="page-break-after: always;"></div>
 
