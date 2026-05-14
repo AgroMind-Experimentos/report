@@ -1,6 +1,3 @@
-
-### 5.2.4. Acuerdo de Servicio - SaaS
-
 El presente Acuerdo de Servicio - SaaS establece las condiciones bajo las cuales los usuarios pueden acceder y utilizar EcoTrack, una plataforma web desarrollada por AgroMind para apoyar la gestión agrícola, el monitoreo de parcelas, la organización de tareas, la generación de reportes y el acceso a información relevante para agricultores y agrónomos.
 
 Este acuerdo será publicado de manera visible dentro de la sección Terms and Conditions del website de EcoTrack, con el propósito de informar de forma clara los derechos, obligaciones y restricciones aplicables al uso del servicio.

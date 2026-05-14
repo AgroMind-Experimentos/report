@@ -4052,18 +4052,67 @@ URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrac
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+Durante este Sprint se avanzó de manera significativa en el desarrollo de la Landing Page del proyecto EcoTrack, la cual constituye el primer punto de contacto con los usuarios. Se implementó la estructura base con la página principal, se integraron estilos y animaciones, y se añadieron funcionalidades interactivas como el slider y un scroll más fluido. Asimismo, se realizaron correcciones en la navegación para garantizar una experiencia más clara e intuitiva, además se implementó exitosamente la funcionalidad del cambio de idioma, de español a ingles.
+
+Con estos avances, se ha logrado contar con una primera versión navegable de la landing page, lo que permite mostrar la propuesta de valor de EcoTrack y establecer la base para siguientes mejoras visuales y técnicas.
+
+
+*Figura 1.* Página principal con navbar y sección de bienvenida.
+
+![Hero](./img/capitulo_5/implementation/sprint_1/exec_evidence/hero.png)
+
+
+*Figura 2.* Sección acerca de EcoTrack.
+
+![About](./img/capitulo_5/implementation/sprint_1/exec_evidence/about.png)
+
+
+*Figura 3.* Sección acerca de servicios.
+
+![Services](./img/capitulo_5/implementation/sprint_1/exec_evidence/features.png)
+
+
+*Figura 4.* Sección de testimonios.
+
+![Testimonials](./img/capitulo_5/implementation/sprint_1/exec_evidence/testimonios.png)
+![numers](./img/capitulo_5/implementation/sprint_1/exec_evidence/num.png)
+
+*Figura 5.* Sección de planes y subscripción.
+
+![Plans](./img/capitulo_5/implementation/sprint_1/exec_evidence/planes.png)
+
+
+*Figura 6.* Sección de formulario de contacto.
+
+![Form](./img/capitulo_5/implementation/sprint_1/exec_evidence/form.png)
 
 
 <div style="page-break-after: always;"></div>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+- **Login**
+![Vista de Inicio de Sesión](./img/capitulo_5/implementation/sprint_2/exec_evidence/login.png)
 
+- **Register**
+![Vista de Registro de Usuario](./img/capitulo_5/implementation/sprint_2/exec_evidence/register.png)
+
+- **Organization**
+![Vista de Gestión de Organización](./img/capitulo_5/implementation/sprint_2/exec_evidence/organization.png)
+
+- **Plots**
+![Vista de Gestión de Parcelas](./img/capitulo_5/implementation/sprint_2/exec_evidence/plots.png)
+
+- **Reports**
+![Vista de Reportes y Estadísticas](./img/capitulo_5/implementation/sprint_2/exec_evidence/reports.png)
+
+- **Tasks**
+![Vista de Gestión de Tareas](./img/capitulo_5/implementation/sprint_2/exec_evidence/tasks.png)
+
+- **Weather**
+![Vista de Información Meteorológica](./img/capitulo_5/implementation/sprint_2/exec_evidence/weather.png)
 
 <div style="page-break-after: always;"></div>
-
-### 5.2.4. Acuerdo de Servicio - SaaS
-
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
