@@ -4823,6 +4823,14 @@ Los Core Integration Tests son esenciales para verificar que los controladores s
 
 ### 6.1.4. Core System Tests
 
+![c](img/capitulo_6/system_tests/US14.jpg)
+![c](img/capitulo_6/system_tests/US14SE.jpeg)
+![c](img/capitulo_6/system_tests/US16.jpeg)
+![c](img/capitulo_6/system_tests/US16SE.jpeg)
+![c](img/capitulo_6/system_tests/US18.jpeg)
+![c](img/capitulo_6/system_tests/US18SE.jpeg)
+![c](img/capitulo_6/system_tests/US21.jpeg)
+![c](img/capitulo_6/system_tests/US21SE.jpeg)
 
 
 <div style="page-break-after: always;"></div>
