@@ -59,13 +59,6 @@
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US19</td>
-            <td>Listado de invitaciones</td>
-            <td>Como Agrónomo dueño, quiero visualizar las invitaciones enviadas filtrando por su estado para gestionar las solicitudes de ingreso pendientes y procesadas</td>
-            <td></td>
-            <td>EP03</td>
-        </tr>
-        <tr>
             <td>US20</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>

@@ -51,7 +51,7 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - abril 2026</p>
+        <p>Lima - mayo 2026</p>
     </div>
 </div>
 
@@ -1816,30 +1816,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US19</td>
-            <td>Listado de invitaciones</td>
-            <td>Como Agrónomo dueño, quiero visualizar las invitaciones enviadas filtrando por su estado para gestionar las solicitudes de ingreso pendientes y procesadas</td>
-            <td>
-                <strong>Escenario 1: Visualización con filtros (Pendientes / No pendientes)</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> existen invitaciones registradas en el sistema para su organización<br>
-                <strong>Cuando</strong> solicite el listado aplicando un filtro de estado específico (pendientes o no pendientes)<br>
-                <strong>Entonces</strong> el sistema retorna exclusivamente las invitaciones que coincidan con el criterio seleccionado<br>
-                <strong>Escenario 2: Visualización de listado filtrado vacío</strong><br>
-                <strong>Dado que</strong> el Agrónomo está autenticado con rol de dueño de la organización<br>
-                <strong>Y</strong> no existen invitaciones que correspondan al filtro de estado seleccionado<br>
-                <strong>Cuando</strong> solicite el listado de invitaciones<br>
-                <strong>Entonces</strong> el sistema retorna una lista vacía<br>
-                <strong>Y</strong> notifica la ausencia de registros para ese criterio<br>
-                <strong>Escenario 3: Fallo general</strong><br>
-                <strong>Dado que</strong> el Agrónomo solicitó visualizar el listado de invitaciones<br>
-                <strong>Cuando</strong> la operación falla por pérdida de conexión a internet, tiempo de espera agotado u otro error generalizado<br>
-                <strong>Entonces</strong> el sistema no retorna la información ni altera los datos existentes<br>
-                <strong>Y</strong> muestra un mensaje alertando sobre la causa del error
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
             <td>US20</td>
             <td>Listar invitaciones recibidas</td>
             <td>Como Agricultor, quiero visualizar un listado de las invitaciones que se me han enviado para conocer qué organizaciones desean incorporarme</td>
@@ -2206,13 +2182,6 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
             <td>US18</td>
             <td>Crear invitación</td>
             <td>Como Agrónomo dueño, quiero enviar una invitación por correo electrónico para incorporar nuevos agricultores a la organización</td>
-            <td></td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US19</td>
-            <td>Listado de invitaciones</td>
-            <td>Como Agrónomo dueño, quiero visualizar las invitaciones enviadas filtrando por su estado para gestionar las solicitudes de ingreso pendientes y procesadas</td>
             <td></td>
             <td>EP03</td>
         </tr>
