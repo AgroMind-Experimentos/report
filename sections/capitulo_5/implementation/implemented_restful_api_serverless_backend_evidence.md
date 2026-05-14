@@ -1,7 +1,3 @@
-A continuación se presenta la evidencia del despliegue y funcionamiento 
-de la API RESTful de EcoTrack.
+Se presenta la evidencia del despligue de la API RESTful del producto utilizando Railway. Además, se evidencia parte del proceso de integración continua tanto con sus éxitos como las fallas y caídas en producción.
 
-![img_22.png](../../../../img/capitulo_5/implementation/sprint_4/exec_evidence/1.png)
-![img_24.png](../../../../img/capitulo_5/implementation/sprint_4/exec_evidence/2.png)
-![img_24.png](../../../../img/capitulo_5/implementation/sprint_4/exec_evidence/3.png)
-![img_24.png](../../../../img/capitulo_5/implementation/sprint_4/exec_evidence/4.png)
+<img src="../../../img/capitulo_5/implementation/evidence/serverless.png">
