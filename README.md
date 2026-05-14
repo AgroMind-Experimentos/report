@@ -4180,24 +4180,146 @@ Las decisiones finales sobre siembra, riego, fertilización, cosecha, control de
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
-
+En la presente entrega, EcoTrack no cuenta con una aplicación 
+nativa móvil. La plataforma está desarrollada como una aplicación 
+web responsive, accesible desde cualquier navegador en dispositivos 
+móviles, tablets y computadoras.
 
 <div style="page-break-after: always;"></div>
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
+A continuación se presenta la evidencia del despliegue y funcionamiento 
+de la API RESTful de EcoTrack.
 
+![img_22.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/1.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/2.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/3.png)
+![img_24.png](./img/capitulo_5/implementation/sprint_4/exec_evidence/4.png)
 
 <div style="page-break-after: always;"></div>
 
 ### 5.2.7. RESTful API documentation
 
 
+Para consultar la documentación completa de los endpoints, 
+acceder al siguiente enlace:
+
+[Swagger UI – EcoTrack API](https://backend-production-fc468.up.railway.app/swagger/index.html)
+
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Operaciones</th>
+            <th>Parámetros</th>
+            <th>URL</th>
+            <th>Response</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Auth – Register</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ email, password, fullName }</code></td>
+            <td>/auth/register</td>
+            <td>201 Created – Usuario registrado, retorna usuario + token</td>
+        </tr>
+        <tr>
+            <td><strong>Auth – Login</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ email, password }</code></td>
+            <td>/auth/login</td>
+            <td>200 OK – Retorna token JWT + datos del usuario</td>
+        </tr>
+        <tr>
+            <td><strong>Auth – Logout</strong></td>
+            <td>POST</td>
+            <td>Header: <code>Authorization: Bearer token</code></td>
+            <td>/auth/logout</td>
+            <td>200 OK – Sesión cerrada correctamente</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Crear cultivo</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ name, type, organizationId, ... }</code></td>
+            <td>/api/v1/crops</td>
+            <td>201 Created – Cultivo registrado</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Listar cultivos</strong></td>
+            <td>GET</td>
+            <td>Ninguno</td>
+            <td>/api/v1/crops</td>
+            <td>200 OK – Lista de cultivos</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Obtener cultivo por ID</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{id}</code></td>
+            <td>/api/v1/crops/{id}</td>
+            <td>200 OK – Detalles del cultivo</td>
+        </tr>
+        <tr>
+            <td><strong>Crops – Cultivos por organización</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{organizationId}</code></td>
+            <td>/api/v1/crops/organization/{organizationId}</td>
+            <td>200 OK – Lista de cultivos filtrados</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Crear organización</strong></td>
+            <td>POST</td>
+            <td>Body: <code>{ name, address, ownerId }</code></td>
+            <td>/api/v1/organizations</td>
+            <td>201 Created – Organización registrada</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Listar organizaciones</strong></td>
+            <td>GET</td>
+            <td>Ninguno</td>
+            <td>/api/v1/organizations</td>
+            <td>200 OK – Lista de organizaciones</td>
+        </tr>
+        <tr>
+            <td><strong>Organizations – Obtener organización por ID</strong></td>
+            <td>GET</td>
+            <td>Path: <code>{id}</code></td>
+            <td>/api/v1/organizations/{id}</td>
+            <td>200 OK – Datos de la organización</td>
+        </tr>
+    </tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
 ### 5.2.8. Team Collaboration Insights
 
+A continuación se presentan los insights de colaboración del equipo en cada uno de los repositorios del proyecto AgroMind.
+
+**Backend**
+
+Se presentan las contribuciones del equipo al repositorio del backend, reflejando la actividad de commits y líneas modificadas a lo largo del desarrollo.
+
+![Insights Backend](./img/capitulo_5/implementation/sprint_backlogs/insights/backend.png)
+
+**Frontend**
+
+Se presentan las contribuciones del equipo al repositorio del frontend, evidenciando la participación activa durante el desarrollo de la aplicación web.
+
+![Insights Frontend](./img/capitulo_5/implementation/sprint_backlogs/insights/frontend.png)
+
+**Landing Page**
+
+Se presentan las contribuciones al repositorio de la landing page, reflejando el trabajo realizado durante su implementación.
+
+![Insights Landing Page](./img/capitulo_5/implementation/sprint_backlogs/insights/landing.png)
+
+**Reporte**
+
+Se presentan las contribuciones al repositorio de documentación del proyecto, mostrando la actividad registrada durante su elaboración.
+
+![Insights Reporte](./img/capitulo_5/implementation/sprint_backlogs/insights/reporte.png)
 
 
 <div style="page-break-after: always;"></div>
