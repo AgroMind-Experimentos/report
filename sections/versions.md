@@ -66,5 +66,39 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>2.0</td>
+            <td>14/05/2026</td>
+            <td>Equipo AgroMind</td>
+            <td>
+                <ul>
+                    <li>Actualización general de Carátula y Student Outcome con aportes del TP</li>
+                    <li><b>Capítulo V: Product Implementation, Validation & Deployment</b>
+                        <ul>
+                            <li>Reestructuración de la sección 5.2. Landing Page, Services & Applications Implementation</li>
+                            <li>Adición de 5.2.1. Sprint Backlogs (Sprints 1 al 4)</li>
+                            <li>Adición de 5.2.4. Acuerdo de Servicio - SaaS</li>
+                            <li>Actualización de 5.2.7. RESTful API documentation</li>
+                            <li>Adición de 5.2.8. Team Collaboration Insights</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.1.1. Core Entities Unit Tests</li>
+                            <li>6.1.2. Core Integration Tests</li>
+                            <li>6.1.3. Core Behavior-Driven Development</li>
+                            <li>6.1.4. Core System Tests</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VII: DevOps Practices</b>
+                        <ul>
+                            <li>7.1. Continuous Integration</li>
+                            <li>7.2. Continuous Delivery</li>
+                            <li>7.3. Continuous Deployment</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>

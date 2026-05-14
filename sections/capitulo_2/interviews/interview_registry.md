@@ -177,7 +177,7 @@
         </tr>
         <tr>
             <th scope="row">Fecha de entrevista</th>
-            <td>06 de Setiembre del 20245</td>
+            <td>06 de Setiembre del 2025</td>
         </tr>
         <tr>
             <th scope="row">Timing</th>
