@@ -4968,35 +4968,28 @@ Los Core Entities Unit Tests cumplen un papel fundamental en el desarrollo de so
 
 En este contexto, las pruebas unitarias se enfocan en validar la correcta inicialización y los comportamientos intrínsecos de las entidades principales como Task y Checklist. Por ejemplo, en pruebas como `TaskAggregateTests` y `ChecklistsTests` se asegura de que al crear una tarea o lista de chequeo, se asignen correctamente a una organización, lote y responsable, reflejando el estado inicial esperado para el seguimiento adecuado de las actividades agrícolas.
 
-<img src="img/capitulo_6/unit_monitoring.png" />
+<img src="./img/capitulo_6/unit_tests/monitoring.png" />
 <div style="page-break-after: always;"></div>
 
 **Organizations**
 
 Las pruebas unitarias del contexto de Organizaciones se centran en verificar que las entidades que agrupan a los usuarios y recursos estén bien definidas en su estado base. Aquí destacan pruebas como `OrganizationTests`, `PlotTests` e `InvitationTests`, donde se valida que al instanciar una organización o una parcela, los atributos descriptivos y las asociaciones de ubicación se configuren correctamente de acuerdo a las reglas de negocio.
 
-<img src="img/capitulo_6/unit_organizations.png" />
+<img src="./img/capitulo_6/unit_tests/organizations.png" />
 <div style="page-break-after: always;"></div>
 
 **Profiles**
 
 Para el contexto de Profiles, las pruebas unitarias validan la creación de los perfiles de usuario. Por ejemplo, a través de los `ProfileTests` se comprueba que un perfil recién creado incluya de forma íntegra los datos personales del usuario y su identificador en el sistema, asegurando la consistencia en el manejo de la identidad pública dentro de la plataforma.
 
-<img src="img/capitulo_6/unit_profiles.png" />
+<img src="./img/capitulo_6/unit_tests/profiles.png" />
 <div style="page-break-after: always;"></div>
 
 **Report**
 
 En el contexto de Report, las pruebas unitarias se aseguran de que el modelo principal de reporte esté estructuralmente correcto al instanciarse. Con los `ReportTests` se valida que entidades destinadas al análisis de datos, como los reportes de rendimiento o de métricas de lotes, almacenen correctamente la información básica antes de ser procesados o exportados.
 
-<img src="img/capitulo_6/unit_report.png" />
-<div style="page-break-after: always;"></div>
-
-**Iam**
-
-Dentro del contexto de IAM (Identity and Access Management), las pruebas a nivel unitario aseguran los mecanismos internos de seguridad. Por ejemplo, los `TokenServiceTests` a nivel de infraestructura validan internamente la correcta emisión y estructura de los tokens de autenticación, aspecto vital para mantener a salvo el acceso a los recursos de todo el ecosistema.
-
-<img src="img/capitulo_6/unit_iam.png" />
+<img src="./img/capitulo_6/unit_tests/report.png" />
 
 
 <div style="page-break-after: always;"></div>
@@ -5009,35 +5002,35 @@ Los Core Integration Tests son esenciales para verificar que los controladores s
 
 En este contexto, las pruebas de integración validan el flujo completo de los casos de uso para la gestión de las tareas. Sobresalen los `CreateTaskCommandServiceTests` y `UpdateTaskStatusCommandServiceTests`, donde no solo se prueba el escenario exitoso de creación o actualización, sino que se valida explícitamente que el servicio rechace la operación (lanzando excepciones) si la organización o la parcela especificada no existen en los repositorios.
 
-<img src="img/capitulo_6/integration_monitoring.png" />
+<img src="./img/capitulo_6/integration_tests/monitoring.png" />
 <div style="page-break-after: always;"></div>
 
 **Organizations**
 
 Las pruebas de integración en Organizaciones confirman el correcto registro de elementos estructurales y la gestión de permisos. Destacan comandos como `CreateOrganizationServiceTests` y `CreatePlotCommandServiceTests`, en los cuales se valida que el servicio actúe como un intermediario sólido entre las solicitudes y el almacenamiento, además de manejar adecuadamente las invitaciones mediante el `InvitationCommandServiceTests`.
 
-<img src="img/capitulo_6/integration_organizations.png" />
+<img src="./img/capitulo_6/integration_tests/organizations.png" />
 <div style="page-break-after: always;"></div>
 
 **Profiles**
 
 Para Profiles, las pruebas de servicio de integración aseguran que la configuración de las cuentas de usuario se ejecute sin problemas. Pruebas como `ProfileCommandServiceTests` y `SettingsCommandServiceTests` evalúan el correcto procesamiento de la información del perfil del usuario y sus preferencias de aplicación, comprobando su persistencia a través de los mocks de los repositorios.
 
-<img src="img/capitulo_6/integration_profiles.png" />
+<img src="./img/capitulo_6/integration_tests/profiles.png" />
 <div style="page-break-after: always;"></div>
 
 **Report**
 
 En el contexto Report, la validación de integración busca asegurar que la solicitud de generación o registro de datos del reporte sea atendida con precisión. A través de `ReportCommandServiceTests`, se verifica que los parámetros del reporte se inyecten correctamente en la entidad respectiva y se delegue la persistencia de forma correcta y segura.
 
-<img src="img/capitulo_6/integration_report.png" />
+<img src="./img/capitulo_6/integration_tests/report.png" />
 <div style="page-break-after: always;"></div>
 
 **Iam**
 
 En el área de Identidad y Acceso (IAM), los test de integración garantizan los flujos de seguridad principales. Pruebas críticas como `RegisterCommandServiceTests` y `LoginCommandServiceTests` simulan el comportamiento que tendría el servicio frente a intentos válidos e inválidos de autenticación y creación de usuario, lo que representa la primera barrera de control en la plataforma.
 
-<img src="img/capitulo_6/integration_iam.png" />
+<img src="./img/capitulo_6/integration_tests/iam.png" />
 
 <div style="page-break-after: always;"></div>
 
