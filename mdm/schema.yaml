@@ -33,6 +33,7 @@
           alias: antecedentes
         - title: "1.2.2. Lean UX Process"
           alias: lean ux process
+          skip_after: false
           has_intro: true
           children:
             - title: "1.2.2.1. Lean UX Problem Statements"
@@ -77,7 +78,7 @@
           alias: personas
         - title: "2.3.2. User Task Matrix"
           alias: task matrix
-          skip_after: false
+          skip_after: true
         - title: "2.3.3. User Journey Mapping"
           alias: journey mapping
         - title: "2.3.4. Empathy Mapping"
@@ -105,12 +106,12 @@
       children:
         - title: "4.1.1. General Style Guidelines"
           alias: general style
-          skip_after: false
+          skip_after: true
         - title: "4.1.2. Web Style Guidelines"
           alias: web style
     - title: "4.2. Information Architecture"
       alias: architecture
-      has_intro: true
+      has_intro: false
       children:
         - title: "4.2.1. Organization Systems"
           alias: organization
@@ -170,6 +171,7 @@
 
 - title: "Capítulo V: Product Implementation, Validation & Deployment"
   alias: capitulo 5
+  skip_after: false
   has_intro: true
   children:
     - title: "5.1. Software Configuration Management"

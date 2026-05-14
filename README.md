@@ -134,7 +134,13 @@
 
 # Project Report Collaboration Insights
 
+**Repositorio del informe**
 
+Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/report](https://github.com/AgroMind-Experimentos/report)
+
+**TB1**
+
+<img src="./img/insights/tb1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -142,31 +148,31 @@
 
 ## Tabla de contenidos
 
-- [Caratula](#caratula)
+- [Carátula](#carátula)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capitulo-i-introduccion)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -174,11 +180,11 @@
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capitulo-iv-product-design)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -206,7 +212,7 @@
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation-deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -226,9 +232,9 @@
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About the Product](#54-video-about-the-product)
 - [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
   - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
@@ -247,9 +253,8 @@
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografia)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-
 
 <div style="page-break-after: always;"></div>
 
@@ -472,8 +477,6 @@ Estas cifras muestran que gran parte de la agricultura en el país carece de her
 
 El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
 
-
-<div style="page-break-after: always;"></div>
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -1187,6 +1190,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 
 ![Agricultores](./img/capitulo_2/needfinding/personas/juan_carlos.jpg)
 
+<div style="page-break-after: always;"></div>
+
 **Agrónomos**
 
 ![Agrónomos](./img/capitulo_2/needfinding/personas/ana_morales.jpg)
@@ -1226,11 +1231,15 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 | Capacitar agricultores en buenas prácticas agrícolas | Baja | Media |
 | Buscar nuevos agricultores para asesorar y ampliar su red de clientes | Baja | Media |
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3.3. User Journey Mapping
 
 **Agricultores**
 
 ![AgricultorMap](./img/capitulo_2/needfinding/journey_mapping/juan_carlos.jpg)
+
+<div style="page-break-after: always;"></div>
 
 **Agrónomos**
 
@@ -1243,6 +1252,8 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
 **Agricultores**
 
 ![AgricultorEmpathy](./img/capitulo_2/needfinding/empathy/juan_carlos.jpg)
+
+<div style="page-break-after: always;"></div>
 
 **Agrónomos**
 
@@ -1260,11 +1271,15 @@ En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de
 
 ![Step 1 Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming-step-1.png)
 
+<div style="page-break-after: always;"></div>
+
 **2. Explore:**
 
 Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
 
 ![Step 2 Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming-step-2.png)
+
+<div style="page-break-after: always;"></div>
 
 **3. Close:**
 
@@ -1272,9 +1287,13 @@ En esta última etapa, se documentaron en post-its rosados los problemas más re
 
 ![Step 3 Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming-step-3.png)
 
+<div style="page-break-after: always;"></div>
+
 Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
 
 ![Final events of Big Picture Event Storming](./img/capitulo_2/event_storming/big-picture-event-storming.png)
+
+<div style="page-break-after: always;"></div>
 
 Finalmente, se presenta el Big Picture Event Storming:
 
@@ -2121,9 +2140,11 @@ Las user stories representan los *requisitos funcionales* de **Ecotrack** desde 
 
 ![AgricultorEmpathy](./img/capitulo_3/impact_mapping/juan_carlos.png)
 
+<div style="page-break-after: always;"></div>
+
 **Agrónomos**
 
-![AgronomoEmpathy](./img/capitulo_3/impact_mapping/ana_morales.png)
+<img src="./img/capitulo_3/impact_mapping/ana_morales.png" style="width: 90%;">
 
 <div style="page-break-after: always;"></div>
 
@@ -2438,6 +2459,8 @@ El tono de EcoTrack debe reflejar cercanía, claridad y empoderamiento, alineado
 
 - Profesional y confiable: En la comunicación hacia agrónomos, el estilo debe ser más técnico, reforzando la idea de datos confiables y soporte para decisiones estratégicas.
 
+<div style="page-break-after: always;"></div>
+
 ### 4.1.2. Web Style Guidelines
 
 ### Typography
@@ -2483,11 +2506,6 @@ A continuación se muestran los assets visuales definidos para la interfaz web d
 <div style="page-break-after: always;"></div>
 
 ## 4.2. Information Architecture
-
-En esta sección, presentaremos las decisiones y las razones que guían la manera en que se estructura el contenido de la experiencia web, incluyendo la página de inicio (Landing Page) y las aplicación. Estas propuestas se enfocan mayormente en garantizar que los usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto y encuentren sin dificultad lo que busquen.
-
-
-<div style="page-break-after: always;"></div>
 
 ### 4.2.1. Organization Systems
 
@@ -3048,7 +3066,7 @@ EcoTrack es una plataforma digital diseñada para optimizar la gestión agrícol
 En el diagrama de contenedores de EcoTrack se representan los principales componentes del sistema y la forma en que interactúan entre sí. Los usuarios acceden inicialmente a través de la Landing Page, desde donde son redirigidos a la Single Page Application (SPA). En esta aplicación se gestionan funcionalidades clave como la creación de parcelas, la invitación de nuevos miembros, así como el registro y asignación de tareas.
 La SPA se comunica con la API de EcoTrack, que a su vez realiza consultas a la base de datos para recuperar y administrar la información registrada en el sistema.
 
-<img src="./img/capitulo_4/software_architecture/container-diagram.png" width="80%">
+<img src="./img/capitulo_4/software_architecture/container-diagram.png" width="70%">
 
 
 <div style="page-break-after: always;"></div>
@@ -3068,40 +3086,49 @@ En el diagrama de componentes de EcoTrack se muestran los distintos bounded cont
 
 El diagrama representa una visión general del sistema Ecotrack, organizado en distintos bounded contexts que delimitan responsabilidades y entidades clave. En él se observa cómo los usuarios gestionan sus cuentas y perfiles, cómo las organizaciones administran parcelas, planes de suscripción y tipos de cultivos, y cómo se articulan los procesos de monitoreo y control mediante checklists, tareas, lecturas ambientales y alertas. Además, se incluyen objetos compartidos que permiten mantener coherencia en la identificación y manejo de valores comunes. En conjunto, este modelo refleja la estructura conceptual del dominio y la interacción entre sus principales componentes.
 
-<img src="./img/capitulo_4/oop/class-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/class-diagram.png" width="50%">
 
+<div style="page-break-after: always;"></div>
 
 ### IAM Bounded Context
 
 Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
 
-<img src="./img/capitulo_4/oop/iam-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/iam-diagram.png" width="50%">
 
+<div style="page-break-after: always;"></div>
 
 ### Profile Bounded Context
 
 Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
 
-<img src="./img/capitulo_4/oop/profile-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/profile-diagram.png" width="50%">
 
+<div style="page-break-after: always;"></div>
 
 ### Organization Bounded Context
 
 Este diagrama corresponde al Organization Bounded Context, encargado de estructurar y administrar las organizaciones dentro del sistema. Aquí, el agregado principal Organization gestiona el nombre, estado, miembros, número máximo de parcelas y la suscripción activa. A su vez, las Plot representan las parcelas asociadas a la organización, con atributos como tamaño, ubicación y tipo de cultivo. Los cultivos se definen mediante la entidad PlantType, que puede vincularse a una lista de tipos predefinidos como papa, maíz, trigo, café, entre otros. Finalmente, el modelo incluye la entidad Subscription, que permite a la organización acceder a planes (AgroStart, AgroSmart, AgroExpert) y mantener control sobre la vigencia y estado de la suscripción. En conjunto, este contexto regula tanto la estructura organizacional como la gestión de recursos y servicios contratados.
 
-<img src="./img/capitulo_4/oop/organization-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/organization-diagram.png" width="50%">
+
+<div style="page-break-after: always;"></div>
 
 ### Monitoring and Control Bounded Context
 
 Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
 
-<img src="./img/capitulo_4/oop/monitoring-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/monitoring-diagram.png" width="50%">
+
+<div style="page-break-after: always;"></div>
 
 ### Reports Bounded Context
 
 Este diagrama corresponde al Reports Bounded Context, encargado de la generación y gestión de reportes dentro del sistema. El agregado principal es Report, que contiene información sobre el usuario que lo solicita, la parcela asociada, el tipo de reporte, el rango de fechas, el estado del proceso y el contenido generado. Los reportes pueden ser de tipo Parcel o General, y su ciclo de vida se refleja en el ReportStatus, que abarca estados como REQUESTED, PROCESSING, GENERATED o FAILED. A través de este contexto, los usuarios pueden solicitar reportes, generar información consolidada y manejar errores en caso de fallos durante la generación.
 
-<img src="./img/capitulo_4/oop/report-diagram.png" width="80%">
+<img src="./img/capitulo_4/oop/report-diagram.png" width="50%">
+
+<div style="page-break-after: always;"></div>
 
 
 <div style="page-break-after: always;"></div>
@@ -3120,8 +3147,6 @@ El diagrama de base de datos de EcoTrack refleja la estructura relacional del si
 # Capítulo V: Product Implementation, Validation & Deployment
 
 El equipo ha definido un conjunto de herramientas para garantizar una configuración de entorno de desarrollo coherente; de esta maenra, se facilita una colaboración eficiente y el cumplimiento de los objetivos del proyecto. Estas herramientas abarcan diversas fases del ciclo de vida del producto.
-
-<div style="page-break-after: always;"></div>
 
 ## 5.1. Software Configuration Management
 
