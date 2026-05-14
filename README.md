@@ -369,7 +369,11 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
             <td>Tatiana Medalith Paucar De La Cruz</td>
             <td>20211f955</td>
             <td>Ingeniería de Software</td>
-            <td></td>
+            <td>
+                Programación Java SpringBoot</br>
+                Programación FastApi Python </br>
+                Cloud Computing (AWS)</br>
+            </td>
         </tr>
         <!-- Integrante 5 -->
         <tr>
@@ -601,7 +605,7 @@ Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023) **el 78,5% de
 
 - **Necesidad clave:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
 
-- **Nivel educativo:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
+- **Nivel educativo:** Secundaria completa o incompleta
 
 - **Uso de tecnología:** Uso básico de teléfonos móviles o computadoras, con necesidad de soluciones adaptadas a su contexto.
 
@@ -609,7 +613,7 @@ Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023) **el 78,5% de
 
 De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en Sudamérica aún presenta limitaciones, lo que genera dificultades para acceder a datos confiables y actualizados en el campo. En este contexto, los agrónomos requieren plataformas que centralicen la información y les permitan brindar recomendaciones técnicas más precisas y oportunas.
 
-- **Edad:** 28 a 5 años.
+- **Edad:** 28 a 55 años.
 
 - **Necesidad clave:** Acceso a datos de campo confiables para optimizar asesorías.
 
@@ -989,7 +993,7 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
         </tr>
         <tr>
             <th scope="row">Fecha de entrevista</th>
-            <td>06 de Setiembre del 20245</td>
+            <td>06 de Setiembre del 2025</td>
         </tr>
         <tr>
             <th scope="row">Timing</th>

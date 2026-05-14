@@ -53,7 +53,11 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
             <td>Tatiana Medalith Paucar De La Cruz</td>
             <td>20211f955</td>
             <td>Ingeniería de Software</td>
-            <td></td>
+            <td>
+                Programación Java SpringBoot</br>
+                Programación FastApi Python </br>
+                Cloud Computing (AWS)</br>
+            </td>
         </tr>
         <!-- Integrante 5 -->
         <tr>
