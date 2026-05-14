@@ -1,3 +1,0 @@
-La presente sección recopila la documentación técnica y de gestión correspondiente a los ciclos de desarrollo (sprints) del proyecto. Es importante precisar que los registros aquí expuestos reflejan las actividades, acuerdos y planificación llevados a cabo por el equipo de trabajo anterior.
-
-Con el objetivo de evidenciar su participación histórica y contribución al proyecto, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.

@@ -8,7 +8,7 @@ Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023) **el 78,5% de
 
 - **Necesidad clave:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
 
-- **Nivel educativo:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
+- **Nivel educativo:** Secundaria completa o incompleta
 
 - **Uso de tecnología:** Uso básico de teléfonos móviles o computadoras, con necesidad de soluciones adaptadas a su contexto.
 
@@ -16,7 +16,7 @@ Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023) **el 78,5% de
 
 De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en Sudamérica aún presenta limitaciones, lo que genera dificultades para acceder a datos confiables y actualizados en el campo. En este contexto, los agrónomos requieren plataformas que centralicen la información y les permitan brindar recomendaciones técnicas más precisas y oportunas.
 
-- **Edad:** 28 a 5 años.
+- **Edad:** 28 a 55 años.
 
 - **Necesidad clave:** Acceso a datos de campo confiables para optimizar asesorías.
 

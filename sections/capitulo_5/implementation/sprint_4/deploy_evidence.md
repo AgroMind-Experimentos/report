@@ -1,7 +1,0 @@
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/1.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/2.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/3.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/4.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/5.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/6.png)
-![a](../../../../img/capitulo_5/implementation/sprint_4/deploy/7.png)
