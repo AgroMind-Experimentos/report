@@ -10,7 +10,7 @@
         <p><strong>NRC:</strong> 2610</p>
         <p><strong>Nombre del profesor:</strong> Noriega Melendez, Julio Manuel</p>
     </div>
-    <h2 style="font-size: 22px; margin: 40px 0;">"Informe del Trabajo Final"</h2>
+    <h2 style="font-size: 22px; margin: 40px 0;">"Informe del Trabajo Parcial"</h2>
     <div style="text-align: left; margin-bottom: 30px;">
         <p><strong>Nombre del grupo:</strong> AgroMind</p>
         <p><strong>Nombre del producto:</strong> EcoTrack</p>
@@ -51,6 +51,6 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - abril 2026</p>
+        <p>Lima - mayo 2026</p>
     </div>
 </div>
