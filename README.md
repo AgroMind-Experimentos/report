@@ -5088,7 +5088,6 @@ Seguimos las metodologías de Desarrollo Orientado por Comportamiento (BDD) y De
         asegurar la calidad del código durante el desarrollo.
       </td>
     </tr>
-
     <tr>
       <td>Selenium</td>
       <td>Herramienta para pruebas de interfaz y automatización (BDD)</td>
