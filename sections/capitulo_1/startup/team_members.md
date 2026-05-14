@@ -65,7 +65,7 @@ Se presenta en formato de tabla una breve descripción de cada uno de los integr
             <td>Aldair Joaquin Ramos Aguirre</td>
             <td>20201f051</td>
             <td>Ingeniería de Software</td>
-            <td></td>
+            <td>Programación en C++, C#, Python y JavaScript</td>
         </tr>
         <!-- Integrante 6 -->
         <tr>
