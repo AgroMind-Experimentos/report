@@ -3451,13 +3451,15 @@ La estrategia de despliegue se divide en dos entornos diferenciados para optimiz
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+### 5.2.1. Sprint Backlogs
+
 La presente sección recopila la documentación técnica y de gestión correspondiente a los ciclos de desarrollo (sprints) del proyecto. Es importante precisar que los registros aquí expuestos reflejan las actividades, acuerdos y planificación llevados a cabo por el equipo de trabajo anterior.
 
-Con el objetivo de evidenciar su participación histórica y contribución al proyecto, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
+Con el objetivo de evidenciar la participación histórica y contribución al proyecto del anterior equipo de trabajo, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
+
+El contenido que debiera ser actualizado para esta sección estará presente en la sección anexos.
 
 <div style="page-break-after: always;"></div>
-
-### 5.2.1. Sprint Backlogs
 
 #### 5.2.1.1. Sprint Backlog 1
 

@@ -185,10 +185,10 @@
           alias: deployment config
     - title: "5.2. Landing Page, Services & Applications Implementation"
       alias: implementation
-      has_intro: true
       children:
         - title: "5.2.1. Sprint Backlogs"
           alias: sprint backlogs
+          has_intro: true
           children:
             - title: "5.2.1.1. Sprint Backlog 1"
               alias: sprint backlog 1
