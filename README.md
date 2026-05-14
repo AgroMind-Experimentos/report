@@ -3451,13 +3451,15 @@ La estrategia de despliegue se divide en dos entornos diferenciados para optimiz
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+### 5.2.1. Sprint Backlogs
+
 La presente sección recopila la documentación técnica y de gestión correspondiente a los ciclos de desarrollo (sprints) del proyecto. Es importante precisar que los registros aquí expuestos reflejan las actividades, acuerdos y planificación llevados a cabo por el equipo de trabajo anterior.
 
-Con el objetivo de evidenciar su participación histórica y contribución al proyecto, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
+Con el objetivo de evidenciar la participación histórica y contribución al proyecto del anterior equipo de trabajo, el contenido de estas secciones se ha preservado íntegramente y sin modificaciones (salvo hipervinculos de imágenes, dada la adopción del framework MDM para la gestión de documentación). Esto se realiza como testimonio de su labor, independientemente de los ajustes posteriores realizados en el alcance funcional del producto y de la reestructuración integral del equipo de trabajo actual.
+
+El contenido que debiera ser actualizado para esta sección estará presente en la sección anexos.
 
 <div style="page-break-after: always;"></div>
-
-### 5.2.1. Sprint Backlogs
 
 #### 5.2.1.1. Sprint Backlog 1
 
@@ -4960,22 +4962,34 @@ Link del video en Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 ### 6.1.1. Core Entities Unit Tests
 
-Los Core Entities Unit Testsgit  cumplen un papel fundamental en el desarrollo de software, ya que permiten asegurar la confiabilidad y el correcto comportamiento de las entidades principales del sistema. Estas pruebas ayudan a detectar errores de manera temprana, mejorar la estabilidad del código y facilitar el mantenimiento y futuras actualizaciones de la aplicación.
+Los Core Entities Unit Tests cumplen un papel fundamental en el desarrollo de software, ya que permiten asegurar la confiabilidad y el correcto comportamiento de las entidades principales del sistema. Estas pruebas ayudan a detectar errores de manera temprana, mejorar la estabilidad del código y facilitar el mantenimiento y futuras actualizaciones de la aplicación, aislando el comportamiento de las dependencias.
 
-#### Cheklist Tests
-![c](img/capitulo_6/ChecklistsTest.png)
+**Monitoring and Control**
 
-#### Invitation Tests
-![c](img/capitulo_6/InvitationTest.png)
+En este contexto, las pruebas unitarias se enfocan en validar la correcta inicialización y los comportamientos intrínsecos de las entidades principales como Task y Checklist. Por ejemplo, en pruebas como `TaskAggregateTests` y `ChecklistsTests` se asegura de que al crear una tarea o lista de chequeo, se asignen correctamente a una organización, lote y responsable, reflejando el estado inicial esperado para el seguimiento adecuado de las actividades agrícolas.
 
-#### Organization Tests
-![c](img/capitulo_6/OrganizationTest.png)
+<img src="./img/capitulo_6/unit_tests/monitoring.png" />
+<div style="page-break-after: always;"></div>
 
-#### Plot Tests
-![c](img/capitulo_6/PlotTest.png)
+**Organizations**
 
-#### Task Aggregate Tests
-![c](img/capitulo_6/TaskAggregateTest.png)
+Las pruebas unitarias del contexto de Organizaciones se centran en verificar que las entidades que agrupan a los usuarios y recursos estén bien definidas en su estado base. Aquí destacan pruebas como `OrganizationTests`, `PlotTests` e `InvitationTests`, donde se valida que al instanciar una organización o una parcela, los atributos descriptivos y las asociaciones de ubicación se configuren correctamente de acuerdo a las reglas de negocio.
+
+<img src="./img/capitulo_6/unit_tests/organizations.png" />
+<div style="page-break-after: always;"></div>
+
+**Profiles**
+
+Para el contexto de Profiles, las pruebas unitarias validan la creación de los perfiles de usuario. Por ejemplo, a través de los `ProfileTests` se comprueba que un perfil recién creado incluya de forma íntegra los datos personales del usuario y su identificador en el sistema, asegurando la consistencia en el manejo de la identidad pública dentro de la plataforma.
+
+<img src="./img/capitulo_6/unit_tests/profiles.png" />
+<div style="page-break-after: always;"></div>
+
+**Report**
+
+En el contexto de Report, las pruebas unitarias se aseguran de que el modelo principal de reporte esté estructuralmente correcto al instanciarse. Con los `ReportTests` se valida que entidades destinadas al análisis de datos, como los reportes de rendimiento o de métricas de lotes, almacenen correctamente la información básica antes de ser procesados o exportados.
+
+<img src="./img/capitulo_6/unit_tests/report.png" />
 
 
 <div style="page-break-after: always;"></div>
@@ -4983,6 +4997,40 @@ Los Core Entities Unit Testsgit  cumplen un papel fundamental en el desarrollo d
 ### 6.1.2. Core Integration Tests
 
 Los Core Integration Tests son esenciales para verificar que los controladores se comuniquen de manera adecuada con los distintos componentes del sistema, como los servicios y las bases de datos. Además, al analizar distintos escenarios de fallo, estas pruebas permiten comprobar que el sistema gestione correctamente situaciones inesperadas y devuelva los códigos de respuesta apropiados. De esta manera, se mejora la experiencia del usuario, se facilita la detección de errores y se contribuye al desarrollo de un software más estable y confiable.
+
+**Monitoring and Control**
+
+En este contexto, las pruebas de integración validan el flujo completo de los casos de uso para la gestión de las tareas. Sobresalen los `CreateTaskCommandServiceTests` y `UpdateTaskStatusCommandServiceTests`, donde no solo se prueba el escenario exitoso de creación o actualización, sino que se valida explícitamente que el servicio rechace la operación (lanzando excepciones) si la organización o la parcela especificada no existen en los repositorios.
+
+<img src="./img/capitulo_6/integration_tests/monitoring.png" />
+<div style="page-break-after: always;"></div>
+
+**Organizations**
+
+Las pruebas de integración en Organizaciones confirman el correcto registro de elementos estructurales y la gestión de permisos. Destacan comandos como `CreateOrganizationServiceTests` y `CreatePlotCommandServiceTests`, en los cuales se valida que el servicio actúe como un intermediario sólido entre las solicitudes y el almacenamiento, además de manejar adecuadamente las invitaciones mediante el `InvitationCommandServiceTests`.
+
+<img src="./img/capitulo_6/integration_tests/organizations.png" />
+<div style="page-break-after: always;"></div>
+
+**Profiles**
+
+Para Profiles, las pruebas de servicio de integración aseguran que la configuración de las cuentas de usuario se ejecute sin problemas. Pruebas como `ProfileCommandServiceTests` y `SettingsCommandServiceTests` evalúan el correcto procesamiento de la información del perfil del usuario y sus preferencias de aplicación, comprobando su persistencia a través de los mocks de los repositorios.
+
+<img src="./img/capitulo_6/integration_tests/profiles.png" />
+<div style="page-break-after: always;"></div>
+
+**Report**
+
+En el contexto Report, la validación de integración busca asegurar que la solicitud de generación o registro de datos del reporte sea atendida con precisión. A través de `ReportCommandServiceTests`, se verifica que los parámetros del reporte se inyecten correctamente en la entidad respectiva y se delegue la persistencia de forma correcta y segura.
+
+<img src="./img/capitulo_6/integration_tests/report.png" />
+<div style="page-break-after: always;"></div>
+
+**Iam**
+
+En el área de Identidad y Acceso (IAM), los test de integración garantizan los flujos de seguridad principales. Pruebas críticas como `RegisterCommandServiceTests` y `LoginCommandServiceTests` simulan el comportamiento que tendría el servicio frente a intentos válidos e inválidos de autenticación y creación de usuario, lo que representa la primera barrera de control en la plataforma.
+
+<img src="./img/capitulo_6/integration_tests/iam.png" />
 
 <div style="page-break-after: always;"></div>
 
@@ -5043,9 +5091,50 @@ EcoTrack es una plataforma agrícola que permite a agrónomos gestionar organiza
 
 ### 7.1.1. Tools and Practices
 
-El proyecto implementa Integración Continua (CI) mediante el uso de GitHub Actions. Cada vez que se realiza un push o pull request al repositorio, se ejecuta automáticamente un pipeline que valida la integridad del código, compila el proyecto y ejecuta pruebas automatizadas. Esto permite detectar errores de manera temprana y asegurar la calidad del código antes de su integración.
+En el desarrollo y validación de software, es fundamental utilizar herramientas y prácticas que permitan garantizar la calidad de la aplicación y mejorar la eficiencia del equipo de trabajo. Durante nuestro proceso de desarrollo, hacemos uso de diferentes herramientas que facilitan tanto la implementación de funcionalidades como la comprobación de su correcto funcionamiento. Estas soluciones apoyan diversas etapas del ciclo de vida del software, incluyendo la programación, las pruebas y la automatización de procesos.
 
-Para la ejecución de pruebas automatizadas en el backend se utiliza NUnit, framework de testing para aplicaciones desarrolladas en .NET. Esto permite validar el correcto funcionamiento de los distintos componentes del sistema durante el proceso de integración.
+Seguimos las metodologías de Desarrollo Orientado por Comportamiento (BDD) y Desarrollo Orientado por Pruebas (TDD) para asegurar que nuestras soluciones no solo cumplan con los requerimientos del cliente, sino que también mantengan altos niveles de calidad técnica. Algunas de las herramientas principales que utilizamos son:
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NUnit</td>
+      <td>Herramienta para pruebas (TDD)</td>
+      <td>
+        Es un framework de pruebas para aplicaciones desarrolladas en .NET.
+        Permite crear y ejecutar pruebas unitarias de manera sencilla para
+        verificar que los componentes y funcionalidades del sistema funcionen
+        correctamente.
+      </td>
+      <td>
+        Facilitar la validación automática del comportamiento del sistema y
+        asegurar la calidad del código durante el desarrollo.
+      </td>
+    </tr>
+    <tr>
+      <td>Selenium</td>
+      <td>Herramienta para pruebas de interfaz y automatización (BDD)</td>
+      <td>
+        Es una herramienta que permite automatizar pruebas sobre la interfaz de
+        usuario de aplicaciones web, simulando las acciones que realizaría un
+        usuario real dentro del sistema.
+      </td>
+      <td>
+        Validar casos de prueba enfocados en la experiencia del usuario y el
+        comportamiento de la interfaz gráfica, asegurando que las funcionalidades
+        operen correctamente desde la perspectiva del usuario final.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
@@ -5065,17 +5154,51 @@ En el frontend se utilizan comandos como `npm install` y `npm run build`, mientr
 
 ### 7.2.1. Tools and Practices
 
-El proyecto implementa entrega continua mediante GitHub Actions, donde los artefactos generados en el pipeline de integración son preparados para su despliegue en un entorno de staging. Esto permite validar los cambios antes de su publicación en producción.
+### Tools
+
+- **GitHub Actions / GitHub CI-CD Apps**  
+  Se utilizan para automatizar el flujo de integración y despliegue continuo (CI/CD). En nuestro caso, GitHub Actions gestiona el pipeline que permite ejecutar pruebas, validar cambios y desplegar automáticamente cuando el código cumple con los requisitos establecidos.  
+  Este proceso se integra con plataformas como Railway y Vercel, permitiendo una entrega continua del software tanto en backend como en frontend.
+
+- **Railway (Backend Deployment)**  
+  Se utiliza como plataforma de despliegue del backend. Permite automatizar la publicación de la API directamente desde el repositorio conectado a GitHub, facilitando el despliegue continuo sin necesidad de configuración manual de servidores.
+
+- **Vercel (Frontend / Landing Page Deployment)**  
+  Se encarga del despliegue del frontend y la landing page. Está integrado con GitHub, lo que permite que cada cambio en el repositorio se despliegue automáticamente, asegurando rapidez en la entrega y consistencia entre versiones.
+
+- **Trello**  
+  Se utiliza para la gestión del flujo de trabajo y seguimiento del proyecto. Permite organizar tareas, asignar responsabilidades y controlar el avance del desarrollo dentro del equipo, facilitando la coordinación durante todo el ciclo de CI/CD.
+
+### Practices 
+
+## 1. Feature Branching y Merge Requests
+Es una forma de trabajar con ramas en Git. Cada nueva funcionalidad se desarrolla en una rama separada (feature branch), sin afectar el código principal. Cuando ya está lista, se crea un Merge Request (o Pull Request) para revisar el código antes de integrarlo a la rama principal. Normalmente pasa revisiones y pruebas automáticas antes de aprobarse.
+
+## 2. Despliegue semiautomático
+El sistema de CI/CD prepara todo automáticamente (build, tests, empaquetado), pero el paso de ponerlo en producción no ocurre solo. Se necesita una acción humana para ejecutar el despliegue final. Es un punto intermedio entre automático y manual.
+
+## 3. Aprobación manual
+Es un “filtro de seguridad” antes de lanzar a producción. Una persona responsable revisa los resultados de las pruebas, logs o reportes del pipeline y decide si se puede desplegar o no. Esto reduce riesgos de errores en producción.
 
 <div style="page-break-after: always;"></div>
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-El pipeline de entrega continua incluye:
-- Generación del build del frontend y backend.
-- Creación de artefactos listos para despliegue.
-- Preparación para despliegue en un entorno de pruebas (staging).
-- Validación del funcionamiento del sistema antes de producción.
+## Integración Continua (CI)
+
+Cada vez que se realiza un commit en una rama de desarrollo, el pipeline se encarga de ejecutar pruebas automáticas y validar que la aplicación pueda seguir siendo desplegada sin errores. Esto ayuda a mantener el código en un estado listo para producción en todo momento.
+
+## Despliegue Manual
+
+Aunque el sistema puede estar configurado para desplegar automáticamente, la publicación final se realiza solo cuando existe una aprobación previa. Esto agrega una capa de control antes de impactar a los usuarios finales.
+
+## Monitoreo y Feedback
+
+El proceso de CD incorpora herramientas de monitoreo que permiten evaluar el comportamiento del sistema después de integrar nuevos cambios, observando rendimiento, errores y estabilidad general.
+
+## Aprobación del Despliegue
+
+En esta etapa, el pipeline se detiene temporalmente hasta recibir la validación de un desarrollador, administrador o equipo de operaciones, quienes confirman que el despliegue puede realizarse de forma segura en producción.
 
 <div style="page-break-after: always;"></div>
 
@@ -5083,7 +5206,27 @@ El pipeline de entrega continua incluye:
 
 ### 7.3.1. Tools and Practices
 
+### Tools (Herramientas)
 
+- GitHub Actions o GitLab CI:  
+  Se utilizan para automatizar el pipeline de CI/CD. Permiten ejecutar pruebas automáticas, validaciones y despliegues a diferentes entornos como desarrollo, staging y producción mediante workflows configurables.
+
+- Railway:  
+  Se utiliza para el despliegue del backend y la gestión de la base de datos. Facilita la automatización de despliegues, variables de entorno y administración de servicios en la nube.
+
+- Vercel:  
+  Se encarga del despliegue del frontend y la landing page. Permite integración directa con repositorios Git, automatizando despliegues en cada push y ofreciendo alta disponibilidad y rendimiento global.
+
+### Practices (Prácticas)
+
+- Feature Branching:  
+  Utilizamos una estrategia de ramas en Git donde los desarrolladores trabajan en nuevas funcionalidades dentro de ramas separadas. Una vez completadas y probadas, estas ramas se fusionan a la rama develop, la cual gestiona la integración de cambios y el despliegue del sistema.
+
+- Commit-based deployment (Despliegue basado en commits):  
+  Cada vez que se realiza un commit en la rama develop, el pipeline de CI/CD se activa automáticamente para ejecutar los procesos de construcción, pruebas y despliegue. Esto permite mantener un flujo de entrega continuo y automatizado.
+
+- Rollback automático:  
+  En caso de detectar fallos en producción después del despliegue, el pipeline puede restaurar automáticamente la versión anterior estable del sistema y notificar al equipo de desarrollo. Esto garantiza estabilidad y rápida recuperación ante errores.
 
 <div style="page-break-after: always;"></div>
 
