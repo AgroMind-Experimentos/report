@@ -241,6 +241,53 @@
         - title: "6.1.4. Core System Tests"
           alias: system tests
 
+    - title: "6.2. Static Testing & Verification"
+      alias: static testing
+      children:
+        - title: "6.2.1. Static Code Analysis"
+          alias: static code analysis
+          children:
+            - title: "6.2.1.1. Coding Standards & Code Conventions"
+              alias: coding standards
+            - title: "6.2.1.2. Code Quality & Code Security"
+              alias: code quality security
+        - title: "6.2.2. Reviews"
+          alias: reviews
+
+    - title: "6.3. Validation Interviews"
+      alias: validation interviews
+      children:
+        - title: "6.3.1. Interview Design"
+          alias: interview design
+        - title: "6.3.2. Interview Records"
+          alias: interview records
+        - title: "6.3.3. Heuristic Evaluations"
+          alias: heuristic evaluations
+
+    - title: "6.4. User Experience Audit"
+      alias: ux audit
+      children:
+        - title: "6.4.1. Audit Performed"
+          alias: audit performed
+          children:
+            - title: "6.4.1.1. Audited Group Information"
+              alias: audited group info
+            - title: "6.4.1.2. Audit Schedule"
+              alias: audit schedule
+            - title: "6.4.1.3. Audit Content"
+              alias: audit content
+        - title: "6.4.2. Audit Received"
+          alias: audit received
+          children:
+            - title: "6.4.2.1. Auditor Group Information"
+              alias: auditor group info
+            - title: "6.4.2.2. Received Audit Schedule"
+              alias: received audit schedule
+            - title: "6.4.2.3. Received Audit Content"
+              alias: received audit content
+            - title: "6.4.2.4. Summary of Modifications to Address Findings"
+              alias: findings summary
+
 - title: "Capítulo VII: DevOps Practices"
   alias: capitulo 7
   children:
@@ -267,6 +314,63 @@
           alias: tools cdep
         - title: "7.3.2. Production Deployment Pipeline Components"
           alias: pipeline cdep
+
+    - title: "7.4. Continuous Monitoring"
+      alias: continuous monitoring
+      children:
+        - title: "7.4.1. Tools and Practices"
+          alias: monitoring tools
+        - title: "7.4.2. Monitoring Pipeline Components"
+          alias: monitoring pipeline
+        - title: "7.4.3. Alerting Pipeline Components"
+          alias: alerting pipeline
+        - title: "7.4.4. Notification Pipeline Components"
+          alias: notification pipeline
+
+- title: "Capítulo VIII: Experiment-Driven Development"
+  alias: experiment driven development
+  children:
+    - title: "8.1. Experiment Planning"
+      alias: experiment planning
+      children:
+        - title: "8.1.1. As-Is Summary"
+          alias: as is summary
+        - title: "8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims"
+          alias: raw material
+        - title: "8.1.3. Experiment-Ready Questions"
+          alias: experiment questions
+        - title: "8.1.4. Question Backlog"
+          alias: question backlog
+        - title: "8.1.5. Experiment Cards"
+          alias: experiment cards
+
+    - title: "8.2. Experiment Design"
+      alias: experiment design
+      children:
+        - title: "8.2.1. Hypotheses"
+          alias: hypotheses
+        - title: "8.2.2. Domain Business Metrics"
+          alias: business metrics
+        - title: "8.2.3. Measures"
+          alias: measures
+        - title: "8.2.4. Conditions"
+          alias: conditions
+        - title: "8.2.5. Scale Calculations and Decisions"
+          alias: scale calculations
+        - title: "8.2.6. Methods Selection"
+          alias: methods selection
+        - title: "8.2.7. Data Analytics: Goals, KPIs and Metrics Selection"
+          alias: analytics goals
+        - title: "8.2.8. Web and Mobile Tracking Plan"
+          alias: tracking plan
+
+    - title: "8.3. Experimentation"
+      alias: experimentation
+      children:
+        - title: "8.3.1. To-Be User Stories"
+          alias: user stories
+        - title: "8.3.2. To-Be Product Backlog"
+          alias: backlog
           
 - title: "Conclusiones"
   alias: conclusions
