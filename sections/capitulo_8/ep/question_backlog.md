@@ -1,5 +1,3 @@
-## 8.1.4. Question Backlog
-
 | Prioridad (1,2,3,5,8) | Pregunta | 
 |---:|---|
 | 1 | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? | 34 |
