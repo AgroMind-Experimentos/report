@@ -1,5 +1,3 @@
-## 8.1.1. As-Is Summary
-
 Actualmente, EcoTrack es una plataforma web desarrollada para apoyar la gestión agrícola mediante la colaboración entre agricultores y agrónomos. La solución permite administrar organizaciones, registrar parcelas, planificar tareas, realizar seguimiento de actividades mediante checklists y consultar información climática para apoyar las labores del campo.
 
 Gracias a estas funcionalidades, los usuarios pueden centralizar información relevante sobre sus campañas agrícolas y mejorar la coordinación de las actividades realizadas dentro de sus organizaciones. Sin embargo, a medida que aumenta la cantidad de información registrada y el número de actividades gestionadas, surgen nuevas oportunidades para fortalecer la experiencia del usuario y mejorar el aprovechamiento de los datos disponibles.
