@@ -5443,18 +5443,61 @@ EcoTrack es una plataforma agrícola que permite a agrónomos gestionar organiza
 
 #### 6.2.1.1. Coding Standards & Code Conventions
 
+El equipo aplica las siguientes convenciones para mantener un código uniforme y fácil de mantener en todos los repositorios de EcoTrack:
+
+- **Clean Code:** Los nombres de variables, funciones y clases deben ser descriptivos y estar escritos en inglés. Las funciones deben hacer una sola cosa y ser cortas; se evita el código muerto y los comentarios que solo repiten lo que el código ya dice. Para cada tecnología del proyecto se adopta su guía oficial: [Vue Style Guide](https://vuejs.org/style-guide/) y [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) para el frontend, [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) y [Microsoft ASP.NET Core Coding Guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) para el backend, y [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) para la landing page.
+
+- **Domain-Driven Design (DDD):** El código usa un lenguaje común que refleja el dominio agrícola de EcoTrack: términos como `Crop`, `Field`, `Sensor` o `IrrigationSchedule` aparecen tanto en el código como en las conversaciones del equipo. El sistema se divide en bounded contexts, y la lógica de negocio vive en los servicios de dominio y repositorios del backend, no en los controladores.
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.2.1.2. Code Quality & Code Security
 
+El equipo revisa la calidad y seguridad del código antes de que llegue a revisión o producción:
+
+- **Calidad del Código:** Se mide con métricas como cobertura de pruebas y complejidad ciclomática. En el frontend Vue 3 se usa **ESLint** con `eslint-plugin-vue`, que detecta imports mal usados, variables sin usar y violaciones de la Vue Style Guide. En el backend .NET 9 se usa **SonarLint** en el IDE, que avisa en tiempo real sobre code smells, duplicación de lógica y métodos demasiado complejos.
+
+- **Seguridad del Código:** Las vulnerabilidades más comunes se mitigan desde el diseño: la inyección SQL se previene usando Entity Framework Core con queries parametrizadas; el XSS se evita con el escape automático del template de Vue 3, sin usar `v-html` con datos del usuario; y la validación de entradas se hace con Data Annotations en ASP.NET Core, que rechaza los requests malformados antes de que lleguen a la lógica del sistema.
+
+<div align="center">
+
+| <img src="./img/logos/eslint.svg" width="48" height="48"/><br/>ESLint |
+|:---:|
+
+</div>
+
+ESLint corre automáticamente en el pipeline de CI en cada Pull Request, bloqueando la fusión si hay errores de linting. SonarLint actúa en el IDE del desarrollador, por lo que los problemas se detectan antes incluso de hacer commit.
 
 
 <div style="page-break-after: always;"></div>
 
 ### 6.2.2. Reviews
 
+Todo cambio de código en EcoTrack pasa por un proceso de revisión antes de integrarse a las ramas estables. Esto se gestiona mediante Pull Requests en GitHub:
+
+
+**Tipos de Revisiones:**
+
+- **Revisión por Pares:** Un miembro del equipo distinto al autor revisa el PR para verificar que el código sea claro y cumpla con los estándares definidos en 6.2.1.1.
+- **Revisión Formal:** Para cambios de mayor impacto, el equipo evalúa el código en conjunto usando un checklist, lo que permite detectar problemas que una sola persona podría pasar por alto.
+- **Revisión Automática:** ESLint y SonarLint corren en cada PR vía GitHub Actions. Si alguna verificación falla, el PR no puede fusionarse.
+
+**Proceso de Revisión:**
+
+- El autor abre un PR con una descripción de qué cambió y cómo probarlo, usando mensajes en formato Conventional Commits.
+- Los revisores dejan comentarios en las líneas específicas del diff. Los comentarios deben ser concretos y orientados a soluciones.
+- El autor responde cada comentario y aplica los cambios necesarios.
+- El PR se aprueba solo cuando todos los comentarios están resueltos y las verificaciones automáticas pasan.
+
+**Criterios de Aceptación:**
+
+- El código no debe introducir vulnerabilidades de seguridad ni romper los estándares de calidad definidos.
+- La cobertura de pruebas debe mantenerse en al menos un 80%.
+
+**Frecuencia:**
+
+Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe quedar sin respuesta más de 48 horas. Al cierre de cada sprint se revisa si quedaron PRs pendientes.
 
 
 <div style="page-break-after: always;"></div>
