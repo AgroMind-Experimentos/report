@@ -316,7 +316,7 @@
           alias: pipeline cdep
 
     - title: "7.4. Continuous Monitoring"
-      alias: continuous monitoring
+      alias: cmonit
       children:
         - title: "7.4.1. Tools and Practices"
           alias: monitoring tools
@@ -328,10 +328,10 @@
           alias: notification pipeline
 
 - title: "Capítulo VIII: Experiment-Driven Development"
-  alias: experiment driven development
+  alias: capitulo 8
   children:
     - title: "8.1. Experiment Planning"
-      alias: experiment planning
+      alias: EP
       children:
         - title: "8.1.1. As-Is Summary"
           alias: as is summary
@@ -345,7 +345,7 @@
           alias: experiment cards
 
     - title: "8.2. Experiment Design"
-      alias: experiment design
+      alias: ED
       children:
         - title: "8.2.1. Hypotheses"
           alias: hypotheses
@@ -365,7 +365,7 @@
           alias: tracking plan
 
     - title: "8.3. Experimentation"
-      alias: experimentation
+      alias: Exp
       children:
         - title: "8.3.1. To-Be User Stories"
           alias: user stories
