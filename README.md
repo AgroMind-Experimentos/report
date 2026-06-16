@@ -6079,28 +6079,107 @@ En esta sección se presentan las hipótesis formuladas para los experimentos de
 
 ### 8.2.2. Domain Business Metrics
 
-## 8.2.2. Domain Business Metrics
+Las siguientes métricas de negocio de EcoTrack son las que guían la medición de todos los experimentos del capítulo.
+
+| Métrica | Descripción | Fórmula | Técnica de Recolección | Meta |
+|---|---|---|---|---|
+| Tasa de exportación de reportes | % de usuarios activos que descargaron al menos un reporte en el periodo | (Usuarios con ≥1 descarga / Total usuarios activos) × 100 | Evento de Google Analytics al pulsar "Exportar a Excel" | ≥ 40% |
+| Puntuación de satisfacción UX | Promedio de valoraciones de usuarios tras probar una funcionalidad | Promedio de puntuaciones en encuesta in-app (escala 1–5) | Encuesta in-app que aparece al terminar de usar la función | ≥ 4.0 / 5.0 |
+| Tasa de completitud de tareas | % de tareas registradas que alcanzan estado "completada" | (Tareas completadas / Tareas registradas) × 100 | Consulta en BD filtrando tareas por estado | +12% sobre línea base |
+| Tasa de adopción de geolocalización | % de usuarios activos que registraron al menos una ubicación | (Usuarios con ≥1 ubicación registrada / Total usuarios activos) × 100 | Logs del backend al guardar coordenadas en un registro | ≥ 35% |
+| Tiempo promedio de registro de cultivo | Tiempo que tarda un usuario en completar el formulario de cultivo | Promedio(timestamp_fin − timestamp_inicio) en segundos | Timestamps del frontend al abrir y cerrar el formulario de cultivo | −10% vs. línea base |
+| Tasa de error en registro de cultivos | % de registros con nombre duplicado o variación ortográfica de un cultivo ya existente | (Registros duplicados o con error / Total registros de cultivo) × 100 | Revisión de registros en BD al cierre del periodo | −25% vs. línea base |
+| Valor percibido de la sección de clima | % de usuarios que valoran positivamente la sección de clima con IA | (Usuarios con respuesta ≥4/5 en encuesta / Total encuestados) × 100 | Encuesta in-app al salir de la sección de clima | ≥ 45% |
+| Acciones preventivas registradas | Promedio de acciones preventivas por usuario activo en el periodo | Total acciones preventivas / Total usuarios activos | Logs del backend con acciones de tipo preventivo | +15% vs. línea base |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.3. Measures
 
-## 8.2.3. Measures
+A cada hipótesis le corresponden las medidas que mejor responden su pregunta, sin medir más de lo necesario.
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| **Measure** | **Tasa de exportación de reportes** y **puntuación de satisfacción UX**, registradas antes y después de habilitar la función. Los eventos de descarga se capturan en Google Analytics; la satisfacción se recoge con una encuesta in-app. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| **Measure** | **Tasa de completitud de tareas**, obtenida de la base de datos comparando el estado de las tareas antes y después del cambio de vista, junto con la **puntuación de satisfacción UX** vía encuesta in-app. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| **Measure** | **Tasa de adopción de geolocalización**, contada desde los logs del backend cada vez que un usuario guarda coordenadas, y **puntuación de satisfacción UX** recogida con encuesta in-app tras usar la función. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción "Otro"? |
+| **Measure** | **Tasa de error en registro de cultivos**, analizada en la base de datos al comparar duplicados y variaciones ortográficas antes y después del cambio, y **tiempo promedio de registro de cultivo** medido con eventos de frontend al inicio y fin del formulario. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+| **Measure** | **Valor percibido de la sección de clima**, obtenido de una encuesta in-app tras acceder a la sección, y **acciones preventivas registradas** por usuario, extraídas de los logs del backend filtrando por tipo de acción. |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.4. Conditions
 
-## 8.2.4. Conditions
+Cada experimento tiene dos condiciones: la experimental, donde se activa el cambio, y la de control, donde la app se mantiene como está.
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| **Condición Experimental** | Los usuarios ven el botón "Exportar a Excel" en la sección de reportes y pueden descargar sus datos en `.xlsx`. Se espera que al menos el 40% descargue un reporte y que la satisfacción UX suba un 15%. |
+| **Condición de Control** | Los usuarios usan la app sin la opción de exportación, igual que antes. No hay cambio esperado en descargas ni en satisfacción. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| **Condición Experimental** | Las tareas se muestran en un tablero Kanban con columnas Pendiente, En proceso y Completada. Se espera que el 50% de los usuarios identifique el estado de sus labores con mayor claridad y que la tasa de completitud suba un 12%. |
+| **Condición de Control** | Las tareas se muestran en la lista original. No se espera variación en la tasa de completitud ni en la claridad percibida. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| **Condición Experimental** | Los formularios de parcela, cultivo y planta incluyen un campo para guardar coordenadas GPS. Se espera que el 35% de los usuarios registre al menos una ubicación durante el periodo de prueba. |
+| **Condición de Control** | Los formularios no tienen campo de ubicación. No hay registro de coordenadas posible y el seguimiento de campo se hace igual que antes. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción "Otro"? |
+| **Condición Experimental** | El campo de cultivo es un dropdown con opciones predefinidas y la entrada "Otro" para casos no contemplados. Se espera una reducción del 25% en errores o duplicidades y del 10% en el tiempo de registro. |
+| **Condición de Control** | El campo de cultivo es un texto libre sin validación. Los errores ortográficos y duplicidades ocurren al mismo ritmo que antes. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+| **Condición Experimental** | La sección de clima muestra los datos meteorológicos más recomendaciones generadas por IA (riego, fertilización, protección de cultivos). Se espera que el 45% valore la sección positivamente y que las acciones preventivas registradas suban un 15%. |
+| **Condición de Control** | La sección de clima muestra solo datos meteorológicos, sin recomendaciones. No hay cambio esperado en la valoración de la sección ni en las acciones preventivas. |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.5. Scale Calculations and Decisions
 
-## 8.2.5. Scale Calculations and Decisions
+Para decidir cuánta evidencia es suficiente, cada experimento usa dos parámetros:
+
+- **Certeza:** **α = 5%** evita concluir que algo funciona cuando es pura casualidad (error Tipo I). Un **poder estadístico del 80%** evita perder un efecto real que sí existe (error Tipo II).
+- **Precisión:** El **MDE (Efecto Mínimo Detectable)** es el cambio más pequeño que vale la pena detectar. Si el resultado queda por debajo del MDE, la hipótesis se descarta o se replantea.
+
+Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (entre el MDE y el objetivo), **Ideal** (alcanza el objetivo) y **Excelente** (supera el objetivo en ≥25%).
+
+| Factor / Scale Calculation | MDE | α | Poder | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
+|---|:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
+| Creemos que al habilitar la exportación a Excel, al menos el 40% de los usuarios descargará un reporte y la satisfacción UX subirá un 15%. Sabremos que esto es cierto cuando la tasa de exportación alcance ≥40% y la puntuación de satisfacción suba ≥0.6 puntos. | 20pp | 5% | 80% | Implementar el botón "Exportar a Excel" en la sección de reportes, generando archivos `.xlsx` con los datos del periodo. | | | X | |
+| Creemos que al cambiar la vista de tareas a un tablero Kanban, la tasa de completitud de tareas subirá un 12% y el 50% de los usuarios identificará el estado de sus labores con mayor facilidad. Sabremos que esto es cierto cuando la tasa de completitud aumente ≥12% respecto a la línea base. | 6pp | 5% | 80% | Reemplazar la vista de lista por un tablero Kanban con columnas Pendiente, En proceso y Completada. | | | X | |
+| Creemos que al incorporar geolocalización, el 35% de los usuarios registrará al menos una ubicación durante el periodo de prueba. Sabremos que esto es cierto cuando la tasa de adopción alcance ≥35%. | 15pp | 5% | 80% | Agregar campo GPS en los formularios de parcela, cultivo y planta con previsualización en mapa. | | | X | |
+| Creemos que al reemplazar el campo libre de cultivos por un dropdown con opción "Otro", los errores de registro bajarán un 25% y el tiempo de registro se reducirá un 10%. Sabremos que esto es cierto cuando ambas métricas mejoren respecto a la línea base. | 12pp / 5pp | 5% | 80% | Cambiar el campo de cultivo a un dropdown con opciones predefinidas y una entrada libre "Otro". | | | X | |
+| Creemos que al incorporar recomendaciones climáticas por IA, el 45% de los usuarios valorará positivamente la sección de clima y las acciones preventivas registradas aumentarán un 15%. Sabremos que esto es cierto cuando ambas métricas alcancen los valores objetivo. | 20pp / 7pp | 5% | 80% | Agregar un bloque de recomendaciones IA en la sección de clima basadas en los datos meteorológicos actuales y el estado de los cultivos. | | | X | |
 
 
 <div style="page-break-after: always;"></div>

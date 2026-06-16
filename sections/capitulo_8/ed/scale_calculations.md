@@ -1,1 +1,14 @@
-## 8.2.5. Scale Calculations and Decisions
+Para decidir cuánta evidencia es suficiente, cada experimento usa dos parámetros:
+
+- **Certeza:** **α = 5%** evita concluir que algo funciona cuando es pura casualidad (error Tipo I). Un **poder estadístico del 80%** evita perder un efecto real que sí existe (error Tipo II).
+- **Precisión:** El **MDE (Efecto Mínimo Detectable)** es el cambio más pequeño que vale la pena detectar. Si el resultado queda por debajo del MDE, la hipótesis se descarta o se replantea.
+
+Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (entre el MDE y el objetivo), **Ideal** (alcanza el objetivo) y **Excelente** (supera el objetivo en ≥25%).
+
+| Factor / Scale Calculation | MDE | α | Poder | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
+|---|:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
+| Creemos que al habilitar la exportación a Excel, al menos el 40% de los usuarios descargará un reporte y la satisfacción UX subirá un 15%. Sabremos que esto es cierto cuando la tasa de exportación alcance ≥40% y la puntuación de satisfacción suba ≥0.6 puntos. | 20pp | 5% | 80% | Implementar el botón "Exportar a Excel" en la sección de reportes, generando archivos `.xlsx` con los datos del periodo. | | | X | |
+| Creemos que al cambiar la vista de tareas a un tablero Kanban, la tasa de completitud de tareas subirá un 12% y el 50% de los usuarios identificará el estado de sus labores con mayor facilidad. Sabremos que esto es cierto cuando la tasa de completitud aumente ≥12% respecto a la línea base. | 6pp | 5% | 80% | Reemplazar la vista de lista por un tablero Kanban con columnas Pendiente, En proceso y Completada. | | | X | |
+| Creemos que al incorporar geolocalización, el 35% de los usuarios registrará al menos una ubicación durante el periodo de prueba. Sabremos que esto es cierto cuando la tasa de adopción alcance ≥35%. | 15pp | 5% | 80% | Agregar campo GPS en los formularios de parcela, cultivo y planta con previsualización en mapa. | | | X | |
+| Creemos que al reemplazar el campo libre de cultivos por un dropdown con opción "Otro", los errores de registro bajarán un 25% y el tiempo de registro se reducirá un 10%. Sabremos que esto es cierto cuando ambas métricas mejoren respecto a la línea base. | 12pp / 5pp | 5% | 80% | Cambiar el campo de cultivo a un dropdown con opciones predefinidas y una entrada libre "Otro". | | | X | |
+| Creemos que al incorporar recomendaciones climáticas por IA, el 45% de los usuarios valorará positivamente la sección de clima y las acciones preventivas registradas aumentarán un 15%. Sabremos que esto es cierto cuando ambas métricas alcancen los valores objetivo. | 20pp / 7pp | 5% | 80% | Agregar un bloque de recomendaciones IA en la sección de clima basadas en los datos meteorológicos actuales y el estado de los cultivos. | | | X | |
