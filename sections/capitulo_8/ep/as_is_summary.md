@@ -1,1 +1,4 @@
 ## 8.1.1. As-Is Summary
+La aplicación actual EcoTrack se centra en ofrecer una plataforma web responsive para la gestión agrícola, permitiendo a agricultores y agrónomos registrar parcelas, cultivos, tareas, inventario, reportes e información climática. La solución busca centralizar datos que normalmente se encuentran dispersos en libretas, WhatsApp, Excel u otros medios manuales, con el fin de mejorar la trazabilidad y la toma de decisiones en el campo.
+
+Sin embargo, a partir del análisis del estado actual del producto y de las necesidades identificadas en los usuarios, se reconocen oportunidades de mejora relacionadas con la reutilización de información, la organización visual de tareas, la precisión en la ubicación de parcelas, la estandarización de registros y la interpretación de datos climáticos.
