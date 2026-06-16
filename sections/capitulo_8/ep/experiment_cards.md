@@ -1,5 +1,3 @@
-## 8.1.5. Experiment Cards
-
 ### Experiment Card 01: Exportar a Excel
 
 | **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
