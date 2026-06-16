@@ -1,5 +1,3 @@
-## 8.1.2. Raw Material
-
 ### Assumptions
 
 - **Exportar a Excel:** se asume que los agricultores y agrónomos valoran poder descargar datos en Excel porque ya utilizan esta herramienta para organizar, analizar y compartir información agrícola.
