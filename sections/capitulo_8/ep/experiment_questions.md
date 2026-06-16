@@ -1,4 +1,3 @@
-## 8.1.3. Experiment-Ready Questions
 | Question | Confidence | Risk | Impact | Interest | Total Score |
 |---|---:|---:|---:|---:|---:|
 | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? | 8 - Existe evidencia desde las necesidades del usuario sobre la importancia de anticipar riesgos climáticos. | 6 - Riesgo medio, porque la recomendación debe ser confiable, clara y comprensible para agricultores y agrónomos. | 10 - Puede impactar directamente en la toma de decisiones agrícolas y prevención de pérdidas. | 10 - Es altamente interesante porque diferencia a EcoTrack de una simple plataforma de registro. | 34 |
