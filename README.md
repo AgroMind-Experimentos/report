@@ -188,31 +188,31 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 
 ## Tabla de contenidos
 
-- [Carátula](#carátula)
+- [Caratula](#caratula)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [Capítulo I: Introducción](#capitulo-i-introduccion)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -220,11 +220,11 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Capítulo IV: Product Design](#capitulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -252,7 +252,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation-deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -272,9 +272,9 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
   - [5.4. Video About the Product](#54-video-about-the-product)
 - [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
   - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
@@ -282,6 +282,25 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [6.2. Static Testing & Verification](#62-static-testing-verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards-code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)
+    - [6.2.2. Reviews](#622-reviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Interview Design](#631-interview-design)
+    - [6.3.2. Interview Records](#632-interview-records)
+    - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
+  - [6.4. User Experience Audit](#64-user-experience-audit)
+    - [6.4.1. Audit Performed](#641-audit-performed)
+      - [6.4.1.1. Audited Group Information](#6411-audited-group-information)
+      - [6.4.1.2. Audit Schedule](#6412-audit-schedule)
+      - [6.4.1.3. Audit Content](#6413-audit-content)
+    - [6.4.2. Audit Received](#642-audit-received)
+      - [6.4.2.1. Auditor Group Information](#6421-auditor-group-information)
+      - [6.4.2.2. Received Audit Schedule](#6422-received-audit-schedule)
+      - [6.4.2.3. Received Audit Content](#6423-received-audit-content)
+      - [6.4.2.4. Summary of Modifications to Address Findings](#6424-summary-of-modifications-to-address-findings)
 - [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -292,9 +311,34 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+- [Capítulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog](#814-question-backlog)
+    - [8.1.5. Experiment Cards](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses](#821-hypotheses)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+    - [8.2.3. Measures](#823-measures)
+    - [8.2.4. Conditions](#824-conditions)
+    - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+    - [8.2.6. Methods Selection](#826-methods-selection)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
+- [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
+
 
 <div style="page-break-after: always;"></div>
 
@@ -5393,6 +5437,96 @@ EcoTrack es una plataforma agrícola que permite a agrónomos gestionar organiza
 
 <div style="page-break-after: always;"></div>
 
+## 6.2. Static Testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding Standards & Code Conventions
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.2.1.2. Code Quality & Code Security
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.2.2. Reviews
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Interview Design
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.2. Interview Records
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.3. Heuristic Evaluations
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. User Experience Audit
+
+### 6.4.1. Audit Performed
+
+#### 6.4.1.1. Audited Group Information
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.2. Audit Schedule
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.3. Audit Content
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.4.2. Audit Received
+
+#### 6.4.2.1. Auditor Group Information
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.2. Received Audit Schedule
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.3. Received Audit Content
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.4. Summary of Modifications to Address Findings
+
+
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -5605,6 +5739,193 @@ Railway → Backend
 Vercel → Frontend y Landing Page  
 
 Este enfoque permite un proceso de entrega continua automatizado, escalable y con mínima intervención manual.
+
+<div style="page-break-after: always;"></div>
+
+## 7.4. Continuous Monitoring
+
+### 7.4.1. Tools and Practices
+
+Algunas herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en nuestra aplicación EcoTrack, son las siguientes:
+
+<div align="center">
+
+| <img src="./img/logos/jmeter.svg" width="40" height="40"/><br/>JMeter | <img src="./img/logos/redline13.jpg" width="40" height="40"/><br/>RedLine13 | <img src="./img/logos/google_analytics.svg" width="40" height="40"/><br/>Google Analytics | <img src="./img/logos/datadog.svg" width="40" height="40"/><br/>Datadog | <img src="./img/logos/vercel.svg" width="40" height="40"/><br/>Vercel Speed Insights |
+|:---:|:---:|:---:|:---:|:---:|
+
+| <img src="./img/logos/postman.svg" width="40" height="40"/><br/>Postman | <img src="./img/logos/uptimerobot.png" width="40" height="40"/><br/>UptimeRobot | <img src="./img/logos/catchpoint.png" width="40" height="40"/><br/>Catchpoint | <img src="./img/logos/lighthouse.svg" width="40" height="40"/><br/>Google Lighthouse | <img src="./img/logos/webpagetest.png" width="40" height="40"/><br/>WebPageTest |
+|:---:|:---:|:---:|:---:|:---:|
+
+</div>
+
+- **Pruebas de Carga y Estrés:** JMeter y RedLine13 permiten simular cargas masivas de usuarios y condiciones extremas de uso, asegurando que tanto el frontend en Vue 3 como el backend en .NET 9 mantengan un rendimiento óptimo bajo alta demanda. JMeter permite diseñar y ejecutar planes de prueba complejos con múltiples hilos de usuarios concurrentes, mientras que RedLine13 facilita pruebas de carga desde la nube integrando scripts de JMeter, Gatling y Selenium, proporcionando reportes detallados de tiempos de respuesta, throughput y tasa de errores bajo distintos niveles de tráfico.
+
+- **Monitoreo de Experiencia del Usuario:** Para entender la interacción y experiencia del usuario con EcoTrack, se emplean Google Analytics, Datadog y Vercel Speed Insights. Google Analytics recopila datos sobre el comportamiento de los usuarios en la plataforma, incluyendo sesiones activas, páginas más visitadas, tasa de rebote y flujos de navegación, lo que ayuda al equipo a identificar fricciones en la experiencia del agricultor y el agrónomo. Datadog proporciona monitoreo en tiempo real de la experiencia del usuario, rastreando métricas clave como tiempos de respuesta, latencia de las solicitudes al backend y captura de eventos de usuario, ofreciendo una perspectiva directa sobre cómo el rendimiento del sistema impacta la experiencia final. Vercel Speed Insights complementa este monitoreo midiendo los Core Web Vitals (LCP, CLS, INP) desde usuarios reales en producción, permitiendo detectar regresiones de rendimiento introducidas por nuevos despliegues del frontend.
+
+- **Supervisión de APIs:** Monitorear la disponibilidad y tiempo de respuesta de la API REST de EcoTrack es esencial para garantizar la continuidad del servicio. Postman permite ejecutar colecciones de pruebas automatizadas sobre los endpoints del backend en intervalos programados, verificando que cada ruta responda correctamente y dentro de los tiempos esperados. UptimeRobot complementa esta supervisión realizando comprobaciones de disponibilidad cada cinco minutos sobre los endpoints críticos de la API, alertando al equipo de inmediato si algún servicio deja de responder. Catchpoint extiende esta cobertura realizando pruebas desde múltiples ubicaciones geográficas, midiendo latencia de red, tiempo hasta el primer byte (TTFB) y disponibilidad global de la API bajo distintas condiciones de red.
+
+- **Auditorías de Calidad Web:** Google Lighthouse y WebPageTest permiten auditar la calidad y el rendimiento de la aplicación web de EcoTrack. Lighthouse analiza accesibilidad, SEO, buenas prácticas y rendimiento del frontend, generando puntuaciones cuantificables que guían al equipo en la mejora continua de la experiencia del usuario. WebPageTest complementa estas auditorías ejecutando pruebas de rendimiento detalladas desde distintos navegadores y ubicaciones reales, proporcionando métricas como tiempo de carga completa, cascada de recursos y filmstrip visual del proceso de carga, lo que permite identificar cuellos de botella específicos en la entrega del frontend.
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo de EcoTrack integra las etapas necesarias para mantener la calidad y el rendimiento de la plataforma en producción: recopilación de métricas, almacenamiento, análisis y visualización. Para cubrir estas etapas se emplea el stack open-source más utilizado en entornos cloud-native, compuesto por Prometheus y Grafana, donde cada herramienta cumple una función específica y complementaria dentro del flujo.
+
+<div align="center">
+
+| <img src="./img/logos/prometheus.svg" width="48" height="48"/><br/>Prometheus | <img src="./img/logos/grafana.svg" width="48" height="48"/><br/>Grafana |
+|:---:|:---:|
+
+</div>
+
+Prometheus se encarga de la recopilación y el almacenamiento de métricas. Funciona bajo un modelo basado en pull, recolectando de forma periódica métricas de rendimiento de la aplicación y la infraestructura, tales como uso de CPU, consumo de memoria, latencia y tasa de errores. Estas métricas se almacenan como series temporales, permitiendo consultas flexibles mediante su lenguaje PromQL para analizar el comportamiento del sistema a lo largo del tiempo.
+
+Grafana se encarga de la capa de visualización. Se conecta a Prometheus como fuente de datos y presenta las métricas recopiladas en dashboards personalizados e intuitivos, permitiendo al equipo interpretar de un vistazo el estado de la plataforma, identificar tendencias y detectar comportamientos anómalos. Esta separación de responsabilidades —Prometheus recolectando y almacenando, Grafana visualizando— constituye el patrón estándar de un pipeline de monitoreo en producción.
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas es fundamental para la detección y respuesta temprana ante problemas de rendimiento o disponibilidad de la aplicación, permitiendo que el equipo sea notificado de inmediato cuando ocurren eventos críticos o se superan los umbrales definidos.
+
+<div align="center">
+
+| <img src="./img/logos/prometheus.svg" width="48" height="48"/><br/>Prometheus Alertmanager |
+|:---:|
+
+</div>
+
+Para esto se emplea Prometheus Alertmanager, el componente de alertas nativo del ecosistema de Prometheus. Su funcionamiento parte de las reglas de alerta definidas en Prometheus: cuando una métrica supera un umbral establecido (por ejemplo, una latencia elevada, un consumo excesivo de memoria o la caída de un servicio), Prometheus dispara la alerta y la envía a Alertmanager. Este se encarga de gestionar dichas alertas mediante tres capacidades clave: la agrupación de alertas similares para evitar la saturación de avisos, la deduplicación para impedir notificaciones repetidas del mismo incidente, y el enrutamiento, que determina hacia qué destino debe enviarse cada alerta según su gravedad. De esta manera, Alertmanager asegura que el equipo reciba avisos relevantes y oportunos, minimizando el ruido y facilitando una respuesta ágil ante incidentes en producción.
+
+
+<div style="page-break-after: always;"></div>
+
+### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones se encarga de comunicar de forma automática al equipo los resultados de las pruebas y el estado del pipeline de integración y despliegue continuo. A diferencia del componente de alertas, orientado al monitoreo de la aplicación en producción, este componente notifica sobre el resultado de los procesos de construcción y despliegue.
+
+<div align="center">
+
+| <img src="./img/logos/githubactions.svg" width="48" height="48"/><br/>GitHub Actions |
+|:---:|
+
+</div>
+
+Para ello se utiliza GitHub Actions, que gestiona los flujos de trabajo de CI/CD del proyecto. Al finalizar cada build o etapa del pipeline, GitHub Actions genera notificaciones automáticas que informan sobre el éxito o fallo de las pruebas, el tiempo de ejecución y los problemas específicos detectados. Estas notificaciones se entregan a través del correo electrónico de los responsables del proyecto, mecanismo que GitHub Actions ejecuta de forma automática al detectar la ejecución correcta o el fallo de un flujo de trabajo.
+
+Gracias a este mecanismo, el equipo recibe retroalimentación sobre cada ciclo de integración y despliegue, lo que facilita una respuesta rápida ante cualquier incidente o fallo en el proceso.
+
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+## 8.1.1. As-Is Summary
+
+<div style="page-break-after: always;"></div>
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+## 8.1.2. Raw Material
+
+<div style="page-break-after: always;"></div>
+
+### 8.1.3. Experiment-Ready Questions
+
+## 8.1.3. Experiment-Ready Questions
+
+<div style="page-break-after: always;"></div>
+
+### 8.1.4. Question Backlog
+
+## 8.1.4. Question Backlog
+
+<div style="page-break-after: always;"></div>
+
+### 8.1.5. Experiment Cards
+
+## 8.1.5. Experiment Cards
+
+<div style="page-break-after: always;"></div>
+
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses
+
+## 8.2.1. Hypotheses
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.2. Domain Business Metrics
+
+## 8.2.2. Domain Business Metrics
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.3. Measures
+
+## 8.2.3. Measures
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.4. Conditions
+
+## 8.2.4. Conditions
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.5. Scale Calculations and Decisions
+
+## 8.2.5. Scale Calculations and Decisions
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.6. Methods Selection
+
+## 8.2.6. Methods Selection
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.2.8. Web and Mobile Tracking Plan
+
+## 8.2.8. Web and Mobile Tracking Plan
+
+
+<div style="page-break-after: always;"></div>
+
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+## 8.3.1. To-Be User Stories
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.3.2. To-Be Product Backlog
+
+## 8.3.2. To-Be Product Backlog
+
 
 <div style="page-break-after: always;"></div>
 
