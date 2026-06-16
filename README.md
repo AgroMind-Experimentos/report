@@ -5870,31 +5870,156 @@ Gracias a este mecanismo, el equipo recibe retroalimentación sobre cada ciclo d
 
 ### 8.1.1. As-Is Summary
 
-## 8.1.1. As-Is Summary
+Actualmente, EcoTrack es una plataforma web desarrollada para apoyar la gestión agrícola mediante la colaboración entre agricultores y agrónomos. La solución permite administrar organizaciones, registrar parcelas, planificar tareas, realizar seguimiento de actividades mediante checklists y consultar información climática para apoyar las labores del campo.
+
+Gracias a estas funcionalidades, los usuarios pueden centralizar información relevante sobre sus campañas agrícolas y mejorar la coordinación de las actividades realizadas dentro de sus organizaciones. Sin embargo, a medida que aumenta la cantidad de información registrada y el número de actividades gestionadas, surgen nuevas oportunidades para fortalecer la experiencia del usuario y mejorar el aprovechamiento de los datos disponibles.
+
+### Problemas identificados
+
+* **Gestión de información:** Aunque la plataforma almacena información relevante sobre parcelas, tareas y actividades agrícolas, existen oportunidades para facilitar el análisis y aprovechamiento de estos datos para la toma de decisiones.
+
+* **Seguimiento de actividades:** El crecimiento de organizaciones, parcelas y tareas puede dificultar la supervisión eficiente del estado de las labores agrícolas y el avance de las actividades planificadas.
+
+* **Monitoreo de recursos agrícolas:** La administración de parcelas se basa principalmente en información descriptiva, limitando algunas capacidades de seguimiento y control que podrían aportar mayor contexto a los usuarios.
+
+* **Consistencia de los registros:** La calidad de la información registrada depende en gran medida del criterio de cada usuario, lo que puede generar diferencias en los datos almacenados y afectar futuros análisis o reportes.
+
+* **Soporte para la toma de decisiones:** Aunque EcoTrack proporciona información útil para la gestión agrícola, todavía existen oportunidades para ofrecer un mayor acompañamiento a agricultores y agrónomos durante la planificación y ejecución de sus actividades.
+
+### Objetivos de mejora
+
+Con el fin de abordar las oportunidades identificadas y aumentar el valor que ofrece la plataforma a sus usuarios, se plantean los siguientes objetivos:
+
+* Mejorar el aprovechamiento de la información generada dentro de la plataforma.
+
+* Facilitar el seguimiento y control de las actividades agrícolas.
+
+* Fortalecer las capacidades de monitoreo y gestión de parcelas.
+
+* Incrementar la calidad y consistencia de los datos registrados.
+
+* Brindar mayor apoyo a la toma de decisiones mediante herramientas que agreguen valor a la información disponible.
+
 
 <div style="page-break-after: always;"></div>
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-## 8.1.2. Raw Material
+### Assumptions
+
+- **Exportar a Excel:** se asume que los agricultores y agrónomos valoran poder descargar datos en Excel porque ya utilizan esta herramienta para organizar, analizar y compartir información agrícola.
+
+* **Cambiar la vista de tareas a un tablero Jira:** Se asume que los usuarios podrían gestionar sus actividades de manera más eficiente mediante una representación visual del flujo de trabajo en lugar de utilizar únicamente listados tradicionales.
+
+* **Geolocalización:** Se asume que los agricultores y agrónomos requieren mayores capacidades de monitoreo para administrar sus parcelas de forma más efectiva.
+
+- **Crops como dropdown + Otro:** se asume que un selector de cultivos reducirá errores de escritura y duplicidad, manteniendo flexibilidad mediante una opción “Otro”.
+
+- **Recomendaciones del clima por IA:** se asume que los usuarios valorarán más la sección de clima si, además de mostrar datos, la plataforma sugiere acciones concretas basadas en condiciones climáticas.
+
+
+### Knowledge Gaps
+
+* **Necesidades de análisis de información:** Falta información sobre cómo agricultores y agrónomos utilizan actualmente los datos registrados y qué formatos consideran más útiles para su análisis.
+
+* **Preferencias de gestión de tareas:** Se requiere mayor conocimiento sobre qué tipo de visualización resulta más intuitiva para la planificación y seguimiento de actividades agrícolas.
+
+* **Uso de información geográfica:** No existe suficiente información sobre la frecuencia con la que los usuarios necesitan localizar o monitorear sus parcelas mediante herramientas geográficas.
+
+* **Calidad de los registros agrícolas:** Se desconoce el impacto que generan actualmente los registros inconsistentes de cultivos dentro de la plataforma.
+
+* **Aceptación de herramientas inteligentes:** Falta información sobre el nivel de confianza que agricultores y agrónomos tendrían en recomendaciones generadas automáticamente mediante inteligencia artificial.
+
+### Ideas
+
+* Realizar entrevistas y encuestas a agricultores y agrónomos para validar las necesidades identificadas.
+
+* Desarrollar prototipos de las funcionalidades propuestas y recopilar retroalimentación temprana de los usuarios.
+
+* Analizar soluciones similares utilizadas en plataformas de gestión agrícola para identificar buenas prácticas.
+
+* Implementar pruebas piloto con usuarios seleccionados antes de incorporar las funcionalidades de manera definitiva.
+
+### Claims
+
+- **Mayor utilidad de reportes:** se afirma que exportar datos a Excel puede aumentar la utilidad de los reportes agrícolas y facilitar su análisis fuera de la plataforma.
+
+- **Mejor organización de labores:** se sostiene que una vista tipo Kanban puede hacer más clara la gestión de tareas agrícolas y mejorar la productividad del usuario.
+
+- **Mejor trazabilidad:** se sostiene que la geolocalización puede reducir errores al identificar parcelas, cultivos o plantas en campo.
+- **Mayor calidad de datos:** se afirma que un dropdown de cultivos puede mejorar la consistencia del registro agrícola y reducir errores de digitación.
+- **Mejor toma de decisiones:** se sostiene que las recomendaciones climáticas por IA pueden ayudar a los usuarios a anticipar riesgos y ejecutar acciones preventivas.
+
 
 <div style="page-break-after: always;"></div>
 
 ### 8.1.3. Experiment-Ready Questions
 
-## 8.1.3. Experiment-Ready Questions
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|---|---:|---:|---:|---:|---:|
+| ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? | 8 - Existe evidencia desde las necesidades del usuario sobre la importancia de anticipar riesgos climáticos. | 6 - Riesgo medio, porque la recomendación debe ser confiable, clara y comprensible para agricultores y agrónomos. | 10 - Puede impactar directamente en la toma de decisiones agrícolas y prevención de pérdidas. | 10 - Es altamente interesante porque diferencia a EcoTrack de una simple plataforma de registro. | 34 |
+| ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? | 8 - Los usuarios han manifestado interés en ubicar con precisión plantas o zonas de cultivo. | 6 - Riesgo medio, debido a permisos de ubicación, conectividad y precisión del GPS. | 9 - Puede fortalecer la trazabilidad y el trabajo de supervisión de agricultores y agrónomos. | 8 - Es relevante para usuarios que gestionan múltiples parcelas o zonas de producción. | 31 |
+| ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? | 9 - Existe alta confianza porque varios usuarios ya emplean Excel o herramientas similares para organizar información. | 3 - Riesgo bajo, ya que es una funcionalidad conocida y de complejidad técnica moderada. | 8 - Puede mejorar reportes, análisis externo y satisfacción de usuarios que trabajan con datos. | 8 - Es de alto interés para agricultores y agrónomos que necesitan compartir o archivar información. | 28 |
+| ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? | 7 - La organización visual de tareas es una práctica conocida, pero debe validarse en usuarios agrícolas. | 4 - Riesgo medio-bajo, porque podría ser percibido como complejo por usuarios con menor experiencia digital. | 8 - Puede mejorar la claridad del trabajo pendiente y la tasa de finalización de tareas. | 7 - Es interesante para usuarios que administran varias actividades agrícolas en paralelo. | 26 |
+| ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? | 8 - Se espera que las listas controladas reduzcan errores de escritura y duplicidad. | 2 - Riesgo bajo, porque es una mejora simple y reversible. | 7 - Mejora la calidad de datos, aunque su impacto visual para el usuario puede ser menor. | 6 - Es útil para mantener orden en los registros, pero menos llamativo que otras funcionalidades. | 23 |
+
 
 <div style="page-break-after: always;"></div>
 
 ### 8.1.4. Question Backlog
 
-## 8.1.4. Question Backlog
+| Prioridad (1,2,3,5,8) | Pregunta | 
+|---:|---|
+| 1 | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? | 34 |
+| 2 | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? | 
+| 3 | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? | 
+| 5 | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? | 
+| 8 | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? | 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.1.5. Experiment Cards
 
-## 8.1.5. Experiment Cards
+### Experiment Card 01: Exportar a Excel
+
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+|---|---|
+| **Why** | Al agregar la exportación a Excel, los agricultores y agrónomos podrán reutilizar la información registrada en EcoTrack fuera de la plataforma. Esto facilitará la elaboración de reportes, el análisis de datos, la comparación de campañas agrícolas y el intercambio de información con clientes, técnicos o miembros del equipo de trabajo. |
+| **What** | Implementar una opción de exportación a Excel en las secciones principales de reportes y registros agrícolas. Esta funcionalidad permitirá descargar datos de parcelas, cultivos, tareas, inventario o indicadores relevantes en un archivo `.xlsx` ordenado y fácil de interpretar. |
+| **Hypothesis** | Se espera que, al incorporar la exportación a Excel, el 40% de los usuarios descargue al menos un reporte durante el periodo de prueba y que la satisfacción respecto al manejo de información agrícola aumente en un 15%. |
+
+### Experiment Card 02: Vista de tareas tipo Jira/Kanban
+
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+|---|---|
+| **Why** | Al cambiar la vista de tareas a un tablero tipo Jira/Kanban, los usuarios podrán visualizar con mayor claridad el estado de sus actividades agrícolas. Esto ayudaría a diferenciar tareas pendientes, en proceso y completadas, reduciendo la confusión al momento de organizar labores como riego, fertilización, cosecha, mantenimiento o supervisión de parcelas. |
+| **What** | Rediseñar la sección de tareas mediante un tablero visual con columnas como “Pendiente”, “En proceso” y “Completado”. Cada tarea se mostrará como una tarjeta con información básica, incluyendo nombre de la tarea, fecha, responsable, prioridad y parcela o cultivo asociado. |
+| **Hypothesis** | Se espera que, al implementar una vista de tareas tipo Jira/Kanban, el 50% de los usuarios indique que identifica con mayor facilidad el estado de sus labores agrícolas y que la tasa de tareas completadas aumente en un 12%. |
+
+### Experiment Card 03: Geolocalización
+
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+|---|---|
+| **Why** | Al incorporar geolocalización, EcoTrack podrá asociar parcelas, cultivos o plantas con ubicaciones reales del campo. Esto puede ayudar a reducir errores al identificar zonas de trabajo, facilitar visitas técnicas de agrónomos y fortalecer la trazabilidad de las actividades agrícolas registradas dentro de la plataforma. |
+| **What** | Implementar una primera versión de geolocalización que permita registrar coordenadas de una parcela, cultivo o planta mediante el GPS del dispositivo o selección manual en un mapa. La funcionalidad debe solicitar permiso de ubicación y guardar la referencia geográfica dentro del registro correspondiente. |
+| **Hypothesis** | Se espera que, al incorporar geolocalización, el 35% de los usuarios registre al menos una ubicación durante el periodo de prueba y que el tiempo necesario para identificar una zona de trabajo se reduzca en un 15%. |
+
+### Experiment Card 04: Crops como dropdown + Otro
+
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? |
+|---|---|
+| **Why** | Al reemplazar el campo libre de cultivos por un dropdown, EcoTrack puede reducir errores ortográficos, nombres duplicados y variaciones innecesarias para un mismo cultivo. Esto permitiría mantener registros más consistentes y generar reportes más confiables, sin eliminar la flexibilidad de registrar cultivos no contemplados mediante la opción “Otro”. |
+| **What** | Reemplazar el campo libre de registro de cultivos por una lista desplegable con cultivos frecuentes. En caso el cultivo no aparezca en la lista, el usuario podrá seleccionar la opción “Otro” e ingresar manualmente el nombre correspondiente. |
+| **Hypothesis** | Se espera que, al implementar un dropdown de cultivos con opción “Otro”, los errores o duplicidades en el registro de cultivos se reduzcan en un 25% y que el tiempo promedio de registro disminuya en un 10%. |
+
+### Experiment Card 05: Recomendaciones del clima por IA
+
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+|---|---|
+| **Why** | Al agregar recomendaciones climáticas generadas por IA, EcoTrack puede convertir datos meteorológicos en acciones concretas para los agricultores y agrónomos. Esto puede ayudar a decidir cuándo regar, fertilizar, proteger cultivos o postergar actividades de campo ante riesgos climáticos. |
+| **What** | Implementar una primera versión de recomendaciones climáticas que muestre sugerencias breves a partir de condiciones como temperatura, humedad, lluvia o riesgo climático. Las recomendaciones deben ser claras, accionables y fáciles de entender. |
+| **Hypothesis** | Se espera que, al incorporar recomendaciones climáticas por IA, el 45% de los usuarios perciba mayor utilidad en la sección de clima y que las acciones preventivas registradas aumenten en un 15% durante el periodo de prueba. |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -5902,7 +6027,52 @@ Gracias a este mecanismo, el equipo recibe retroalimentación sobre cada ciclo d
 
 ### 8.2.1. Hypotheses
 
-## 8.2.1. Hypotheses
+En esta sección se presentan las hipótesis formuladas para los experimentos de EcoTrack. Cada hipótesis parte de una pregunta experimental definida previamente en las Experiment Cards y se estructura considerando la creencia del equipo, la hipótesis medible y su respectiva hipótesis nula.
+
+### Hypothesis 01: Exportar a Excel
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| **Belief** | La incorporación de una opción para exportar reportes y datos agrícolas a Excel permitirá que agricultores y agrónomos reutilicen con mayor facilidad la información registrada en EcoTrack, especialmente para análisis externos, presentación de resultados y comparación de campañas agrícolas. |
+| **Hypothesis** | La implementación de la exportación a Excel permitirá que el 40% de los usuarios descargue al menos un reporte durante el periodo de prueba y aumentará en un 15% la satisfacción respecto al manejo de información agrícola. |
+| **Null Hypothesis** | La implementación de la exportación a Excel no tendrá un impacto significativo en la descarga de reportes ni en la satisfacción de los usuarios respecto al manejo de información agrícola. |
+
+### Hypothesis 02: Vista de tareas tipo Jira/Kanban
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| **Belief** | La vista de tareas tipo Jira/Kanban permitirá que los usuarios comprendan con mayor claridad el estado de sus labores agrícolas, ya que podrán diferenciar visualmente las actividades pendientes, en proceso y completadas. |
+| **Hypothesis** | La implementación de una vista de tareas tipo Jira/Kanban permitirá que el 50% de los usuarios identifique con mayor facilidad el estado de sus labores agrícolas y aumentará en un 12% la tasa de tareas completadas durante el periodo de prueba. |
+| **Null Hypothesis** | La implementación de una vista de tareas tipo Jira/Kanban no tendrá un impacto significativo en la identificación del estado de las labores agrícolas ni en la tasa de tareas completadas. |
+
+### Hypothesis 03: Geolocalización
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| **Belief** | La incorporación de geolocalización permitirá asociar parcelas, cultivos o plantas con ubicaciones reales del campo, mejorando la precisión del seguimiento agrícola y facilitando la identificación de zonas de trabajo. |
+| **Hypothesis** | La implementación de geolocalización permitirá que el 35% de los usuarios registre al menos una ubicación durante el periodo de prueba y reducirá en un 15% el tiempo necesario para identificar una zona de trabajo. |
+| **Null Hypothesis** | La implementación de geolocalización no tendrá un impacto significativo en el registro de ubicaciones ni en la reducción del tiempo necesario para identificar una zona de trabajo. |
+
+### Hypothesis 04: Crops como dropdown + Otro
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? |
+| **Belief** | El uso de un dropdown de cultivos con opción “Otro” permitirá estandarizar el registro de cultivos, reduciendo errores ortográficos, duplicidades y variaciones innecesarias, sin limitar la posibilidad de registrar cultivos no contemplados inicialmente. |
+| **Hypothesis** | La implementación de un dropdown de cultivos con opción “Otro” reducirá en un 25% los errores o duplicidades en el registro de cultivos y disminuirá en un 10% el tiempo promedio de registro durante el periodo de prueba. |
+| **Null Hypothesis** | La implementación de un dropdown de cultivos con opción “Otro” no tendrá un impacto significativo en la reducción de errores o duplicidades ni en el tiempo promedio de registro de cultivos. |
+
+### Hypothesis 05: Recomendaciones del clima por IA
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+| **Belief** | La incorporación de recomendaciones climáticas generadas por IA permitirá transformar datos meteorológicos en sugerencias prácticas para agricultores y agrónomos, ayudándolos a tomar decisiones preventivas relacionadas con riego, fertilización, protección de cultivos o postergación de actividades de campo. |
+| **Hypothesis** | La implementación de recomendaciones climáticas por IA permitirá que el 45% de los usuarios perciba mayor utilidad en la sección de clima y aumentará en un 15% las acciones preventivas registradas durante el periodo de prueba. |
+| **Null Hypothesis** | La implementación de recomendaciones climáticas por IA no tendrá un impacto significativo en el valor percibido de la sección de clima ni en el aumento de acciones preventivas registradas por los usuarios. |
 
 
 <div style="page-break-after: always;"></div>
