@@ -2,15 +2,16 @@
 
 ### Assumptions
 
-* **Exportar a Excel:** Se asume que los usuarios necesitan exportar información de la plataforma para realizar análisis más detallados y elaborar reportes personalizados utilizando herramientas externas.
+- **Exportar a Excel:** se asume que los agricultores y agrónomos valoran poder descargar datos en Excel porque ya utilizan esta herramienta para organizar, analizar y compartir información agrícola.
 
 * **Cambiar la vista de tareas a un tablero Jira:** Se asume que los usuarios podrían gestionar sus actividades de manera más eficiente mediante una representación visual del flujo de trabajo en lugar de utilizar únicamente listados tradicionales.
 
 * **Geolocalización:** Se asume que los agricultores y agrónomos requieren mayores capacidades de monitoreo para administrar sus parcelas de forma más efectiva.
 
-* **Crops como dropdown + Otro:** Se asume que la estandarización del registro de cultivos contribuiría a mejorar la calidad y consistencia de la información almacenada en la plataforma.
+- **Crops como dropdown + Otro:** se asume que un selector de cultivos reducirá errores de escritura y duplicidad, manteniendo flexibilidad mediante una opción “Otro”.
 
-* **Recomendaciones del clima por IA:** Se asume que los usuarios valoran recibir apoyo adicional para la toma de decisiones a partir de la información climática disponible en EcoTrack.
+- **Recomendaciones del clima por IA:** se asume que los usuarios valorarán más la sección de clima si, además de mostrar datos, la plataforma sugiere acciones concretas basadas en condiciones climáticas.
+
 
 ### Knowledge Gaps
 
@@ -36,12 +37,10 @@
 
 ### Claims
 
-* Se afirma que facilitar el acceso y análisis de la información permitirá a los usuarios aprovechar mejor los datos generados por la plataforma.
+- **Mayor utilidad de reportes:** se afirma que exportar datos a Excel puede aumentar la utilidad de los reportes agrícolas y facilitar su análisis fuera de la plataforma.
 
-* Se sostiene que una gestión más visual de las actividades contribuirá a mejorar el seguimiento y organización de las labores agrícolas.
+- **Mejor organización de labores:** se sostiene que una vista tipo Kanban puede hacer más clara la gestión de tareas agrícolas y mejorar la productividad del usuario.
 
-* Se afirma que herramientas adicionales de monitoreo pueden incrementar la eficiencia en la administración de parcelas.
-
-* Se postula que la estandarización de registros mejorará la calidad de la información utilizada para reportes y análisis.
-
-* Se sostiene que el uso de recomendaciones inteligentes puede apoyar una mejor toma de decisiones durante las campañas agrícolas.
+- **Mejor trazabilidad:** se sostiene que la geolocalización puede reducir errores al identificar parcelas, cultivos o plantas en campo.
+- **Mayor calidad de datos:** se afirma que un dropdown de cultivos puede mejorar la consistencia del registro agrícola y reducir errores de digitación.
+- **Mejor toma de decisiones:** se sostiene que las recomendaciones climáticas por IA pueden ayudar a los usuarios a anticipar riesgos y ejecutar acciones preventivas.
