@@ -6186,8 +6186,6 @@ Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (ent
 
 ### 8.2.6. Methods Selection
 
-## 8.2.6. Methods Selection
-
 | Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
 |---|---|---|---|---|
 | **Precio** | Plan gratuito/créditos gratis | Basado en suscripción, con pruebas gratuitas | Gratuito con limitaciones | Plan gratuito, disponible para ejecución local |
