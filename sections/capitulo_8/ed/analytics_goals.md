@@ -25,6 +25,3 @@ Lighthouse en las principales vistas de la aplicación.
 <img src="../../../img/capitulo_8/data_analytics/agricultor_profile.jpeg" width="600" />
 
 <img src="../../../img/capitulo_8/data_analytics/agricultor_settings.jpeg" width="600" />
-
-
-

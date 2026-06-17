@@ -6222,9 +6222,6 @@ Lighthouse en las principales vistas de la aplicación.
 <img src="./img/capitulo_8/data_analytics/agricultor_settings.jpeg" width="600" />
 
 
-
-
-
 <div style="page-break-after: always;"></div>
 
 ### 8.2.8. Web and Mobile Tracking Plan
