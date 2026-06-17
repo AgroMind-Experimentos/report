@@ -180,7 +180,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 
 **TP1**
 
-<img src="./img/insights/tp1.png"
+<img src="./img/insights/tp1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -193,26 +193,26 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capitulo-i-introduccion)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -220,11 +220,11 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capitulo-iv-product-design)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -252,13 +252,13 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.1.1. Sprint Backlog 1](#5211-sprint-backlog-1)
       - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
@@ -272,39 +272,25 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About the Product](#54-video-about-the-product)
-- [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
-  - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-  - [6.2. Static Testing & Verification](#62-static-testing-verification)
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)
     - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards-code-conventions)
-      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)
+      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
-  - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Interview Design](#631-interview-design)
-    - [6.3.2. Interview Records](#632-interview-records)
-    - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
-  - [6.4. User Experience Audit](#64-user-experience-audit)
-    - [6.4.1. Audit Performed](#641-audit-performed)
-      - [6.4.1.1. Audited Group Information](#6411-audited-group-information)
-      - [6.4.1.2. Audit Schedule](#6412-audit-schedule)
-      - [6.4.1.3. Audit Content](#6413-audit-content)
-    - [6.4.2. Audit Received](#642-audit-received)
-      - [6.4.2.1. Auditor Group Information](#6421-auditor-group-information)
-      - [6.4.2.2. Received Audit Schedule](#6422-received-audit-schedule)
-      - [6.4.2.3. Received Audit Content](#6423-received-audit-content)
-      - [6.4.2.4. Summary of Modifications to Address Findings](#6424-summary-of-modifications-to-address-findings)
-- [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -316,7 +302,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
     - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
     - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-- [Capítulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
   - [8.1. Experiment Planning](#81-experiment-planning)
     - [8.1.1. As-Is Summary](#811-as-is-summary)
     - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
@@ -336,7 +322,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografia)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 
@@ -5498,74 +5484,6 @@ Todo cambio de código en EcoTrack pasa por un proceso de revisión antes de int
 **Frecuencia:**
 
 Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe quedar sin respuesta más de 48 horas. Al cierre de cada sprint se revisa si quedaron PRs pendientes.
-
-
-<div style="page-break-after: always;"></div>
-
-## 6.3. Validation Interviews
-
-### 6.3.1. Interview Design
-
-
-
-<div style="page-break-after: always;"></div>
-
-### 6.3.2. Interview Records
-
-
-
-<div style="page-break-after: always;"></div>
-
-### 6.3.3. Heuristic Evaluations
-
-
-
-<div style="page-break-after: always;"></div>
-
-## 6.4. User Experience Audit
-
-### 6.4.1. Audit Performed
-
-#### 6.4.1.1. Audited Group Information
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.1.2. Audit Schedule
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.1.3. Audit Content
-
-
-
-<div style="page-break-after: always;"></div>
-
-### 6.4.2. Audit Received
-
-#### 6.4.2.1. Auditor Group Information
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.2. Received Audit Schedule
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.3. Received Audit Content
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.4. Summary of Modifications to Address Findings
-
 
 
 <div style="page-break-after: always;"></div>
