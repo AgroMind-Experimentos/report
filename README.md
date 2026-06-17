@@ -5443,18 +5443,61 @@ EcoTrack es una plataforma agrícola que permite a agrónomos gestionar organiza
 
 #### 6.2.1.1. Coding Standards & Code Conventions
 
+El equipo aplica las siguientes convenciones para mantener un código uniforme y fácil de mantener en todos los repositorios de EcoTrack:
+
+- **Clean Code:** Los nombres de variables, funciones y clases deben ser descriptivos y estar escritos en inglés. Las funciones deben hacer una sola cosa y ser cortas; se evita el código muerto y los comentarios que solo repiten lo que el código ya dice. Para cada tecnología del proyecto se adopta su guía oficial: [Vue Style Guide](https://vuejs.org/style-guide/) y [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) para el frontend, [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) y [Microsoft ASP.NET Core Coding Guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) para el backend, y [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) para la landing page.
+
+- **Domain-Driven Design (DDD):** El código usa un lenguaje común que refleja el dominio agrícola de EcoTrack: términos como `Crop`, `Field`, `Sensor` o `IrrigationSchedule` aparecen tanto en el código como en las conversaciones del equipo. El sistema se divide en bounded contexts, y la lógica de negocio vive en los servicios de dominio y repositorios del backend, no en los controladores.
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.2.1.2. Code Quality & Code Security
 
+El equipo revisa la calidad y seguridad del código antes de que llegue a revisión o producción:
+
+- **Calidad del Código:** Se mide con métricas como cobertura de pruebas y complejidad ciclomática. En el frontend Vue 3 se usa **ESLint** con `eslint-plugin-vue`, que detecta imports mal usados, variables sin usar y violaciones de la Vue Style Guide. En el backend .NET 9 se usa **SonarLint** en el IDE, que avisa en tiempo real sobre code smells, duplicación de lógica y métodos demasiado complejos.
+
+- **Seguridad del Código:** Las vulnerabilidades más comunes se mitigan desde el diseño: la inyección SQL se previene usando Entity Framework Core con queries parametrizadas; el XSS se evita con el escape automático del template de Vue 3, sin usar `v-html` con datos del usuario; y la validación de entradas se hace con Data Annotations en ASP.NET Core, que rechaza los requests malformados antes de que lleguen a la lógica del sistema.
+
+<div align="center">
+
+| <img src="./img/logos/eslint.svg" width="48" height="48"/><br/>ESLint |
+|:---:|
+
+</div>
+
+ESLint corre automáticamente en el pipeline de CI en cada Pull Request, bloqueando la fusión si hay errores de linting. SonarLint actúa en el IDE del desarrollador, por lo que los problemas se detectan antes incluso de hacer commit.
 
 
 <div style="page-break-after: always;"></div>
 
 ### 6.2.2. Reviews
 
+Todo cambio de código en EcoTrack pasa por un proceso de revisión antes de integrarse a las ramas estables. Esto se gestiona mediante Pull Requests en GitHub:
+
+
+**Tipos de Revisiones:**
+
+- **Revisión por Pares:** Un miembro del equipo distinto al autor revisa el PR para verificar que el código sea claro y cumpla con los estándares definidos en 6.2.1.1.
+- **Revisión Formal:** Para cambios de mayor impacto, el equipo evalúa el código en conjunto usando un checklist, lo que permite detectar problemas que una sola persona podría pasar por alto.
+- **Revisión Automática:** ESLint y SonarLint corren en cada PR vía GitHub Actions. Si alguna verificación falla, el PR no puede fusionarse.
+
+**Proceso de Revisión:**
+
+- El autor abre un PR con una descripción de qué cambió y cómo probarlo, usando mensajes en formato Conventional Commits.
+- Los revisores dejan comentarios en las líneas específicas del diff. Los comentarios deben ser concretos y orientados a soluciones.
+- El autor responde cada comentario y aplica los cambios necesarios.
+- El PR se aprueba solo cuando todos los comentarios están resueltos y las verificaciones automáticas pasan.
+
+**Criterios de Aceptación:**
+
+- El código no debe introducir vulnerabilidades de seguridad ni romper los estándares de calidad definidos.
+- La cobertura de pruebas debe mantenerse en al menos un 80%.
+
+**Frecuencia:**
+
+Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe quedar sin respuesta más de 48 horas. Al cierre de cada sprint se revisa si quedaron PRs pendientes.
 
 
 <div style="page-break-after: always;"></div>
@@ -6036,28 +6079,107 @@ En esta sección se presentan las hipótesis formuladas para los experimentos de
 
 ### 8.2.2. Domain Business Metrics
 
-## 8.2.2. Domain Business Metrics
+Las siguientes métricas de negocio de EcoTrack son las que guían la medición de todos los experimentos del capítulo.
+
+| Métrica | Descripción | Fórmula | Técnica de Recolección | Meta |
+|---|---|---|---|---|
+| Tasa de exportación de reportes | % de usuarios activos que descargaron al menos un reporte en el periodo | (Usuarios con ≥1 descarga / Total usuarios activos) × 100 | Evento de Google Analytics al pulsar "Exportar a Excel" | ≥ 40% |
+| Puntuación de satisfacción UX | Promedio de valoraciones de usuarios tras probar una funcionalidad | Promedio de puntuaciones en encuesta in-app (escala 1–5) | Encuesta in-app que aparece al terminar de usar la función | ≥ 4.0 / 5.0 |
+| Tasa de completitud de tareas | % de tareas registradas que alcanzan estado "completada" | (Tareas completadas / Tareas registradas) × 100 | Consulta en BD filtrando tareas por estado | +12% sobre línea base |
+| Tasa de adopción de geolocalización | % de usuarios activos que registraron al menos una ubicación | (Usuarios con ≥1 ubicación registrada / Total usuarios activos) × 100 | Logs del backend al guardar coordenadas en un registro | ≥ 35% |
+| Tiempo promedio de registro de cultivo | Tiempo que tarda un usuario en completar el formulario de cultivo | Promedio(timestamp_fin − timestamp_inicio) en segundos | Timestamps del frontend al abrir y cerrar el formulario de cultivo | −10% vs. línea base |
+| Tasa de error en registro de cultivos | % de registros con nombre duplicado o variación ortográfica de un cultivo ya existente | (Registros duplicados o con error / Total registros de cultivo) × 100 | Revisión de registros en BD al cierre del periodo | −25% vs. línea base |
+| Valor percibido de la sección de clima | % de usuarios que valoran positivamente la sección de clima con IA | (Usuarios con respuesta ≥4/5 en encuesta / Total encuestados) × 100 | Encuesta in-app al salir de la sección de clima | ≥ 45% |
+| Acciones preventivas registradas | Promedio de acciones preventivas por usuario activo en el periodo | Total acciones preventivas / Total usuarios activos | Logs del backend con acciones de tipo preventivo | +15% vs. línea base |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.3. Measures
 
-## 8.2.3. Measures
+A cada hipótesis le corresponden las medidas que mejor responden su pregunta, sin medir más de lo necesario.
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| **Measure** | **Tasa de exportación de reportes** y **puntuación de satisfacción UX**, registradas antes y después de habilitar la función. Los eventos de descarga se capturan en Google Analytics; la satisfacción se recoge con una encuesta in-app. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| **Measure** | **Tasa de completitud de tareas**, obtenida de la base de datos comparando el estado de las tareas antes y después del cambio de vista, junto con la **puntuación de satisfacción UX** vía encuesta in-app. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| **Measure** | **Tasa de adopción de geolocalización**, contada desde los logs del backend cada vez que un usuario guarda coordenadas, y **puntuación de satisfacción UX** recogida con encuesta in-app tras usar la función. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción "Otro"? |
+| **Measure** | **Tasa de error en registro de cultivos**, analizada en la base de datos al comparar duplicados y variaciones ortográficas antes y después del cambio, y **tiempo promedio de registro de cultivo** medido con eventos de frontend al inicio y fin del formulario. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+| **Measure** | **Valor percibido de la sección de clima**, obtenido de una encuesta in-app tras acceder a la sección, y **acciones preventivas registradas** por usuario, extraídas de los logs del backend filtrando por tipo de acción. |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.4. Conditions
 
-## 8.2.4. Conditions
+Cada experimento tiene dos condiciones: la experimental, donde se activa el cambio, y la de control, donde la app se mantiene como está.
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| **Condición Experimental** | Los usuarios ven el botón "Exportar a Excel" en la sección de reportes y pueden descargar sus datos en `.xlsx`. Se espera que al menos el 40% descargue un reporte y que la satisfacción UX suba un 15%. |
+| **Condición de Control** | Los usuarios usan la app sin la opción de exportación, igual que antes. No hay cambio esperado en descargas ni en satisfacción. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| **Condición Experimental** | Las tareas se muestran en un tablero Kanban con columnas Pendiente, En proceso y Completada. Se espera que el 50% de los usuarios identifique el estado de sus labores con mayor claridad y que la tasa de completitud suba un 12%. |
+| **Condición de Control** | Las tareas se muestran en la lista original. No se espera variación en la tasa de completitud ni en la claridad percibida. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| **Condición Experimental** | Los formularios de parcela, cultivo y planta incluyen un campo para guardar coordenadas GPS. Se espera que el 35% de los usuarios registre al menos una ubicación durante el periodo de prueba. |
+| **Condición de Control** | Los formularios no tienen campo de ubicación. No hay registro de coordenadas posible y el seguimiento de campo se hace igual que antes. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción "Otro"? |
+| **Condición Experimental** | El campo de cultivo es un dropdown con opciones predefinidas y la entrada "Otro" para casos no contemplados. Se espera una reducción del 25% en errores o duplicidades y del 10% en el tiempo de registro. |
+| **Condición de Control** | El campo de cultivo es un texto libre sin validación. Los errores ortográficos y duplicidades ocurren al mismo ritmo que antes. |
+
+| **Hypothesis** | |
+|---|---|
+| **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+| **Condición Experimental** | La sección de clima muestra los datos meteorológicos más recomendaciones generadas por IA (riego, fertilización, protección de cultivos). Se espera que el 45% valore la sección positivamente y que las acciones preventivas registradas suban un 15%. |
+| **Condición de Control** | La sección de clima muestra solo datos meteorológicos, sin recomendaciones. No hay cambio esperado en la valoración de la sección ni en las acciones preventivas. |
 
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.5. Scale Calculations and Decisions
 
-## 8.2.5. Scale Calculations and Decisions
+Para decidir cuánta evidencia es suficiente, cada experimento usa dos parámetros:
+
+- **Certeza:** **α = 5%** evita concluir que algo funciona cuando es pura casualidad (error Tipo I). Un **poder estadístico del 80%** evita perder un efecto real que sí existe (error Tipo II).
+- **Precisión:** El **MDE (Efecto Mínimo Detectable)** es el cambio más pequeño que vale la pena detectar. Si el resultado queda por debajo del MDE, la hipótesis se descarta o se replantea.
+
+Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (entre el MDE y el objetivo), **Ideal** (alcanza el objetivo) y **Excelente** (supera el objetivo en ≥25%).
+
+| Factor / Scale Calculation | MDE | α | Poder | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
+|---|:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
+| Creemos que al habilitar la exportación a Excel, al menos el 40% de los usuarios descargará un reporte y la satisfacción UX subirá un 15%. Sabremos que esto es cierto cuando la tasa de exportación alcance ≥40% y la puntuación de satisfacción suba ≥0.6 puntos. | 20pp | 5% | 80% | Implementar el botón "Exportar a Excel" en la sección de reportes, generando archivos `.xlsx` con los datos del periodo. | | | X | |
+| Creemos que al cambiar la vista de tareas a un tablero Kanban, la tasa de completitud de tareas subirá un 12% y el 50% de los usuarios identificará el estado de sus labores con mayor facilidad. Sabremos que esto es cierto cuando la tasa de completitud aumente ≥12% respecto a la línea base. | 6pp | 5% | 80% | Reemplazar la vista de lista por un tablero Kanban con columnas Pendiente, En proceso y Completada. | | | X | |
+| Creemos que al incorporar geolocalización, el 35% de los usuarios registrará al menos una ubicación durante el periodo de prueba. Sabremos que esto es cierto cuando la tasa de adopción alcance ≥35%. | 15pp | 5% | 80% | Agregar campo GPS en los formularios de parcela, cultivo y planta con previsualización en mapa. | | | X | |
+| Creemos que al reemplazar el campo libre de cultivos por un dropdown con opción "Otro", los errores de registro bajarán un 25% y el tiempo de registro se reducirá un 10%. Sabremos que esto es cierto cuando ambas métricas mejoren respecto a la línea base. | 12pp / 5pp | 5% | 80% | Cambiar el campo de cultivo a un dropdown con opciones predefinidas y una entrada libre "Otro". | | | X | |
+| Creemos que al incorporar recomendaciones climáticas por IA, el 45% de los usuarios valorará positivamente la sección de clima y las acciones preventivas registradas aumentarán un 15%. Sabremos que esto es cierto cuando ambas métricas alcancen los valores objetivo. | 20pp / 7pp | 5% | 80% | Agregar un bloque de recomendaciones IA en la sección de clima basadas en los datos meteorológicos actuales y el estado de los cultivos. | | | X | |
 
 
 <div style="page-break-after: always;"></div>
@@ -6073,12 +6195,102 @@ En esta sección se presentan las hipótesis formuladas para los experimentos de
 
 ## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+Se realizaron pruebas utilizando Lighthouse para evaluar el rendimiento, accesibilidad y buenas prácticas de EcoTrack. Estas pruebas permiten verificar que la aplicación mantenga una buena experiencia de usuario incluso después de incorporar las nuevas funcionalidades propuestas.
+
+A continuación, se muestran los resultados obtenidos mediante 
+Lighthouse en las principales vistas de la aplicación.
+
+
+<img src="./img/capitulo_8/data_analytics/agronomo_dashboard.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agronomo_settings.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agronomo_profile.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agronomo_reports.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agronomo_tasks.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agricultor_tasks.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agricultor_weather.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agricultor_reports.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agricultor_profile.jpeg" width="600" />
+
+<img src="./img/capitulo_8/data_analytics/agricultor_settings.jpeg" width="600" />
+
 
 <div style="page-break-after: always;"></div>
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
 ## 8.2.8. Web and Mobile Tracking Plan
+
+Para EcoTrack, el objetivo del seguimiento es evaluar el impacto de las funcionalidades experimentales propuestas y determinar si generan mejoras reales para agricultores y agrónomos durante la gestión de sus actividades agrícolas. Para ello, se realizará un monitoreo continuo basado en métricas de uso, interacciones de los usuarios y encuestas de satisfacción.
+
+El seguimiento se enfocará principalmente en las funcionalidades de exportación a Excel, vista de tareas tipo Kanban, geolocalización, dropdown de cultivos y recomendaciones climáticas por IA.
+
+### 1. Implementación Inicial
+
+Durante esta etapa se habilitarán las funcionalidades experimentales y se recopilarán los primeros datos para establecer una línea base de comparación.
+
+#### Recopilación de Datos
+
+**Métricas de uso:**
+
+Se recopilarán datos relacionados con el uso de las funcionalidades implementadas, tales como:
+
+* Cantidad de reportes exportados a Excel.
+* Cantidad de tareas completadas mediante la vista Kanban.
+* Número de parcelas registradas con geolocalización.
+* Frecuencia de uso del dropdown de cultivos.
+* Cantidad de consultas realizadas a la sección de recomendaciones climáticas.
+
+**Interacciones de los usuarios:**
+
+Se registrarán acciones realizadas dentro de la plataforma, incluyendo descargas de reportes, cambios de estado de tareas, registros de ubicaciones geográficas, creación de cultivos y visualización de recomendaciones climáticas.
+
+**Feedback de usuarios:**
+
+Se utilizarán encuestas breves dentro de la plataforma para conocer la percepción de utilidad y facilidad de uso de las nuevas funcionalidades.
+
+#### Análisis Comparativo
+
+Los resultados obtenidos serán comparados con los datos registrados antes de la implementación de las funcionalidades experimentales para identificar mejoras o cambios significativos en el comportamiento de los usuarios.
+
+### 2. Seguimiento Continuo
+
+Después de la implementación inicial, se realizará un monitoreo periódico para evaluar la adopción y efectividad de las funcionalidades propuestas.
+
+#### Recopilación de Datos
+
+**Indicadores de adopción:**
+
+Se realizará seguimiento a métricas como:
+
+* Tasa de exportación de reportes.
+* Tasa de completitud de tareas.
+* Tasa de adopción de geolocalización.
+* Reducción de errores en el registro de cultivos.
+* Valor percibido de la sección de clima.
+
+**Segmentación de usuarios:**
+
+Los datos serán analizados según el tipo de usuario de la plataforma, diferenciando agricultores y agrónomos para comprender mejor cómo cada grupo utiliza las nuevas funcionalidades.
+
+#### Evaluación y Ajustes
+
+**Revisión de resultados:**
+
+Se revisarán periódicamente las métricas obtenidas para verificar si las metas definidas en los experimentos están siendo alcanzadas.
+
+**Mejora continua:**
+
+A partir de los resultados y comentarios recibidos por los usuarios, se identificarán oportunidades de mejora para optimizar las funcionalidades implementadas y aumentar su valor dentro de EcoTrack.
+
+Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones fundamentadas sobre la incorporación definitiva de las funcionalidades experimentales dentro de la plataforma.
 
 
 <div style="page-break-after: always;"></div>
@@ -6090,12 +6302,29 @@ En esta sección se presentan las hipótesis formuladas para los experimentos de
 ## 8.3.1. To-Be User Stories
 
 
+| User Story ID | Título                                            | Descripción                                                                                                                                                        | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Relacionado con (Epic ID) |
+| ------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| UA01          | Exportar reportes a Excel                         | Como agrónomo, quiero exportar reportes agrícolas a Excel para analizar la información fuera de la plataforma y compartirla con otros miembros de mi organización. | **Escenario 1: Exportar reporte**<br><br>**Given** el usuario se encuentra en la sección de reportes.<br><br>**When** hace clic en el botón "Exportar a Excel".<br><br>**Then** la aplicación descargará un archivo .xlsx con la información seleccionada.<br><br>**Escenario 2: Exportación exitosa**<br><br>**Given** el usuario ha solicitado la exportación.<br><br>**When** el sistema genera correctamente el archivo.<br><br>**Then** se mostrará una notificación indicando que la exportación fue realizada exitosamente. | EP04                      |
+| UA02          | Visualizar tareas en tablero Kanban               | Como usuario, quiero visualizar mis tareas en un tablero Kanban para identificar rápidamente cuáles están pendientes, en proceso o completadas.                    | **Escenario 1: Visualizar tablero**<br><br>**Given** el usuario accede a la sección de tareas.<br><br>**When** selecciona la vista Kanban.<br><br>**Then** la aplicación mostrará las tareas organizadas por estado.<br><br>**Escenario 2: Cambiar estado de tarea**<br><br>**Given** una tarea se encuentra en una columna del tablero.<br><br>**When** el usuario cambia la tarea a otra columna.<br><br>**Then** el estado de la tarea será actualizado automáticamente.                                                        | EP02                      |
+| UA03          | Registrar geolocalización de parcela              | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación.                                    | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará la ubicación en un mapa.                           | EP01                      |
+| UA04          | Seleccionar cultivo desde catálogo                | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas.                          | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario selecciona la opción "Otro".<br><br>**Then** podrá ingresar manualmente el nombre del cultivo.                                        | EP01                      |
+| UA05          | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas.                  | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** el usuario revisa la información.<br><br>**Then** podrá utilizarla como apoyo para planificar actividades agrícolas.      | EP04                      |
+
+
+
 <div style="page-break-after: always;"></div>
 
 ### 8.3.2. To-Be Product Backlog
 
 ## 8.3.2. To-Be Product Backlog
 
+| # Orden | User Story ID | Título                                            | Story Points (1 / 2 / 3 / 5 / 8) |
+| ------- | ------------- | ------------------------------------------------- | -------------------------------- |
+| 1       | UA05          | Consultar recomendaciones climáticas inteligentes | 8                                |
+| 2       | UA03          | Registrar geolocalización de parcela              | 8                                |
+| 3       | UA01          | Exportar reportes a Excel                         | 5                                |
+| 4       | UA02          | Visualizar tareas en tablero Kanban               | 5                                |
+| 5       | UA04          | Seleccionar cultivo desde catálogo                | 3                                |
 
 <div style="page-break-after: always;"></div>
 
