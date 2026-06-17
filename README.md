@@ -6188,6 +6188,12 @@ Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (ent
 
 ## 8.2.6. Methods Selection
 
+| Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
+|---|---|---|---|---|
+| **Precio** | Plan gratuito/créditos gratis | Basado en suscripción, con pruebas gratuitas | Gratuito con limitaciones | Plan gratuito, disponible para ejecución local |
+| **Capacidad de Análisis** | Análisis exhaustivo de métricas y datos de usuario | Monitoreo exhaustivo de rendimiento y experiencia de usuario desde múltiples ubicaciones | Análisis orientado a pruebas de carga y rendimiento de aplicaciones | Análisis orientado a la experiencia de usuario, con métricas clave de rendimiento y accesibilidad |
+| **Sencillez** | Aprendizaje sencillo de las métricas | Interfaz avanzada pero detallada y completa | Información detallada y resumida sobre rendimiento | Información resumida en valores clave que puntúan aspectos de la aplicación |
+| **Ventajas** | Excelente capacidad de generación de reportes y amplia integración con otros servicios | Análisis en tiempo real desde diversas ubicaciones y dispositivos, ideal para empresas con usuarios globales | Simulación de tráfico y pruebas de rendimiento bajo condiciones de carga | Evaluación de accesibilidad, rendimiento y diseño con métricas claras para optimizar la experiencia del usuario |
 
 <div style="page-break-after: always;"></div>
 
