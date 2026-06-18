@@ -5517,49 +5517,52 @@ En el área de Identidad y Acceso (IAM), los test de integración garantizan los
 
 EcoTrack es una plataforma agrícola que permite a agrónomos gestionar organizaciones, parcelas, tareas y reportes en colaboración con agricultores. Las siguientes pruebas de aceptación BDD fueron implementadas con Selenium IDE, verificando los principales flujos funcionales de la aplicación.
 
----
-
 **Registro de cuenta**
 
-![BDD Registro de cuenta](img/capitulo_6/bdd/screenshots/bdd_Registro_de_cuenta.png)
-
----
+![BDD Registro de cuenta](./img/capitulo_6/bdd/screenshots/bdd_Registro_de_cuenta.png)
 
 **Login**
 
-![BDD Login](img/capitulo_6/bdd/screenshots/bdd_Login.png)
+![BDD Login](./img/capitulo_6/bdd/screenshots/bdd_Login.png)
 
----
+<div style="page-break-after: always;"></div>
 
 **Crear organización**
 
-![BDD Crear organización](img/capitulo_6/bdd/screenshots/bdd_Crear_organizacion.png)
-
----
+![BDD Crear organización](./img/capitulo_6/bdd/screenshots/bdd_Crear_organizacion.png)
 
 **Crear parcela**
 
-![BDD Crear parcela](img/capitulo_6/bdd/screenshots/bdd_Crear_parcela.png)
+![BDD Crear parcela](./img/capitulo_6/bdd/screenshots/bdd_Crear_parcela.png)
 
----
+<div style="page-break-after: always;"></div>
 
 **Crear tarea**
 
-![BDD Crear tarea](img/capitulo_6/bdd/screenshots/bdd_Crear_tarea.png)
+![BDD Crear tarea](./img/capitulo_6/bdd/screenshots/bdd_Crear_tarea.png)
 
 
 <div style="page-break-after: always;"></div>
 
 ### 6.1.4. Core System Tests
 
-![c](img/capitulo_6/system_tests/US14.jpg)
-![c](img/capitulo_6/system_tests/US14SE.jpeg)
-![c](img/capitulo_6/system_tests/US16.jpeg)
-![c](img/capitulo_6/system_tests/US16SE.jpeg)
-![c](img/capitulo_6/system_tests/US18.jpeg)
-![c](img/capitulo_6/system_tests/US18SE.jpeg)
-![c](img/capitulo_6/system_tests/US21.jpeg)
-![c](img/capitulo_6/system_tests/US21SE.jpeg)
+![c](./img/capitulo_6/system_tests/US14.jpeg)
+![c](./img/capitulo_6/system_tests/US14SE.jpg)
+
+<div style="page-break-after: always;"></div>
+
+![c](./img/capitulo_6/system_tests/US16.jpeg)
+![c](./img/capitulo_6/system_tests/US16SE.jpeg)
+
+<div style="page-break-after: always;"></div>
+
+![c](./img/capitulo_6/system_tests/US18.jpeg)
+![c](./img/capitulo_6/system_tests/US18SE.jpeg)
+
+<div style="page-break-after: always;"></div>
+
+![c](./img/capitulo_6/system_tests/US21.jpeg)
+![c](./img/capitulo_6/system_tests/US21SE.jpeg)
 
 
 <div style="page-break-after: always;"></div>
@@ -7416,6 +7419,7 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 | UA03 | Registrar geolocalización de parcela | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación. | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará las coordenadas de la parcela. | EP01 |
 | UA04 | Seleccionar cultivo desde catálogo | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas. | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario da click en el campo del cultivo.<br><br>**Then** podrá ingresar manualmente el nombre del cultivo. | EP01 |
 | UA05 | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas. | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones generadas por inteligencia artificial asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** El usuario ingresa una ubicación diferente como referencia<br><br>**Then** Se generarán las recomendaciones generadas por inteligencia artificial asociadas a las condiciones de dicho lugar. | EP04 |
+
 
 <div style="page-break-after: always;"></div>
 
