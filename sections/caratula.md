@@ -51,6 +51,6 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - mayo 2026</p>
+        <p>Lima - junio 2026</p>
     </div>
 </div>

@@ -22,13 +22,22 @@
                 <strong>Henry Reaño:</strong> Colaboré en el desarrollo del producto e intervine en el proceso de despliegue solucionando errores críticos, garantizando que los estándares técnicos y de calidad se mantengan en el entorno real.<br>
                 <strong>Maria Fernanda Mostajo:</strong> Asumí mi responsabilidad profesional contribuyendo de manera activa al desarrollo de software del producto, escribiendo código sostenible.<br>
                 <strong>Tatiana Paucar:</strong> Contribuí al desarrollo del sistema, asegurando que mis aportes y funcionalidades cumplan con los estándares técnicos y profesionales del equipo.<br>
-                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br>
+                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Revisé los resultados del análisis estático de código y verifiqué que los hallazgos de seguridad identificados en la sección 6.2.1.2 fueran coherentes con las buenas prácticas establecidas en el equipo, asumiendo la responsabilidad de validar que el código base no introduzca vulnerabilidades en las nuevas funcionalidades propuestas.<br>
+                <strong>Álvaro Orozco:</strong> Formulé las hipótesis del Capítulo VIII asegurando que cada una incluyera una hipótesis nula verificable, y supervisé la coherencia del capítulo completo. Esta función implica responsabilidad directa sobre la solidez metodológica de los experimentos propuestos.<br>
+                <strong>Henry Reaño:</strong> Participé en la identificación de los problemas del estado actual de EcoTrack que fundamentan el Experiment Planning, aportando observaciones sobre las deficiencias en la experiencia de usuario que guiaron la formulación de los supuestos y las preguntas experimentales.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Estructuré el proceso de Experiment Planning documentando las preguntas experimentales con su scoring de priorización, el question backlog y las experiment cards. Asumir esta responsabilidad implicó asegurar que cada experimento propuesto tuviera una justificación sólida antes de comprometer recursos de desarrollo.<br>
+                <strong>Tatiana Paucar:</strong> Redacté las secciones de Static Testing y Continuous Monitoring, documentando estándares de codificación, análisis estático de código y los pipelines de alertas y notificaciones. Esta labor responde a la responsabilidad profesional de garantizar la calidad del código y la visibilidad del estado del sistema en producción.<br>
+                <strong>Aldair Ramos:</strong> Desarrollé el As-Is Summary, el Raw Material y las secciones de Analytics Goals, Tracking Plan, To-Be User Stories y To-Be Product Backlog, garantizando que las funcionalidades propuestas cuenten con criterios de aceptación definidos y un plan de seguimiento que permita evaluar su impacto de forma responsable.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
                 Se concluye que los integrantes demuestran un compromiso con la ética profesional al priorizar la corrección de fallos técnicos, la seguridad del código y el cumplimiento de marcos normativos, garantizando un producto robusto y confiable.<br><br>
                 <strong>TP</strong><br>
-                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.
+                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo asumió con responsabilidad el diseño experimental del producto, estructurando cada propuesta con criterios medibles y justificación metodológica. La documentación de pruebas estáticas, monitoreo continuo e hipótesis verificables refleja un compromiso profesional con la calidad y trazabilidad del proceso de desarrollo.
             </td>
         </tr>
         <tr>
@@ -46,13 +55,22 @@
                 <strong>Henry Reaño:</strong> Durante el desarrollo y despliegue del software, identifiqué y solucioné fallas críticas considerando que un sistema inestable afectaría negativamente el entorno de trabajo y la viabilidad económica del producto.<br>
                 <strong>Maria Fernanda Mostajo:</strong> En mi participación en el desarrollo, trabajé orientada a construir funcionalidades que respondan eficientemente a las necesidades operativas de los usuarios.<br>
                 <strong>Tatiana Paucar:</strong> Al codificar partes del software, tomé decisiones de desarrollo conscientes del impacto positivo que el sistema debe generar en el contexto operativo del cliente final.<br>
-                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br>
+                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Al revisar el análisis de calidad y seguridad del código estático, emití juicios sobre el impacto que las vulnerabilidades no corregidas pueden tener en la confiabilidad del sistema y en la confianza de los usuarios agrícolas que dependen de la plataforma para gestionar su producción.<br>
+                <strong>Álvaro Orozco:</strong> Al formular las hipótesis y sus respectivas hipótesis nulas, establecí los criterios que permiten rechazar o validar una funcionalidad con base en evidencia cuantitativa, reduciendo el riesgo de tomar decisiones de producto sin respaldo metodológico.<br>
+                <strong>Henry Reaño:</strong> Al aportar observaciones sobre la experiencia de usuario en el estado actual de la plataforma, contribuí a identificar qué problemas tienen mayor impacto en la productividad de agricultores y agrónomos, informando la priorización de los experimentos propuestos.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Al priorizar los experimentos mediante scoring de confianza, riesgo, impacto e interés, emití juicios sobre qué mejoras generan mayor valor para agricultores y agrónomos, estableciendo un orden en el backlog experimental basado en evidencia y no en preferencias arbitrarias.<br>
+                <strong>Tatiana Paucar:</strong> Al documentar las métricas de negocio, medidas y condiciones de los experimentos, evalué el alcance estadístico necesario para detectar cambios reales en el comportamiento de los usuarios, evitando conclusiones basadas en evidencia insuficiente.<br>
+                <strong>Aldair Ramos:</strong> Al diseñar el Tracking Plan y los criterios de aceptación de las To-Be User Stories, consideré cómo cada funcionalidad debe ser medida para validar su impacto real en la experiencia del usuario y en los objetivos de negocio de EcoTrack.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
                 Se concluye que el equipo posee una visión crítica sobre el impacto de su trabajo, identificando riesgos económicos para el negocio, implicaciones sociales respecto a la privacidad de datos y la importancia de la experiencia del usuario en el contexto social.<br><br>
                 <strong>TP</strong><br>
-                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.
+                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo emitió juicios informados al estructurar los experimentos con scoring de priorización, métricas de negocio verificables e hipótesis nulas. Este enfoque demuestra una comprensión del impacto económico y social de las decisiones de producto, priorizando funcionalidades que generan valor real para los usuarios agrícolas antes de invertir en su desarrollo.
             </td>
         </tr>
     </tbody>
