@@ -6341,8 +6341,6 @@ Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (ent
 
 ### 8.2.6. Methods Selection
 
-## 8.2.6. Methods Selection
-
 Para validar las hipótesis planteadas, cada experimento combina métodos cuantitativos y cualitativos según la naturaleza de las métricas definidas en las secciones anteriores. Adicionalmente, se seleccionaron herramientas de análisis de rendimiento y experiencia de usuario para verificar que las nuevas funcionalidades no degraden la calidad técnica de la plataforma.
 
 ### Herramientas seleccionadas
@@ -6396,8 +6394,6 @@ Adicionalmente, dentro de las pruebas A/B se captura la recepción del usuario m
 <div style="page-break-after: always;"></div>
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
-
-## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
 Se realizaron pruebas utilizando Lighthouse para evaluar el rendimiento, accesibilidad y buenas prácticas de EcoTrack. Estas pruebas permiten verificar que la aplicación mantenga una buena experiencia de usuario incluso después de incorporar las nuevas funcionalidades propuestas.
 
@@ -6501,9 +6497,6 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 ### 8.3.1. To-Be User Stories
 
-## 8.3.1. To-Be User Stories
-
-
 | User Story ID | Título                                            | Descripción                                                                                                                                                        | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Relacionado con (Epic ID) |
 | ------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | UA01          | Exportar reportes a Excel                         | Como agrónomo, quiero exportar reportes agrícolas a Excel para analizar la información fuera de la plataforma y compartirla con otros miembros de mi organización. | **Escenario 1: Exportar reporte**<br><br>**Given** el usuario se encuentra en la sección de reportes.<br><br>**When** hace clic en el botón "Exportar a Excel".<br><br>**Then** la aplicación descargará un archivo .xlsx con la información seleccionada.<br><br>**Escenario 2: Exportación exitosa**<br><br>**Given** el usuario ha solicitado la exportación.<br><br>**When** el sistema genera correctamente el archivo.<br><br>**Then** se mostrará una notificación indicando que la exportación fue realizada exitosamente. | EP04                      |
@@ -6517,8 +6510,6 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 <div style="page-break-after: always;"></div>
 
 ### 8.3.2. To-Be Product Backlog
-
-## 8.3.2. To-Be Product Backlog
 
 | # Orden | User Story ID | Título                                            | Story Points (1 / 2 / 3 / 5 / 8) |
 | ------- | ------------- | ------------------------------------------------- | -------------------------------- |

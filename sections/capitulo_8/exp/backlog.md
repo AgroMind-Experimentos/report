@@ -1,5 +1,3 @@
-## 8.3.2. To-Be Product Backlog
-
 | # Orden | User Story ID | Título                                            | Story Points (1 / 2 / 3 / 5 / 8) |
 | ------- | ------------- | ------------------------------------------------- | -------------------------------- |
 | 1       | UA05          | Consultar recomendaciones climáticas inteligentes | 8                                |

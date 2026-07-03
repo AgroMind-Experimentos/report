@@ -1,5 +1,3 @@
-## 8.2.6. Methods Selection
-
 Para validar las hipótesis planteadas, cada experimento combina métodos cuantitativos y cualitativos según la naturaleza de las métricas definidas en las secciones anteriores. Adicionalmente, se seleccionaron herramientas de análisis de rendimiento y experiencia de usuario para verificar que las nuevas funcionalidades no degraden la calidad técnica de la plataforma.
 
 ### Herramientas seleccionadas
