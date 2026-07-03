@@ -51,7 +51,7 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - mayo 2026</p>
+        <p>Lima - junio 2026</p>
     </div>
 </div>
 
@@ -161,6 +161,39 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>3.0</td>
+            <td>18/06/2026</td>
+            <td>
+                Mostajo Orosco, Maria Fernanda<br>
+                Orozco Torres, Alvaro Joaquin<br>
+                Paucar De La Cruz, Tatiana Medalith<br>
+                Ramos Aguirre, Aldair Joaquin
+            </td>
+            <td>
+                <ul>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.2.1. Static Code Analysis (Coding Standards & Code Conventions, Code Quality & Code Security)</li>
+                            <li>6.2.2. Reviews</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VII: DevOps Practices</b>
+                        <ul>
+                            <li>7.4. Continuous Monitoring (Tools and Practices, Monitoring Pipeline, Alerting Pipeline, Notification Pipeline)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VIII: Experiment-Driven Development</b>
+                        <ul>
+                            <li>8.1. Experiment Planning (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog, Experiment Cards)</li>
+                            <li>8.2. Experiment Design (Hypotheses, Business Metrics, Measures, Conditions, Scale Calculations, Methods Selection, Analytics Goals & KPIs, Tracking Plan)</li>
+                            <li>8.3. Experimentation (To-Be User Stories, To-Be Product Backlog)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -193,26 +226,26 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [Capítulo I: Introducción](#capitulo-i-introduccion)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -220,11 +253,11 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Capítulo IV: Product Design](#capitulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -252,13 +285,13 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.1.1. Sprint Backlog 1](#5211-sprint-backlog-1)
       - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
@@ -272,25 +305,39 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
   - [5.4. Video About the Product](#54-video-about-the-product)
-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
-  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+- [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-  - [6.2. Static Testing & Verification](#62-static-testing--verification)
+  - [6.2. Static Testing & Verification](#62-static-testing-verification)
     - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards--code-conventions)
-      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards-code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)
     - [6.2.2. Reviews](#622-reviews)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Interview Design](#631-interview-design)
+    - [6.3.2. Interview Records](#632-interview-records)
+    - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
+  - [6.4. User Experience Audit](#64-user-experience-audit)
+    - [6.4.1. Audit Performed](#641-audit-performed)
+      - [6.4.1.1. Audited Group Information](#6411-audited-group-information)
+      - [6.4.1.2. Audit Schedule](#6412-audit-schedule)
+      - [6.4.1.3. Audit Content](#6413-audit-content)
+    - [6.4.2. Audit Received](#642-audit-received)
+      - [6.4.2.1. Auditor Group Information](#6421-auditor-group-information)
+      - [6.4.2.2. Received Audit Schedule](#6422-received-audit-schedule)
+      - [6.4.2.3. Received Audit Content](#6423-received-audit-content)
+      - [6.4.2.4. Summary of Modifications to Address Findings](#6424-summary-of-modifications-to-address-findings)
+- [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -302,7 +349,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
     - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
     - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+- [Capítulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
   - [8.1. Experiment Planning](#81-experiment-planning)
     - [8.1.1. As-Is Summary](#811-as-is-summary)
     - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
@@ -322,7 +369,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
+- [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
 
 
@@ -354,13 +401,22 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
                 <strong>Henry Reaño:</strong> Colaboré en el desarrollo del producto e intervine en el proceso de despliegue solucionando errores críticos, garantizando que los estándares técnicos y de calidad se mantengan en el entorno real.<br>
                 <strong>Maria Fernanda Mostajo:</strong> Asumí mi responsabilidad profesional contribuyendo de manera activa al desarrollo de software del producto, escribiendo código sostenible.<br>
                 <strong>Tatiana Paucar:</strong> Contribuí al desarrollo del sistema, asegurando que mis aportes y funcionalidades cumplan con los estándares técnicos y profesionales del equipo.<br>
-                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br>
+                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Revisé los resultados del análisis estático de código y verifiqué que los hallazgos de seguridad identificados en la sección 6.2.1.2 fueran coherentes con las buenas prácticas establecidas en el equipo, asumiendo la responsabilidad de validar que el código base no introduzca vulnerabilidades en las nuevas funcionalidades propuestas.<br>
+                <strong>Álvaro Orozco:</strong> Formulé las hipótesis del Capítulo VIII asegurando que cada una incluyera una hipótesis nula verificable, y supervisé la coherencia del capítulo completo. Esta función implica responsabilidad directa sobre la solidez metodológica de los experimentos propuestos.<br>
+                <strong>Henry Reaño:</strong> Participé en la identificación de los problemas del estado actual de EcoTrack que fundamentan el Experiment Planning, aportando observaciones sobre las deficiencias en la experiencia de usuario que guiaron la formulación de los supuestos y las preguntas experimentales.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Estructuré el proceso de Experiment Planning documentando las preguntas experimentales con su scoring de priorización, el question backlog y las experiment cards. Asumir esta responsabilidad implicó asegurar que cada experimento propuesto tuviera una justificación sólida antes de comprometer recursos de desarrollo.<br>
+                <strong>Tatiana Paucar:</strong> Redacté las secciones de Static Testing y Continuous Monitoring, documentando estándares de codificación, análisis estático de código y los pipelines de alertas y notificaciones. Esta labor responde a la responsabilidad profesional de garantizar la calidad del código y la visibilidad del estado del sistema en producción.<br>
+                <strong>Aldair Ramos:</strong> Desarrollé el As-Is Summary, el Raw Material y las secciones de Analytics Goals, Tracking Plan, To-Be User Stories y To-Be Product Backlog, garantizando que las funcionalidades propuestas cuenten con criterios de aceptación definidos y un plan de seguimiento que permita evaluar su impacto de forma responsable.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
                 Se concluye que los integrantes demuestran un compromiso con la ética profesional al priorizar la corrección de fallos técnicos, la seguridad del código y el cumplimiento de marcos normativos, garantizando un producto robusto y confiable.<br><br>
                 <strong>TP</strong><br>
-                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.
+                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo asumió con responsabilidad el diseño experimental del producto, estructurando cada propuesta con criterios medibles y justificación metodológica. La documentación de pruebas estáticas, monitoreo continuo e hipótesis verificables refleja un compromiso profesional con la calidad y trazabilidad del proceso de desarrollo.
             </td>
         </tr>
         <tr>
@@ -378,13 +434,22 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
                 <strong>Henry Reaño:</strong> Durante el desarrollo y despliegue del software, identifiqué y solucioné fallas críticas considerando que un sistema inestable afectaría negativamente el entorno de trabajo y la viabilidad económica del producto.<br>
                 <strong>Maria Fernanda Mostajo:</strong> En mi participación en el desarrollo, trabajé orientada a construir funcionalidades que respondan eficientemente a las necesidades operativas de los usuarios.<br>
                 <strong>Tatiana Paucar:</strong> Al codificar partes del software, tomé decisiones de desarrollo conscientes del impacto positivo que el sistema debe generar en el contexto operativo del cliente final.<br>
-                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br>
+                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Al revisar el análisis de calidad y seguridad del código estático, emití juicios sobre el impacto que las vulnerabilidades no corregidas pueden tener en la confiabilidad del sistema y en la confianza de los usuarios agrícolas que dependen de la plataforma para gestionar su producción.<br>
+                <strong>Álvaro Orozco:</strong> Al formular las hipótesis y sus respectivas hipótesis nulas, establecí los criterios que permiten rechazar o validar una funcionalidad con base en evidencia cuantitativa, reduciendo el riesgo de tomar decisiones de producto sin respaldo metodológico.<br>
+                <strong>Henry Reaño:</strong> Al aportar observaciones sobre la experiencia de usuario en el estado actual de la plataforma, contribuí a identificar qué problemas tienen mayor impacto en la productividad de agricultores y agrónomos, informando la priorización de los experimentos propuestos.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Al priorizar los experimentos mediante scoring de confianza, riesgo, impacto e interés, emití juicios sobre qué mejoras generan mayor valor para agricultores y agrónomos, estableciendo un orden en el backlog experimental basado en evidencia y no en preferencias arbitrarias.<br>
+                <strong>Tatiana Paucar:</strong> Al documentar las métricas de negocio, medidas y condiciones de los experimentos, evalué el alcance estadístico necesario para detectar cambios reales en el comportamiento de los usuarios, evitando conclusiones basadas en evidencia insuficiente.<br>
+                <strong>Aldair Ramos:</strong> Al diseñar el Tracking Plan y los criterios de aceptación de las To-Be User Stories, consideré cómo cada funcionalidad debe ser medida para validar su impacto real en la experiencia del usuario y en los objetivos de negocio de EcoTrack.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
                 Se concluye que el equipo posee una visión crítica sobre el impacto de su trabajo, identificando riesgos económicos para el negocio, implicaciones sociales respecto a la privacidad de datos y la importancia de la experiencia del usuario en el contexto social.<br><br>
                 <strong>TP</strong><br>
-                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.
+                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo emitió juicios informados al estructurar los experimentos con scoring de priorización, métricas de negocio verificables e hipótesis nulas. Este enfoque demuestra una comprensión del impacto económico y social de las decisiones de producto, priorizando funcionalidades que generan valor real para los usuarios agrícolas antes de invertir en su desarrollo.
             </td>
         </tr>
     </tbody>
@@ -5488,6 +5553,111 @@ Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe qued
 
 <div style="page-break-after: always;"></div>
 
+## 6.3. Validation Interviews
+
+### 6.3.1. Interview Design
+
+A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad de la aplicación EcoTrack. Las preguntas se han separado según cada segmento objetivo, debido a que agricultores y agrónomos utilizan funcionalidades diferentes dentro de la plataforma.
+
+Estas preguntas están diseñadas para explorar las heurísticas de usabilidad y obtener información valiosa sobre la experiencia del usuario.
+
+#### Segmento objetivo: Agricultor
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+- Inicio de sesión en la plataforma.
+- Visualización de cultivos.
+- Consulta de tareas pendientes.
+- Revisión de alertas relacionadas con cultivos.
+
+Preguntas de validación:
+
+1. ¿Te resultó sencillo iniciar sesión e ingresar a la aplicación web de EcoTrack?
+
+2. ¿La información mostrada en la pantalla principal te permitió comprender rápidamente el estado de tus cultivos y tareas?
+
+3. ¿Pudiste encontrar y revisar tus cultivos sin dificultad?
+
+4. ¿La información presentada sobre cada cultivo te resultó clara y comprensible?
+
+5. ¿Pudiste identificar fácilmente las tareas pendientes que debes realizar?
+
+6. ¿Las tareas muestran con claridad su prioridad, fecha o estado de realización?
+
+7. ¿Las alertas relacionadas con los cultivos fueron visibles, claras y fáciles de entender?
+
+8. ¿Tuviste alguna dificultad para regresar a una pantalla anterior, cancelar una acción o corregir información registrada?
+
+9. ¿Encontraste algún botón, icono, mensaje o sección que te resultara confuso durante el uso de la aplicación?
+
+10. ¿Qué funcionalidad o mejora consideras necesaria para que EcoTrack sea más útil en tus actividades agrícolas diarias?
+
+#### Segmento objetivo: Agrónomo
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.2. Interview Records
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.3. Heuristic Evaluations
+
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. User Experience Audit
+
+### 6.4.1. Audit Performed
+
+#### 6.4.1.1. Audited Group Information
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.2. Audit Schedule
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.3. Audit Content
+
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.4.2. Audit Received
+
+#### 6.4.2.1. Auditor Group Information
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.2. Received Audit Schedule
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.3. Received Audit Content
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.4. Summary of Modifications to Address Findings
+
+
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -6296,12 +6466,13 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 # Conclusiones
 
-**TB1**
+- La incorporación de pruebas estáticas mediante análisis de código y revisiones estructuradas permitió identificar oportunidades de mejora en la base de código de EcoTrack antes de su ejecución, reduciendo la probabilidad de introducir defectos en etapas posteriores del ciclo de desarrollo. Este enfoque complementó las pruebas dinámicas ya existentes y fortaleció la confianza del equipo en la calidad del producto entregado.
 
-Para este avance parcial se consideran las siguientes conclusiones:
+- La implementación de prácticas de integración continua, entrega continua y despliegue continuo estableció un flujo de trabajo automatizado que reduce la intervención manual en la validación y publicación de cambios. La incorporación de monitoreo y alertas como parte del pipeline garantiza visibilidad sobre el estado del sistema en producción y permite una respuesta oportuna ante incidentes, consolidando una cultura de DevOps dentro del equipo.
 
-- Se ha evaluado y concluido el trabajo a realizar establecido por el primer equipo, aplicando buenas prácticas de desarrollo y testing para garantizar la calidad del producto.
-- Se han aplicado prácticas de desarrollo que fueron las que permitieron este desarrollo exitoso, aún con las falencias a nivel de diseño iniciales, demostrando su efectividad
+- La aplicación del enfoque de Experiment-Driven Development en el Capítulo VIII permitió estructurar de forma rigurosa el proceso de identificación y validación de nuevas funcionalidades para EcoTrack. A partir de los problemas observados en el estado actual de la plataforma, se formularon hipótesis medibles para cinco experimentos —exportación a Excel, vista Kanban, geolocalización, estandarización de cultivos y recomendaciones climáticas por IA— definiendo métricas de negocio, condiciones experimentales y criterios de éxito claros antes de comenzar el desarrollo. Este proceso asegura que las decisiones de producto estén respaldadas por evidencia y no por suposiciones, reduciendo el riesgo de invertir en funcionalidades que no generan valor real para agricultores y agrónomos.
+
+- El conjunto de prácticas adoptadas a lo largo de este avance —verificación estática, automatización del ciclo de vida del software y experimentación controlada— refleja una madurez progresiva en el proceso de desarrollo del equipo, donde la calidad, la trazabilidad y la validación de valor se integran como parte natural del flujo de trabajo y no como actividades aisladas al final del ciclo.
 
 <div style="page-break-after: always;"></div>
 
