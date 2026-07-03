@@ -6230,8 +6230,6 @@ Lighthouse en las principales vistas de la aplicación.
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
-## 8.2.8. Web and Mobile Tracking Plan
-
 Para EcoTrack, el objetivo del seguimiento es evaluar el impacto de las funcionalidades experimentales propuestas y determinar si generan mejoras reales para agricultores y agrónomos durante la gestión de sus actividades agrícolas. Para ello, se realizará un monitoreo continuo basado en métricas de uso, interacciones de los usuarios y encuestas de satisfacción.
 
 El seguimiento se enfocará principalmente en las funcionalidades de exportación a Excel, vista de tareas tipo Kanban, geolocalización, dropdown de cultivos y recomendaciones climáticas por IA.
