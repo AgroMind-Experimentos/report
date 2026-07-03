@@ -100,5 +100,38 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>3.0</td>
+            <td>18/06/2026</td>
+            <td>
+                Mostajo Orosco, Maria Fernanda<br>
+                Orozco Torres, Alvaro Joaquin<br>
+                Paucar De La Cruz, Tatiana Medalith<br>
+                Ramos Aguirre, Aldair Joaquin
+            </td>
+            <td>
+                <ul>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.2.1. Static Code Analysis (Coding Standards & Code Conventions, Code Quality & Code Security)</li>
+                            <li>6.2.2. Reviews</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VII: DevOps Practices</b>
+                        <ul>
+                            <li>7.4. Continuous Monitoring (Tools and Practices, Monitoring Pipeline, Alerting Pipeline, Notification Pipeline)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VIII: Experiment-Driven Development</b>
+                        <ul>
+                            <li>8.1. Experiment Planning (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog, Experiment Cards)</li>
+                            <li>8.2. Experiment Design (Hypotheses, Business Metrics, Measures, Conditions, Scale Calculations, Methods Selection, Analytics Goals & KPIs, Tracking Plan)</li>
+                            <li>8.3. Experimentation (To-Be User Stories, To-Be Product Backlog)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>

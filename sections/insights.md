@@ -10,4 +10,4 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 
 **TP1**
 
-<img src="../img/insights/tp1.png"
+<img src="../img/insights/tp1.png">
