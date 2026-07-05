@@ -413,7 +413,10 @@
       children:
         - title: "8.6.1. About-the-Product Intro Video"
           alias: intro video
-          
+
+- title: "Matriz de Evaluación Ética y de Impacto"
+  alias: ethics matrix
+
 - title: "Conclusiones"
   alias: conclusions
 
