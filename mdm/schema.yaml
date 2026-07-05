@@ -257,35 +257,35 @@
     - title: "6.3. Validation Interviews"
       alias: validation interviews
       children:
-        - title: "6.3.1. Interview Design"
+        - title: "6.3.1. Diseño de Entrevistas"
           alias: interview design
-        - title: "6.3.2. Interview Records"
+        - title: "6.3.2. Registro de Entrevistas"
           alias: interview records
-        - title: "6.3.3. Heuristic Evaluations"
+        - title: "6.3.3. Evaluaciones según heurísticas"
           alias: heuristic evaluations
 
-    - title: "6.4. User Experience Audit"
+    - title: "6.4. Auditoría de Experiencias de Usuario"
       alias: ux audit
       children:
-        - title: "6.4.1. Audit Performed"
+        - title: "6.4.1. Auditoría realizada"
           alias: audit performed
           children:
-            - title: "6.4.1.1. Audited Group Information"
+            - title: "6.4.1.1. Información del grupo auditado"
               alias: audited group info
-            - title: "6.4.1.2. Audit Schedule"
+            - title: "6.4.1.2. Cronograma de auditoría realizada"
               alias: audit schedule
-            - title: "6.4.1.3. Audit Content"
+            - title: "6.4.1.3. Contenido de auditoría realizada"
               alias: audit content
-        - title: "6.4.2. Audit Received"
+        - title: "6.4.2. Auditoría recibida"
           alias: audit received
           children:
-            - title: "6.4.2.1. Auditor Group Information"
+            - title: "6.4.2.1. Información del grupo auditor"
               alias: auditor group info
-            - title: "6.4.2.2. Received Audit Schedule"
+            - title: "6.4.2.2. Cronograma de auditoría recibida"
               alias: received audit schedule
-            - title: "6.4.2.3. Received Audit Content"
+            - title: "6.4.2.3. Contenido de auditoría recibida"
               alias: received audit content
-            - title: "6.4.2.4. Summary of Modifications to Address Findings"
+            - title: "6.4.2.4. Resumen de modificaciones para subsanar hallazgos"
               alias: findings summary
 
 - title: "Capítulo VII: DevOps Practices"

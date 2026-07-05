@@ -5700,18 +5700,208 @@ Preguntas de validación:
 
 #### 6.4.1.1. Audited Group Information
 
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditado</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del producto / solución</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Sitio o App evaluada</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Enlace de despliegue (Landing / Web App)</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Repositorios de código</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditado</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.4.1.2. Audit Schedule
 
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo a auditar</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría (evaluación heurística)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Entrega del informe de auditoría al grupo auditado</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.4.1.3. Audit Content
 
+Esta sección aplica el formato de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) indicado en el Anexo D, para registrar la evaluación heurística realizada por el equipo sobre el producto del grupo auditado.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong> (grupo que ejecuta la sesión)</td>
+            <td>Agromind</td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1.
+2.
+3.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1.
+2.
+3.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:**
+
+- **Severidad:**
+- **Heurística/Principio violado(a):**
+- **Problema:** _(incluir además una captura de pantalla ilustrando el problema)_
+- **Recomendación:**
 
 
 <div style="page-break-after: always;"></div>
@@ -5720,24 +5910,246 @@ Preguntas de validación:
 
 #### 6.4.2.1. Auditor Group Information
 
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Producto / solución del grupo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Producto de EcoTrack evaluado por el auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Medio de contacto</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.4.2.2. Received Audit Schedule
 
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo auditor</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría recibida (evaluación heurística)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Recepción del informe de auditoría</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.4.2.3. Received Audit Content
 
+Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) recibido del grupo auditor sobre EcoTrack, siguiendo el formato del Anexo D.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong> (grupo que ejecuta la sesión)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td>EcoTrack</td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1.
+2.
+3.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1.
+2.
+3.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:**
+
+- **Severidad:**
+- **Heurística/Principio violado(a):**
+- **Problema:** _(incluir además una captura de pantalla ilustrando el problema)_
+- **Recomendación:**
 
 
 <div style="page-break-after: always;"></div>
 
 #### 6.4.2.4. Summary of Modifications to Address Findings
 
+Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Hallazgo / Problema reportado</th>
+            <th>Severidad</th>
+            <th>Modificación realizada</th>
+            <th>Evidencia (commit / pantalla)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
@@ -6620,8 +7032,6 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 
 <div style="page-break-after: always;"></div>
-
-# Matriz de Evaluación Ética y de Impacto
 
 # Matriz de Evaluación Ética y de Impacto
 
