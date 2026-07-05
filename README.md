@@ -321,19 +321,19 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
       - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Interview Design](#631-interview-design)
-    - [6.3.2. Interview Records](#632-interview-records)
-    - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
-  - [6.4. User Experience Audit](#64-user-experience-audit)
-    - [6.4.1. Audit Performed](#641-audit-performed)
-      - [6.4.1.1. Audited Group Information](#6411-audited-group-information)
-      - [6.4.1.2. Audit Schedule](#6412-audit-schedule)
-      - [6.4.1.3. Audit Content](#6413-audit-content)
-    - [6.4.2. Audit Received](#642-audit-received)
-      - [6.4.2.1. Auditor Group Information](#6421-auditor-group-information)
-      - [6.4.2.2. Received Audit Schedule](#6422-received-audit-schedule)
-      - [6.4.2.3. Received Audit Content](#6423-received-audit-content)
-      - [6.4.2.4. Summary of Modifications to Address Findings](#6424-summary-of-modifications-to-address-findings)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -5573,7 +5573,7 @@ Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe qued
 
 ## 6.3. Validation Interviews
 
-### 6.3.1. Interview Design
+### 6.3.1. Diseño de Entrevistas
 
 A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad de la aplicación EcoTrack. Las preguntas se han separado según cada segmento objetivo, debido a que agricultores y agrónomos utilizan funcionalidades diferentes dentro de la plataforma.
 
@@ -5616,7 +5616,7 @@ Preguntas de validación:
 
 <div style="page-break-after: always;"></div>
 
-### 6.3.2. Interview Records
+### 6.3.2. Registro de Entrevistas
 
 ### 6.3.2. Registro de Entrevistas
 
@@ -5688,17 +5688,17 @@ Preguntas de validación:
 
 <div style="page-break-after: always;"></div>
 
-### 6.3.3. Heuristic Evaluations
+### 6.3.3. Evaluaciones según heurísticas
 
 
 
 <div style="page-break-after: always;"></div>
 
-## 6.4. User Experience Audit
+## 6.4. Auditoría de Experiencias de Usuario
 
-### 6.4.1. Audit Performed
+### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Audited Group Information
+#### 6.4.1.1. Información del grupo auditado
 
 <table>
     <tbody>
@@ -5732,7 +5732,7 @@ Preguntas de validación:
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.1.2. Audit Schedule
+#### 6.4.1.2. Cronograma de auditoría realizada
 
 <table>
     <thead>
@@ -5772,7 +5772,7 @@ Preguntas de validación:
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.1.3. Audit Content
+#### 6.4.1.3. Contenido de auditoría realizada
 
 Esta sección aplica el formato de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) indicado en el Anexo D, para registrar la evaluación heurística realizada por el equipo sobre el producto del grupo auditado.
 
@@ -5906,9 +5906,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 <div style="page-break-after: always;"></div>
 
-### 6.4.2. Audit Received
+### 6.4.2. Auditoría recibida
 
-#### 6.4.2.1. Auditor Group Information
+#### 6.4.2.1. Información del grupo auditor
 
 <table>
     <tbody>
@@ -5938,7 +5938,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.2.2. Received Audit Schedule
+#### 6.4.2.2. Cronograma de auditoría recibida
 
 <table>
     <thead>
@@ -5978,7 +5978,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.2.3. Received Audit Content
+#### 6.4.2.3. Contenido de auditoría recibida
 
 Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) recibido del grupo auditor sobre EcoTrack, siguiendo el formato del Anexo D.
 
@@ -6112,7 +6112,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.2.4. Summary of Modifications to Address Findings
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
 
