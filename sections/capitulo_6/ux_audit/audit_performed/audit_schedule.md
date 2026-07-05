@@ -11,24 +11,24 @@
     <tbody>
         <tr>
             <td>Coordinación inicial con el grupo a auditar</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>05/07/2026</td>
+            <td>12 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
         </tr>
         <tr>
             <td>Sesión de auditoría (evaluación heurística)</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>05/07/2026</td>
+            <td>3 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
         </tr>
         <tr>
             <td>Entrega del informe de auditoría al grupo auditado</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>05/07/2026</td>
+            <td>7 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
         </tr>
     </tbody>
 </table>
