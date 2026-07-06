@@ -5624,23 +5624,25 @@ Preguntas de validación:
 
 ##### Entrevista 01
 
-**Nombres:**   
-**Apellidos:**   
-**Edad:**  
-**Distrito:**   
+**Nombres:** Bettsy    
+**Apellidos:** Fernandez    
+**Edad:** 44 años   
+**Distrito:** Lima
 
 **Evidencia de la reunión:**
 
-> Insertar captura de pantalla de la entrevista realizada.
+<img src="./img/capitulo_6/bdd/entrevista1.png" />
 
-**Inicio:** [Completar timing]  
+**Inicio:** 0:00  
 
-**Fin:** [Completar timing]  
+**Fin:** 4:53  
 
-**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](URL_DE_LA_ENTREVISTA)
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQCUPTgZJhWDQIoVIXq78D0cAS6HbI_B_7WIm35rm6ba9gk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZjmXt1)
 
-**Resumen de la entrevista:**
+**Resumen de la entrevista:**   
+La entrevista con Bettsy Fernández permitió conocer su experiencia al utilizar la plataforma EcoTrack desde la perspectiva de una agricultora. En general, indicó que el inicio de sesión, la visualización de cultivos, la consulta de tareas pendientes y la revisión de alertas fueron procesos sencillos y comprensibles. La entrevistada destacó que la información principal de la plataforma le permitió identificar rápidamente el estado de sus cultivos y las actividades que debía realizar.
 
+Asimismo, consideró que las tareas y alertas son útiles para organizar mejor el trabajo agrícola diario. Sin embargo, sugirió incorporar recordatorios por celular, recomendaciones más detalladas para resolver alertas, etiquetas o nombres en algunos íconos y un módulo para registrar gastos y ganancias de la producción. En conclusión, Bettsy percibió a EcoTrack como una herramienta útil y fácil de usar, aunque identificó oportunidades de mejora para hacerla más práctica en las actividades del campo.
 
 
 
@@ -7087,7 +7089,23 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
-
+| Sprint | # | User Story Id | User Story Title | WorkItem / Task Id | WorkItem / Task Title | Description | Estimation (Story Points) | Assigned To | Status |
+|---|---:|---|---|---|---|---|---:|---|---|
+| Sprint 1 | 1 | UA05 | Consultar recomendaciones climáticas inteligentes | TK01 | Diseñar sección de clima con recomendaciones | Crear la interfaz de la sección de clima, mostrando el pronóstico meteorológico y un bloque adicional para recomendaciones agrícolas generadas por IA. | 3 | Aldair Ramos | Done |
+| Sprint 1 | 2 | UA05 | Consultar recomendaciones climáticas inteligentes | TK02 | Integrar servicio de datos climáticos | Conectar la aplicación con el servicio meteorológico disponible para obtener datos de temperatura, humedad, lluvia u otras condiciones relevantes. | 3 | Kevin Chi | Done |
+| Sprint 1 | 3 | UA05 | Consultar recomendaciones climáticas inteligentes | TK03 | Generar recomendaciones agrícolas | Implementar la lógica que permita mostrar sugerencias sobre riego, fertilización o protección de cultivos en función de los datos climáticos disponibles. | 2 | Álvaro Orozco | Done |
+| Sprint 1 | 4 | UA03 | Registrar geolocalización de parcela | TK04 | Diseñar formulario de ubicación geográfica | Agregar campos y controles necesarios para registrar la ubicación de una parcela durante su creación o edición. | 2 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 5 | UA03 | Registrar geolocalización de parcela | TK05 | Implementar captura de coordenadas | Desarrollar la funcionalidad para guardar las coordenadas geográficas de una parcela dentro del sistema. | 3 | Henry Reaño | Done |
+| Sprint 1 | 6 | UA03 | Registrar geolocalización de parcela | TK06 | Mostrar ubicación en mapa | Implementar la visualización de la ubicación de la parcela en un mapa cuando el usuario consulte su información. | 3 | Tatiana Paucar | Done |
+| Sprint 1 | 7 | UA01 | Exportar reportes a Excel | TK07 | Diseñar botón de exportación | Agregar en la sección de reportes un botón visible para exportar la información agrícola en formato Excel. | 1 | Kevin Chi | Done |
+| Sprint 1 | 8 | UA01 | Exportar reportes a Excel | TK08 | Generar archivo Excel | Implementar la generación del archivo .xlsx con la información seleccionada por el usuario en la sección de reportes. | 3 | Álvaro Orozco | Done |
+| Sprint 1 | 9 | UA01 | Exportar reportes a Excel | TK09 | Mostrar notificación de exportación | Agregar una notificación de confirmación cuando la exportación del reporte se realice correctamente. | 1 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 10 | UA02 | Gestionar tareas en tablero Kanban | TK10 | Diseñar tablero Kanban | Crear la interfaz del tablero Kanban con columnas para tareas pendientes, en proceso y completadas. | 2 | Aldair Ramos | Done |
+| Sprint 1 | 11 | UA02 | Gestionar tareas en tablero Kanban | TK11 | Implementar movimiento de tareas por arrastre | Desarrollar la funcionalidad para mover tareas entre columnas mediante drag and drop. | 2 | Henry Reaño | Done |
+| Sprint 1 | 12 | UA02 | Gestionar tareas en tablero Kanban | TK12 | Implementar cambio de estado por botón | Agregar una opción dentro de cada tarjeta para avanzar la tarea al siguiente estado sin necesidad de arrastrarla. | 1 | Tatiana Paucar | Done |
+| Sprint 1 | 13 | UA04 | Seleccionar cultivo desde catálogo | TK13 | Crear catálogo de cultivos | Implementar una lista de cultivos disponibles para que el usuario pueda seleccionarlos durante el registro. | 1 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 14 | UA04 | Seleccionar cultivo desde catálogo | TK14 | Implementar búsqueda integrada | Desarrollar un campo de búsqueda que filtre los cultivos del catálogo en tiempo real según el texto ingresado. | 1 | Aldair Ramos | Done |
+| Sprint 1 | 15 | UA04 | Seleccionar cultivo desde catálogo | TK15 | Permitir registro manual de cultivo | Permitir que el usuario registre manualmente un cultivo cuando no se encuentre dentro del catálogo disponible. | 1 | Kevin Chi | Done |
 
 <div style="page-break-after: always;"></div>
 
