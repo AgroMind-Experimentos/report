@@ -10,7 +10,7 @@
         <p><strong>NRC:</strong> 2610</p>
         <p><strong>Nombre del profesor:</strong> Noriega Melendez, Julio Manuel</p>
     </div>
-    <h2 style="font-size: 22px; margin: 40px 0;">"Informe del Trabajo Parcial"</h2>
+    <h2 style="font-size: 22px; margin: 40px 0;">"Informe de Trabajo Final"</h2>
     <div style="text-align: left; margin-bottom: 30px;">
         <p><strong>Nombre del grupo:</strong> AgroMind</p>
         <p><strong>Nombre del producto:</strong> EcoTrack</p>
@@ -226,26 +226,26 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capitulo-i-introduccion)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -253,11 +253,11 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capitulo-iv-product-design)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -285,13 +285,13 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.1.1. Sprint Backlog 1](#5211-sprint-backlog-1)
       - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
@@ -305,39 +305,39 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About the Product](#54-video-about-the-product)
-- [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
-  - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-  - [6.2. Static Testing & Verification](#62-static-testing-verification)
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)
     - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards-code-conventions)
-      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)
+      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Interview Design](#631-interview-design)
-    - [6.3.2. Interview Records](#632-interview-records)
-    - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
-  - [6.4. User Experience Audit](#64-user-experience-audit)
-    - [6.4.1. Audit Performed](#641-audit-performed)
-      - [6.4.1.1. Audited Group Information](#6411-audited-group-information)
-      - [6.4.1.2. Audit Schedule](#6412-audit-schedule)
-      - [6.4.1.3. Audit Content](#6413-audit-content)
-    - [6.4.2. Audit Received](#642-audit-received)
-      - [6.4.2.1. Auditor Group Information](#6421-auditor-group-information)
-      - [6.4.2.2. Received Audit Schedule](#6422-received-audit-schedule)
-      - [6.4.2.3. Received Audit Content](#6423-received-audit-content)
-      - [6.4.2.4. Summary of Modifications to Address Findings](#6424-summary-of-modifications-to-address-findings)
-- [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -349,7 +349,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
     - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
     - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-- [Capítulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
   - [8.1. Experiment Planning](#81-experiment-planning)
     - [8.1.1. As-Is Summary](#811-as-is-summary)
     - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
@@ -376,17 +376,18 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
       - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-and-or-serverless-backend-evidence)
       - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
     - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
-      - [8.3.4.1. Diseño de Entrevistas](#8341-diseno-de-entrevistas)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
       - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
-  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath-analysis)
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
     - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
     - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
   - [8.5. Continuous Learning](#85-continuous-learning)
     - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
   - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
     - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+- [Matriz de Evaluación Ética y de Impacto](#matriz-de-evaluación-ética-y-de-impacto)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografia)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 
@@ -5572,7 +5573,7 @@ Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe qued
 
 ## 6.3. Validation Interviews
 
-### 6.3.1. Interview Design
+### 6.3.1. Diseño de Entrevistas
 
 A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad de la aplicación EcoTrack. Las preguntas se han separado según cada segmento objetivo, debido a que agricultores y agrónomos utilizan funcionalidades diferentes dentro de la plataforma.
 
@@ -5615,7 +5616,7 @@ Preguntas de validación:
 
 <div style="page-break-after: always;"></div>
 
-### 6.3.2. Interview Records
+### 6.3.2. Registro de Entrevistas
 
 ### 6.3.2. Registro de Entrevistas
 
@@ -5623,25 +5624,23 @@ Preguntas de validación:
 
 ##### Entrevista 01
 
-**Nombres:** Bettsy    
-**Apellidos:** Fernandez    
-**Edad:** 44 años   
-**Distrito:** Lima
+**Nombres:**   
+**Apellidos:**   
+**Edad:**  
+**Distrito:**   
 
 **Evidencia de la reunión:**
 
-<img src="./img/capitulo_6/bdd/entrevista1.png" />
+> Insertar captura de pantalla de la entrevista realizada.
 
-**Inicio:** 0:00  
+**Inicio:** [Completar timing]  
 
-**Fin:** 4:53  
+**Fin:** [Completar timing]  
 
-**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQCUPTgZJhWDQIoVIXq78D0cAS6HbI_B_7WIm35rm6ba9gk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZjmXt1)
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](URL_DE_LA_ENTREVISTA)
 
-**Resumen de la entrevista:**   
-La entrevista con Bettsy Fernández permitió conocer su experiencia al utilizar la plataforma EcoTrack desde la perspectiva de una agricultora. En general, indicó que el inicio de sesión, la visualización de cultivos, la consulta de tareas pendientes y la revisión de alertas fueron procesos sencillos y comprensibles. La entrevistada destacó que la información principal de la plataforma le permitió identificar rápidamente el estado de sus cultivos y las actividades que debía realizar.
+**Resumen de la entrevista:**
 
-Asimismo, consideró que las tareas y alertas son útiles para organizar mejor el trabajo agrícola diario. Sin embargo, sugirió incorporar recordatorios por celular, recomendaciones más detalladas para resolver alertas, etiquetas o nombres en algunos íconos y un módulo para registrar gastos y ganancias de la producción. En conclusión, Bettsy percibió a EcoTrack como una herramienta útil y fácil de usar, aunque identificó oportunidades de mejora para hacerla más práctica en las actividades del campo.
 
 
 
@@ -5689,56 +5688,600 @@ Asimismo, consideró que las tareas y alertas son útiles para organizar mejor e
 
 <div style="page-break-after: always;"></div>
 
-### 6.3.3. Heuristic Evaluations
+### 6.3.3. Evaluaciones según heurísticas
 
 
 
 <div style="page-break-after: always;"></div>
 
-## 6.4. User Experience Audit
+## 6.4. Auditoría de Experiencias de Usuario
 
-### 6.4.1. Audit Performed
+### 6.4.1. Auditoría realizada
 
-#### 6.4.1.1. Audited Group Information
+#### 6.4.1.1. Información del grupo auditado
 
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.1.2. Audit Schedule
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.1.3. Audit Content
-
-
-
-<div style="page-break-after: always;"></div>
-
-### 6.4.2. Audit Received
-
-#### 6.4.2.1. Auditor Group Information
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.2. Received Audit Schedule
-
-
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.3. Received Audit Content
-
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditado</strong></td>
+            <td>NexoraPe</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del producto / solución</strong></td>
+            <td>SafeWork</td>
+        </tr>
+        <tr>
+            <td><strong>Sitio o App evaluada</strong></td>
+            <td>SafeWork Web app</td>
+        </tr>
+        <tr>
+            <td><strong>Enlace de despliegue (Landing / Web App)</strong></td>
+            <td>https://safework-app-beta.vercel.app/login</td>
+        </tr>
+        <tr>
+            <td><strong>Repositorios de código</strong></td>
+            <td>https://github.com/NexoraPe-1ASI0732</td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditado</strong></td>
+            <td>Cacho Seminario, Diego Alonso<br>Ruiz Huisa, Daniel Elias<br>Palacin Lazo, Gerardo Valentin<br>Villugas Jeronimo, Liam Anderson</td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.2.4. Summary of Modifications to Address Findings
+#### 6.4.1.2. Cronograma de auditoría realizada
 
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo a auditar</td>
+            <td>05/07/2026</td>
+            <td>12 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría (evaluación heurística)</td>
+            <td>05/07/2026</td>
+            <td>3 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+        <tr>
+            <td>Entrega del informe de auditoría al grupo auditado</td>
+            <td>05/07/2026</td>
+            <td>7 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+Esta sección aplica el formato de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) indicado en el Anexo D, para registrar la evaluación heurística realizada por el equipo sobre el producto del grupo auditado.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td>17820</td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td>Julio Manuel Noriega Melendez</td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong></td>
+            <td>Agromind</td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td>Cacho Seminario, Diego Alonso<br>Ruiz Huisa, Daniel Elias<br>Palacin Lazo, Gerardo Valentin<br>Villugas Jeronimo, Liam Anderson</td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td>SafeWork</td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Autenticación de usuario (inicio de sesión y recuperación/cambio de contraseña).
+2. Gestión y seguimiento de casos/reportes (historial, línea de tiempo, notas internas, búsqueda y filtrado por estado).
+3. Gestión del perfil de usuario (foto de perfil, actualización de área/departamento) y soporte al usuario (chat de soporte, búsqueda de preguntas frecuentes).
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Panel administrativo y gestión de roles/permisos avanzados.
+2. Registro de nuevos usuarios.
+3. Rendimiento, seguridad de backend y pruebas de carga.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>El botón "Forgot your password?" no funciona.</td>
+            <td>4</td>
+            <td>Prevención de errores / Ayuda a reconocer y recuperarse de errores</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>No está implementada la función "Historial de reportes" (US16).</td>
+            <td>3</td>
+            <td>Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>No está implementada la función de "Chat de soporte" (US18).</td>
+            <td>3</td>
+            <td>Ayuda y documentación</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>No está implementada la función de "Foto de perfil" (US16).</td>
+            <td>2</td>
+            <td>Reconocimiento antes que recuerdo / Diseño inclusivo</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>No está implementada la función de "Notas internas" en el caso (US25).</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>No está implementada la función de "Línea de tiempo del caso" (US26).</td>
+            <td>3</td>
+            <td>Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>No está implementada la actualización de área/departamento en el perfil (US32).</td>
+            <td>2</td>
+            <td>Control y libertad del usuario</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>No está implementada la búsqueda de reportes (US35).</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso / Arquitectura de información</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>No está implementada la búsqueda de preguntas frecuentes por palabras clave (US37).</td>
+            <td>2</td>
+            <td>Ayuda y documentación</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>No está implementado el cambio de contraseña desde el perfil (US30).</td>
+            <td>4</td>
+            <td>Control y libertad del usuario</td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:**
+
+- **Severidad:** 4
+- **Heurística/Principio violado(a):** Prevención de errores / Ayuda a reconocer, diagnosticar y recuperarse de errores.
+- **Problema:** Al hacer clic en "Forgot your password?" en la pantalla de login, la aplicación arroja un error no controlado en consola (`ERROR N: NG04002: 'forgot-password'`) que indica que la ruta no coincide con ninguna definida (`NoMatchError`). El usuario no recibe ninguna retroalimentación visual y queda sin poder recuperar su contraseña.
+
+<img src="./img/capitulo_6/ux_audit/problem-1.png" />
+
+- **Recomendación:** Corregir el ruteo/handler asociado al botón de recuperación de contraseña para que resuelva correctamente el flujo, evitando el error de ruta inexistente, y mostrar al usuario retroalimentación clara (mensaje de confirmación o de error) en lugar de fallar silenciosamente.
+
+**PROBLEMA #2:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Visibilidad del estado del sistema.
+- **Problema:** No se encontró en la interfaz la función "Historial de reportes", como se menciona en la US16.
+
+<img src="./img/capitulo_6/ux_audit/problem-2.png" />
+
+- **Recomendación:** Implementar la función de "Historial de reportes", conforme al alcance mencionado en la US16.
+
+**PROBLEMA #3:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Ayuda y documentación.
+- **Problema:** No se encontró en la interfaz la función "Chat de soporte", como se menciona en la US18.
+- **Recomendación:** Implementar la función de "Chat de soporte", conforme al alcance mencionado en la US18.
+
+**PROBLEMA #4:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Reconocimiento antes que recuerdo / Diseño inclusivo (personalización de identidad).
+- **Problema:** No se encontró en la interfaz la función "Foto de perfil", como se menciona en la US16.
+
+<img src="./img/capitulo_6/ux_audit/problem-4.png" />
+
+- **Recomendación:** Implementar la función de "Foto de perfil", conforme al alcance mencionado en la US16.
+
+**PROBLEMA #5:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso.
+- **Problema:** No se encontró en la interfaz la función "Notas internas", como se menciona en la US25.
+
+<img src="./img/capitulo_6/ux_audit/problem-5.png" />
+
+- **Recomendación:** Implementar la función de "Notas internas", conforme al alcance mencionado en la US25.
+
+**PROBLEMA #6:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Visibilidad del estado del sistema.
+- **Problema:** No se encontró en la interfaz la función "Línea de tiempo del caso", como se menciona en la US26.
+
+<img src="./img/capitulo_6/ux_audit/problem-6.png" />
+
+- **Recomendación:** Implementar la función de "Línea de tiempo del caso", conforme al alcance mencionado en la US26.
+
+**PROBLEMA #7:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Control y libertad del usuario.
+- **Problema:** No se encontró en la interfaz la función "Actualización de área/departamento en el perfil", como se menciona en la US32.
+
+<img src="./img/capitulo_6/ux_audit/problem-7.png" />
+
+- **Recomendación:** Implementar la función de "Actualización de área/departamento en el perfil", conforme al alcance mencionado en la US32.
+
+**PROBLEMA #8:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Arquitectura de información (findability).
+- **Problema:** No se encontró en la interfaz la función "Búsqueda de reportes", como se menciona en la US35.
+
+<img src="./img/capitulo_6/ux_audit/problem-8.png" />
+
+- **Recomendación:** Implementar la función de "Búsqueda de reportes", conforme al alcance mencionado en la US35.
+
+**PROBLEMA #9:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Ayuda y documentación.
+- **Problema:** No se encontró en la interfaz la función "Búsqueda de preguntas frecuentes", como se menciona en la US37.
+
+<img src="./img/capitulo_6/ux_audit/problem-9.png" />
+
+- **Recomendación:** Implementar la función de "Búsqueda de preguntas frecuentes", conforme al alcance mencionado en la US37.
+
+**PROBLEMA #10:**
+
+- **Severidad:** 4
+- **Heurística/Principio violado(a):** Control y libertad del usuario.
+- **Problema:** No se encontró en la interfaz la función "Cambio de contraseña desde el perfil", como se menciona en la US30.
+
+<img src="./img/capitulo_6/ux_audit/problem-10.png" />
+
+- **Recomendación:** Implementar la función de "Cambio de contraseña desde el perfil", conforme al alcance mencionado en la US30.
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Producto / solución del grupo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Producto de EcoTrack evaluado por el auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditor</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Medio de contacto</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo auditor</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría recibida (evaluación heurística)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Recepción del informe de auditoría</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) recibido del grupo auditor sobre EcoTrack, siguiendo el formato del Anexo D.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong> (grupo que ejecuta la sesión)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td>EcoTrack</td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1.
+2.
+3.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1.
+2.
+3.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:**
+
+- **Severidad:**
+- **Heurística/Principio violado(a):**
+- **Problema:** _(incluir además una captura de pantalla ilustrando el problema)_
+- **Recomendación:**
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Hallazgo / Problema reportado</th>
+            <th>Severidad</th>
+            <th>Modificación realizada</th>
+            <th>Evidencia (commit / pantalla)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
@@ -6544,23 +7087,7 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
-| Sprint | # | User Story Id | User Story Title | WorkItem / Task Id | WorkItem / Task Title | Description | Estimation (Story Points) | Assigned To | Status |
-|---|---:|---|---|---|---|---|---:|---|---|
-| Sprint 1 | 1 | UA05 | Consultar recomendaciones climáticas inteligentes | TK01 | Diseñar sección de clima con recomendaciones | Crear la interfaz de la sección de clima, mostrando el pronóstico meteorológico y un bloque adicional para recomendaciones agrícolas generadas por IA. | 3 | Aldair Ramos | Done |
-| Sprint 1 | 2 | UA05 | Consultar recomendaciones climáticas inteligentes | TK02 | Integrar servicio de datos climáticos | Conectar la aplicación con el servicio meteorológico disponible para obtener datos de temperatura, humedad, lluvia u otras condiciones relevantes. | 3 | Kevin Chi | Done |
-| Sprint 1 | 3 | UA05 | Consultar recomendaciones climáticas inteligentes | TK03 | Generar recomendaciones agrícolas | Implementar la lógica que permita mostrar sugerencias sobre riego, fertilización o protección de cultivos en función de los datos climáticos disponibles. | 2 | Álvaro Orozco | Done |
-| Sprint 1 | 4 | UA03 | Registrar geolocalización de parcela | TK04 | Diseñar formulario de ubicación geográfica | Agregar campos y controles necesarios para registrar la ubicación de una parcela durante su creación o edición. | 2 | Maria Fernanda Mostajo | Done |
-| Sprint 1 | 5 | UA03 | Registrar geolocalización de parcela | TK05 | Implementar captura de coordenadas | Desarrollar la funcionalidad para guardar las coordenadas geográficas de una parcela dentro del sistema. | 3 | Henry Reaño | Done |
-| Sprint 1 | 6 | UA03 | Registrar geolocalización de parcela | TK06 | Mostrar ubicación en mapa | Implementar la visualización de la ubicación de la parcela en un mapa cuando el usuario consulte su información. | 3 | Tatiana Paucar | Done |
-| Sprint 1 | 7 | UA01 | Exportar reportes a Excel | TK07 | Diseñar botón de exportación | Agregar en la sección de reportes un botón visible para exportar la información agrícola en formato Excel. | 1 | Kevin Chi | Done |
-| Sprint 1 | 8 | UA01 | Exportar reportes a Excel | TK08 | Generar archivo Excel | Implementar la generación del archivo .xlsx con la información seleccionada por el usuario en la sección de reportes. | 3 | Álvaro Orozco | Done |
-| Sprint 1 | 9 | UA01 | Exportar reportes a Excel | TK09 | Mostrar notificación de exportación | Agregar una notificación de confirmación cuando la exportación del reporte se realice correctamente. | 1 | Maria Fernanda Mostajo | Done |
-| Sprint 1 | 10 | UA02 | Gestionar tareas en tablero Kanban | TK10 | Diseñar tablero Kanban | Crear la interfaz del tablero Kanban con columnas para tareas pendientes, en proceso y completadas. | 2 | Aldair Ramos | Done |
-| Sprint 1 | 11 | UA02 | Gestionar tareas en tablero Kanban | TK11 | Implementar movimiento de tareas por arrastre | Desarrollar la funcionalidad para mover tareas entre columnas mediante drag and drop. | 2 | Henry Reaño | Done |
-| Sprint 1 | 12 | UA02 | Gestionar tareas en tablero Kanban | TK12 | Implementar cambio de estado por botón | Agregar una opción dentro de cada tarjeta para avanzar la tarea al siguiente estado sin necesidad de arrastrarla. | 1 | Tatiana Paucar | Done |
-| Sprint 1 | 13 | UA04 | Seleccionar cultivo desde catálogo | TK13 | Crear catálogo de cultivos | Implementar una lista de cultivos disponibles para que el usuario pueda seleccionarlos durante el registro. | 1 | Maria Fernanda Mostajo | Done |
-| Sprint 1 | 14 | UA04 | Seleccionar cultivo desde catálogo | TK14 | Implementar búsqueda integrada | Desarrollar un campo de búsqueda que filtre los cultivos del catálogo en tiempo real según el texto ingresado. | 1 | Aldair Ramos | Done |
-| Sprint 1 | 15 | UA04 | Seleccionar cultivo desde catálogo | TK15 | Permitir registro manual de cultivo | Permitir que el usuario registre manualmente un cultivo cuando no se encuentre dentro del catálogo disponible. | 1 | Kevin Chi | Done |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -6634,6 +7161,68 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 ### 8.6.1. About-the-Product Intro Video
 
+
+
+<div style="page-break-after: always;"></div>
+
+# Matriz de Evaluación Ética y de Impacto
+
+La presente matriz permite a **Agromind** demostrar su capacidad de reconocer las responsabilidades éticas y profesionales asociadas al desarrollo de **EcoTrack**, emitiendo juicios informados sobre el impacto de la solución en su contexto: la agricultura familiar peruana. El objetivo es evitar el "sentido mercenario de la ingeniería" —construir la solución sin cuestionar sus consecuencias— y evidenciar un pensamiento crítico y reflexivo frente a los riesgos que la digitalización del campo puede generar sobre los agricultores, los agrónomos, los consumidores y el medio ambiente.
+
+<table>
+    <thead>
+        <tr>
+            <th>Dimensión / Criterio a Evaluar</th>
+            <th>Identificación de Riesgos e Impactos (Positivos y Negativos)</th>
+            <th>Evaluación del Impacto (¿A quién afecta y cuál es la magnitud?)</th>
+            <th>Estrategias de Mitigación y Acciones de Diseño</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>1. Salud Pública y Seguridad</strong></td>
+            <td><strong>Positivo:</strong> El registro ordenado de labores, riego y fertilización permite planificar el uso de agroquímicos y reducir la sobreexposición del agricultor.<br><strong>Negativo:</strong> Si la app sugiere o permite registrar aplicaciones de fertilizantes/pesticidas sin validación agronómica, puede inducir dosis incorrectas con riesgo para el agricultor y el consumidor final. El uso del móvil durante labores de campo o manejo de maquinaria puede distraer y provocar accidentes.</td>
+            <td><strong>Afectados:</strong> Agricultores que manipulan agroquímicos (riesgo directo) y consumidores de los productos cosechados. <strong>Magnitud: Media-Alta</strong>, por tratarse de salud humana y seguridad alimentaria.</td>
+            <td>Requerir validación del agrónomo antes de acciones críticas (dosis, tipo de insumo). Mostrar alertas de rangos seguros y recordatorios de buenas prácticas y uso de EPP. Ofrecer un modo de registro rápido para minimizar el uso del teléfono durante la operación de maquinaria.</td>
+        </tr>
+        <tr>
+            <td><strong>2. Inclusión y Accesibilidad</strong></td>
+            <td><strong>Positivo:</strong> La interfaz simple está pensada para agricultores con poca experiencia digital.<br><strong>Negativo:</strong> La app depende de conectividad y de smartphones de gama media/alta; excluye a usuarios rurales con señal limitada, equipos antiguos, baja alfabetización digital, adultos mayores o personas con discapacidad visual. Estar disponible solo en español margina a hablantes de lenguas originarias (quechua, aymara).</td>
+            <td><strong>Afectados:</strong> Agricultores de subsistencia (88% de la agricultura familiar según MIDAGRI), zonas rurales sin buena cobertura y usuarios con discapacidad. <strong>Magnitud: Alta</strong>, pues coincide con el segmento objetivo principal.</td>
+            <td>Implementar un modo offline con sincronización posterior. Desarrollar una versión "lite" que funcione en dispositivos antiguos. Cumplir compatibilidad con lectores de pantalla, alto contraste y tamaños de fuente ajustables. Usar lenguaje e iconografía sencillos y evaluar soporte de quechua/aymara y entrada por voz.</td>
+        </tr>
+        <tr>
+            <td><strong>3. Impacto Social y Cultural</strong></td>
+            <td><strong>Positivo:</strong> Fortalece y formaliza la relación agricultor–agrónomo, mejora la colaboración y preserva el conocimiento en registros consultables.<br><strong>Negativo:</strong> La estandarización de recomendaciones puede desplazar el conocimiento tradicional y empírico del agricultor, generar dependencia de la plataforma y ampliar la brecha generacional en el campo.</td>
+            <td><strong>Afectados:</strong> Comunidades de agricultura familiar y agrónomos locales. <strong>Magnitud: Bajo</strong>, con efecto sobre la identidad y autonomía del productor.</td>
+            <td>Diseñar las recomendaciones como apoyo y no como imposición, permitiendo registrar y respetar prácticas propias/tradicionales. Aplicar co-creación con agricultores reales en el diseño. Reforzar el rol del agrónomo local en lugar de reemplazarlo.</td>
+        </tr>
+        <tr>
+            <td><strong>4. Impacto Económico</strong></td>
+            <td><strong>Positivo:</strong> La trazabilidad y el control de costos abren acceso a mercados más exigentes, mejores precios y reducción de pérdidas.<br><strong>Negativo:</strong> Un modelo de suscripción mal calibrado puede excluir a los agricultores de subsistencia; la concentración de datos podría dar ventaja a grandes compradores en la negociación frente al pequeño productor.</td>
+            <td><strong>Afectados:</strong> Pequeños agricultores (positivamente si es accesible; negativamente si es costoso) y la economía rural local. <strong>Magnitud: Alta</strong>, ya que determina el acceso real de los pequeños productores a los beneficios del sistema y puede ampliar o reducir la brecha económica en el campo.</td>
+            <td>Ofrecer un plan gratuito/freemium para agricultores de subsistencia y precios escalonados según capacidad. No comercializar los datos de los agricultores con compradores. Garantizar que el agricultor sea dueño de su información y mantener transparencia en el modelo de negocio.</td>
+        </tr>
+        <tr>
+            <td><strong>5. Impacto Ambiental (Antrópico)</strong></td>
+            <td><strong>Positivo:</strong> Optimizar riego y fertilización reduce el desperdicio de agua e insumos y disminuye el uso innecesario de agroquímicos; la trazabilidad incentiva prácticas sostenibles.<br><strong>Negativo:</strong> Recomendaciones orientadas solo a maximizar rendimiento podrían fomentar la sobre-fertilización y un mayor consumo de recursos. El almacenamiento y procesamiento de datos en la nube consume energía.</td>
+            <td><strong>Afectados:</strong> Suelos, fuentes de agua y ecosistemas locales, además de la huella de carbono del servicio. <strong>Magnitud: Media-Alta</strong>, pues un uso ineficiente de insumos degrada suelos y fuentes de agua e incrementa las emisiones asociadas a la operación.</td>
+            <td>Orientar las recomendaciones a la eficiencia y sostenibilidad (dosis óptimas, no máximas). Incluir métricas de consumo de agua e insumos por campaña. Usar hosting eficiente y promover educación sobre prácticas agroecológicas.</td>
+        </tr>
+        <tr>
+            <td><strong>6. Enfoque Global</strong></td>
+            <td><strong>Positivo:</strong> Adoptar estándares de trazabilidad facilita el acceso a mercados de exportación.<br><strong>Negativo:</strong> Los datos agrícolas y de geolocalización almacenados en servidores en la nube quedan sujetos a legislaciones extranjeras; información sensible de producción podría exponerse a intereses comerciales globales de commodities.</td>
+            <td><strong>Afectados:</strong> La privacidad y soberanía de los datos de los agricultores peruanos y la competitividad nacional. <strong>Magnitud: Media</strong>, pues compromete el control del agricultor peruano sobre su propia información productiva.</td>
+            <td>Cumplir la Ley N.° 29733 de Protección de Datos Personales del Perú y estándares internacionales equivalentes (GDPR). Cifrar los datos en tránsito y en reposo, priorizar el alojamiento regional y obtener consentimiento informado sobre el uso de la información.</td>
+        </tr>
+        <tr>
+            <td><strong>7. Revelación de Peligros y Responsabilidad</strong></td>
+            <td><strong>Riesgo:</strong> EcoTrack maneja datos sensibles (ubicación de fincas y las actividades de produccion realizadas) que, ante una vulnerabilidad o filtración, podrían usarse contra el agricultor (robo, extorsión o desventaja frente a compradores).</td>
+            <td><strong>Afectados:</strong> La seguridad física, económica y digital de toda la base de usuarios de la aplicación. <strong>Magnitud: Alta</strong>, ya que una filtración expondría directamente el patrimonio y la integridad de los agricultores.</td>
+            <td>Conforme al Código de Ética del ingeniero, aceptar responsabilidad plena: revelar de inmediato cualquier peligro real a los usuarios y autoridades, suspendiendo las funciones afectadas hasta corregir la vulnerabilidad. Aplicar auditorías de seguridad, control de acceso por roles, minimización de datos y respaldos periódicos.</td>
+        </tr>
+    </tbody>
+</table>
 
 
 <div style="page-break-after: always;"></div>
