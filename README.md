@@ -7305,6 +7305,15 @@ Estas preguntas se presentarán a una muestra de 20 participantes. Los participa
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+En la sesión de shareback el equipo compartió los aprendizajes de los cinco experimentos priorizados. A continuación se listan los artefactos que respaldan este proceso.
+
+**Prototipo funcional en producción:** las cinco funcionalidades se implementaron sobre la plataforma EcoTrack desplegada, de modo que los usuarios interactuaron con la solución real.
+
+**Encuesta de validación (Google Forms):** encuesta de diez preguntas, una por cada aspecto de los cinco experimentos, usada para recoger el feedback de los usuarios y contrastar las hipótesis.
+
+Enlace de la encuesta: [https://docs.google.com/forms/d/e/1FAIpQLSeihdreqMSKYFU6sNKyZ65MFwTr9lQTlm8_K5by__Q61pci3w/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeihdreqMSKYFU6sNKyZ65MFwTr9lQTlm8_K5by__Q61pci3w/viewform)
+
+<img src="./img/capitulo_8/continuous_learning/survey_form.png" alt="Encuesta de validación en Google Forms" />
 
 
 <div style="page-break-after: always;"></div>
@@ -7313,6 +7322,11 @@ Estas preguntas se presentarán a una muestra de 20 participantes. Los participa
 
 ### 8.6.1. About-the-Product Intro Video
 
+El video de introducción al producto presenta EcoTrack a los visitantes de la Landing Page y a los usuarios interesados en la plataforma antes de su lanzamiento. En el video se explica el modelo de negocio y los dos segmentos objetivo, el agrónomo y el agricultor, y se muestran las funcionalidades principales de la solución. 
+
+<img src="./img/capitulo_8/prelaunch/intro_video.png" alt="Cuadro representativo del video de introducción al producto EcoTrack" />
+
+**Enlace del video en YouTube:** [https://youtu.be/q8EpvrpFKiU](https://youtu.be/q8EpvrpFKiU)
 
 
 <div style="page-break-after: always;"></div>
