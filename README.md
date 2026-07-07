@@ -6336,11 +6336,15 @@ No estuvieron incluidas en esta evaluación las siguientes tareas:
 - **Recomendación:** Incorporar un modal de confirmación antes de eliminar una organización, indicando que la acción no puede deshacerse.
 - **Evidencia visual:** Insertar captura del botón de eliminación y del modal de confirmación.
 
+
+
+
+
 <div style="page-break-after: always;"></div>
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
-El informe recibido contiene recomendaciones, pero no incluye evidencia de que las correcciones ya hayan sido implementadas. Por ello, las siguientes acciones deben registrarse como modificaciones pendientes de implementación o verificación, incorporando el commit y la captura correspondiente cuando se complete cada cambio.
+Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
 
 <table>
     <thead>
@@ -6397,48 +6401,6 @@ El informe recibido contiene recomendaciones, pero no incluye evidencia de que l
         </tr>
     </tbody>
 </table>
-
-<div style="page-break-after: always;"></div>
-
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
-
-Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
-
-<table>
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Hallazgo / Problema reportado</th>
-            <th>Severidad</th>
-            <th>Modificación realizada</th>
-            <th>Evidencia (commit / pantalla)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-
 
 <div style="page-break-after: always;"></div>
 
