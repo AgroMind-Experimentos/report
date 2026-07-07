@@ -7140,17 +7140,71 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 
+En línea con el Tracking Plan, se incorporó a la landing el componente de recolección de datos de Google Analytics. Con esto es posible medir cuántos visitantes llegan a la plataforma.
+
+
+**Evidencia de la landing page en producción durante el periodo de experimentación:**
+
+<img src="./img/capitulo_8/experimentation/landing_production.png" alt="Landing page en producción" />
+
+**Evidencia del tráfico registrado en Google Analytics durante el periodo de experimentación:**
+
+<img src="./img/capitulo_8/experimentation/landing_analytics.png" alt="Panel de Google Analytics mostrando el tráfico de la landing" />
+
 
 <div style="page-break-after: always;"></div>
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
+**UA01 – Exportar reportes a Excel (Experiment Card 01)** 
+
+El Panel de Reportes incorpora el botón "Descargar excel", que genera un archivo `.xlsx` con la información de las tareas. El reporte contiene un resumen ejecutivo y el detalle de cada tarea.
+
+<img src="./img/capitulo_8/experimentation/ua01_export_excel.png" alt="Panel de Reportes con el botón Descargar excel y la notificación de descarga" />
+
+<img src="./img/capitulo_8/experimentation/ua01_export_content.png" alt="Contenido del archivo Excel con el resumen ejecutivo y el detalle de tareas" />
+
+</br>
+
+**UA02 – Visualizar tareas en tablero Kanban (Experiment Card 02)** 
+
+La vista de tareas incorpora un tablero Kanban con las columnas Pendiente, En proceso y Completada. Las tareas se desplazan entre columnas mediante arrastre, y el cambio de estado se registra de inmediato.
+
+<img src="./img/capitulo_8/experimentation/ua02_kanban_board.png" alt="Tablero Kanban con las columnas Pendiente, En proceso y Completada" />
+
+</br>
+
+**UA03 – Registrar geolocalización de parcela** (Experiment Card 03)
+
+El formulario de registro y edición de parcelas incluye un mapa interactivo sobre el que el usuario fija la ubicación haciendo clic o arrastrando el marcador. Los campos de latitud y longitud se completan de forma automática. 
+
+<img src="./img/capitulo_8/experimentation/ua03_plot_location_form.png" alt="Formulario de parcela con mapa interactivo y campos de latitud y longitud" />
+
+<img src="./img/capitulo_8/experimentation/ua03_plot_table.png" alt="Tabla de parcelas con las coordenadas registradas" />
+
+</br>
+
+**UA04 – Seleccionar cultivo desde catálogo (Experiment Card 04)**
+
+El campo de texto libre para el cultivo se reemplazó por una lista desplegable con catálogo y búsqueda integrada. Cuando el cultivo no figura en el catálogo, la opción "Otro" habilita el registro manual. 
+
+<img src="./img/capitulo_8/experimentation/ua04_crop_dropdown.png" alt="Lista desplegable de cultivos con búsqueda" />
+
+</br>
+
+**UA05 – Consultar recomendaciones climáticas inteligentes (Experiment Card 05)** 
+
+Además del pronóstico meteorológico, la sección de clima presenta un bloque de recomendaciones sobre riego, fertilización y protección de cultivos, generadas a partir de las condiciones climáticas registradas.
+
+<img src="./img/capitulo_8/experimentation/ua05_weather_recommendations.png" alt="Sección de clima con el bloque de recomendaciones" />
+</br>
 
 
 <div style="page-break-after: always;"></div>
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+ EcoTrack no cuenta con una aplicación nativa móvil. La plataforma está construida como una aplicación web responsive, accesible desde el navegador de cualquier dispositivo móvil, tablet o computadora, por lo que las funcionalidades del ciclo To-Be no requirieron desarrollo nativo.
 
 
 <div style="page-break-after: always;"></div>
@@ -7158,11 +7212,46 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 
+**UA01 – Exportar reportes a Excel (Experiment Card 01)**
+
+El endpoint `GET /api/v1/reports/excel` genera y descarga el reporte del estado de las tareas en formato `.xlsx`.
+
+<img src="./img/capitulo_8/experimentation/ua01_api_reports_excel.png" alt="Endpoint GET /api/v1/reports/excel en Swagger" />
+
+</br>
+
+**UA03 – Registrar geolocalización de parcela (Experiment Card 03)**
+
+Se agregaron los campos de latitud y longitud a las parcelas (`/api/v1/plots`), de modo que las coordenadas se guardan y se consultan junto con cada parcela.
+
+<img src="./img/capitulo_8/experimentation/ua03_api_plots.png" alt="Endpoint PATCH /api/v1/plots/{id} con los campos de latitud y longitud en Swagger" />
+
+</br>
+
+Los experimentos UA02, UA04 y UA05 no cambiaron el backend. El tablero Kanban usa el endpoint de estado que ya existía (`PATCH /api/v1/tasks/{taskId}/status`), y el catálogo de cultivos y las recomendaciones climáticas funcionan en el lado del cliente.
+
 
 <div style="page-break-after: always;"></div>
 
 #### 8.3.3.6. Team Collaboration Insights
 
+El trabajo del ciclo To-Be se distribuyó entre los integrantes según el To-Be Sprint Backlog. Las siguientes capturas de GitHub muestran los commits que aportó cada uno en los repositorios del producto a lo largo del Sprint.
+
+**Frontend**
+
+<img src="./img/capitulo_8/experimentation/insights_frontend_tobe.png" alt="Insights de colaboración del frontend durante el ciclo To-Be" />
+
+</br>
+
+**Backend**
+
+<img src="./img/capitulo_8/experimentation/insights_backend_tobe.png" alt="Insights de colaboración del backend durante el ciclo To-Be" />
+
+</br>
+
+**Landing Page**
+
+<img src="./img/capitulo_8/experimentation/insights_landing_tobe.png" alt="Insights de colaboración de la landing durante el ciclo To-Be" />
 
 
 <div style="page-break-after: always;"></div>
