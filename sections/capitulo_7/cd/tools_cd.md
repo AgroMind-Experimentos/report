@@ -7,7 +7,7 @@
 - **Railway (Backend Deployment)**  
   Se utiliza como plataforma de despliegue del backend. Permite automatizar la publicación de la API directamente desde el repositorio conectado a GitHub, facilitando el despliegue continuo sin necesidad de configuración manual de servidores.
 
-- **Vercel (Frontend / Landing Page Deployment)**  
+- **Render (Frontend / Landing Page Deployment)**  
   Se encarga del despliegue del frontend y la landing page. Está integrado con GitHub, lo que permite que cada cambio en el repositorio se despliegue automáticamente, asegurando rapidez en la entrega y consistencia entre versiones.
 
 - **Trello**  

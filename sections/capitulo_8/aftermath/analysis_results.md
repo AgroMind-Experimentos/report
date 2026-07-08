@@ -102,9 +102,9 @@ Estas preguntas se presentarán a una muestra de 21 participantes. Los participa
 
   ![Figura 10. Utilidad del selector desplegable de cultivos](../../../img/capitulo_8/data_analytics/preg7.png)
 
-- **Flexibilidad de la opción "Otro":**
+- **Flexibilidad del campo vacio:**
 
-  El 90.5% de los participantes consideró que la opción "Otro" permite registrar correctamente cultivos que no están disponibles en la lista. El 9.5% restante indicó que no pudo hacerlo de forma satisfactoria.
+  El 90.5% de los participantes consideró que escribir en el recuadro en vez de seleccionar un cultivo desde el catálogo permite registrar correctamente cultivos que no están disponibles en la lista. El 9.5% restante indicó que no pudo hacerlo de forma satisfactoria.
 
   Este resultado demuestra que la opción aporta flexibilidad al catálogo de cultivos; sin embargo, se recomienda revisar la claridad del campo de ingreso y las validaciones aplicadas al registrar un cultivo personalizado.
 

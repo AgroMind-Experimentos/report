@@ -226,26 +226,26 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capitulo-i-introduccion)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation-analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-analisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseno-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-analisis-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -253,11 +253,11 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStoring](#24-big-picture-eventstoring)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capitulo-iv-product-design)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -285,13 +285,13 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.1.1. Sprint Backlog 1](#5211-sprint-backlog-1)
       - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
@@ -305,39 +305,39 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseno-de-entrevistas)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-segun-heuristicas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About the Product](#54-video-about-the-product)
-- [Capítulo VI: Product Verification & Validation](#capitulo-vi-product-verification-validation)
-  - [6.1. Testing Suites & Validation](#61-testing-suites-validation)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-  - [6.2. Static Testing & Verification](#62-static-testing-verification)
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)
     - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards-code-conventions)
-      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)
+      - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
   - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas](#631-diseno-de-entrevistas)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-segun-heuristicas)
-  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoria-de-experiencias-de-usuario)
-    - [6.4.1. Auditoría realizada](#641-auditoria-realizada)
-      - [6.4.1.1. Información del grupo auditado](#6411-informacion-del-grupo-auditado)
-      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoria-realizada)
-      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoria-realizada)
-    - [6.4.2. Auditoría recibida](#642-auditoria-recibida)
-      - [6.4.2.1. Información del grupo auditor](#6421-informacion-del-grupo-auditor)
-      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoria-recibida)
-      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoria-recibida)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
       - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
-- [Capítulo VII: DevOps Practices](#capitulo-vii-devops-practices)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -349,7 +349,7 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
     - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
     - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
     - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-- [Capítulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
   - [8.1. Experiment Planning](#81-experiment-planning)
     - [8.1.1. As-Is Summary](#811-as-is-summary)
     - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
@@ -376,18 +376,18 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
       - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-and-or-serverless-backend-evidence)
       - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
     - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
-      - [8.3.4.1. Diseño de Entrevistas](#8341-diseno-de-entrevistas)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
       - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
-  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath-analysis)
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
     - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
     - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
   - [8.5. Continuous Learning](#85-continuous-learning)
     - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
   - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
     - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
-- [Matriz de Evaluación Ética y de Impacto](#matriz-de-evaluacion-etica-y-de-impacto)
+- [Matriz de Evaluación Ética y de Impacto](#matriz-de-evaluación-ética-y-de-impacto)
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografia)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 
@@ -6496,42 +6496,6 @@ No estuvieron incluidas en esta evaluación las siguientes tareas:
 - **Problema:** Al inspeccionar el panel principal se constata que toda la interfaz, los menús laterales (Home, Tasks, Weather, Reports, Profile, Settings) y los títulos (My Organizations, Create New Organization) se encuentran en idioma inglés. Dado que el público objetivo principal del proyecto son los agricultores peruanos, el uso del inglés representa una barrera cultural e idiomática severa que afectará negativamente la adopción del sistema.
 - **Recomendación:** Implementar la internacionalización (i18n) en el frontend para asegurar que el idioma nativo por defecto sea el español, utilizando términos sencillos del entorno agrícola ("Mis Parcelas", "Tareas", "Clima").
 
-**PROBLEMA #2:**
-
-- **Severidad:** 2
-- **Heurística/Principio violado(a):** Estética y diseño minimalista.
-- **Problema:** En la tabla de organizaciones creada, los campos correspondientes a la columna Description muestran el texto "decription" (con un error ortográfico en inglés) y la columna Location muestra "location". Esto denota que el sistema está renderizando los valores por defecto que se envían desde la base de datos o el backend cuando el usuario no completa la información.
-- **Recomendación:** Modificar el componente de la tabla para que, en caso de campos vacíos o por defecto, muestre un espacio limpio o una leyenda elegante como "Sin descripción asignada" u "Organización sin ubicación".
-
-**PROBLEMA #3:**
-
-- **Severidad:** 3
-- **Heurística/Principio violado(a):** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
-- **Problema:** Los logs de la consola demuestran que ante credenciales inválidas (Error 401 Unauthorized) o registros fallidos (Error 400 Bad Request), el backend responde correctamente, pero el frontend no está capturando de manera clara el mensaje para mostrar una alerta amigable en la interfaz gráfica. Si el sistema falla de manera silenciosa para el usuario común, este asumirá que la aplicación no funciona.
-- **Recomendación:** Implementar un interceptor de errores en el cliente HTTP del frontend (ej. Axios o Fetch) para capturar los códigos de estado 401 y 400, transformándolos en mensajes emergentes (Toasts o Modales) como "Usuario o contraseña incorrectos" o "Los datos ingresados no son válidos".
-
-**PROBLEMA #4:**
-
-- **Severidad:** 2
-- **Heurística/Principio violado(a):** Prevención de errores.
-- **Problema:** El sistema bloquea correctamente el registro si la contraseña no cumple con los criterios de seguridad avanzados (mínimo 8 dígitos, mayúsculas y un símbolo). Sin embargo, el formulario no advierte explícitamente estas condiciones al usuario de manera anticipada, obligándolo a adivinar la estructura mediante un proceso de "ensayo y error".
-- **Recomendación:** Añadir un texto de ayuda dinámico debajo del campo de contraseña o una lista de verificación visual que cambie a color verde a medida que el usuario cumpla con cada uno de los requisitos técnicos de seguridad exigidos por el backend.
-
-**PROBLEMA #5:**
-
-- **Severidad:** 3
-- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema.
-- **Problema:** Por diseño del negocio, los usuarios con rol de Agronomist no pueden completar tareas (facultad exclusiva del rol Farmer). No obstante, si un agrónomo inicia sesión, la interfaz le sigue mostrando las opciones de interacción de las tareas activas sin distinguir visualmente que no posee permisos de edición para completarlas, lo que provoca clics inútiles y frustración.
-- **Recomendación:** Aplicar un renderizado condicional en la interfaz basado en los claims del token de usuario. Si el usuario logueado es un Agronomist, el botón o casilla para "Completar Tarea" debe ocultarse por completo o aparecer opaco (en estado disabled) acompañado de un tooltip que aclare: "Permiso exclusivo para agricultores".
-
-**PROBLEMA #6:**
-
-- **Severidad:** 2
-- **Heurística/Principio violado(a):** Control y libertad del usuario / Prevención de errores.
-- **Problema:** En la columna Actions del panel organizacional, aparece un botón rojo con un icono de papelera para eliminar registros. Si el usuario presiona este botón por accidente, el registro se expone a un borrado inmediato sin intermediarios directos visibles en la pantalla primaria.
-- **Recomendación:** Asegurar que el botón de eliminación gatille siempre un cuadro de diálogo de confirmación intermedia (Modal) preguntando al usuario: "¿Está seguro de que desea eliminar esta organización? Esta acción no se puede deshacer", previniendo pérdidas accidentales de datos en el entorno agrícola.
-
-
 <div style="page-break-after: always;"></div>
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
@@ -6674,7 +6638,7 @@ En el frontend se utilizan comandos como `npm install` y `npm run build`, mientr
 - **Railway (Backend Deployment)**  
   Se utiliza como plataforma de despliegue del backend. Permite automatizar la publicación de la API directamente desde el repositorio conectado a GitHub, facilitando el despliegue continuo sin necesidad de configuración manual de servidores.
 
-- **Vercel (Frontend / Landing Page Deployment)**  
+- **Render (Frontend / Landing Page Deployment)**  
   Se encarga del despliegue del frontend y la landing page. Está integrado con GitHub, lo que permite que cada cambio en el repositorio se despliegue automáticamente, asegurando rapidez en la entrega y consistencia entre versiones.
 
 - **Trello**  
@@ -6726,7 +6690,7 @@ En esta etapa, el pipeline se detiene temporalmente hasta recibir la validación
 - Railway:  
   Se utiliza para el despliegue del backend y la gestión de la base de datos. Facilita la automatización de despliegues, variables de entorno y administración de servicios en la nube.
 
-- Vercel:  
+- Render:  
   Se encarga del despliegue del frontend y la landing page. Permite integración directa con repositorios Git, automatizando despliegues en cada push y ofreciendo alta disponibilidad y rendimiento global.
 
 ### Practices (Prácticas)

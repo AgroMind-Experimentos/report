@@ -6,7 +6,7 @@
 - Railway:  
   Se utiliza para el despliegue del backend y la gestión de la base de datos. Facilita la automatización de despliegues, variables de entorno y administración de servicios en la nube.
 
-- Vercel:  
+- Render:  
   Se encarga del despliegue del frontend y la landing page. Permite integración directa con repositorios Git, automatizando despliegues en cada push y ofreciendo alta disponibilidad y rendimiento global.
 
 ### Practices (Prácticas)
