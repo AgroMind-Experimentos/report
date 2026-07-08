@@ -24,3 +24,35 @@ Preguntas de validación:
 10. ¿Qué funcionalidad o mejora consideras necesaria para que estas nuevas características de EcoTrack sean más útiles en tus actividades agrícolas diarias?
 
 #### Segmento objetivo: Agrónomo
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+* Registro de parcelas con geolocalización.
+* Gestión y actualización de tareas mediante el tablero Kanban.
+* Registro de cultivos mediante catálogo y opción "Otro".
+* Exportación de reportes a Excel.
+* Consulta de recomendaciones climáticas como apoyo a la asesoría técnica.
+
+**Preguntas de validación (simulación de respuestas):**
+
+1. ¿Te resultó sencillo registrar la ubicación geográfica de una parcela usando el mapa interactivo?
+
+2. ¿La visualización de las parcelas en el mapa te ayuda a supervisar mejor las fincas de tus agricultores?
+
+3. ¿El tablero Kanban te permitió identificar rápidamente el estado de las tareas asignadas a tus agricultores?
+
+4. ¿Te resultó sencillo mover o actualizar el estado de una tarea dentro del tablero Kanban?
+
+5. ¿Pudiste seleccionar fácilmente un cultivo desde el catálogo disponible al crear una parcela?
+
+6. ¿La opción "Otro" te resultó útil cuando un cultivo no se encontraba en la lista?
+
+7. ¿La exportación de reportes a Excel te resultó útil para tu trabajo de asesoría o para compartir información con tus clientes?
+
+8. ¿La información contenida en el archivo Excel exportado fue clara y suficiente para tu análisis?
+
+9. ¿Las recomendaciones climáticas mostradas te ayudarían a anticipar riesgos o sugerir acciones preventivas a tus agricultores?
+
+10. ¿Qué funcionalidad o mejora consideras necesaria para que EcoTrack sea más útil en tu labor de supervisión y asesoría técnica?
+
+
