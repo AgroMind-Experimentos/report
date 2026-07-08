@@ -5714,9 +5714,27 @@ La entrevista con José Luis Quispe Flores permitió conocer su experiencia al u
 
 Asimismo, indicó que sería útil incorporar una opción para visualizar la contraseña, un historial por cultivo y una mejor identificación de alertas según su nivel de urgencia. También sugirió añadir recomendaciones prácticas para cada alerta, horarios o tiempos estimados para las tareas y la posibilidad de asignarlas a otras personas. Finalmente, propuso un módulo para registrar gastos, ventas y ganancias, además de recomendaciones relacionadas con el clima y el estado de la parcela.
 
+#### Segmento objetivo: Agrónomo
 
+##### Entrevista 01
 
+**Nombres:** Rebeca  
+**Apellidos:** Molina Flores
+**Edad:** 55 años  
+**Distrito:** Ica
 
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_6/bdd/entrevista_agronomo1.png" />
+
+**Inicio:** 0:00  
+
+**Fin:** 14:05
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](#)
+
+**Resumen de la entrevista:**  
+**Rebeca Molina**, agrónoma, comentó que actualmente realiza visitas de campo para evaluar los cultivos y coordina las labores con los agricultores mediante WhatsApp. Por ello, considera que EcoTrack sería una herramienta complementaria para asignar tareas y registrar recomendaciones. Destacó la **agrupación de agricultores** y la sección de **recomendaciones climáticas**, ya que esta última respalda las recomendaciones que brinda en campo. Como mejora, sugirió incorporar el pronóstico de los siguientes días para facilitar la planificación. También propuso que la sección de **reportes** incluya el tipo de cultivo y presente la información de forma más clara. Respecto al módulo de **tareas**, indicó que le resulta útil, aunque una distribución más simple de los campos y del checklist facilitaría su uso. En el formulario de **parcelas**, sugirió permitir subir un PDF o una fotografía con la información del campo para evitar ingresarla manualmente. Finalmente, prefirió no asignar una calificación definitiva hasta utilizar la aplicación por más tiempo.
 
 
 <div style="page-break-after: always;"></div>
