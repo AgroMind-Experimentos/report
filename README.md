@@ -5723,6 +5723,162 @@ Asimismo, indicó que sería útil incorporar una opción para visualizar la con
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+**Aplicacion a evaluar: EcoTrack – Plataforma Web para Gestión Agrícola**
+
+**TAREAS EVALUADAS**
+
+Las tareas incluidas en la evaluación fueron:
+
+1. Inicio de sesión y acceso a la plataforma
+2. Visualización de la pantalla principal (cultivos y tareas)
+3. Consulta y revisión de cultivos registrados
+4. Identificación y priorización de tareas pendientes
+5. Revisión de alertas asociadas a los cultivos
+6. Navegación entre pantallas (regreso, cancelación, corrección de datos)
+
+**TABLA DE ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción |
+|---|---|
+| **1** | Problema superficial: puede ser superado fácilmente o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible. |
+| **2** | Problema menor: ocurre más frecuentemente o es algo más difícil para el usuario. Recomendado arreglarlo en un siguiente release con baja prioridad. |
+| **3** | Problema mayor: ocurre frecuentemente o el usuario no puede resolverlo. Se debe corregir con prioridad alta. |
+| **4** | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento. |
+
+**TABLA RESUMEN DE PROBLEMAS**
+
+| # | Problema identificado | Severidad | Heurística / Principio violado |
+|---|---|---|---|
+| 1 | Las alertas no indican su nivel de urgencia ni distinguen visualmente las críticas de las leves | 3 | Usability – Visibilidad del estado del sistema |
+| 2 | Las tareas no muestran horarios o tiempos estimados de ejecución | 2 | Usability – Correspondencia con el mundo real |
+| 3 | No existe recordatorio o notificación externa (push/celular) para tareas o alertas próximas | 2 | Usability – Visibilidad del estado del sistema |
+| 4 | Las alertas no incluyen recomendaciones prácticas de qué acción tomar frente al problema detectado | 3 | Usability – Ayuda y documentación |
+| 5 | No hay opción para visualizar la contraseña al iniciar sesión | 1 | Usability – Prevención de errores |
+| 6 | Falta un historial de actividades o eventos por cultivo | 2 | Information Architecture – Is it understandable? |
+| 7 | No se puede reasignar o delegar una tarea a otra persona desde la app | 2 | Usability – Flexibilidad y eficiencia de uso |
+| 8 | No existe un módulo para registrar gastos, ventas o ganancias asociadas al cultivo | 2 | Information Architecture – Is it complete? |
+| 9 | Algunos íconos carecen de etiquetas o nombres visibles, dificultando su reconocimiento | 3 | Usability – Reconocimiento mejor que recuerdo |
+| 10 | No se muestra advertencia antes de salir de un formulario con datos sin guardar | 3 | Usability – Prevención de errores |
+
+**DESCRIPCIÓN DETALLADA DE PROBLEMAS**
+
+### Problema #1 – Alertas sin nivel de urgencia visible
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:** Los agricultores entrevistados señalaron que las alertas relacionadas con los cultivos se muestran de forma homogénea, sin distinguir entre situaciones críticas y advertencias menores, lo que dificulta priorizar la atención.
+
+**Recomendación:** Incorporar códigos de color o iconografía diferenciada según el nivel de gravedad de la alerta (por ejemplo, verde, amarillo, rojo).
+
+---
+
+### Problema #2 – Falta de tiempos estimados en tareas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Correspondencia con el mundo real
+
+**Problema:** Uno de los entrevistados indicó que las tareas no muestran una referencia de tiempo estimado, lo que dificulta planificar la jornada de trabajo.
+
+**Recomendación:** Añadir un campo opcional de duración estimada visible en cada tarjeta de tarea.
+
+---
+
+### Problema #3 – Ausencia de recordatorios externos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:** Varios usuarios mencionaron que les gustaría recibir recordatorios de tareas y alertas fuera de la plataforma (por celular), ya que no siempre están revisando la aplicación activamente.
+
+**Recomendación:** Evaluar la integración de notificaciones push o alertas vía WhatsApp/SMS para tareas próximas a vencer.
+
+---
+
+### Problema #4 – Alertas sin recomendación de acción
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Ayuda y documentación
+
+**Problema:** Las alertas muestran el problema detectado, pero no sugieren una acción concreta que el agricultor pueda tomar para resolverlo.
+
+**Recomendación:** Acompañar cada alerta con una recomendación breve y accionable, similar al enfoque de las recomendaciones climáticas por IA implementadas en el Capítulo VIII.
+
+---
+
+### Problema #5 – Sin opción de visualizar contraseña
+
+**Severidad:** 1
+
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:** Al iniciar sesión, el usuario no puede verificar visualmente la contraseña ingresada, lo que puede generar errores de tipeo no detectados.
+
+**Recomendación:** Agregar un ícono de "mostrar/ocultar contraseña" en el campo correspondiente.
+
+---
+
+### Problema #6 – Falta de historial por cultivo
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it understandable?
+
+**Problema:** No existe una vista que permita consultar el historial de actividades, alertas o cambios asociados a un cultivo específico a lo largo del tiempo.
+
+**Recomendación:** Implementar una línea de tiempo o bitácora consultable por cultivo.
+
+---
+
+### Problema #7 – No se pueden reasignar tareas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Flexibilidad y eficiencia de uso
+
+**Problema:** Los usuarios no cuentan con una opción para delegar o reasignar una tarea previamente creada a otro miembro del equipo.
+
+**Recomendación:** Habilitar la edición del responsable asignado desde el detalle de la tarea.
+
+---
+
+### Problema #8 – Ausencia de módulo financiero
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it complete?
+
+**Problema:** Dos de los tres entrevistados solicitaron poder registrar gastos, ventas o ganancias vinculadas a la producción, funcionalidad que actualmente no existe en la plataforma.
+
+**Recomendación:** Evaluar como funcionalidad futura un módulo simple de registro financiero por parcela o campaña.
+
+---
+
+### Problema #9 – Íconos sin etiquetas
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Reconocimiento mejor que recuerdo
+
+**Problema:** Algunos íconos de la interfaz no cuentan con texto o etiqueta visible, obligando al usuario a recordar su función en lugar de reconocerla.
+
+**Recomendación:** Incluir etiquetas de texto junto a los íconos principales o tooltips accesibles al mantener presionado/hover.
+
+---
+
+### Problema #10 – Sin aviso al salir de formularios
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:** Si el usuario navega fuera de un formulario con información ya ingresada, no recibe ninguna advertencia y puede perder los datos sin guardar.
+
+**Recomendación:** Mostrar un modal de confirmación ("¿Deseas salir sin guardar los cambios?") antes de abandonar formularios con datos pendientes.
 
 
 <div style="page-break-after: always;"></div>
@@ -6079,7 +6235,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
     <tbody>
         <tr>
             <td><strong>Nombre de la Startup / Grupo auditor</strong></td>
-            <td>Agromind</td>
+            <td>Vivienda360</td>
         </tr>
         <tr>
             <td><strong>Producto / solución del grupo auditor</strong></td>
@@ -6087,14 +6243,11 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
         </tr>
         <tr>
             <td><strong>Producto de EcoTrack evaluado por el auditor</strong></td>
-            <td>Ecotrack Web App</td>
+            <td>MVP de EcoTrack desplegado en Render (<a href="https://frontend-h0wa.onrender.com">https://frontend-h0wa.onrender.com</a>): módulos de Autenticación y Seguridad, Product Backlog, Gestión Organizacional (My Organizations) y Gestión de Roles y Permisos en Tareas.</td>
         </tr>
         <tr>
             <td><strong>Integrantes del equipo auditor</strong></td>
-            <td>Rogger Faryd — Auditor líder.<br>
-                Rafael Vivanco — Auditor interno 1.<br>
-                Raul Tasayco — Auditor interno 2.<br>
-                Rafael Tasayco — Auditor interno 3.</td>
+            <td>Rogger Faryd (Auditor Líder)<br>Rafael Vivanco (Auditor Interno 1)<br>Raúl Tasayco (Auditor Interno 2)<br>Rafael Tasayco (Auditor Interno 3)</td>
         </tr>
         <tr>
             <td><strong>Medio de contacto</strong></td>
@@ -6161,19 +6314,19 @@ Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** 
         </tr>
         <tr>
             <td><strong>NRC</strong></td>
-            <td>17820 <em>(consignado en el informe de auditoría)</em></td>
+            <td>17820</td>
         </tr>
         <tr>
-            <td><strong>PROFESOR</strong></td>
+            <td><strong>PROFESORES</strong></td>
             <td>Julio Manuel Noriega Melendez</td>
         </tr>
         <tr>
             <td><strong>AUDITOR</strong> (grupo que ejecuta la sesión)</td>
-            <td>AgroMind</td>
+            <td>Vivienda360 (Rogger Faryd, Rafael Vivanco, Raúl Tasayco, Rafael Tasayco)</td>
         </tr>
         <tr>
             <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
-            <td>Chi Cruzatt, Kevin Jorge; Mostajo Orosco, Maria Fernanda; Orozco Torres, Alvaro Joaquin; Paucar De La Cruz, Tatiana Medalith; Ramos Aguirre, Aldair Joaquin; Reaño Delgadillo, Henry Paolo.</td>
+            <td>Chi Cruzatt, Kevin Jorge; Mostajo Orosco, Maria Fernanda; Orozco Torres, Alvaro Joaquin; Paucar De La Cruz, Tatiana Medalith; Ramos Aguirre, Aldair Joaquin; Reaño Delgadillo, Henry Paolo</td>
         </tr>
     </tbody>
 </table>
@@ -6218,19 +6371,19 @@ No estuvieron incluidas en esta evaluación las siguientes tareas:
     <tbody>
         <tr>
             <td>1</td>
-            <td>Problema superficial que puede ser superado fácilmente por el usuario y no requiere corrección urgente.</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario. No necesita ser arreglado con urgencia.</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Problema menor que genera confusión secundaria. Debe priorizarse para un siguiente release.</td>
+            <td>Problema menor: ocurre de forma secundaria o es sutilmente confuso. Asignar prioridad baja para el siguiente release.</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Problema mayor que afecta la comprensión del negocio o la eficiencia del flujo principal. Requiere prioridad alta.</td>
+            <td>Problema mayor: afecta directamente la comprensión del negocio o la eficiencia del flujo principal. Prioridad alta.</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Problema muy grave que bloquea el flujo o impide que el usuario complete la tarea de manera independiente.</td>
+            <td>Problema muy grave: bloquea, confunde críticamente o impide al usuario completar su flujo de forma independiente. El lanzamiento no debe darse sin corregirlo.</td>
         </tr>
     </tbody>
 </table>
@@ -6249,39 +6402,39 @@ No estuvieron incluidas en esta evaluación las siguientes tareas:
     <tbody>
         <tr>
             <td>1</td>
-            <td>La interfaz principal y los menús se muestran completamente en inglés.</td>
+            <td>Interfaz principal y menús desarrollados completamente en idioma inglés.</td>
             <td>3</td>
-            <td>Adecuación entre el sistema y el mundo real.</td>
+            <td>Adecuación entre el sistema y el mundo real</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Se muestran datos de prueba predeterminados, como “decription” y “location”, en la tabla de organizaciones.</td>
+            <td>Presencia de datos de prueba predeterminados ("decription", "location") legibles en producción.</td>
             <td>2</td>
-            <td>Estética y diseño minimalista.</td>
+            <td>Estética y diseño minimalista</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>No se presentan mensajes claros en pantalla ante errores 401 y 400; el error queda únicamente en la consola.</td>
+            <td>Falta de mensajes de error explícitos en pantalla ante fallos de red 401/400 (errores silenciosos en consola).</td>
             <td>3</td>
-            <td>Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.</td>
+            <td>Ayuda a los usuarios a reconocer y recuperarse de errores</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>El registro no muestra de forma anticipada las restricciones de contraseña.</td>
+            <td>Ausencia de indicadores visuales informativos sobre las restricciones de contraseña durante el registro.</td>
             <td>2</td>
-            <td>Prevención de errores.</td>
+            <td>Prevención de errores</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>El rol Agronomist visualiza acciones de tareas sin una indicación clara de que no cuenta con permiso para completarlas.</td>
+            <td>Falta de feedback visual o estados inactivos (disabled) en tareas para el rol de Agronomist.</td>
             <td>3</td>
-            <td>Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema.</td>
+            <td>Flexibilidad y eficiencia de uso / Visibilidad del estado</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>La eliminación de organizaciones usa un ícono genérico y no presenta una confirmación visible antes de borrar el registro.</td>
+            <td>Uso de iconos genéricos y falta de etiquetas de confirmación en la acción de borrado.</td>
             <td>2</td>
-            <td>Control y libertad del usuario / Prevención de errores.</td>
+            <td>Prevención de errores / Control y libertad del usuario</td>
         </tr>
     </tbody>
 </table>
@@ -6338,6 +6491,45 @@ No estuvieron incluidas en esta evaluación las siguientes tareas:
 
 
 
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Adecuación entre el sistema y el mundo real.
+- **Problema:** Al inspeccionar el panel principal se constata que toda la interfaz, los menús laterales (Home, Tasks, Weather, Reports, Profile, Settings) y los títulos (My Organizations, Create New Organization) se encuentran en idioma inglés. Dado que el público objetivo principal del proyecto son los agricultores peruanos, el uso del inglés representa una barrera cultural e idiomática severa que afectará negativamente la adopción del sistema.
+- **Recomendación:** Implementar la internacionalización (i18n) en el frontend para asegurar que el idioma nativo por defecto sea el español, utilizando términos sencillos del entorno agrícola ("Mis Parcelas", "Tareas", "Clima").
+
+**PROBLEMA #2:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Estética y diseño minimalista.
+- **Problema:** En la tabla de organizaciones creada, los campos correspondientes a la columna Description muestran el texto "decription" (con un error ortográfico en inglés) y la columna Location muestra "location". Esto denota que el sistema está renderizando los valores por defecto que se envían desde la base de datos o el backend cuando el usuario no completa la información.
+- **Recomendación:** Modificar el componente de la tabla para que, en caso de campos vacíos o por defecto, muestre un espacio limpio o una leyenda elegante como "Sin descripción asignada" u "Organización sin ubicación".
+
+**PROBLEMA #3:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+- **Problema:** Los logs de la consola demuestran que ante credenciales inválidas (Error 401 Unauthorized) o registros fallidos (Error 400 Bad Request), el backend responde correctamente, pero el frontend no está capturando de manera clara el mensaje para mostrar una alerta amigable en la interfaz gráfica. Si el sistema falla de manera silenciosa para el usuario común, este asumirá que la aplicación no funciona.
+- **Recomendación:** Implementar un interceptor de errores en el cliente HTTP del frontend (ej. Axios o Fetch) para capturar los códigos de estado 401 y 400, transformándolos en mensajes emergentes (Toasts o Modales) como "Usuario o contraseña incorrectos" o "Los datos ingresados no son válidos".
+
+**PROBLEMA #4:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Prevención de errores.
+- **Problema:** El sistema bloquea correctamente el registro si la contraseña no cumple con los criterios de seguridad avanzados (mínimo 8 dígitos, mayúsculas y un símbolo). Sin embargo, el formulario no advierte explícitamente estas condiciones al usuario de manera anticipada, obligándolo a adivinar la estructura mediante un proceso de "ensayo y error".
+- **Recomendación:** Añadir un texto de ayuda dinámico debajo del campo de contraseña o una lista de verificación visual que cambie a color verde a medida que el usuario cumpla con cada uno de los requisitos técnicos de seguridad exigidos por el backend.
+
+**PROBLEMA #5:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema.
+- **Problema:** Por diseño del negocio, los usuarios con rol de Agronomist no pueden completar tareas (facultad exclusiva del rol Farmer). No obstante, si un agrónomo inicia sesión, la interfaz le sigue mostrando las opciones de interacción de las tareas activas sin distinguir visualmente que no posee permisos de edición para completarlas, lo que provoca clics inútiles y frustración.
+- **Recomendación:** Aplicar un renderizado condicional en la interfaz basado en los claims del token de usuario. Si el usuario logueado es un Agronomist, el botón o casilla para "Completar Tarea" debe ocultarse por completo o aparecer opaco (en estado disabled) acompañado de un tooltip que aclare: "Permiso exclusivo para agricultores".
+
+**PROBLEMA #6:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Control y libertad del usuario / Prevención de errores.
+- **Problema:** En la columna Actions del panel organizacional, aparece un botón rojo con un icono de papelera para eliminar registros. Si el usuario presiona este botón por accidente, el registro se expone a un borrado inmediato sin intermediarios directos visibles en la pantalla primaria.
+- **Recomendación:** Asegurar que el botón de eliminación gatille siempre un cuadro de diálogo de confirmación intermedia (Modal) preguntando al usuario: "¿Está seguro de que desea eliminar esta organización? Esta acción no se puede deshacer", previniendo pérdidas accidentales de datos en el entorno agrícola.
 
 
 <div style="page-break-after: always;"></div>
@@ -7180,12 +7372,10 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 | User Story ID | Título                                            | Descripción                                                                                                                                                        | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Relacionado con (Epic ID) |
 | ------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | UA01          | Exportar reportes a Excel                         | Como agrónomo, quiero exportar reportes agrícolas a Excel para analizar la información fuera de la plataforma y compartirla con otros miembros de mi organización. | **Escenario 1: Exportar reporte**<br><br>**Given** el usuario se encuentra en la sección de reportes.<br><br>**When** hace clic en el botón "Exportar a Excel".<br><br>**Then** la aplicación descargará un archivo .xlsx con la información seleccionada.<br><br>**Escenario 2: Exportación exitosa**<br><br>**Given** el usuario ha solicitado la exportación.<br><br>**When** el sistema genera correctamente el archivo.<br><br>**Then** se mostrará una notificación indicando que la exportación fue realizada exitosamente. | EP04                      |
-| UA02          | Visualizar tareas en tablero Kanban               | Como usuario, quiero visualizar mis tareas en un tablero Kanban para identificar rápidamente cuáles están pendientes, en proceso o completadas.                    | **Escenario 1: Visualizar tablero**<br><br>**Given** el usuario accede a la sección de tareas.<br><br>**When** selecciona la vista Kanban.<br><br>**Then** la aplicación mostrará las tareas organizadas por estado.<br><br>**Escenario 2: Cambiar estado de tarea**<br><br>**Given** una tarea se encuentra en una columna del tablero.<br><br>**When** el usuario cambia la tarea a otra columna.<br><br>**Then** el estado de la tarea será actualizado automáticamente.                                                        | EP02                      |
-| UA03          | Registrar geolocalización de parcela              | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación.                                    | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará la ubicación en un mapa.                           | EP01                      |
-| UA04          | Seleccionar cultivo desde catálogo                | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas.                          | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario selecciona la opción "Otro".<br><br>**Then** podrá ingresar manualmente el nombre del cultivo.                                        | EP01                      |
-| UA05          | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas.                  | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** el usuario revisa la información.<br><br>**Then** podrá utilizarla como apoyo para planificar actividades agrícolas.      | EP04                      |
-
-
+| UA02          | Visualizar tareas en tablero Kanban               | Como usuario, quiero visualizar mis tareas en un tablero Kanban para identificar rápidamente cuáles están pendientes, en proceso o completadas.                    | **Escenario 1: Visualizar tablero**<br><br>**Given** el usuario accede a la sección de tareas.<br><br>**When** selecciona la vista Kanban.<br><br>**Then** la aplicación mostrará las tareas organizadas por estado.<br><br>**Escenario 2: Cambiar estado de tarea**<br><br>**Given** una tarea se encuentra en una columna del tablero.<br><br>**When** el usuario cambia la tarea a otra columna.<br><br>**And** se cumplen los requisitos para cambiar de estado<br><br>**Then** el estado de la tarea será actualizado automáticamente.                                                        | EP02                      |
+| UA03          | Registrar geolocalización de parcela              | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación.                                    | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará las coordenadas de la parcela.                           | EP01                      |
+| UA04          | Seleccionar cultivo desde catálogo                | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas.                          | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario da click en el campo del cultivo.<br><br>**Then** podrá ingresar manualmente el nombre del cultivo.                                        | EP01                      |
+| UA05          | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas.                  | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones generadas por inteligencia artificial asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** El usuario ingresa una ubicación diferente como referencia<br><br>**Then** Se generarán las recomendaciones generadas por inteligencia artificial asociadas a las condiciones de dicho lugar.      | EP04                      |
 
 <div style="page-break-after: always;"></div>
 
