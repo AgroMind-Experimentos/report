@@ -7365,11 +7365,11 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 | # Orden | User Story ID | Título                                            | Story Points (1 / 2 / 3 / 5 / 8) |
 | ------- | ------------- | ------------------------------------------------- | -------------------------------- |
-| 1       | UA05          | Consultar recomendaciones climáticas inteligentes | 8                                |
-| 2       | UA03          | Registrar geolocalización de parcela              | 8                                |
-| 3       | UA01          | Exportar reportes a Excel                         | 5                                |
-| 4       | UA02          | Visualizar tareas en tablero Kanban               | 5                                |
-| 5       | UA04          | Seleccionar cultivo desde catálogo                | 3                                |
+| 1       | UA05          | Consultar recomendaciones climáticas inteligentes | 5                                |
+| 2       | UA03          | Registrar geolocalización de parcela              | 5                                |
+| 3       | UA01          | Exportar reportes a Excel                         | 3                                |
+| 4       | UA02          | Visualizar tareas en tablero Kanban               | 3                                |
+| 5       | UA04          | Seleccionar cultivo desde catálogo                | 2                                |
 
 <div style="page-break-after: always;"></div>
 
@@ -7791,9 +7791,9 @@ Estas preguntas se presentarán a una muestra de 21 participantes. Los participa
 
   ![Figura 10. Utilidad del selector desplegable de cultivos](./img/capitulo_8/data_analytics/preg7.png)
 
-- **Flexibilidad de la opción "Otro":**
+- **Flexibilidad del campo vacio:**
 
-  El 90.5% de los participantes consideró que la opción "Otro" permite registrar correctamente cultivos que no están disponibles en la lista. El 9.5% restante indicó que no pudo hacerlo de forma satisfactoria.
+  El 90.5% de los participantes consideró que escribir en el recuadro en vez de seleccionar un cultivo desde el catálogo permite registrar correctamente cultivos que no están disponibles en la lista. El 9.5% restante indicó que no pudo hacerlo de forma satisfactoria.
 
   Este resultado demuestra que la opción aporta flexibilidad al catálogo de cultivos; sin embargo, se recomienda revisar la claridad del campo de ingreso y las validaciones aplicadas al registrar un cultivo personalizado.
 
