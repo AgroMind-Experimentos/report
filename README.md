@@ -7670,6 +7670,34 @@ La entrevista con Jorge Luis Mamani Huamán permitió conocer su experiencia al 
 
 Asimismo, señaló que el mapa facilita identificar parcelas y puede servir para compartir ubicaciones con un agrónomo. El tablero Kanban le permitió reconocer rápidamente las tareas pendientes, en proceso y completadas; como mejora, propuso mostrar el responsable y la fecha límite de cada actividad. También valoró el catálogo de cultivos por reducir errores de escritura y consideró necesaria la opción “Otro” para incluir cultivos o variedades no registradas. Finalmente, sugirió permitir adjuntar fotografías a tareas o alertas como evidencia del estado del cultivo.
 
+#### Segmento objetivo: Agrónomo
+
+##### Entrevista 01
+
+**Nombres:** Rogelio  
+**Apellidos:** Guerra  
+**Edad:** 55 años  
+**Distrito:** Lima  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista_agronomo_1.png" />
+
+**Inicio:** 0:00 
+
+**Fin:** [5:32]  
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](#https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/IQB6l8BOJD9lSaK5ei_hllpAAQAeMw1v5kDfG88LCUBYL6g?e=L7dUZo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:**  
+La entrevista con Rogelio Guerra permitió conocer su experiencia con las nuevas funcionalidades de EcoTrack desde la perspectiva de un agrónomo. El participante consideró útil el registro de geolocalización de parcelas mediante el mapa interactivo, ya que las coordenadas se completan automáticamente al hacer clic; sin embargo, sugirió incorporar una búsqueda por dirección o sector para ubicar fincas desconocidas con mayor rapidez. Asimismo, indicó que centralizar la ubicación de todas las parcelas de sus agricultores en un solo mapa optimizaría la planificación de sus visitas de campo.
+
+Sobre el tablero Kanban, señaló que le permite reconocer rápidamente el estado de las tareas sin depender de la comunicación manual por WhatsApp, aunque recomendó incorporar filtros por agricultor o parcela para evitar la saturación visual cuando gestiona varias fincas a la vez. En cuanto al catálogo de cultivos, valoró el buscador integrado y la flexibilidad de la opción "Otro", proponiendo que los cultivos personalizados registrados por los agricultores se integren posteriormente al catálogo oficial.
+
+Respecto a la exportación de reportes a Excel, la consideró una funcionalidad que reduce significativamente su carga de trabajo administrativo al elaborar informes para sus clientes, aunque sugirió incorporar gráficos visuales para facilitar la comunicación con ellos. Finalmente, destacó las recomendaciones climáticas como la funcionalidad de mayor valor percibido, ya que le permiten transmitir alertas respaldadas técnicamente a sus agricultores de forma más ágil. Como mejoras generales, propuso una vista consolidada del estado de todas sus organizaciones y la integración de un botón para compartir directamente por WhatsApp.
+
+---
+
 
 <div style="page-break-after: always;"></div>
 
