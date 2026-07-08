@@ -37,25 +37,27 @@ Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** 
             <td><strong>Nombre de la App</strong></td>
             <td>EcoTrack</td>
         </tr>
+        <tr>
+            <td><strong>Enlace de despliegue evaluado</strong></td>
+            <td>https://frontend-h0wa.onrender.com</td>
+        </tr>
     </tbody>
 </table>
 
 **TAREAS A EVALUAR:**
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+El alcance de la evaluación incluyó las siguientes tareas:
 
-1. Autenticación y Seguridad: registro de nuevos usuarios con reglas estrictas de contraseñas, e inicio de sesión con manejo de accesos autorizados.
-2. Estructura Organizacional y Navegación: gestión de organizaciones agrícolas (My Organizations) y visualización de menús base en el dashboard general.
-3. Control de Roles y Permisos en Tareas: verificación de las restricciones funcionales entre cuentas de tipo Farmer (Agricultor) y Agronomist (Agrónomo).
+1. **Autenticación y seguridad:** registro de usuarios con reglas de contraseña e inicio de sesión con control de accesos autorizados.
+2. **Estructura organizacional y navegación:** gestión de organizaciones agrícolas en *My Organizations* y revisión de los menús base del dashboard.
+3. **Control de roles y permisos en tareas:** verificación de las restricciones funcionales entre los roles **Farmer** y **Agronomist**.
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
+No estuvieron incluidas en esta evaluación las siguientes tareas:
 
 1. Conexión en tiempo real con sensores físicos de hardware IoT.
-2. Pasarela de pagos para planes avanzados (AgroSmart / AgroExpert).
+2. Pasarela de pagos para los planes AgroSmart y AgroExpert.
 
 **ESCALA DE SEVERIDAD:**
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 <table>
     <thead>
@@ -135,9 +137,57 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
     </tbody>
 </table>
 
-**DESCRIPCIÓN DE PROBLEMAS:**
+**DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES:**
 
-**PROBLEMA #1:**
+**PROBLEMA #1: Interfaz y menús en idioma inglés**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Adecuación entre el sistema y el mundo real.
+- **Problema:** La interfaz, los menús laterales y los títulos principales están en inglés. Esta decisión representa una barrera cultural e idiomática para el público objetivo, compuesto principalmente por agricultores peruanos.
+- **Recomendación:** Implementar internacionalización en el frontend y establecer el español como idioma predeterminado, utilizando términos sencillos del contexto agrícola, tales como “Mis Parcelas”, “Tareas” y “Clima”.
+- **Evidencia visual:** Insertar captura del dashboard y menú lateral evaluados.
+
+**PROBLEMA #2: Datos de prueba visibles en organizaciones**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Estética y diseño minimalista.
+- **Problema:** La tabla de organizaciones muestra los valores predeterminados “decription” y “location” cuando no se ha registrado información para esos campos. Además de incluir un error ortográfico, estos textos reducen la percepción de calidad de la interfaz.
+- **Recomendación:** Mostrar una celda vacía o etiquetas claras como “Sin descripción asignada” y “Organización sin ubicación” cuando la información no esté disponible.
+- **Evidencia visual:** Insertar captura de la tabla de organizaciones evaluada.
+
+**PROBLEMA #3: Errores de autenticación y registro sin retroalimentación visible**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+- **Problema:** Ante credenciales inválidas (401) o registros fallidos (400), el backend responde correctamente, pero el frontend no muestra un mensaje comprensible para el usuario. El error se registra en consola y puede percibirse como un fallo general de la plataforma.
+- **Recomendación:** Implementar manejo centralizado de errores en el cliente HTTP para convertir los códigos 401 y 400 en mensajes emergentes, por ejemplo: “Usuario o contraseña incorrectos” o “Los datos ingresados no son válidos”.
+- **Evidencia visual:** Insertar captura del flujo de inicio de sesión o registro con el mensaje de error correspondiente.
+
+**PROBLEMA #4: Restricciones de contraseña no visibles antes del registro**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Prevención de errores.
+- **Problema:** El sistema bloquea correctamente las contraseñas que no cumplen los criterios de seguridad, pero no informa de manera anticipada los requisitos de longitud, mayúsculas y símbolos. Esto obliga al usuario a realizar intentos sucesivos.
+- **Recomendación:** Incluir texto de ayuda dinámico o una lista de verificación visual debajo del campo de contraseña, que indique el cumplimiento progresivo de cada requisito.
+- **Evidencia visual:** Insertar captura del formulario de creación de cuenta.
+
+**PROBLEMA #5: Restricciones del rol Agronomist poco visibles en tareas**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema.
+- **Problema:** El rol Agronomist no puede completar tareas, pero la interfaz continúa mostrando acciones activas sin explicar la restricción. Esto puede provocar intentos fallidos y frustración.
+- **Recomendación:** Aplicar renderizado condicional según el rol. Para Agronomist, la acción de completar tarea debe ocultarse o mostrarse deshabilitada con un tooltip como “Permiso exclusivo para agricultores”.
+- **Evidencia visual:** Insertar captura de una tarea visualizada con cuenta Agronomist.
+
+**PROBLEMA #6: Eliminación de organizaciones sin confirmación intermedia**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Control y libertad del usuario / Prevención de errores.
+- **Problema:** El botón de eliminación se representa mediante un ícono de papelera y permite iniciar un borrado sin una confirmación intermedia visible en la pantalla primaria.
+- **Recomendación:** Incorporar un modal de confirmación antes de eliminar una organización, indicando que la acción no puede deshacerse.
+- **Evidencia visual:** Insertar captura del botón de eliminación y del modal de confirmación.
+
+
 
 - **Severidad:** 3
 - **Heurística/Principio violado(a):** Adecuación entre el sistema y el mundo real.

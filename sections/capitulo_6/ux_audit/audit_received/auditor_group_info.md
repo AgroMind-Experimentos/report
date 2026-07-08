@@ -6,7 +6,7 @@
         </tr>
         <tr>
             <td><strong>Producto / solución del grupo auditor</strong></td>
-            <td></td>
+            <td>Ecotrack</td>
         </tr>
         <tr>
             <td><strong>Producto de EcoTrack evaluado por el auditor</strong></td>
@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td><strong>Medio de contacto</strong></td>
-            <td></td>
+            <td>Sala virtual para las reuniones de apertura y cierre</td>
         </tr>
     </tbody>
 </table>
