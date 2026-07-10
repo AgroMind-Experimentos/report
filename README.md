@@ -10,7 +10,7 @@
         <p><strong>NRC:</strong> 2610</p>
         <p><strong>Nombre del profesor:</strong> Noriega Melendez, Julio Manuel</p>
     </div>
-    <h2 style="font-size: 22px; margin: 40px 0;">"Informe del Trabajo Parcial"</h2>
+    <h2 style="font-size: 22px; margin: 40px 0;">"Informe de Trabajo Final"</h2>
     <div style="text-align: left; margin-bottom: 30px;">
         <p><strong>Nombre del grupo:</strong> AgroMind</p>
         <p><strong>Nombre del producto:</strong> EcoTrack</p>
@@ -51,7 +51,7 @@
         </tbody>
     </table>
     <div style="margin-top: 50px;">
-        <p>Lima - mayo 2026</p>
+        <p>Lima - junio 2026</p>
     </div>
 </div>
 
@@ -133,7 +133,7 @@
             <td>Equipo AgroMind</td>
             <td>
                 <ul>
-                    <li>Actualización general de Carátula y Student Outcome con aportes del TP</li>
+                    <li>Actualización general de Carátula y Student Outcome con aportes del TB1</li>
                     <li><b>Capítulo V: Product Implementation, Validation & Deployment</b>
                         <ul>
                             <li>Reestructuración de la sección 5.2. Landing Page, Services & Applications Implementation</li>
@@ -161,6 +161,72 @@
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>3.0</td>
+            <td>18/06/2026</td>
+            <td>
+                Mostajo Orosco, Maria Fernanda<br>
+                Orozco Torres, Alvaro Joaquin<br>
+                Paucar De La Cruz, Tatiana Medalith<br>
+                Ramos Aguirre, Aldair Joaquin
+            </td>
+            <td>
+                <ul>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del AV2</li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.2.1. Static Code Analysis (Coding Standards & Code Conventions, Code Quality & Code Security)</li>
+                            <li>6.2.2. Reviews</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VII: DevOps Practices</b>
+                        <ul>
+                            <li>7.4. Continuous Monitoring (Tools and Practices, Monitoring Pipeline, Alerting Pipeline, Notification Pipeline)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VIII: Experiment-Driven Development</b>
+                        <ul>
+                            <li>8.1. Experiment Planning (As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog, Experiment Cards)</li>
+                            <li>8.2. Experiment Design (Hypotheses, Business Metrics, Measures, Conditions, Scale Calculations, Methods Selection, Analytics Goals & KPIs, Tracking Plan)</li>
+                            <li>8.3. Experimentation (To-Be User Stories, To-Be Product Backlog)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4.0</td>
+            <td>09/07/2026</td>
+            <td>
+                Chi Cruzatt, Kevin Jorge<br>
+                Mostajo Orosco, Maria Fernanda<br>
+                Orozco Torres, Alvaro Joaquin<br>
+                Paucar De La Cruz, Tatiana Medalith<br>
+                Ramos Aguirre, Aldair Joaquin
+            </td>
+            <td>
+                <ul>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.3. Validation Interviews (Diseño, Registro, Evaluaciones según heurísticas)</li>
+                            <li>6.4. Auditoría de Experiencias de Usuario (Auditoría realizada y Auditoría recibida)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VIII: Experiment-Driven Development</b>
+                        <ul>
+                            <li>8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle (Sprint Backlogs, Landing Page, Frontend, Mobile, API Evidence, Team Collaboration Insights)</li>
+                            <li>8.3.4. To-Be Validation Interviews (Diseño, Registro)</li>
+                            <li>8.4. Experiment Aftermath & Analysis (Análisis de Resultados, Re-priorización del Question Backlog)</li>
+                            <li>8.5. Continuous Learning (Shareback Session Artifacts)</li>
+                            <li>8.6. To-Be Software Platform Pre-launch (About-the-Product Intro Video)</li>
+                        </ul>
+                    </li>
+                    <li><b>Matriz de Evaluación Ética y de Impacto</b></li>
+                    <li>Actualización de Anexos</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -172,15 +238,19 @@
 
 Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/report](https://github.com/AgroMind-Experimentos/report)
 
+**AV1**
+
+<img src="./img/insights/av1.png">
+
+<div style="page-break-after: always;"></div>
+
 **TB1**
 
 <img src="./img/insights/tb1.png">
 
-<div style="page-break-after: always;"></div>
+**AV2**
 
-**TP1**
-
-<img src="./img/insights/tp1.png">
+<img src="./img/insights/av2.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -287,6 +357,20 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
       - [6.2.1.1. Coding Standards & Code Conventions](#6211-coding-standards--code-conventions)
       - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -321,6 +405,24 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
   - [8.3. Experimentation](#83-experimentation)
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-and-or-serverless-backend-evidence)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+- [Matriz de Evaluación Ética y de Impacto](#matriz-de-evaluación-ética-y-de-impacto)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -344,23 +446,41 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
                 <b>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</b>
             </td>
             <td>
-                <strong>TB1</strong><br>
+                <strong>AV1</strong><br>
                 <strong>Kevin Chi:</strong> Implementé protocolos de seguridad y buenas prácticas de codificación para mitigar las vulnerabilidades detectadas, asegurando la integridad de los datos y la fiabilidad técnica del sistema.<br>
                 <strong>Álvaro Orozco:</strong> Integré formalmente los requerimientos legales y normativos dentro de la documentación técnica, garantizando que el desarrollo cumpla con los estándares profesionales de transparencia y legalidad vigentes.<br>
                 <strong>Henry Reaño:</strong> Asumí la responsabilidad de la calidad del producto final mediante la documentación rigurosa de errores de software, asegurando que el equipo de desarrollo reciba retroalimentación técnica precisa para cumplir con los estándares de calidad profesional.<br><br>
-                <strong>TP</strong><br>
+                <strong>TB1</strong><br>
                 <strong>Kevin Chi:</strong> Participé en el desarrollo general del sistema y actué directamente en el despliegue corrigiendo fallas críticas, asumiendo así mi responsabilidad profesional de asegurar un entorno de producción estable y seguro.<br>
                 <strong>Álvaro Orozco:</strong> En mi compromiso ético y profesional con la calidad del producto, programé la totalidad de los tests del sistema, además de participar en el desarrollo y resolver problemas críticos durante la fase de despliegue.<br>
                 <strong>Henry Reaño:</strong> Colaboré en el desarrollo del producto e intervine en el proceso de despliegue solucionando errores críticos, garantizando que los estándares técnicos y de calidad se mantengan en el entorno real.<br>
                 <strong>Maria Fernanda Mostajo:</strong> Asumí mi responsabilidad profesional contribuyendo de manera activa al desarrollo de software del producto, escribiendo código sostenible.<br>
                 <strong>Tatiana Paucar:</strong> Contribuí al desarrollo del sistema, asegurando que mis aportes y funcionalidades cumplan con los estándares técnicos y profesionales del equipo.<br>
-                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br>
+                <strong>Aldair Ramos:</strong> Aporté al desarrollo de funcionalidades y, como muestra de responsabilidad por la calidad del producto, ejecuté pruebas de validación de comportamiento (BDD) automatizadas usando Selenium en la web.<br><br>
+                <strong>AV2</strong><br>
+                <strong>Kevin Chi:</strong> Revisé los resultados del análisis estático de código y verifiqué que los hallazgos de seguridad identificados en la sección 6.2.1.2 fueran coherentes con las buenas prácticas establecidas en el equipo, asumiendo la responsabilidad de validar que el código base no introduzca vulnerabilidades en las nuevas funcionalidades propuestas.<br>
+                <strong>Álvaro Orozco:</strong> Formulé las hipótesis del Capítulo VIII asegurando que cada una incluyera una hipótesis nula verificable, y supervisé la coherencia del capítulo completo. Esta función implica responsabilidad directa sobre la solidez metodológica de los experimentos propuestos.<br>
+                <strong>Henry Reaño:</strong> Participé en la identificación de los problemas del estado actual de EcoTrack que fundamentan el Experiment Planning, aportando observaciones sobre las deficiencias en la experiencia de usuario que guiaron la formulación de los supuestos y las preguntas experimentales.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Estructuré el proceso de Experiment Planning documentando las preguntas experimentales con su scoring de priorización, el question backlog y las experiment cards. Asumir esta responsabilidad implicó asegurar que cada experimento propuesto tuviera una justificación sólida antes de comprometer recursos de desarrollo.<br>
+                <strong>Tatiana Paucar:</strong> Redacté las secciones de Static Testing y Continuous Monitoring, documentando estándares de codificación, análisis estático de código y los pipelines de alertas y notificaciones. Esta labor responde a la responsabilidad profesional de garantizar la calidad del código y la visibilidad del estado del sistema en producción.<br>
+                <strong>Aldair Ramos:</strong> Desarrollé el As-Is Summary, el Raw Material y las secciones de Analytics Goals, Tracking Plan, To-Be User Stories y To-Be Product Backlog, garantizando que las funcionalidades propuestas cuenten con criterios de aceptación definidos y un plan de seguimiento que permita evaluar su impacto de forma responsable.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Supervisé que el pipeline de despliegue final cumpliera con los estándares de seguridad definidos por el equipo, asumiendo la responsabilidad de que ninguna vulnerabilidad conocida llegara al entorno de producción en la entrega final.<br>
+                <strong>Álvaro Orozco:</strong> Consolidé la documentación final del informe, asegurando que cada capítulo reflejara con honestidad el trabajo realmente realizado por el equipo y cumpliera con los lineamientos éticos exigidos por el curso.<br>
+                <strong>Henry Reaño:</strong> Asumí la responsabilidad de verificar la corrección final de los errores reportados durante las auditorías, garantizando que el producto entregado cumpliera con los estándares de calidad acordados.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Documenté el cierre del proceso experimental de forma transparente, asegurando que las conclusiones finales reflejaran honestamente los resultados obtenidos, incluyendo aquellos que no confirmaron las hipótesis iniciales.<br>
+                <strong>Tatiana Paucar:</strong> Verifiqué que las prácticas de monitoreo continuo se mantuvieran activas en el entorno productivo final, asumiendo la responsabilidad profesional de que el equipo pudiera detectar y responder a incidentes reales.<br>
+                <strong>Aldair Ramos:</strong> Validé que las historias de usuario finales cumplieran los criterios de aceptación acordados con el equipo, asumiendo responsabilidad sobre la coherencia entre lo documentado y lo efectivamente implementado.<br>
             </td>
             <td>
-                <strong>TB1</strong><br>
+                <strong>AV1</strong><br>
                 Se concluye que los integrantes demuestran un compromiso con la ética profesional al priorizar la corrección de fallos técnicos, la seguridad del código y el cumplimiento de marcos normativos, garantizando un producto robusto y confiable.<br><br>
-                <strong>TP</strong><br>
-                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.
+                <strong>TB1</strong><br>
+                Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.<br><br>
+                <strong>AV2</strong><br>
+                Se concluye que el equipo asumió con responsabilidad el diseño experimental del producto, estructurando cada propuesta con criterios medibles y justificación metodológica. La documentación de pruebas estáticas, monitoreo continuo e hipótesis verificables refleja un compromiso profesional con la calidad y trazabilidad del proceso de desarrollo.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo cerró el proyecto con un fuerte sentido de responsabilidad profesional, verificando la seguridad del despliegue final, consolidando la documentación con honestidad y validando que el producto entregado corresponda fielmente a lo comprometido con el usuario final.
             </td>
         </tr>
         <tr>
@@ -368,23 +488,41 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
                 <b>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</b>
             </td>
             <td>
-                <strong>TB1</strong><br>
+                <strong>AV1</strong><br>
                 <strong>Kevin Chi:</strong> En el proceso de evaluación del estado actual del producto reconocí las deficiencias y vulnerabilidades en la implementación que representan riesgos para los usuarios y el negocio.<br>
                 <strong>Álvaro Orozco:</strong> En la revisión del informe ahora con la transición del equipo de trabajo del proyecto, identifiqué algunos elementos que no se tuvieron en cuenta como el cumplimiento de la ley de protección de datos personales.<br>
                 <strong>Henry Reaño:</strong> Tras haber realizado una prueba manual de los flujos de usuario, reconocí las deficiencias a nivel de servicio y experiencia de usuario dentro de los flujos planteados por el producto, documentando los cambios y correcciones a realizar para el equipo de desarrollo.<br><br>
-                <strong>TP</strong><br>
+                <strong>TB1</strong><br>
                 <strong>Kevin Chi:</strong> Emití juicios sobre la operatividad del negocio al corregir fallos críticos en despliegue, asegurando que el desarrollo de la aplicación evite pérdidas e interrupciones en el contexto del usuario final.<br>
                 <strong>Álvaro Orozco:</strong> Al desarrollar exhaustivamente los tests, consideré el impacto económico de posibles bugs en la aplicación y garanticé que las soluciones integradas a nivel de desarrollo y despliegue sean fiables para la sociedad.<br>
                 <strong>Henry Reaño:</strong> Durante el desarrollo y despliegue del software, identifiqué y solucioné fallas críticas considerando que un sistema inestable afectaría negativamente el entorno de trabajo y la viabilidad económica del producto.<br>
                 <strong>Maria Fernanda Mostajo:</strong> En mi participación en el desarrollo, trabajé orientada a construir funcionalidades que respondan eficientemente a las necesidades operativas de los usuarios.<br>
                 <strong>Tatiana Paucar:</strong> Al codificar partes del software, tomé decisiones de desarrollo conscientes del impacto positivo que el sistema debe generar en el contexto operativo del cliente final.<br>
-                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br>
+                <strong>Aldair Ramos:</strong> Validé la experiencia real del usuario creando tests BDD con Selenium, emitiendo juicios sobre cómo el correcto funcionamiento de las interfaces impacta directamente en la accesibilidad de la aplicación.<br><br>
+                <strong>AV2</strong><br>
+                <strong>Kevin Chi:</strong> Al revisar el análisis de calidad y seguridad del código estático, emití juicios sobre el impacto que las vulnerabilidades no corregidas pueden tener en la confiabilidad del sistema y en la confianza de los usuarios agrícolas que dependen de la plataforma para gestionar su producción.<br>
+                <strong>Álvaro Orozco:</strong> Al formular las hipótesis y sus respectivas hipótesis nulas, establecí los criterios que permiten rechazar o validar una funcionalidad con base en evidencia cuantitativa, reduciendo el riesgo de tomar decisiones de producto sin respaldo metodológico.<br>
+                <strong>Henry Reaño:</strong> Al aportar observaciones sobre la experiencia de usuario en el estado actual de la plataforma, contribuí a identificar qué problemas tienen mayor impacto en la productividad de agricultores y agrónomos, informando la priorización de los experimentos propuestos.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Al priorizar los experimentos mediante scoring de confianza, riesgo, impacto e interés, emití juicios sobre qué mejoras generan mayor valor para agricultores y agrónomos, estableciendo un orden en el backlog experimental basado en evidencia y no en preferencias arbitrarias.<br>
+                <strong>Tatiana Paucar:</strong> Al documentar las métricas de negocio, medidas y condiciones de los experimentos, evalué el alcance estadístico necesario para detectar cambios reales en el comportamiento de los usuarios, evitando conclusiones basadas en evidencia insuficiente.<br>
+                <strong>Aldair Ramos:</strong> Al diseñar el Tracking Plan y los criterios de aceptación de las To-Be User Stories, consideré cómo cada funcionalidad debe ser medida para validar su impacto real en la experiencia del usuario y en los objetivos de negocio de EcoTrack.<br><br>
+                <strong>TB2</strong><br>
+                <strong>Kevin Chi:</strong> Al cerrar el pipeline de despliegue final, evalué el impacto que una falla de seguridad no detectada tendría sobre la confianza de los agricultores en la plataforma y sobre la continuidad del negocio.<br>
+                <strong>Álvaro Orozco:</strong> Al consolidar la documentación final, emití juicios sobre qué decisiones de producto tuvieron mayor impacto real en los usuarios agrícolas a lo largo de todo el proyecto, priorizando su registro honesto por sobre una narrativa favorable.<br>
+                <strong>Henry Reaño:</strong> Al verificar la corrección final de los hallazgos de auditoría, consideré el impacto que cada error no resuelto tendría en la accesibilidad y confianza de los usuarios finales del producto.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Al documentar el cierre experimental, emití juicios sobre qué resultados, confirmados o no, debían influir en decisiones futuras de negocio, evitando descartar evidencia incómoda por conveniencia.<br>
+                <strong>Tatiana Paucar:</strong> Al verificar el monitoreo continuo en producción, evalué el impacto social que una interrupción del servicio tendría sobre agricultores que dependen de la plataforma para sus labores diarias.<br>
+                <strong>Aldair Ramos:</strong> Al validar la correspondencia entre las historias de usuario finales y lo implementado, consideré el impacto que cualquier discrepancia tendría sobre la confianza del negocio y de los usuarios en el producto entregado.<br>
             </td>
             <td>
-                <strong>TB1</strong><br>
+                <strong>AV1</strong><br>
                 Se concluye que el equipo posee una visión crítica sobre el impacto de su trabajo, identificando riesgos económicos para el negocio, implicaciones sociales respecto a la privacidad de datos y la importancia de la experiencia del usuario en el contexto social.<br><br>
-                <strong>TP</strong><br>
-                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.
+                <strong>TB1</strong><br>
+                Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.<br><br>
+                <strong>AV2</strong><br>
+                Se concluye que el equipo emitió juicios informados al estructurar los experimentos con scoring de priorización, métricas de negocio verificables e hipótesis nulas. Este enfoque demuestra una comprensión del impacto económico y social de las decisiones de producto, priorizando funcionalidades que generan valor real para los usuarios agrícolas antes de invertir en su desarrollo.<br><br>
+                <strong>TB2</strong><br>
+                Se concluye que el equipo cerró el proyecto emitiendo juicios informados sobre el impacto económico y social de sus decisiones, priorizando la honestidad en la documentación de resultados y la continuidad del servicio por sobre una presentación favorable del producto, en beneficio de los usuarios agrícolas finales.
             </td>
         </tr>
     </tbody>
@@ -5488,6 +5626,1013 @@ Las revisiones ocurren de forma continua durante el sprint. Ningún PR debe qued
 
 <div style="page-break-after: always;"></div>
 
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad de la aplicación EcoTrack. Las preguntas se han separado según cada segmento objetivo, debido a que agricultores y agrónomos utilizan funcionalidades diferentes dentro de la plataforma.
+
+Estas preguntas están diseñadas para explorar las heurísticas de usabilidad y obtener información valiosa sobre la experiencia del usuario.
+
+#### Segmento objetivo: Agricultor
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+- Inicio de sesión en la plataforma.
+- Visualización de cultivos.
+- Consulta de tareas pendientes.
+- Revisión de alertas relacionadas con cultivos.
+
+Preguntas de validación:
+
+1. ¿Te resultó sencillo iniciar sesión e ingresar a la aplicación web de EcoTrack?
+
+2. ¿La información mostrada en la pantalla principal te permitió comprender rápidamente el estado de tus cultivos y tareas?
+
+3. ¿Pudiste encontrar y revisar tus cultivos sin dificultad?
+
+4. ¿La información presentada sobre cada cultivo te resultó clara y comprensible?
+
+5. ¿Pudiste identificar fácilmente las tareas pendientes que debes realizar?
+
+6. ¿Las tareas muestran con claridad su prioridad, fecha o estado de realización?
+
+7. ¿Las alertas relacionadas con los cultivos fueron visibles, claras y fáciles de entender?
+
+8. ¿Tuviste alguna dificultad para regresar a una pantalla anterior, cancelar una acción o corregir información registrada?
+
+9. ¿Encontraste algún botón, icono, mensaje o sección que te resultara confuso durante el uso de la aplicación?
+
+10. ¿Qué funcionalidad o mejora consideras necesaria para que EcoTrack sea más útil en tus actividades agrícolas diarias?
+
+#### Segmento objetivo: Agrónomo
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+- Visualización del dashboard general.
+- Registro y consulta de parcelas.
+- Asignación y seguimiento de tareas a los agricultores.
+- Generación y revisión de reportes.
+
+Preguntas de validación:
+
+1. De todo lo que vio, ¿qué funcionalidad le parece la más útil para su trabajo, y por qué esa?
+
+2. ¿En qué momento de su trabajo con los agricultores usaría EcoTrack, y para qué exactamente?
+
+3. ¿Esta plataforma reemplazaría alguna herramienta que usa actualmente (Excel, WhatsApp, cuadernos) o sería un complemento?
+
+4. ¿Qué haría con la información de los reportes en su trabajo de asesoría? ¿Qué le falta a esos reportes para tomar una decisión?
+
+5. Sobre el seguimiento de las tareas que asigna a los agricultores, ¿qué cambiaría respecto a cómo lo coordina hoy? ¿Qué le sobra o le falta?
+
+6. ¿Los datos que le pidió la app para registrar una parcela fueron suficientes, o hizo falta alguno importante para su asesoría?
+
+7. Si tuviera que quitarle una sola función a EcoTrack, ¿cuál no le importaría perder? ¿Y cuál nunca quitaría?
+
+8. ¿Tuvo dificultades para regresar, cancelar una acción o corregir un dato cuando se equivocó?
+
+9. Mientras usaba el dashboard, las parcelas o las tareas, ¿hubo algo que le costara entender o le pareciera confuso?
+
+10. Del 1 al 5, ¿qué tan probable es que use EcoTrack en su próxima campaña? ¿Qué necesitaría para que sea un 5?
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.2. Registro de Entrevistas
+
+#### Segmento objetivo: Agricultor
+
+##### Entrevista 01
+
+**Nombres:** Bettsy    
+**Apellidos:** Fernandez    
+**Edad:** 44 años   
+**Distrito:** Lima
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_6/bdd/entrevista1.png" />
+
+**Inicio:** 0:00  
+
+**Fin:** 4:53  
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQCUPTgZJhWDQIoVIXq78D0cAS6HbI_B_7WIm35rm6ba9gk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZjmXt1)
+
+**Resumen de la entrevista:**   
+La entrevista con Bettsy Fernández permitió conocer su experiencia al utilizar la plataforma EcoTrack desde la perspectiva de una agricultora. En general, indicó que el inicio de sesión, la visualización de cultivos, la consulta de tareas pendientes y la revisión de alertas fueron procesos sencillos y comprensibles. La entrevistada destacó que la información principal de la plataforma le permitió identificar rápidamente el estado de sus cultivos y las actividades que debía realizar.
+
+Asimismo, consideró que las tareas y alertas son útiles para organizar mejor el trabajo agrícola diario. Sin embargo, sugirió incorporar recordatorios por celular, recomendaciones más detalladas para resolver alertas, etiquetas o nombres en algunos íconos y un módulo para registrar gastos y ganancias de la producción. En conclusión, Bettsy percibió a EcoTrack como una herramienta útil y fácil de usar, aunque identificó oportunidades de mejora para hacerla más práctica en las actividades del campo.
+
+##### Entrevista 02
+
+**Nombres:** José Luis  
+**Apellidos:** Quispe Flores  
+**Edad:** 32 años  
+**Distrito:** Pachacamác
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_6/bdd/entrevista2.png" />
+
+**Inicio:** 0:00  
+
+**Fin:** 6:32
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQDFjil1Q1PTT7FrE37TnaC-AYErR3dEUvtqU9dwOPkl1r4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FEKs5W)
+
+**Resumen de la entrevista:**  
+La entrevista con Jorge Luis Mamani Huamán permitió conocer su experiencia al utilizar la plataforma web EcoTrack desde la perspectiva de un agricultor. En general, indicó que el inicio de sesión, la visualización de cultivos, la consulta de tareas y la revisión de alertas fueron procesos sencillos y claros. Destacó que la pantalla principal le permitió identificar rápidamente los cultivos registrados y las actividades que debía atender.
+
+Asimismo, consideró útil que las tareas estén separadas según su estado y que las alertas permitan reconocer el cultivo afectado. Como mejoras, sugirió identificar las tareas urgentes con mayor claridad, usar colores para alertas graves, incluir avisos antes de salir de formularios y agregar etiquetas en algunos íconos. También propuso recordatorios de tareas, alertas climáticas y la opción de registrar fotos del avance de los cultivos.
+
+##### Entrevista 03
+
+**Nombres:** Jorge  
+**Apellidos:** Mamani Huaman  
+**Edad:** 23 años  
+**Distrito:** Lurin 
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_6/bdd/entrevista3.png" />
+
+**Inicio:** 0:00  
+
+**Fin:** 4:09
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBQVKqIcn_KSK56jMDWysp1Af73Otz-1IRn3_Cif5jA2lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aHGA3t)
+
+**Resumen de la entrevista:**   
+La entrevista con José Luis Quispe Flores permitió conocer su experiencia al utilizar EcoTrack desde la perspectiva de un agricultor. En general, señaló que el inicio de sesión, la revisión de cultivos, la consulta de tareas y la navegación entre pantallas fueron sencillos y comprensibles. Destacó especialmente la utilidad de las alertas y las tareas para identificar problemas y organizar las actividades diarias en la parcela.
+
+Asimismo, indicó que sería útil incorporar una opción para visualizar la contraseña, un historial por cultivo y una mejor identificación de alertas según su nivel de urgencia. También sugirió añadir recomendaciones prácticas para cada alerta, horarios o tiempos estimados para las tareas y la posibilidad de asignarlas a otras personas. Finalmente, propuso un módulo para registrar gastos, ventas y ganancias, además de recomendaciones relacionadas con el clima y el estado de la parcela.
+
+#### Segmento objetivo: Agrónomo
+
+##### Entrevista 01
+
+**Nombres:** Rebeca  
+**Apellidos:** Molina Flores
+**Edad:** 55 años  
+**Distrito:** Ica
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_6/bdd/entrevista_agronomo1.png" />
+
+**Inicio:** 0:00  
+
+**Fin:** 14:05
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](#)
+
+**Resumen de la entrevista:**  
+**Rebeca Molina**, agrónoma, comentó que actualmente realiza visitas de campo para evaluar los cultivos y coordina las labores con los agricultores mediante WhatsApp. Por ello, considera que EcoTrack sería una herramienta complementaria para asignar tareas y registrar recomendaciones. Destacó la **agrupación de agricultores** y la sección de **recomendaciones climáticas**, ya que esta última respalda las recomendaciones que brinda en campo. Como mejora, sugirió incorporar el pronóstico de los siguientes días para facilitar la planificación. También propuso que la sección de **reportes** incluya el tipo de cultivo y presente la información de forma más clara. Respecto al módulo de **tareas**, indicó que le resulta útil, aunque una distribución más simple de los campos y del checklist facilitaría su uso. En el formulario de **parcelas**, sugirió permitir subir un PDF o una fotografía con la información del campo para evitar ingresarla manualmente. Finalmente, prefirió no asignar una calificación definitiva hasta utilizar la aplicación por más tiempo.
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.3. Evaluaciones según heurísticas
+
+**Aplicacion a evaluar: EcoTrack – Plataforma Web para Gestión Agrícola**
+
+**TAREAS EVALUADAS**
+
+Las tareas incluidas en la evaluación fueron:
+
+1. Inicio de sesión y acceso a la plataforma
+2. Visualización de la pantalla principal (cultivos y tareas)
+3. Consulta y revisión de cultivos registrados
+4. Identificación y priorización de tareas pendientes
+5. Revisión de alertas asociadas a los cultivos
+6. Navegación entre pantallas (regreso, cancelación, corrección de datos)
+
+**TABLA DE ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción |
+|---|---|
+| **1** | Problema superficial: puede ser superado fácilmente o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible. |
+| **2** | Problema menor: ocurre más frecuentemente o es algo más difícil para el usuario. Recomendado arreglarlo en un siguiente release con baja prioridad. |
+| **3** | Problema mayor: ocurre frecuentemente o el usuario no puede resolverlo. Se debe corregir con prioridad alta. |
+| **4** | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento. |
+
+**TABLA RESUMEN DE PROBLEMAS**
+
+| # | Problema identificado | Severidad | Heurística / Principio violado |
+|---|---|---|---|
+| 1 | Las alertas no indican su nivel de urgencia ni distinguen visualmente las críticas de las leves | 3 | Usability – Visibilidad del estado del sistema |
+| 2 | Las tareas no muestran horarios o tiempos estimados de ejecución | 2 | Usability – Correspondencia con el mundo real |
+| 3 | No existe recordatorio o notificación externa (push/celular) para tareas o alertas próximas | 2 | Usability – Visibilidad del estado del sistema |
+| 4 | Las alertas no incluyen recomendaciones prácticas de qué acción tomar frente al problema detectado | 3 | Usability – Ayuda y documentación |
+| 5 | No hay opción para visualizar la contraseña al iniciar sesión | 1 | Usability – Prevención de errores |
+| 6 | Falta un historial de actividades o eventos por cultivo | 2 | Information Architecture – Is it understandable? |
+| 7 | No se puede reasignar o delegar una tarea a otra persona desde la app | 2 | Usability – Flexibilidad y eficiencia de uso |
+| 8 | No existe un módulo para registrar gastos, ventas o ganancias asociadas al cultivo | 2 | Information Architecture – Is it complete? |
+| 9 | Algunos íconos carecen de etiquetas o nombres visibles, dificultando su reconocimiento | 3 | Usability – Reconocimiento mejor que recuerdo |
+| 10 | No se muestra advertencia antes de salir de un formulario con datos sin guardar | 3 | Usability – Prevención de errores |
+
+**DESCRIPCIÓN DETALLADA DE PROBLEMAS**
+
+### Problema #1 – Alertas sin nivel de urgencia visible
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:** Los agricultores entrevistados señalaron que las alertas relacionadas con los cultivos se muestran de forma homogénea, sin distinguir entre situaciones críticas y advertencias menores, lo que dificulta priorizar la atención.
+
+**Recomendación:** Incorporar códigos de color o iconografía diferenciada según el nivel de gravedad de la alerta (por ejemplo, verde, amarillo, rojo).
+
+---
+
+### Problema #2 – Falta de tiempos estimados en tareas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Correspondencia con el mundo real
+
+**Problema:** Uno de los entrevistados indicó que las tareas no muestran una referencia de tiempo estimado, lo que dificulta planificar la jornada de trabajo.
+
+**Recomendación:** Añadir un campo opcional de duración estimada visible en cada tarjeta de tarea.
+
+---
+
+### Problema #3 – Ausencia de recordatorios externos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:** Varios usuarios mencionaron que les gustaría recibir recordatorios de tareas y alertas fuera de la plataforma (por celular), ya que no siempre están revisando la aplicación activamente.
+
+**Recomendación:** Evaluar la integración de notificaciones push o alertas vía WhatsApp/SMS para tareas próximas a vencer.
+
+---
+
+### Problema #4 – Alertas sin recomendación de acción
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Ayuda y documentación
+
+**Problema:** Las alertas muestran el problema detectado, pero no sugieren una acción concreta que el agricultor pueda tomar para resolverlo.
+
+**Recomendación:** Acompañar cada alerta con una recomendación breve y accionable, similar al enfoque de las recomendaciones climáticas por IA implementadas en el Capítulo VIII.
+
+---
+
+### Problema #5 – Sin opción de visualizar contraseña
+
+**Severidad:** 1
+
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:** Al iniciar sesión, el usuario no puede verificar visualmente la contraseña ingresada, lo que puede generar errores de tipeo no detectados.
+
+**Recomendación:** Agregar un ícono de "mostrar/ocultar contraseña" en el campo correspondiente.
+
+---
+
+### Problema #6 – Falta de historial por cultivo
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it understandable?
+
+**Problema:** No existe una vista que permita consultar el historial de actividades, alertas o cambios asociados a un cultivo específico a lo largo del tiempo.
+
+**Recomendación:** Implementar una línea de tiempo o bitácora consultable por cultivo.
+
+---
+
+### Problema #7 – No se pueden reasignar tareas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Flexibilidad y eficiencia de uso
+
+**Problema:** Los usuarios no cuentan con una opción para delegar o reasignar una tarea previamente creada a otro miembro del equipo.
+
+**Recomendación:** Habilitar la edición del responsable asignado desde el detalle de la tarea.
+
+---
+
+### Problema #8 – Ausencia de módulo financiero
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it complete?
+
+**Problema:** Dos de los tres entrevistados solicitaron poder registrar gastos, ventas o ganancias vinculadas a la producción, funcionalidad que actualmente no existe en la plataforma.
+
+**Recomendación:** Evaluar como funcionalidad futura un módulo simple de registro financiero por parcela o campaña.
+
+---
+
+### Problema #9 – Íconos sin etiquetas
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Reconocimiento mejor que recuerdo
+
+**Problema:** Algunos íconos de la interfaz no cuentan con texto o etiqueta visible, obligando al usuario a recordar su función en lugar de reconocerla.
+
+**Recomendación:** Incluir etiquetas de texto junto a los íconos principales o tooltips accesibles al mantener presionado/hover.
+
+---
+
+### Problema #10 – Sin aviso al salir de formularios
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Prevención de errores
+
+**Problema:** Si el usuario navega fuera de un formulario con información ya ingresada, no recibe ninguna advertencia y puede perder los datos sin guardar.
+
+**Recomendación:** Mostrar un modal de confirmación ("¿Deseas salir sin guardar los cambios?") antes de abandonar formularios con datos pendientes.
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditado</strong></td>
+            <td>NexoraPe</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre del producto / solución</strong></td>
+            <td>SafeWork</td>
+        </tr>
+        <tr>
+            <td><strong>Sitio o App evaluada</strong></td>
+            <td>SafeWork Web app</td>
+        </tr>
+        <tr>
+            <td><strong>Enlace de despliegue (Landing / Web App)</strong></td>
+            <td>https://safework-app-beta.vercel.app/login</td>
+        </tr>
+        <tr>
+            <td><strong>Repositorios de código</strong></td>
+            <td>https://github.com/NexoraPe-1ASI0732</td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditado</strong></td>
+            <td>Cacho Seminario, Diego Alonso<br>Ruiz Huisa, Daniel Elias<br>Palacin Lazo, Gerardo Valentin<br>Villugas Jeronimo, Liam Anderson</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo a auditar</td>
+            <td>05/07/2026</td>
+            <td>12 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría (evaluación heurística)</td>
+            <td>05/07/2026</td>
+            <td>3 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+        <tr>
+            <td>Entrega del informe de auditoría al grupo auditado</td>
+            <td>05/07/2026</td>
+            <td>7 PM</td>
+            <td>Remoto</td>
+            <td>Agromind (equipo)</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+Esta sección aplica el formato de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) indicado en el Anexo D, para registrar la evaluación heurística realizada por el equipo sobre el producto del grupo auditado.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td>17820</td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td>Julio Manuel Noriega Melendez</td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong></td>
+            <td>Agromind</td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td>Cacho Seminario, Diego Alonso<br>Ruiz Huisa, Daniel Elias<br>Palacin Lazo, Gerardo Valentin<br>Villugas Jeronimo, Liam Anderson</td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td>SafeWork</td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Autenticación de usuario (inicio de sesión y recuperación/cambio de contraseña).
+2. Gestión y seguimiento de casos/reportes (historial, línea de tiempo, notas internas, búsqueda y filtrado por estado).
+3. Gestión del perfil de usuario (foto de perfil, actualización de área/departamento) y soporte al usuario (chat de soporte, búsqueda de preguntas frecuentes).
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Panel administrativo y gestión de roles/permisos avanzados.
+2. Registro de nuevos usuarios.
+3. Rendimiento, seguridad de backend y pruebas de carga.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>El botón "Forgot your password?" no funciona.</td>
+            <td>4</td>
+            <td>Prevención de errores / Ayuda a reconocer y recuperarse de errores</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>No está implementada la función "Historial de reportes" (US16).</td>
+            <td>3</td>
+            <td>Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>No está implementada la función de "Chat de soporte" (US18).</td>
+            <td>3</td>
+            <td>Ayuda y documentación</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>No está implementada la función de "Foto de perfil" (US16).</td>
+            <td>2</td>
+            <td>Reconocimiento antes que recuerdo / Diseño inclusivo</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>No está implementada la función de "Notas internas" en el caso (US25).</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>No está implementada la función de "Línea de tiempo del caso" (US26).</td>
+            <td>3</td>
+            <td>Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>No está implementada la actualización de área/departamento en el perfil (US32).</td>
+            <td>2</td>
+            <td>Control y libertad del usuario</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>No está implementada la búsqueda de reportes (US35).</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso / Arquitectura de información</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>No está implementada la búsqueda de preguntas frecuentes por palabras clave (US37).</td>
+            <td>2</td>
+            <td>Ayuda y documentación</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>No está implementado el cambio de contraseña desde el perfil (US30).</td>
+            <td>4</td>
+            <td>Control y libertad del usuario</td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:**
+
+- **Severidad:** 4
+- **Heurística/Principio violado(a):** Prevención de errores / Ayuda a reconocer, diagnosticar y recuperarse de errores.
+- **Problema:** Al hacer clic en "Forgot your password?" en la pantalla de login, la aplicación arroja un error no controlado en consola (`ERROR N: NG04002: 'forgot-password'`) que indica que la ruta no coincide con ninguna definida (`NoMatchError`). El usuario no recibe ninguna retroalimentación visual y queda sin poder recuperar su contraseña.
+
+<img src="./img/capitulo_6/ux_audit/problem-1.png" />
+
+- **Recomendación:** Corregir el ruteo/handler asociado al botón de recuperación de contraseña para que resuelva correctamente el flujo, evitando el error de ruta inexistente, y mostrar al usuario retroalimentación clara (mensaje de confirmación o de error) en lugar de fallar silenciosamente.
+
+**PROBLEMA #2:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Visibilidad del estado del sistema.
+- **Problema:** No se encontró en la interfaz la función "Historial de reportes", como se menciona en la US16.
+
+<img src="./img/capitulo_6/ux_audit/problem-2.png" />
+
+- **Recomendación:** Implementar la función de "Historial de reportes", conforme al alcance mencionado en la US16.
+
+**PROBLEMA #3:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Ayuda y documentación.
+- **Problema:** No se encontró en la interfaz la función "Chat de soporte", como se menciona en la US18.
+- **Recomendación:** Implementar la función de "Chat de soporte", conforme al alcance mencionado en la US18.
+
+**PROBLEMA #4:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Reconocimiento antes que recuerdo / Diseño inclusivo (personalización de identidad).
+- **Problema:** No se encontró en la interfaz la función "Foto de perfil", como se menciona en la US16.
+
+<img src="./img/capitulo_6/ux_audit/problem-4.png" />
+
+- **Recomendación:** Implementar la función de "Foto de perfil", conforme al alcance mencionado en la US16.
+
+**PROBLEMA #5:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso.
+- **Problema:** No se encontró en la interfaz la función "Notas internas", como se menciona en la US25.
+
+<img src="./img/capitulo_6/ux_audit/problem-5.png" />
+
+- **Recomendación:** Implementar la función de "Notas internas", conforme al alcance mencionado en la US25.
+
+**PROBLEMA #6:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Visibilidad del estado del sistema.
+- **Problema:** No se encontró en la interfaz la función "Línea de tiempo del caso", como se menciona en la US26.
+
+<img src="./img/capitulo_6/ux_audit/problem-6.png" />
+
+- **Recomendación:** Implementar la función de "Línea de tiempo del caso", conforme al alcance mencionado en la US26.
+
+**PROBLEMA #7:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Control y libertad del usuario.
+- **Problema:** No se encontró en la interfaz la función "Actualización de área/departamento en el perfil", como se menciona en la US32.
+
+<img src="./img/capitulo_6/ux_audit/problem-7.png" />
+
+- **Recomendación:** Implementar la función de "Actualización de área/departamento en el perfil", conforme al alcance mencionado en la US32.
+
+**PROBLEMA #8:**
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Arquitectura de información (findability).
+- **Problema:** No se encontró en la interfaz la función "Búsqueda de reportes", como se menciona en la US35.
+
+<img src="./img/capitulo_6/ux_audit/problem-8.png" />
+
+- **Recomendación:** Implementar la función de "Búsqueda de reportes", conforme al alcance mencionado en la US35.
+
+**PROBLEMA #9:**
+
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Ayuda y documentación.
+- **Problema:** No se encontró en la interfaz la función "Búsqueda de preguntas frecuentes", como se menciona en la US37.
+
+<img src="./img/capitulo_6/ux_audit/problem-9.png" />
+
+- **Recomendación:** Implementar la función de "Búsqueda de preguntas frecuentes", conforme al alcance mencionado en la US37.
+
+**PROBLEMA #10:**
+
+- **Severidad:** 4
+- **Heurística/Principio violado(a):** Control y libertad del usuario.
+- **Problema:** No se encontró en la interfaz la función "Cambio de contraseña desde el perfil", como se menciona en la US30.
+
+<img src="./img/capitulo_6/ux_audit/problem-10.png" />
+
+- **Recomendación:** Implementar la función de "Cambio de contraseña desde el perfil", conforme al alcance mencionado en la US30.
+
+
+<div style="page-break-after: always;"></div>
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la Startup / Grupo auditor</strong></td>
+            <td>Vivienda360</td>
+        </tr>
+        <tr>
+            <td><strong>Producto / solución del grupo auditor</strong></td>
+            <td>Ecotrack</td>
+        </tr>
+        <tr>
+            <td><strong>Producto de EcoTrack evaluado por el auditor</strong></td>
+            <td>MVP de EcoTrack desplegado en Render (<a href="https://frontend-h0wa.onrender.com">https://frontend-h0wa.onrender.com</a>): módulos de Autenticación y Seguridad, Product Backlog, Gestión Organizacional (My Organizations) y Gestión de Roles y Permisos en Tareas.</td>
+        </tr>
+        <tr>
+            <td><strong>Integrantes del equipo auditor</strong></td>
+            <td>Rogger Faryd (Auditor Líder)<br>Rafael Vivanco (Auditor Interno 1)<br>Raúl Tasayco (Auditor Interno 2)<br>Rafael Tasayco (Auditor Interno 3)</td>
+        </tr>
+        <tr>
+            <td><strong>Medio de contacto</strong></td>
+            <td>Sala virtual para las reuniones de apertura y cierre</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+<table>
+    <thead>
+        <tr>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Medio (Presencial / Remoto)</th>
+            <th>Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Coordinación inicial con el grupo auditor / reunión de apertura</td>
+            <td>05/07/2026</td>
+            <td>08:30 – 09:00</td>
+            <td>Remoto — Sala virtual</td>
+            <td>Equipo auditor y representantes de AgroMind.</td>
+        </tr>
+        <tr>
+            <td>Sesión de auditoría recibida (evaluación heurística, funcional y de Product Backlog)</td>
+            <td>05/07/2026</td>
+            <td>09:00 – 13:30 y 14:30 – 16:30</td>
+            <td>Revisión de la app web desplegada; coordinación en sala virtual.</td>
+            <td>Rogger Faryd, Rafael Vivanco, Raul Tasayco, Rafael Tasayco y equipo AgroMind.</td>
+        </tr>
+        <tr>
+            <td>Consolidación, recepción y presentación del informe de auditoría</td>
+            <td>05/07/2026</td>
+            <td>16:00 – 17:00</td>
+            <td>Remoto — Sala virtual</td>
+            <td>Auditor líder, auditor responsable de la consolidación y equipo AgroMind.</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+Esta sección reproduce el informe de **UX Heuristics & Principles Evaluation** (Usability – Inclusive Design – Information Architecture) recibido del grupo auditor sobre EcoTrack, siguiendo el formato del Anexo D.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>CARRERA</strong></td>
+            <td>Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>CURSO</strong></td>
+            <td>Diseño de Experimentos de Ingeniería de Software</td>
+        </tr>
+        <tr>
+            <td><strong>NRC</strong></td>
+            <td>17820</td>
+        </tr>
+        <tr>
+            <td><strong>PROFESORES</strong></td>
+            <td>Julio Manuel Noriega Melendez</td>
+        </tr>
+        <tr>
+            <td><strong>AUDITOR</strong> (grupo que ejecuta la sesión)</td>
+            <td>Vivienda360 (Rogger Faryd, Rafael Vivanco, Raúl Tasayco, Rafael Tasayco)</td>
+        </tr>
+        <tr>
+            <td><strong>CLIENTE(S)</strong> (personas que participan en la sesión)</td>
+            <td>Chi Cruzatt, Kevin Jorge; Mostajo Orosco, Maria Fernanda; Orozco Torres, Alvaro Joaquin; Paucar De La Cruz, Tatiana Medalith; Ramos Aguirre, Aldair Joaquin; Reaño Delgadillo, Henry Paolo</td>
+        </tr>
+    </tbody>
+</table>
+
+**SITE o APP A EVALUAR:**
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre de la App</strong></td>
+            <td>EcoTrack</td>
+        </tr>
+        <tr>
+            <td><strong>Enlace de despliegue evaluado</strong></td>
+            <td>https://frontend-h0wa.onrender.com</td>
+        </tr>
+    </tbody>
+</table>
+
+**TAREAS A EVALUAR:**
+
+El alcance de la evaluación incluyó las siguientes tareas:
+
+1. **Autenticación y seguridad:** registro de usuarios con reglas de contraseña e inicio de sesión con control de accesos autorizados.
+2. **Estructura organizacional y navegación:** gestión de organizaciones agrícolas en *My Organizations* y revisión de los menús base del dashboard.
+3. **Control de roles y permisos en tareas:** verificación de las restricciones funcionales entre los roles **Farmer** y **Agronomist**.
+
+No estuvieron incluidas en esta evaluación las siguientes tareas:
+
+1. Conexión en tiempo real con sensores físicos de hardware IoT.
+2. Pasarela de pagos para los planes AgroSmart y AgroExpert.
+
+**ESCALA DE SEVERIDAD:**
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario. No necesita ser arreglado con urgencia.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: ocurre de forma secundaria o es sutilmente confuso. Asignar prioridad baja para el siguiente release.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: afecta directamente la comprensión del negocio o la eficiencia del flujo principal. Prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: bloquea, confunde críticamente o impide al usuario completar su flujo de forma independiente. El lanzamiento no debe darse sin corregirlo.</td>
+        </tr>
+    </tbody>
+</table>
+
+**TABLA RESUMEN:**
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística / Principio violado(a)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Interfaz principal y menús desarrollados completamente en idioma inglés.</td>
+            <td>3</td>
+            <td>Adecuación entre el sistema y el mundo real</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Presencia de datos de prueba predeterminados ("decription", "location") legibles en producción.</td>
+            <td>2</td>
+            <td>Estética y diseño minimalista</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Falta de mensajes de error explícitos en pantalla ante fallos de red 401/400 (errores silenciosos en consola).</td>
+            <td>3</td>
+            <td>Ayuda a los usuarios a reconocer y recuperarse de errores</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ausencia de indicadores visuales informativos sobre las restricciones de contraseña durante el registro.</td>
+            <td>2</td>
+            <td>Prevención de errores</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Falta de feedback visual o estados inactivos (disabled) en tareas para el rol de Agronomist.</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso / Visibilidad del estado</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Uso de iconos genéricos y falta de etiquetas de confirmación en la acción de borrado.</td>
+            <td>2</td>
+            <td>Prevención de errores / Control y libertad del usuario</td>
+        </tr>
+    </tbody>
+</table>
+
+**DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES:**
+
+**PROBLEMA #1: Interfaz y menús en idioma inglés**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Adecuación entre el sistema y el mundo real.
+- **Problema:** La interfaz, los menús laterales y los títulos principales están en inglés. Esta decisión representa una barrera cultural e idiomática para el público objetivo, compuesto principalmente por agricultores peruanos.
+- **Recomendación:** Implementar internacionalización en el frontend y establecer el español como idioma predeterminado, utilizando términos sencillos del contexto agrícola, tales como “Mis Parcelas”, “Tareas” y “Clima”.
+- **Evidencia visual:** Insertar captura del dashboard y menú lateral evaluados.
+
+**PROBLEMA #2: Datos de prueba visibles en organizaciones**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Estética y diseño minimalista.
+- **Problema:** La tabla de organizaciones muestra los valores predeterminados “decription” y “location” cuando no se ha registrado información para esos campos. Además de incluir un error ortográfico, estos textos reducen la percepción de calidad de la interfaz.
+- **Recomendación:** Mostrar una celda vacía o etiquetas claras como “Sin descripción asignada” y “Organización sin ubicación” cuando la información no esté disponible.
+- **Evidencia visual:** Insertar captura de la tabla de organizaciones evaluada.
+
+**PROBLEMA #3: Errores de autenticación y registro sin retroalimentación visible**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+- **Problema:** Ante credenciales inválidas (401) o registros fallidos (400), el backend responde correctamente, pero el frontend no muestra un mensaje comprensible para el usuario. El error se registra en consola y puede percibirse como un fallo general de la plataforma.
+- **Recomendación:** Implementar manejo centralizado de errores en el cliente HTTP para convertir los códigos 401 y 400 en mensajes emergentes, por ejemplo: “Usuario o contraseña incorrectos” o “Los datos ingresados no son válidos”.
+- **Evidencia visual:** Insertar captura del flujo de inicio de sesión o registro con el mensaje de error correspondiente.
+
+**PROBLEMA #4: Restricciones de contraseña no visibles antes del registro**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Prevención de errores.
+- **Problema:** El sistema bloquea correctamente las contraseñas que no cumplen los criterios de seguridad, pero no informa de manera anticipada los requisitos de longitud, mayúsculas y símbolos. Esto obliga al usuario a realizar intentos sucesivos.
+- **Recomendación:** Incluir texto de ayuda dinámico o una lista de verificación visual debajo del campo de contraseña, que indique el cumplimiento progresivo de cada requisito.
+- **Evidencia visual:** Insertar captura del formulario de creación de cuenta.
+
+**PROBLEMA #5: Restricciones del rol Agronomist poco visibles en tareas**
+
+- **Severidad:** 3.
+- **Heurística/Principio violado(a):** Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema.
+- **Problema:** El rol Agronomist no puede completar tareas, pero la interfaz continúa mostrando acciones activas sin explicar la restricción. Esto puede provocar intentos fallidos y frustración.
+- **Recomendación:** Aplicar renderizado condicional según el rol. Para Agronomist, la acción de completar tarea debe ocultarse o mostrarse deshabilitada con un tooltip como “Permiso exclusivo para agricultores”.
+- **Evidencia visual:** Insertar captura de una tarea visualizada con cuenta Agronomist.
+
+**PROBLEMA #6: Eliminación de organizaciones sin confirmación intermedia**
+
+- **Severidad:** 2.
+- **Heurística/Principio violado(a):** Control y libertad del usuario / Prevención de errores.
+- **Problema:** El botón de eliminación se representa mediante un ícono de papelera y permite iniciar un borrado sin una confirmación intermedia visible en la pantalla primaria.
+- **Recomendación:** Incorporar un modal de confirmación antes de eliminar una organización, indicando que la acción no puede deshacerse.
+- **Evidencia visual:** Insertar captura del botón de eliminación y del modal de confirmación.
+
+
+
+- **Severidad:** 3
+- **Heurística/Principio violado(a):** Adecuación entre el sistema y el mundo real.
+- **Problema:** Al inspeccionar el panel principal se constata que toda la interfaz, los menús laterales (Home, Tasks, Weather, Reports, Profile, Settings) y los títulos (My Organizations, Create New Organization) se encuentran en idioma inglés. Dado que el público objetivo principal del proyecto son los agricultores peruanos, el uso del inglés representa una barrera cultural e idiomática severa que afectará negativamente la adopción del sistema.
+- **Recomendación:** Implementar la internacionalización (i18n) en el frontend para asegurar que el idioma nativo por defecto sea el español, utilizando términos sencillos del entorno agrícola ("Mis Parcelas", "Tareas", "Clima").
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+Esta sección resume las modificaciones realizadas sobre EcoTrack para atender los hallazgos reportados por el grupo auditor.
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Hallazgo / Problema reportado</th>
+            <th>Severidad</th>
+            <th>Modificación a implementar o verificar</th>
+            <th>Evidencia (commit / pantalla)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Interfaz principal y menús en inglés.</td>
+            <td>3</td>
+            <td>Incorporar internacionalización y establecer español como idioma predeterminado. Traducir menús, títulos, botones, mensajes y etiquetas con vocabulario agrícola sencillo.</td>
+            <td>Pendiente: commit de i18n y captura del dashboard en español.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Valores de prueba visibles en campos de descripción y ubicación.</td>
+            <td>2</td>
+            <td>Eliminar valores por defecto de prueba y aplicar textos alternativos cuando los campos estén vacíos, por ejemplo “Sin descripción asignada” y “Sin ubicación registrada”.</td>
+            <td>Pendiente: commit del componente de organizaciones y captura de la tabla corregida.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Errores 401 y 400 sin mensaje visible para el usuario.</td>
+            <td>3</td>
+            <td>Implementar manejo centralizado de errores en el cliente HTTP y mostrar mensajes amigables mediante toast, alerta o modal para errores de autenticación y validación.</td>
+            <td>Pendiente: commit del interceptor o servicio HTTP y capturas de los mensajes 401/400.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Requisitos de contraseña no visibles antes de enviar el formulario.</td>
+            <td>2</td>
+            <td>Agregar ayuda contextual y lista de verificación dinámica para longitud mínima, mayúscula y símbolo requerido.</td>
+            <td>Pendiente: commit del formulario de registro y captura del checklist de contraseña.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Acciones de tareas sin restricción visual para el rol Agronomist.</td>
+            <td>3</td>
+            <td>Aplicar renderizado condicional por rol para ocultar o deshabilitar la acción “Completar tarea” e informar el motivo mediante tooltip o mensaje contextual.</td>
+            <td>Pendiente: commit de control de permisos y captura de tarea desde una cuenta Agronomist.</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Eliminación de organizaciones sin confirmación explícita.</td>
+            <td>2</td>
+            <td>Agregar modal de confirmación con opciones de cancelar y confirmar antes de ejecutar la eliminación.</td>
+            <td>Pendiente: commit del modal de eliminación y captura del diálogo de confirmación.</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -5566,7 +6711,7 @@ En el frontend se utilizan comandos como `npm install` y `npm run build`, mientr
 - **Railway (Backend Deployment)**  
   Se utiliza como plataforma de despliegue del backend. Permite automatizar la publicación de la API directamente desde el repositorio conectado a GitHub, facilitando el despliegue continuo sin necesidad de configuración manual de servidores.
 
-- **Vercel (Frontend / Landing Page Deployment)**  
+- **Render (Frontend / Landing Page Deployment)**  
   Se encarga del despliegue del frontend y la landing page. Está integrado con GitHub, lo que permite que cada cambio en el repositorio se despliegue automáticamente, asegurando rapidez en la entrega y consistencia entre versiones.
 
 - **Trello**  
@@ -5618,7 +6763,7 @@ En esta etapa, el pipeline se detiene temporalmente hasta recibir la validación
 - Railway:  
   Se utiliza para el despliegue del backend y la gestión de la base de datos. Facilita la automatización de despliegues, variables de entorno y administración de servicios en la nube.
 
-- Vercel:  
+- Render:  
   Se encarga del despliegue del frontend y la landing page. Permite integración directa con repositorios Git, automatizando despliegues en cada push y ofreciendo alta disponibilidad y rendimiento global.
 
 ### Practices (Prácticas)
@@ -5903,40 +7048,40 @@ Con el fin de abordar las oportunidades identificadas y aumentar el valor que of
 
 | **Question** | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
 |---|---|
-| **Why** | Al agregar la exportación a Excel, los agricultores y agrónomos podrán reutilizar la información registrada en EcoTrack fuera de la plataforma. Esto facilitará la elaboración de reportes, el análisis de datos, la comparación de campañas agrícolas y el intercambio de información con clientes, técnicos o miembros del equipo de trabajo. |
-| **What** | Implementar una opción de exportación a Excel en las secciones principales de reportes y registros agrícolas. Esta funcionalidad permitirá descargar datos de parcelas, cultivos, tareas, inventario o indicadores relevantes en un archivo `.xlsx` ordenado y fácil de interpretar. |
+| **Why** | Para validar si vale la pena invertir en integraciones con otras plataformas o si el valor de EcoTrack se concentra únicamente en la visualización interna. |
+| **What** | Agregaremos un botón "Exportar a Excel" en la sección de reportes que generará un `.xlsx` básico con los datos de la vista actual. |
 | **Hypothesis** | Se espera que, al incorporar la exportación a Excel, el 40% de los usuarios descargue al menos un reporte durante el periodo de prueba y que la satisfacción respecto al manejo de información agrícola aumente en un 15%. |
 
 ### Experiment Card 02: Vista de tareas tipo Jira/Kanban
 
 | **Question** | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
 |---|---|
-| **Why** | Al cambiar la vista de tareas a un tablero tipo Jira/Kanban, los usuarios podrán visualizar con mayor claridad el estado de sus actividades agrícolas. Esto ayudaría a diferenciar tareas pendientes, en proceso y completadas, reduciendo la confusión al momento de organizar labores como riego, fertilización, cosecha, mantenimiento o supervisión de parcelas. |
-| **What** | Rediseñar la sección de tareas mediante un tablero visual con columnas como “Pendiente”, “En proceso” y “Completado”. Cada tarea se mostrará como una tarjeta con información básica, incluyendo nombre de la tarea, fecha, responsable, prioridad y parcela o cultivo asociado. |
+| **Why** | Para saber si debemos priorizar el rediseñar la sección de tareas sobre otras mejoras del flujo. |
+| **What** | Reemplazaremos la lista de tareas con un tablero de tres columnas (Pendiente / En proceso / Completado). |
 | **Hypothesis** | Se espera que, al implementar una vista de tareas tipo Jira/Kanban, el 50% de los usuarios indique que identifica con mayor facilidad el estado de sus labores agrícolas y que la tasa de tareas completadas aumente en un 12%. |
 
 ### Experiment Card 03: Geolocalización
 
 | **Question** | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
 |---|---|
-| **Why** | Al incorporar geolocalización, EcoTrack podrá asociar parcelas, cultivos o plantas con ubicaciones reales del campo. Esto puede ayudar a reducir errores al identificar zonas de trabajo, facilitar visitas técnicas de agrónomos y fortalecer la trazabilidad de las actividades agrícolas registradas dentro de la plataforma. |
-| **What** | Implementar una primera versión de geolocalización que permita registrar coordenadas de una parcela, cultivo o planta mediante el GPS del dispositivo o selección manual en un mapa. La funcionalidad debe solicitar permiso de ubicación y guardar la referencia geográfica dentro del registro correspondiente. |
+| **Why** | Porque si los usuarios adoptan la geolocalización, justificaremos invertir en mapas interactivos y trazabilidad geoespacial. |
+| **What** | Agregaremos un botón "Capturar mi ubicación" en el formulario de registro de parcela que guardará las coordenadas GPS del dispositivo como texto. |
 | **Hypothesis** | Se espera que, al incorporar geolocalización, el 35% de los usuarios registre al menos una ubicación durante el periodo de prueba y que el tiempo necesario para identificar una zona de trabajo se reduzca en un 15%. |
 
 ### Experiment Card 04: Crops como dropdown + Otro
 
 | **Question** | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? |
 |---|---|
-| **Why** | Al reemplazar el campo libre de cultivos por un dropdown, EcoTrack puede reducir errores ortográficos, nombres duplicados y variaciones innecesarias para un mismo cultivo. Esto permitiría mantener registros más consistentes y generar reportes más confiables, sin eliminar la flexibilidad de registrar cultivos no contemplados mediante la opción “Otro”. |
-| **What** | Reemplazar el campo libre de registro de cultivos por una lista desplegable con cultivos frecuentes. En caso el cultivo no aparezca en la lista, el usuario podrá seleccionar la opción “Otro” e ingresar manualmente el nombre correspondiente. |
-| **Hypothesis** | Se espera que, al implementar un dropdown de cultivos con opción “Otro”, los errores o duplicidades en el registro de cultivos se reduzcan en un 25% y que el tiempo promedio de registro disminuya en un 10%. |
+| **Why** | Porque si el dropdown reduce duplicados, podremos confiar en los datos de cultivos para generar reportes y estadísticas agregadas sin limpiarlos manualmente. |
+| **What** | Reemplazaremos el campo libre por un dropdown con los 10 cultivos más registrados con campo de texto. No necesitaremos una lista curada completa: con los más frecuentes bastará para ver si los usuarios adoptan el dropdown. |
+| **Hypothesis** | Se espera que, al implementar un dropdown de cultivos, los errores o duplicidades en el registro de cultivos se reduzcan en un 25% y que el tiempo promedio de registro disminuya en un 10%. |
 
 ### Experiment Card 05: Recomendaciones del clima por IA
 
 | **Question** | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
 |---|---|
-| **Why** | Al agregar recomendaciones climáticas generadas por IA, EcoTrack puede convertir datos meteorológicos en acciones concretas para los agricultores y agrónomos. Esto puede ayudar a decidir cuándo regar, fertilizar, proteger cultivos o postergar actividades de campo ante riesgos climáticos. |
-| **What** | Implementar una primera versión de recomendaciones climáticas que muestre sugerencias breves a partir de condiciones como temperatura, humedad, lluvia o riesgo climático. Las recomendaciones deben ser claras, accionables y fáciles de entender. |
+| **Why** | Porque si las recomendaciones generan interacción, justificaremos integrar un modelo de IA real y posicionaremos EcoTrack como herramienta de decisión agronómica. |
+| **What** | Reemplazaremos el módulo de recomendaciones con respuestas generadas por IA. |
 | **Hypothesis** | Se espera que, al incorporar recomendaciones climáticas por IA, el 45% de los usuarios perciba mayor utilidad en la sección de clima y que las acciones preventivas registradas aumenten en un 15% durante el periodo de prueba. |
 
 
@@ -6105,8 +7250,6 @@ Los niveles de decisión son: **Desfavorable** (bajo el MDE), **Aceptable** (ent
 
 ### 8.2.6. Methods Selection
 
-## 8.2.6. Methods Selection
-
 Para validar las hipótesis planteadas, cada experimento combina métodos cuantitativos y cualitativos según la naturaleza de las métricas definidas en las secciones anteriores. Adicionalmente, se seleccionaron herramientas de análisis de rendimiento y experiencia de usuario para verificar que las nuevas funcionalidades no degraden la calidad técnica de la plataforma.
 
 ### Herramientas seleccionadas
@@ -6161,8 +7304,6 @@ Adicionalmente, dentro de las pruebas A/B se captura la recepción del usuario m
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
-## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
-
 Se realizaron pruebas utilizando Lighthouse para evaluar el rendimiento, accesibilidad y buenas prácticas de EcoTrack. Estas pruebas permiten verificar que la aplicación mantenga una buena experiencia de usuario incluso después de incorporar las nuevas funcionalidades propuestas.
 
 A continuación, se muestran los resultados obtenidos mediante 
@@ -6193,8 +7334,6 @@ Lighthouse en las principales vistas de la aplicación.
 <div style="page-break-after: always;"></div>
 
 ### 8.2.8. Web and Mobile Tracking Plan
-
-## 8.2.8. Web and Mobile Tracking Plan
 
 Para EcoTrack, el objetivo del seguimiento es evaluar el impacto de las funcionalidades experimentales propuestas y determinar si generan mejoras reales para agricultores y agrónomos durante la gestión de sus actividades agrícolas. Para ello, se realizará un monitoreo continuo basado en métricas de uso, interacciones de los usuarios y encuestas de satisfacción.
 
@@ -6267,43 +7406,650 @@ Este seguimiento permitirá validar las hipótesis planteadas y tomar decisiones
 
 ### 8.3.1. To-Be User Stories
 
-## 8.3.1. To-Be User Stories
-
-
-| User Story ID | Título                                            | Descripción                                                                                                                                                        | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Relacionado con (Epic ID) |
-| ------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| UA01          | Exportar reportes a Excel                         | Como agrónomo, quiero exportar reportes agrícolas a Excel para analizar la información fuera de la plataforma y compartirla con otros miembros de mi organización. | **Escenario 1: Exportar reporte**<br><br>**Given** el usuario se encuentra en la sección de reportes.<br><br>**When** hace clic en el botón "Exportar a Excel".<br><br>**Then** la aplicación descargará un archivo .xlsx con la información seleccionada.<br><br>**Escenario 2: Exportación exitosa**<br><br>**Given** el usuario ha solicitado la exportación.<br><br>**When** el sistema genera correctamente el archivo.<br><br>**Then** se mostrará una notificación indicando que la exportación fue realizada exitosamente. | EP04                      |
-| UA02          | Visualizar tareas en tablero Kanban               | Como usuario, quiero visualizar mis tareas en un tablero Kanban para identificar rápidamente cuáles están pendientes, en proceso o completadas.                    | **Escenario 1: Visualizar tablero**<br><br>**Given** el usuario accede a la sección de tareas.<br><br>**When** selecciona la vista Kanban.<br><br>**Then** la aplicación mostrará las tareas organizadas por estado.<br><br>**Escenario 2: Cambiar estado de tarea**<br><br>**Given** una tarea se encuentra en una columna del tablero.<br><br>**When** el usuario cambia la tarea a otra columna.<br><br>**Then** el estado de la tarea será actualizado automáticamente.                                                        | EP02                      |
-| UA03          | Registrar geolocalización de parcela              | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación.                                    | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará la ubicación en un mapa.                           | EP01                      |
-| UA04          | Seleccionar cultivo desde catálogo                | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas.                          | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario selecciona la opción "Otro".<br><br>**Then** podrá ingresar manualmente el nombre del cultivo.                                        | EP01                      |
-| UA05          | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas.                  | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** el usuario revisa la información.<br><br>**Then** podrá utilizarla como apoyo para planificar actividades agrícolas.      | EP04                      |
-
-
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| - | - | - | - | - |
+| UA01 | Exportar reportes a Excel | Como agrónomo, quiero exportar reportes agrícolas a Excel para analizar la información fuera de la plataforma y compartirla con otros miembros de mi organización. | **Escenario 1: Exportar reporte**<br><br>**Given** el usuario se encuentra en la sección de reportes.<br><br>**When** hace clic en el botón "Exportar a Excel".<br><br>**Then** la aplicación descargará un archivo .xlsx con la información seleccionada.<br><br>**Escenario 2: Exportación exitosa**<br><br>**Given** el usuario ha solicitado la exportación.<br><br>**When** el sistema genera correctamente el archivo.<br><br>**Then** se mostrará una notificación indicando que la exportación fue realizada exitosamente. | EP04 |
+| UA02 | Visualizar tareas en tablero Kanban | Como usuario, quiero visualizar mis tareas en un tablero Kanban para identificar rápidamente cuáles están pendientes, en proceso o completadas. | **Escenario 1: Visualizar tablero**<br><br>**Given** el usuario accede a la sección de tareas.<br><br>**When** selecciona la vista Kanban.<br><br>**Then** la aplicación mostrará las tareas organizadas por estado.<br><br>**Escenario 2: Cambiar estado de tarea**<br><br>**Given** una tarea se encuentra en una columna del tablero.<br><br>**When** el usuario cambia la tarea a otra columna.<br><br>**And** se cumplen los requisitos para cambiar de estado<br><br>**Then** el estado de la tarea será actualizado automáticamente. | EP02 |
+| UA03 | Registrar geolocalización de parcela | Como agricultor o agrónomo, quiero registrar la ubicación geográfica de una parcela para mejorar su monitoreo e identificación. | **Escenario 1: Registrar ubicación**<br><br>**Given** el usuario se encuentra registrando o editando una parcela.<br><br>**When** selecciona la opción de ubicación geográfica.<br><br>**Then** la aplicación permitirá guardar las coordenadas de la parcela.<br><br>**Escenario 2: Visualizar ubicación**<br><br>**Given** la parcela posee coordenadas registradas.<br><br>**When** el usuario consulta la información de la parcela.<br><br>**Then** la aplicación mostrará las coordenadas de la parcela. | EP01 |
+| UA04 | Seleccionar cultivo desde catálogo | Como usuario, quiero seleccionar un cultivo desde una lista predefinida para evitar errores e inconsistencias en los registros agrícolas. | **Escenario 1: Seleccionar cultivo existente**<br><br>**Given** el usuario registra un cultivo.<br><br>**When** abre la lista de cultivos disponibles.<br><br>**Then** podrá seleccionar uno de los cultivos registrados en el catálogo.<br><br>**Escenario 2: Registrar cultivo personalizado**<br><br>**Given** el cultivo deseado no se encuentra en la lista.<br><br>**When** el usuario da click en el campo del cultivo.<br><br>**Then** podrá ingresar manualmente el nombre del cultivo. | EP01 |
+| UA05 | Consultar recomendaciones climáticas inteligentes | Como agricultor o agrónomo, quiero recibir recomendaciones basadas en las condiciones climáticas para planificar mejor mis actividades agrícolas. | **Escenario 1: Visualizar recomendaciones**<br><br>**Given** el usuario accede a la sección de clima.<br><br>**When** consulta el pronóstico climático.<br><br>**Then** la aplicación mostrará recomendaciones generadas por inteligencia artificial asociadas a las condiciones meteorológicas registradas.<br><br>**Escenario 2: Aplicar recomendación**<br><br>**Given** la aplicación muestra una recomendación climática.<br><br>**When** El usuario ingresa una ubicación diferente como referencia<br><br>**Then** Se generarán las recomendaciones generadas por inteligencia artificial asociadas a las condiciones de dicho lugar. | EP04 |
 
 <div style="page-break-after: always;"></div>
 
 ### 8.3.2. To-Be Product Backlog
 
-## 8.3.2. To-Be Product Backlog
+| # Orden | User Story ID | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+| - | - | - | - |
+| 1 | UA05 | Consultar recomendaciones climáticas inteligentes | 5 |
+| 2 | UA03 | Registrar geolocalización de parcela | 5 |
+| 3 | UA01 | Exportar reportes a Excel | 3 |
+| 4 | UA02 | Visualizar tareas en tablero Kanban | 3 |
+| 5 | UA04 | Seleccionar cultivo desde catálogo | 2 |
 
-| # Orden | User Story ID | Título                                            | Story Points (1 / 2 / 3 / 5 / 8) |
-| ------- | ------------- | ------------------------------------------------- | -------------------------------- |
-| 1       | UA05          | Consultar recomendaciones climáticas inteligentes | 8                                |
-| 2       | UA03          | Registrar geolocalización de parcela              | 8                                |
-| 3       | UA01          | Exportar reportes a Excel                         | 5                                |
-| 4       | UA02          | Visualizar tareas en tablero Kanban               | 5                                |
-| 5       | UA04          | Seleccionar cultivo desde catálogo                | 3                                |
+<div style="page-break-after: always;"></div>
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+| Sprint | # | User Story Id | User Story Title | WorkItem / Task Id | WorkItem / Task Title | Description | Estimation (Story Points) | Assigned To | Status |
+|---|---:|---|---|---|---|---|---:|---|---|
+| Sprint 1 | 1 | UA05 | Consultar recomendaciones climáticas inteligentes | TK01 | Diseñar sección de clima con recomendaciones | Crear la interfaz de la sección de clima, mostrando el pronóstico meteorológico y un bloque adicional para recomendaciones agrícolas generadas por IA. | 3 | Aldair Ramos | Done |
+| Sprint 1 | 2 | UA05 | Consultar recomendaciones climáticas inteligentes | TK02 | Integrar servicio de datos climáticos | Conectar la aplicación con el servicio meteorológico disponible para obtener datos de temperatura, humedad, lluvia u otras condiciones relevantes. | 3 | Kevin Chi | Done |
+| Sprint 1 | 3 | UA05 | Consultar recomendaciones climáticas inteligentes | TK03 | Generar recomendaciones agrícolas | Implementar la lógica que permita mostrar sugerencias sobre riego, fertilización o protección de cultivos en función de los datos climáticos disponibles. | 2 | Álvaro Orozco | Done |
+| Sprint 1 | 4 | UA03 | Registrar geolocalización de parcela | TK04 | Diseñar formulario de ubicación geográfica | Agregar campos y controles necesarios para registrar la ubicación de una parcela durante su creación o edición. | 2 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 5 | UA03 | Registrar geolocalización de parcela | TK05 | Implementar captura de coordenadas | Desarrollar la funcionalidad para guardar las coordenadas geográficas de una parcela dentro del sistema. | 3 | Henry Reaño | Done |
+| Sprint 1 | 6 | UA03 | Registrar geolocalización de parcela | TK06 | Mostrar ubicación en mapa | Implementar la visualización de la ubicación de la parcela en un mapa cuando el usuario consulte su información. | 3 | Tatiana Paucar | Done |
+| Sprint 1 | 7 | UA01 | Exportar reportes a Excel | TK07 | Diseñar botón de exportación | Agregar en la sección de reportes un botón visible para exportar la información agrícola en formato Excel. | 1 | Kevin Chi | Done |
+| Sprint 1 | 8 | UA01 | Exportar reportes a Excel | TK08 | Generar archivo Excel | Implementar la generación del archivo .xlsx con la información seleccionada por el usuario en la sección de reportes. | 3 | Álvaro Orozco | Done |
+| Sprint 1 | 9 | UA01 | Exportar reportes a Excel | TK09 | Mostrar notificación de exportación | Agregar una notificación de confirmación cuando la exportación del reporte se realice correctamente. | 1 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 10 | UA02 | Gestionar tareas en tablero Kanban | TK10 | Diseñar tablero Kanban | Crear la interfaz del tablero Kanban con columnas para tareas pendientes, en proceso y completadas. | 2 | Aldair Ramos | Done |
+| Sprint 1 | 11 | UA02 | Gestionar tareas en tablero Kanban | TK11 | Implementar movimiento de tareas por arrastre | Desarrollar la funcionalidad para mover tareas entre columnas mediante drag and drop. | 2 | Henry Reaño | Done |
+| Sprint 1 | 12 | UA02 | Gestionar tareas en tablero Kanban | TK12 | Implementar cambio de estado por botón | Agregar una opción dentro de cada tarjeta para avanzar la tarea al siguiente estado sin necesidad de arrastrarla. | 1 | Tatiana Paucar | Done |
+| Sprint 1 | 13 | UA04 | Seleccionar cultivo desde catálogo | TK13 | Crear catálogo de cultivos | Implementar una lista de cultivos disponibles para que el usuario pueda seleccionarlos durante el registro. | 1 | Maria Fernanda Mostajo | Done |
+| Sprint 1 | 14 | UA04 | Seleccionar cultivo desde catálogo | TK14 | Implementar búsqueda integrada | Desarrollar un campo de búsqueda que filtre los cultivos del catálogo en tiempo real según el texto ingresado. | 1 | Aldair Ramos | Done |
+| Sprint 1 | 15 | UA04 | Seleccionar cultivo desde catálogo | TK15 | Permitir registro manual de cultivo | Permitir que el usuario registre manualmente un cultivo cuando no se encuentre dentro del catálogo disponible. | 1 | Kevin Chi | Done |
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+
+En línea con el Tracking Plan, se incorporó a la landing el componente de recolección de datos de Google Analytics. Con esto es posible medir cuántos visitantes llegan a la plataforma.
+
+
+**Evidencia de la landing page en producción durante el periodo de experimentación:**
+
+<img src="./img/capitulo_8/experimentation/landing_production.png" alt="Landing page en producción" />
+
+**Evidencia del tráfico registrado en Google Analytics durante el periodo de experimentación:**
+
+<img src="./img/capitulo_8/experimentation/landing_analytics.png" alt="Panel de Google Analytics mostrando el tráfico de la landing" />
+
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+**UA01 – Exportar reportes a Excel (Experiment Card 01)** 
+
+El Panel de Reportes incorpora el botón "Descargar excel", que genera un archivo `.xlsx` con la información de las tareas. El reporte contiene un resumen ejecutivo y el detalle de cada tarea.
+
+<img src="./img/capitulo_8/experimentation/ua01_export_excel.png" alt="Panel de Reportes con el botón Descargar excel y la notificación de descarga" />
+
+<img src="./img/capitulo_8/experimentation/ua01_export_content.png" alt="Contenido del archivo Excel con el resumen ejecutivo y el detalle de tareas" />
+
+</br>
+
+**UA02 – Visualizar tareas en tablero Kanban (Experiment Card 02)** 
+
+La vista de tareas incorpora un tablero Kanban con las columnas Pendiente, En proceso y Completada. Las tareas se desplazan entre columnas mediante arrastre, y el cambio de estado se registra de inmediato.
+
+<img src="./img/capitulo_8/experimentation/ua02_kanban_board.png" alt="Tablero Kanban con las columnas Pendiente, En proceso y Completada" />
+
+</br>
+
+**UA03 – Registrar geolocalización de parcela** (Experiment Card 03)
+
+El formulario de registro y edición de parcelas incluye un mapa interactivo sobre el que el usuario fija la ubicación haciendo clic o arrastrando el marcador. Los campos de latitud y longitud se completan de forma automática. 
+
+<img src="./img/capitulo_8/experimentation/ua03_plot_location_form.png" alt="Formulario de parcela con mapa interactivo y campos de latitud y longitud" />
+
+<img src="./img/capitulo_8/experimentation/ua03_plot_table.png" alt="Tabla de parcelas con las coordenadas registradas" />
+
+</br>
+
+**UA04 – Seleccionar cultivo desde catálogo (Experiment Card 04)**
+
+El campo de texto libre para el cultivo se reemplazó por una lista desplegable con catálogo y búsqueda integrada. Cuando el cultivo no figura en el catálogo, la opción "Otro" habilita el registro manual. 
+
+<img src="./img/capitulo_8/experimentation/ua04_crop_dropdown.png" alt="Lista desplegable de cultivos con búsqueda" />
+
+</br>
+
+**UA05 – Consultar recomendaciones climáticas inteligentes (Experiment Card 05)** 
+
+Además del pronóstico meteorológico, la sección de clima presenta un bloque de recomendaciones sobre riego, fertilización y protección de cultivos, generadas a partir de las condiciones climáticas registradas.
+
+<img src="./img/capitulo_8/experimentation/ua05_weather_recommendations.png" alt="Sección de clima con el bloque de recomendaciones" />
+</br>
+
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+ EcoTrack no cuenta con una aplicación nativa móvil. La plataforma está construida como una aplicación web responsive, accesible desde el navegador de cualquier dispositivo móvil, tablet o computadora, por lo que las funcionalidades del ciclo To-Be no requirieron desarrollo nativo.
+
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+
+**UA01 – Exportar reportes a Excel (Experiment Card 01)**
+
+El endpoint `GET /api/v1/reports/excel` genera y descarga el reporte del estado de las tareas en formato `.xlsx`.
+
+<img src="./img/capitulo_8/experimentation/ua01_api_reports_excel.png" alt="Endpoint GET /api/v1/reports/excel en Swagger" />
+
+</br>
+
+**UA03 – Registrar geolocalización de parcela (Experiment Card 03)**
+
+Se agregaron los campos de latitud y longitud a las parcelas (`/api/v1/plots`), de modo que las coordenadas se guardan y se consultan junto con cada parcela.
+
+<img src="./img/capitulo_8/experimentation/ua03_api_plots.png" alt="Endpoint PATCH /api/v1/plots/{id} con los campos de latitud y longitud en Swagger" />
+
+</br>
+
+Los experimentos UA02, UA04 y UA05 no cambiaron el backend. El tablero Kanban usa el endpoint de estado que ya existía (`PATCH /api/v1/tasks/{taskId}/status`), y el catálogo de cultivos y las recomendaciones climáticas funcionan en el lado del cliente.
+
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.3.6. Team Collaboration Insights
+
+El trabajo del ciclo To-Be se distribuyó entre los integrantes según el To-Be Sprint Backlog. Las siguientes capturas de GitHub muestran los commits que aportó cada uno en los repositorios del producto a lo largo del Sprint.
+
+**Frontend**
+
+<img src="./img/capitulo_8/experimentation/insights_frontend_tobe.png" alt="Insights de colaboración del frontend durante el ciclo To-Be" />
+
+</br>
+
+**Backend**
+
+<img src="./img/capitulo_8/experimentation/insights_backend_tobe.png" alt="Insights de colaboración del backend durante el ciclo To-Be" />
+
+</br>
+
+**Landing Page**
+
+<img src="./img/capitulo_8/experimentation/insights_landing_tobe.png" alt="Insights de colaboración de la landing durante el ciclo To-Be" />
+
+
+<div style="page-break-after: always;"></div>
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+A continuación, se presentan las preguntas utilizadas en las entrevistas de validación To-Be para evaluar la usabilidad, claridad y utilidad de las nuevas funcionalidades implementadas en EcoTrack.  
+Las preguntas fueron diseñadas para identificar posibles dificultades de uso, evaluar la comprensión de la información presentada y recoger oportunidades de mejora a partir de la experiencia directa de los usuarios.
+
+#### Segmento objetivo: Agricultor
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+- Consulta de recomendaciones climáticas.
+- Registro y visualización de la geolocalización de parcelas.
+- Visualización y actualización de tareas mediante el tablero Kanban.
+- Registro de cultivos mediante catálogo y opción “Otro”.
+
+Preguntas de validación:
+
+1. ¿Te resultó sencillo encontrar y consultar la sección de recomendaciones climáticas dentro de EcoTrack?
+2. ¿Las recomendaciones climáticas mostradas te resultaron claras y fáciles de comprender?
+3. ¿Consideras que las recomendaciones climáticas te ayudarían a decidir qué actividades realizar, postergar o priorizar en tu parcela?
+4. ¿Te resultó sencillo registrar la ubicación geográfica de una parcela durante su creación o edición?
+5. ¿La visualización de la parcela en el mapa te permitió identificar con claridad su ubicación?
+6. ¿El tablero Kanban te permitió identificar rápidamente cuáles tareas están pendientes, en proceso y completadas?
+7. ¿Te resultó sencillo cambiar el estado de una tarea dentro del tablero Kanban?
+8. ¿Pudiste encontrar y seleccionar fácilmente un cultivo desde el catálogo disponible?
+9. ¿La opción “Otro” fue clara y útil cuando el cultivo que deseabas registrar no se encontraba en la lista?
+10. ¿Qué funcionalidad o mejora consideras necesaria para que estas nuevas características de EcoTrack sean más útiles en tus actividades agrícolas diarias?
+
+#### Segmento objetivo: Agrónomo
+
+Durante esta entrevista se validarán los siguientes flujos:
+
+* Registro de parcelas con geolocalización.
+* Gestión y actualización de tareas mediante el tablero Kanban.
+* Registro de cultivos mediante catálogo y opción "Otro".
+* Exportación de reportes a Excel.
+* Consulta de recomendaciones climáticas como apoyo a la asesoría técnica.
+
+**Preguntas de validación (simulación de respuestas):**
+
+1. ¿Te resultó sencillo registrar la ubicación geográfica de una parcela usando el mapa interactivo?
+
+2. ¿La visualización de las parcelas en el mapa te ayuda a supervisar mejor las fincas de tus agricultores?
+
+3. ¿El tablero Kanban te permitió identificar rápidamente el estado de las tareas asignadas a tus agricultores?
+
+4. ¿Te resultó sencillo mover o actualizar el estado de una tarea dentro del tablero Kanban?
+
+5. ¿Pudiste seleccionar fácilmente un cultivo desde el catálogo disponible al crear una parcela?
+
+6. ¿La opción "Otro" te resultó útil cuando un cultivo no se encontraba en la lista?
+
+7. ¿La exportación de reportes a Excel te resultó útil para tu trabajo de asesoría o para compartir información con tus clientes?
+
+8. ¿La información contenida en el archivo Excel exportado fue clara y suficiente para tu análisis?
+
+9. ¿Las recomendaciones climáticas mostradas te ayudarían a anticipar riesgos o sugerir acciones preventivas a tus agricultores?
+
+10. ¿Qué funcionalidad o mejora consideras necesaria para que EcoTrack sea más útil en tu labor de supervisión y asesoría técnica?
+
+
+
+
+<div style="page-break-after: always;"></div>
+
+#### 8.3.4.2. Registro de Entrevistas
+
+#### Segmento objetivo: Agrónomo
+
+##### Entrevista 01
+
+**Nombres:** Jahaira  
+**Apellidos:** Farroñán  
+**Edad:**  
+**Distrito:** Lima 
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista_agronomo_2.png" />
+
+**Inicio:** 0:00 
+
+**Fin:** 5:00
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con Jahaira Farroñán permitió conocer su experiencia con las nuevas funcionalidades de EcoTrack desde la perspectiva de una agrónoma. La participante consideró que las funciones del checklist son bastante convenientes y amigables para los agrónomos, ya que facilitan un seguimiento ordenado y claro de las actividades a realizar en campo.
+
+Respecto a las recomendaciones climáticas, señaló que la información del clima debería estar alineada con los datos oficiales del SENAMHI, dado que la precisión climática resulta especialmente importante para la detección oportuna de plagas. Indicó que, si la información no es exacta, podría ocasionar que se realicen acciones innecesarias, generando un desperdicio de tiempo y recursos para el agricultor.
+
+##### Entrevista 02
+
+**Nombres:** Rebeca  
+**Apellidos:**  
+**Edad:** 47  
+**Distrito:**  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista_agronomo_3.png" />
+
+**Inicio:** 5:00
+
+**Fin:** 9:54
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con Rebeca permitió conocer su experiencia con las nuevas funcionalidades de EcoTrack desde la perspectiva de una agrónoma. La participante indicó que la función más útil es la capacidad de visualizar la agrupación de agricultores por parcela, ya que le permite identificar rápidamente qué agricultores pertenecen a cada parcela para poder coordinar con ellos de forma más eficiente.
+
+Sobre la generación de reportes, consideró que es una funcionalidad útil, aunque sugirió incorporar un campo con la fecha en la que se completa el reporte y la parcela a la que pertenece, de modo que la información quede mejor organizada y sea más fácil de rastrear en el tiempo.
+
+##### Entrevista 03
+
+**Nombres:** Rogelio  
+**Apellidos:** Guerra  
+**Edad:** 55 años  
+**Distrito:** Lima  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista_agronomo_1.png" />
+
+**Inicio:** 9:54 
+
+**Fin:** 14:45  
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con Rogelio Guerra permitió conocer su experiencia con las nuevas funcionalidades de EcoTrack desde la perspectiva de un agrónomo. El participante consideró útil el registro de geolocalización de parcelas mediante el mapa interactivo, ya que las coordenadas se completan automáticamente al hacer clic; sin embargo, sugirió incorporar una búsqueda por dirección o sector para ubicar fincas desconocidas con mayor rapidez. Asimismo, indicó que centralizar la ubicación de todas las parcelas de sus agricultores en un solo mapa optimizaría la planificación de sus visitas de campo.
+
+Sobre el tablero Kanban, señaló que le permite reconocer rápidamente el estado de las tareas sin depender de la comunicación manual por WhatsApp, aunque recomendó incorporar filtros por agricultor o parcela para evitar la saturación visual cuando gestiona varias fincas a la vez. En cuanto al catálogo de cultivos, valoró el buscador integrado y la flexibilidad de la opción "Otro", proponiendo que los cultivos personalizados registrados por los agricultores se integren posteriormente al catálogo oficial.
+
+Respecto a la exportación de reportes a Excel, la consideró una funcionalidad que reduce significativamente su carga de trabajo administrativo al elaborar informes para sus clientes, aunque sugirió incorporar gráficos visuales para facilitar la comunicación con ellos. Finalmente, destacó las recomendaciones climáticas como la funcionalidad de mayor valor percibido, ya que le permiten transmitir alertas respaldadas técnicamente a sus agricultores de forma más ágil. Como mejoras generales, propuso una vista consolidada del estado de todas sus organizaciones y la integración de un botón para compartir directamente por WhatsApp.
+
+#### Segmento objetivo: Agricultor
+
+##### Entrevista 01
+
+**Nombres:** Bettsy  
+**Apellidos:** Fernández  
+**Edad:** 44 años  
+**Distrito:** Lima  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista1.png" />
+
+**Inicio:** 14:45 
+
+**Fin:** 19:40  
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con Bettsy Fernández permitió conocer su experiencia con las nuevas funcionalidades de EcoTrack. La participante consideró útiles las recomendaciones climáticas para organizar actividades como el riego o la aplicación de productos; sin embargo, sugirió hacer esta sección más visible, incorporar un ícono relacionado con el clima y emplear palabras más simples acompañadas de ejemplos prácticos.
+
+Asimismo, indicó que la geolocalización fue sencilla después de aceptar el permiso de ubicación, aunque recomendó explicar por qué se solicita dicho acceso y permitir marcar límites o puntos de referencia en la parcela. El tablero Kanban le resultó útil luego de comprender la organización por columnas, y sugirió incluir una confirmación antes de cambiar el estado de una tarea. También valoró el catálogo de cultivos y propuso organizarlos por categorías. Finalmente, recomendó recordatorios por teléfono y funcionamiento con conexión limitada a internet.
+
+##### Entrevista 02
+
+**Nombres:** José Luis  
+**Apellidos:** Quispe Flores  
+**Edad:** 32 años  
+**Distrito:** Pachacámac  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista2.png" />
+
+**Inicio:** 19:40  
+
+**Fin:** 24:10   
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con José Luis Quispe Flores permitió validar que las nuevas funcionalidades de EcoTrack son claras y útiles para la gestión diaria de una parcela. El participante encontró fácilmente las recomendaciones climáticas desde la pantalla principal y consideró que estas pueden apoyar decisiones relacionadas con riego, fumigación o la priorización de actividades según las condiciones del clima.
+
+Asimismo, señaló que el registro de geolocalización mediante el mapa fue sencillo y recomendó permitir mover el punto manualmente cuando la ubicación no sea exacta. Consideró que el tablero Kanban facilita reconocer el avance de las tareas y actualizar su estado de forma rápida. También destacó que el catálogo de cultivos y el buscador hacen más ordenado el registro, mientras que la opción “Otro” permite mantener flexibilidad. Finalmente, propuso notificaciones sobre recomendaciones importantes y tareas próximas a vencer, además de un historial de actividades por cultivo.
+
+##### Entrevista 03
+
+**Nombres:** Jorge Luis  
+**Apellidos:** Mamani Huamán  
+**Edad:** 23 años  
+**Distrito:** Lurín  
+
+**Evidencia de la reunión:**
+
+<img src="./img/capitulo_8/data_analytics/entrevista3.png" />
+
+**Inicio:** 24:10  
+
+**Fin:** 28:36 
+
+**Enlace de entrevista:** [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+
+**Resumen de la entrevista:**  
+La entrevista con Jorge Luis Mamani Huamán permitió conocer su experiencia al utilizar las funcionalidades To-Be de EcoTrack desde el sitio web. El participante indicó que las recomendaciones climáticas eran visibles y comprensibles, ya que mostraban el riesgo y una acción sugerida. Consideró que esta información puede apoyar la planificación de labores como riego, fertilización o aplicación de productos, aunque recomendó indicar el periodo de vigencia de cada alerta.
+
+Asimismo, señaló que el mapa facilita identificar parcelas y puede servir para compartir ubicaciones con un agrónomo. El tablero Kanban le permitió reconocer rápidamente las tareas pendientes, en proceso y completadas; como mejora, propuso mostrar el responsable y la fecha límite de cada actividad. También valoró el catálogo de cultivos por reducir errores de escritura y consideró necesaria la opción “Otro” para incluir cultivos o variedades no registradas. Finalmente, sugirió permitir adjuntar fotografías a tareas o alertas como evidencia del estado del cultivo.
+
+---
+
+
+<div style="page-break-after: always;"></div>
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+Para evaluar la percepción de los usuarios sobre las funcionalidades implementadas en EcoTrack, se aplicó una encuesta posterior a la interacción con el prototipo. Las preguntas se diseñaron a partir de los cinco experimentos priorizados: exportación de reportes a Excel, tablero Kanban, geolocalización de parcelas, catálogo de cultivos y recomendaciones climáticas.
+
+#### Preguntas formuladas
+
+En el estudio se realizarán las siguientes preguntas para evaluar la experiencia de los usuarios con las funcionalidades implementadas en EcoTrack:
+
+1. ¿Le resultó útil la opción de exportar reportes agrícolas a Excel?
+2. ¿Considera que el archivo exportado a Excel presenta la información de forma clara y útil?
+3. ¿El tablero Kanban le permitió identificar con facilidad las tareas pendientes, en proceso y completadas?
+4. ¿Le resultó fácil actualizar el estado de una tarea dentro del tablero Kanban?
+5. ¿Considera útil registrar y visualizar la ubicación de una parcela en el mapa?
+6. ¿Le resultó fácil registrar la geolocalización de una parcela?
+7. ¿El selector desplegable de cultivos le ayudó a registrar un cultivo de manera más ordenada?
+8. ¿La opción "Otro" le permitió registrar correctamente un cultivo que no estaba disponible en la lista?
+9. ¿Le resultaron útiles las recomendaciones climáticas mostradas por EcoTrack?
+10. ¿Considera que las recomendaciones climáticas le ayudarían a prevenir riesgos o planificar mejor sus actividades agrícolas?
+
+Estas preguntas se presentarán a una muestra de 21 participantes. Los participantes responderán basándose en su experiencia después de interactuar con las funcionalidades evaluadas en el prototipo de EcoTrack.
+
+#### Análisis de datos demográficos
+
+- **Distribución de edades:**
+
+  Los participantes se distribuyeron en rangos de edad entre los 18 y 64 años. La mayor proporción, equivalente al 38.1% de la muestra, se ubicó entre los 18 y 24 años. Los rangos de 25 a 34 años, 35 a 44 años y 45 a 54 años representaron cada uno el 19.0% de la muestra, mientras que el rango de 55 a 64 años representó el 4.8%.
+
+  Este resultado indica que la evaluación recogió principalmente la percepción de adultos jóvenes, aunque también incorporó participantes de rangos etarios vinculados con la actividad agrícola.
+
+  ![Figura 1. Distribución de edades de los participantes](./img/capitulo_8/data_analytics/edad.png)
+
+- **Rol de los participantes:**
+
+  Del total de participantes, el 42.9% fueron agrónomos, el 23.8% fueron agricultores y otro 23.8% fueron estudiantes relacionados con el sector agrícola. Asimismo, el 4.8% correspondió a técnicos agrícolas y el 4.8% restante a otros perfiles.
+
+  Esta distribución permite recoger percepciones tanto de agricultores, quienes utilizan EcoTrack para registrar y organizar actividades de campo, como de agrónomos, quienes emplean la información para supervisar cultivos, analizar datos y brindar recomendaciones técnicas.
+
+  ![Figura 2. Rol de los participantes](./img/capitulo_8/data_analytics/rol.png)
+
+- **Duración de uso:**
+
+  La mayoría de los participantes utilizó EcoTrack entre 10 y 20 minutos, equivalente al 42.9% de la muestra. Además, el 19.0% utilizó la plataforma entre 21 y 30 minutos, el 14.3% la utilizó durante más de 30 minutos y el 23.8% interactuó con el prototipo durante menos de 10 minutos.
+
+  En conjunto, el 76.2% de los participantes utilizó EcoTrack durante al menos 10 minutos, lo cual permitió que la mayoría explore las funcionalidades evaluadas antes de responder el formulario.
+
+  ![Figura 3. Duración de uso de EcoTrack antes de responder el formulario](./img/capitulo_8/data_analytics/tiempo.png)
+
+
+
+#### Evaluación de características
+
+- **Exportación de reportes a Excel:**
+
+  El 100% de los participantes indicó que la opción de exportar reportes agrícolas a Excel fue útil. Este resultado evidencia una aceptación total de la funcionalidad, debido a que permite disponer de la información agrícola en un formato descargable, reutilizable y fácil de compartir.
+
+  ![Figura 4. Utilidad de la exportación de reportes a Excel](./img/capitulo_8/data_analytics/preg1.png)
+
+- **Claridad del archivo exportado:**
+
+  El 76.2% de los participantes consideró que el archivo exportado presenta la información de forma clara y útil. Sin embargo, el 23.8% indicó lo contrario.
+
+  Este resultado sugiere que la funcionalidad de exportación es valorada por los usuarios, pero el formato del archivo puede requerir ajustes en la organización de columnas, etiquetas, títulos o presentación de la información para mejorar su comprensión.
+
+  ![Figura 5. Claridad de la información exportada a Excel](./img/capitulo_8/data_analytics/preg2.png)
+
+- **Identificación de tareas en el tablero Kanban:**
+
+  El 100% de los participantes indicó que el tablero Kanban le permitió identificar con facilidad las tareas pendientes, en proceso y completadas.
+
+  Este resultado muestra que la organización visual por estados facilita el seguimiento de las actividades agrícolas y permite a los usuarios reconocer rápidamente el avance de sus tareas.
+
+  ![Figura 6. Identificación de tareas en el tablero Kanban](./img/capitulo_8/data_analytics/preg3.png)
+
+- **Actualización del estado de tareas:**
+
+  El 90.5% de los participantes señaló que fue fácil actualizar el estado de una tarea dentro del tablero Kanban. No obstante, el 9.5% indicó que tuvo dificultades.
+
+  Este resultado permite concluir que la interacción para actualizar tareas es mayoritariamente comprensible, aunque se recomienda reforzar la retroalimentación visual y las instrucciones de uso para reducir posibles errores durante el cambio de estado.
+
+  ![Figura 7. Facilidad para actualizar tareas en el tablero Kanban](./img/capitulo_8/data_analytics/preg4.png)
+
+- **Utilidad de la geolocalización:**
+
+  El 95.2% de los participantes consideró útil registrar y visualizar la ubicación de una parcela en el mapa. Solo un participante, equivalente al 4.8%, indicó que no la consideró útil.
+
+  Este resultado evidencia que la geolocalización aporta valor para identificar parcelas, ubicar zonas de trabajo y facilitar la supervisión agrícola.
+
+
+  ![Figura 8. Utilidad de la geolocalización de parcelas](./img/capitulo_8/data_analytics/preg5.png)
+
+- **Facilidad de registro de geolocalización:**
+
+  El 85.7% de los participantes indicó que registrar la geolocalización de una parcela fue fácil. Sin embargo, el 14.3% señaló que tuvo dificultades durante el proceso.
+
+  Este resultado sugiere que el flujo de registro es funcional, aunque requiere mejoras para hacer más clara la interacción con el mapa, la selección de la ubicación y la confirmación del registro realizado.
+
+  ![Figura 9. Facilidad para registrar la geolocalización](./img/capitulo_8/data_analytics/preg6.png)
+
+- **Orden del registro mediante selector de cultivos:**
+
+  El 100% de los participantes señaló que el selector desplegable le ayudó a registrar un cultivo de manera más ordenada.
+
+  Este resultado indica que el catálogo de cultivos mejora la consistencia del registro y reduce la necesidad de ingresar manualmente el nombre de cada cultivo.
+
+  ![Figura 10. Utilidad del selector desplegable de cultivos](./img/capitulo_8/data_analytics/preg7.png)
+
+- **Flexibilidad del campo vacio:**
+
+  El 90.5% de los participantes consideró que escribir en el recuadro en vez de seleccionar un cultivo desde el catálogo permite registrar correctamente cultivos que no están disponibles en la lista. El 9.5% restante indicó que no pudo hacerlo de forma satisfactoria.
+
+  Este resultado demuestra que la opción aporta flexibilidad al catálogo de cultivos; sin embargo, se recomienda revisar la claridad del campo de ingreso y las validaciones aplicadas al registrar un cultivo personalizado.
+
+  ![Figura 11. Evaluación de la opción Otro en el selector de cultivos](./img/capitulo_8/data_analytics/preg8.png)
+
+- **Utilidad de las recomendaciones climáticas:**
+
+  El 90.5% de los participantes indicó que las recomendaciones climáticas mostradas por EcoTrack fueron útiles. Solo el 9.5% señaló que no las consideró útiles.
+
+  Este resultado refleja que las recomendaciones climáticas son percibidas como un apoyo relevante para los usuarios, especialmente al momento de revisar condiciones que pueden afectar las actividades agrícolas.
+
+  ![Figura 12. Utilidad de las recomendaciones climáticas](./img/capitulo_8/data_analytics/preg9.png)
+
+- **Apoyo a la planificación y prevención de riesgos:**
+
+  El 95.2% de los participantes consideró que las recomendaciones climáticas podrían ayudarle a prevenir riesgos o planificar mejor sus actividades agrícolas.
+
+  Este resultado permite interpretar que la funcionalidad tiene potencial para apoyar la toma de decisiones relacionadas con riego, fertilización, fumigación u otras tareas dependientes de las condiciones climáticas.
+
+  ![Figura 13. Apoyo de las recomendaciones climáticas en la toma de decisiones](./img/capitulo_8/data_analytics/preg10.png)
+
+- **Funcionalidades con mayor impacto percibido en la usabilidad:**
+
+  Ante la pregunta sobre qué características mejorarían significativamente la usabilidad de EcoTrack, la geolocalización de parcelas fue la opción más seleccionada, con 66.7%. Le siguieron la exportación de reportes a Excel y el catálogo de cultivos, ambas con 57.1%, el tablero Kanban con 52.4% y las recomendaciones climáticas inteligentes con 47.6%.
+
+  Debido a que los participantes podían seleccionar más de una alternativa, los porcentajes no son excluyentes. Estos resultados permiten identificar qué funcionalidades son percibidas como prioritarias para mejorar la experiencia de uso de EcoTrack.
+
+  ![Figura 14. Funcionalidades que mejoran significativamente la usabilidad de EcoTrack](./img/capitulo_8/data_analytics/preg11.png)
+
+---
+
+#### Conclusión
+
+Los resultados de la encuesta muestran un alto nivel de satisfacción general, con áreas específicas que 
+pueden optimizarse para mejorar aún más la experiencia del usuario. Las recomendaciones obtenidas 
+servirán como base para futuras mejoras del producto.
+
+<div style="page-break-after: always;"></div>
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+A partir de los resultados de la encuesta, se reajustó la prioridad de las preguntas experimentales según las funcionalidades que los participantes consideraron más relevantes para mejorar significativamente la usabilidad de EcoTrack. Debido a que los participantes podían seleccionar más de una alternativa, la priorización se realizó considerando la cantidad y porcentaje de selecciones obtenidas por cada funcionalidad.
+
+| Prioridad (1, 2, 3, 5, 8) | Pregunta |
+|---:|---|
+| 8 | ¿Mejorará la precisión del seguimiento agrícola al incorporar geolocalización para parcelas, cultivos o plantas? |
+| 5 | ¿Incrementará la reutilización de información agrícola al permitir exportar reportes y datos a Excel? |
+| 5 | ¿Mejorará la consistencia del registro agrícola al usar un dropdown de cultivos con opción “Otro”? |
+| 3 | ¿Mejorará la gestión de labores agrícolas al cambiar la vista de tareas a un tablero tipo Jira/Kanban? |
+| 2 | ¿Aumentará el valor percibido de la sección de clima al incorporar recomendaciones climáticas generadas por IA? |
+
+<div style="page-break-after: always;"></div>
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+En la sesión de shareback el equipo compartió los aprendizajes de los cinco experimentos priorizados. A continuación se listan los artefactos que respaldan este proceso.
+
+**Prototipo funcional en producción:** las cinco funcionalidades se implementaron sobre la plataforma EcoTrack desplegada, de modo que los usuarios interactuaron con la solución real.
+
+**Encuesta de validación (Google Forms):** encuesta de diez preguntas, una por cada aspecto de los cinco experimentos, usada para recoger el feedback de los usuarios y contrastar las hipótesis.
+
+Enlace de la encuesta: [https://docs.google.com/forms/d/e/1FAIpQLSeihdreqMSKYFU6sNKyZ65MFwTr9lQTlm8_K5by__Q61pci3w/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeihdreqMSKYFU6sNKyZ65MFwTr9lQTlm8_K5by__Q61pci3w/viewform)
+
+<img src="./img/capitulo_8/continuous_learning/survey_form.png" alt="Encuesta de validación en Google Forms" />
+
+
+<div style="page-break-after: always;"></div>
+
+## 8.6. To-Be Software Platform Pre-launch
+
+### 8.6.1. About-the-Product Intro Video
+
+El video de introducción al producto presenta EcoTrack a los visitantes de la Landing Page y a los usuarios interesados en la plataforma antes de su lanzamiento. En el video se explica el modelo de negocio y los dos segmentos objetivo, el agrónomo y el agricultor, y se muestran las funcionalidades principales de la solución. 
+
+<img src="./img/capitulo_8/prelaunch/intro_video.png" alt="Cuadro representativo del video de introducción al producto EcoTrack" />
+
+**Enlace del video en YouTube:** [https://youtu.be/q8EpvrpFKiU](https://youtu.be/q8EpvrpFKiU)
+
+
+<div style="page-break-after: always;"></div>
+
+# Matriz de Evaluación Ética y de Impacto
+
+La presente matriz permite a **Agromind** demostrar su capacidad de reconocer las responsabilidades éticas y profesionales asociadas al desarrollo de **EcoTrack**, emitiendo juicios informados sobre el impacto de la solución en su contexto: la agricultura familiar peruana. El objetivo es evitar el "sentido mercenario de la ingeniería" —construir la solución sin cuestionar sus consecuencias— y evidenciar un pensamiento crítico y reflexivo frente a los riesgos que la digitalización del campo puede generar sobre los agricultores, los agrónomos, los consumidores y el medio ambiente.
+
+<table>
+    <thead>
+        <tr>
+            <th>Dimensión / Criterio a Evaluar</th>
+            <th>Identificación de Riesgos e Impactos (Positivos y Negativos)</th>
+            <th>Evaluación del Impacto (¿A quién afecta y cuál es la magnitud?)</th>
+            <th>Estrategias de Mitigación y Acciones de Diseño</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>1. Salud Pública y Seguridad</strong></td>
+            <td><strong>Positivo:</strong> El registro ordenado de labores, riego y fertilización permite planificar el uso de agroquímicos y reducir la sobreexposición del agricultor.<br><strong>Negativo:</strong> Si la app sugiere o permite registrar aplicaciones de fertilizantes/pesticidas sin validación agronómica, puede inducir dosis incorrectas con riesgo para el agricultor y el consumidor final. El uso del móvil durante labores de campo o manejo de maquinaria puede distraer y provocar accidentes.</td>
+            <td><strong>Afectados:</strong> Agricultores que manipulan agroquímicos (riesgo directo) y consumidores de los productos cosechados. <strong>Magnitud: Media-Alta</strong>, por tratarse de salud humana y seguridad alimentaria.</td>
+            <td>Requerir validación del agrónomo antes de acciones críticas (dosis, tipo de insumo). Mostrar alertas de rangos seguros y recordatorios de buenas prácticas y uso de EPP. Ofrecer un modo de registro rápido para minimizar el uso del teléfono durante la operación de maquinaria.</td>
+        </tr>
+        <tr>
+            <td><strong>2. Inclusión y Accesibilidad</strong></td>
+            <td><strong>Positivo:</strong> La interfaz simple está pensada para agricultores con poca experiencia digital.<br><strong>Negativo:</strong> La app depende de conectividad y de smartphones de gama media/alta; excluye a usuarios rurales con señal limitada, equipos antiguos, baja alfabetización digital, adultos mayores o personas con discapacidad visual. Estar disponible solo en español margina a hablantes de lenguas originarias (quechua, aymara).</td>
+            <td><strong>Afectados:</strong> Agricultores de subsistencia (88% de la agricultura familiar según MIDAGRI), zonas rurales sin buena cobertura y usuarios con discapacidad. <strong>Magnitud: Alta</strong>, pues coincide con el segmento objetivo principal.</td>
+            <td>Implementar un modo offline con sincronización posterior. Desarrollar una versión "lite" que funcione en dispositivos antiguos. Cumplir compatibilidad con lectores de pantalla, alto contraste y tamaños de fuente ajustables. Usar lenguaje e iconografía sencillos y evaluar soporte de quechua/aymara y entrada por voz.</td>
+        </tr>
+        <tr>
+            <td><strong>3. Impacto Social y Cultural</strong></td>
+            <td><strong>Positivo:</strong> Fortalece y formaliza la relación agricultor–agrónomo, mejora la colaboración y preserva el conocimiento en registros consultables.<br><strong>Negativo:</strong> La estandarización de recomendaciones puede desplazar el conocimiento tradicional y empírico del agricultor, generar dependencia de la plataforma y ampliar la brecha generacional en el campo.</td>
+            <td><strong>Afectados:</strong> Comunidades de agricultura familiar y agrónomos locales. <strong>Magnitud: Bajo</strong>, con efecto sobre la identidad y autonomía del productor.</td>
+            <td>Diseñar las recomendaciones como apoyo y no como imposición, permitiendo registrar y respetar prácticas propias/tradicionales. Aplicar co-creación con agricultores reales en el diseño. Reforzar el rol del agrónomo local en lugar de reemplazarlo.</td>
+        </tr>
+        <tr>
+            <td><strong>4. Impacto Económico</strong></td>
+            <td><strong>Positivo:</strong> La trazabilidad y el control de costos abren acceso a mercados más exigentes, mejores precios y reducción de pérdidas.<br><strong>Negativo:</strong> Un modelo de suscripción mal calibrado puede excluir a los agricultores de subsistencia; la concentración de datos podría dar ventaja a grandes compradores en la negociación frente al pequeño productor.</td>
+            <td><strong>Afectados:</strong> Pequeños agricultores (positivamente si es accesible; negativamente si es costoso) y la economía rural local. <strong>Magnitud: Alta</strong>, ya que determina el acceso real de los pequeños productores a los beneficios del sistema y puede ampliar o reducir la brecha económica en el campo.</td>
+            <td>Ofrecer un plan gratuito/freemium para agricultores de subsistencia y precios escalonados según capacidad. No comercializar los datos de los agricultores con compradores. Garantizar que el agricultor sea dueño de su información y mantener transparencia en el modelo de negocio.</td>
+        </tr>
+        <tr>
+            <td><strong>5. Impacto Ambiental (Antrópico)</strong></td>
+            <td><strong>Positivo:</strong> Optimizar riego y fertilización reduce el desperdicio de agua e insumos y disminuye el uso innecesario de agroquímicos; la trazabilidad incentiva prácticas sostenibles.<br><strong>Negativo:</strong> Recomendaciones orientadas solo a maximizar rendimiento podrían fomentar la sobre-fertilización y un mayor consumo de recursos. El almacenamiento y procesamiento de datos en la nube consume energía.</td>
+            <td><strong>Afectados:</strong> Suelos, fuentes de agua y ecosistemas locales, además de la huella de carbono del servicio. <strong>Magnitud: Media-Alta</strong>, pues un uso ineficiente de insumos degrada suelos y fuentes de agua e incrementa las emisiones asociadas a la operación.</td>
+            <td>Orientar las recomendaciones a la eficiencia y sostenibilidad (dosis óptimas, no máximas). Incluir métricas de consumo de agua e insumos por campaña. Usar hosting eficiente y promover educación sobre prácticas agroecológicas.</td>
+        </tr>
+        <tr>
+            <td><strong>6. Enfoque Global</strong></td>
+            <td><strong>Positivo:</strong> Adoptar estándares de trazabilidad facilita el acceso a mercados de exportación.<br><strong>Negativo:</strong> Los datos agrícolas y de geolocalización almacenados en servidores en la nube quedan sujetos a legislaciones extranjeras; información sensible de producción podría exponerse a intereses comerciales globales de commodities.</td>
+            <td><strong>Afectados:</strong> La privacidad y soberanía de los datos de los agricultores peruanos y la competitividad nacional. <strong>Magnitud: Media</strong>, pues compromete el control del agricultor peruano sobre su propia información productiva.</td>
+            <td>Cumplir la Ley N.° 29733 de Protección de Datos Personales del Perú y estándares internacionales equivalentes (GDPR). Cifrar los datos en tránsito y en reposo, priorizar el alojamiento regional y obtener consentimiento informado sobre el uso de la información.</td>
+        </tr>
+        <tr>
+            <td><strong>7. Revelación de Peligros y Responsabilidad</strong></td>
+            <td><strong>Riesgo:</strong> EcoTrack maneja datos sensibles (ubicación de fincas y las actividades de produccion realizadas) que, ante una vulnerabilidad o filtración, podrían usarse contra el agricultor (robo, extorsión o desventaja frente a compradores).</td>
+            <td><strong>Afectados:</strong> La seguridad física, económica y digital de toda la base de usuarios de la aplicación. <strong>Magnitud: Alta</strong>, ya que una filtración expondría directamente el patrimonio y la integridad de los agricultores.</td>
+            <td>Conforme al Código de Ética del ingeniero, aceptar responsabilidad plena: revelar de inmediato cualquier peligro real a los usuarios y autoridades, suspendiendo las funciones afectadas hasta corregir la vulnerabilidad. Aplicar auditorías de seguridad, control de acceso por roles, minimización de datos y respaldos periódicos.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
 
-**TB1**
+- La ejecución de auditorías de experiencia de usuario, tanto realizadas por el equipo como recibidas de un grupo externo, permitió contrastar la percepción interna del producto con una evaluación objetiva basada en heurísticas de usabilidad. Los hallazgos documentados y sus respectivas subsanaciones evidencian un cierre responsable del ciclo de retroalimentación sobre la experiencia de usuario de EcoTrack.
 
-Para este avance parcial se consideran las siguientes conclusiones:
+- La realización de entrevistas de validación con agrónomos y agricultores en esta etapa final permitió confirmar, con usuarios reales del segmento objetivo, que las funcionalidades implementadas responden a las necesidades identificadas desde el inicio del proyecto, cerrando el ciclo de Experiment-Driven Development iniciado en el Capítulo VIII.
 
-- Se ha evaluado y concluido el trabajo a realizar establecido por el primer equipo, aplicando buenas prácticas de desarrollo y testing para garantizar la calidad del producto.
-- Se han aplicado prácticas de desarrollo que fueron las que permitieron este desarrollo exitoso, aún con las falencias a nivel de diseño iniciales, demostrando su efectividad
+- La revisión y ajuste final del Product Backlog, incluyendo la reestimación de story points y la simplificación de la redacción de historias de usuario, refleja la madurez alcanzada por el equipo en la gestión ágil del producto, priorizando claridad y precisión sobre la documentación acumulada a lo largo de las distintas fases del proyecto.
+
+- El conjunto de actividades desarrolladas en esta última etapa —auditorías de usabilidad, validación con usuarios reales y consolidación del backlog— confirma que EcoTrack alcanzó un nivel de madurez adecuado para su entrega final, sustentado en evidencia recogida directamente del contexto agrícola y no en suposiciones internas del equipo.
+
+- En retrospectiva, el recorrido del proyecto desde el primer avance (AV1) hasta esta entrega final (TB2) demuestra una evolución consistente del producto y del equipo: de la corrección de deficiencias heredadas, pasando por la adopción de pruebas estáticas y prácticas DevOps, hasta la experimentación y validación rigurosa con usuarios reales, consolidando a EcoTrack como una solución robusta, validada y lista para su uso por parte de agricultores y agrónomos.
+
 
 <div style="page-break-after: always;"></div>
 
@@ -6319,7 +8065,12 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 # Anexos
 
-- **Video DEMO TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL)
+- **Video DEMO AV1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQDegxervzalQLM5iwWPRJ6NAVYPB_WiGq3xhq--WiBiTE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EvYMIL)
+- **About the Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQBL5volxe2XT4qm3fFKbyC9AR_Kh28qpw0O1Wjy-rdXjKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8EJdAu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQBL5volxe2XT4qm3fFKbyC9AR_Kh28qpw0O1Wjy-rdXjKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8EJdAu)
+
+- **About the Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDYU0_hLi7DR6MmXO3-r2kOAYQsF2JicK9dIcghspBn0Lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aaALm2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDYU0_hLi7DR6MmXO3-r2kOAYQsF2JicK9dIcghspBn0Lw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aaALm2)
+- **Validation Interviews:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/IQDt_WTpwlQkSLfoqO9v7ibjAV07v2HK6trM2GzuNsJdcmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BJmiAU)
+- **Video Exposición TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQB3thfpLXfRT66ikX7XVZX0AYOXpFgpIsyGMEYSao1FDlM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeeLtd](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313655_upc_edu_pe/IQB3thfpLXfRT66ikX7XVZX0AYOXpFgpIsyGMEYSao1FDlM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeeLtd)
 
 <div style="page-break-after: always;"></div>
 

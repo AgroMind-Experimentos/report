@@ -1,0 +1,1 @@
+ EcoTrack no cuenta con una aplicación nativa móvil. La plataforma está construida como una aplicación web responsive, accesible desde el navegador de cualquier dispositivo móvil, tablet o computadora, por lo que las funcionalidades del ciclo To-Be no requirieron desarrollo nativo.

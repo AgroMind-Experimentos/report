@@ -72,7 +72,7 @@
             <td>Equipo AgroMind</td>
             <td>
                 <ul>
-                    <li>Actualización general de Carátula y Student Outcome con aportes del TP</li>
+                    <li>Actualización general de Carátula y Student Outcome con aportes del TB1</li>
                     <li><b>Capítulo V: Product Implementation, Validation & Deployment</b>
                         <ul>
                             <li>Reestructuración de la sección 5.2. Landing Page, Services & Applications Implementation</li>
@@ -111,7 +111,7 @@
             </td>
             <td>
                 <ul>
-                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del AV2</li>
                     <li><b>Capítulo VI: Product Verification & Validation</b>
                         <ul>
                             <li>6.2.1. Static Code Analysis (Coding Standards & Code Conventions, Code Quality & Code Security)</li>
@@ -130,6 +130,39 @@
                             <li>8.3. Experimentation (To-Be User Stories, To-Be Product Backlog)</li>
                         </ul>
                     </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4.0</td>
+            <td>09/07/2026</td>
+            <td>
+                Chi Cruzatt, Kevin Jorge<br>
+                Mostajo Orosco, Maria Fernanda<br>
+                Orozco Torres, Alvaro Joaquin<br>
+                Paucar De La Cruz, Tatiana Medalith<br>
+                Ramos Aguirre, Aldair Joaquin
+            </td>
+            <td>
+                <ul>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li><b>Capítulo VI: Product Verification & Validation</b>
+                        <ul>
+                            <li>6.3. Validation Interviews (Diseño, Registro, Evaluaciones según heurísticas)</li>
+                            <li>6.4. Auditoría de Experiencias de Usuario (Auditoría realizada y Auditoría recibida)</li>
+                        </ul>
+                    </li>
+                    <li><b>Capítulo VIII: Experiment-Driven Development</b>
+                        <ul>
+                            <li>8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle (Sprint Backlogs, Landing Page, Frontend, Mobile, API Evidence, Team Collaboration Insights)</li>
+                            <li>8.3.4. To-Be Validation Interviews (Diseño, Registro)</li>
+                            <li>8.4. Experiment Aftermath & Analysis (Análisis de Resultados, Re-priorización del Question Backlog)</li>
+                            <li>8.5. Continuous Learning (Shareback Session Artifacts)</li>
+                            <li>8.6. To-Be Software Platform Pre-launch (About-the-Product Intro Video)</li>
+                        </ul>
+                    </li>
+                    <li><b>Matriz de Evaluación Ética y de Impacto</b></li>
+                    <li>Actualización de Anexos</li>
                 </ul>
             </td>
         </tr>
