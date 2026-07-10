@@ -72,7 +72,7 @@
             <td>Equipo AgroMind</td>
             <td>
                 <ul>
-                    <li>Actualización general de Carátula y Student Outcome con aportes del TP</li>
+                    <li>Actualización general de Carátula y Student Outcome con aportes del TB1</li>
                     <li><b>Capítulo V: Product Implementation, Validation & Deployment</b>
                         <ul>
                             <li>Reestructuración de la sección 5.2. Landing Page, Services & Applications Implementation</li>
@@ -111,7 +111,7 @@
             </td>
             <td>
                 <ul>
-                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del AV2</li>
                     <li><b>Capítulo VI: Product Verification & Validation</b>
                         <ul>
                             <li>6.2.1. Static Code Analysis (Coding Standards & Code Conventions, Code Quality & Code Security)</li>
@@ -145,7 +145,7 @@
             </td>
             <td>
                 <ul>
-                    <li>Actualización de Student Outcome y Conclusiones con aportes del TF</li>
+                    <li>Actualización de Student Outcome y Conclusiones con aportes del TB2</li>
                     <li><b>Capítulo VI: Product Verification & Validation</b>
                         <ul>
                             <li>6.3. Validation Interviews (Diseño, Registro, Evaluaciones según heurísticas)</li>
