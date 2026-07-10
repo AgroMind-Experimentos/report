@@ -138,7 +138,7 @@
         </tr>
         <tr>
             <th scope="row">Captura de pantalla de la grabación</th>
-            <td><img src="../../../img/shared/placeholder.jpg" alt="Entrevista-3"></td>
+            <td><img src="../../../img/capitulo_2/interviews/registry/erica.png" alt="Entrevista-3"></td>
         </tr>
         <tr>
             <th scope="row">Resumen</th>
