@@ -254,6 +254,12 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 
 <img src="./img/insights/av2.png">
 
+<div style="page-break-after: always;"></div>
+
+**TB2**
+
+<img src="./img/insights/tb2.png">
+
 
 <div style="page-break-after: always;"></div>
 
@@ -1188,7 +1194,7 @@ Esta sección expone la investigación basada en entrevistas realizadas a agricu
         </tr>
         <tr>
             <th scope="row">Captura de pantalla de la grabación</th>
-            <td><img src="./img/shared/placeholder.jpg" alt="Entrevista-3"></td>
+            <td><img src="./img/capitulo_2/interviews/registry/erica.png" alt="Entrevista-3"></td>
         </tr>
         <tr>
             <th scope="row">Resumen</th>
