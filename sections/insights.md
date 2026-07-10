@@ -17,3 +17,9 @@ Enlace al repositorio del informe: [https://github.com/AgroMind-Experimentos/rep
 **AV2**
 
 <img src="../img/insights/av2.png">
+
+<div style="page-break-after: always;"></div>
+
+**TB2**
+
+<img src="../img/insights/tb2.png">
