@@ -29,7 +29,14 @@
                 <strong>Henry Reaño:</strong> Participé en la identificación de los problemas del estado actual de EcoTrack que fundamentan el Experiment Planning, aportando observaciones sobre las deficiencias en la experiencia de usuario que guiaron la formulación de los supuestos y las preguntas experimentales.<br>
                 <strong>Maria Fernanda Mostajo:</strong> Estructuré el proceso de Experiment Planning documentando las preguntas experimentales con su scoring de priorización, el question backlog y las experiment cards. Asumir esta responsabilidad implicó asegurar que cada experimento propuesto tuviera una justificación sólida antes de comprometer recursos de desarrollo.<br>
                 <strong>Tatiana Paucar:</strong> Redacté las secciones de Static Testing y Continuous Monitoring, documentando estándares de codificación, análisis estático de código y los pipelines de alertas y notificaciones. Esta labor responde a la responsabilidad profesional de garantizar la calidad del código y la visibilidad del estado del sistema en producción.<br>
-                <strong>Aldair Ramos:</strong> Desarrollé el As-Is Summary, el Raw Material y las secciones de Analytics Goals, Tracking Plan, To-Be User Stories y To-Be Product Backlog, garantizando que las funcionalidades propuestas cuenten con criterios de aceptación definidos y un plan de seguimiento que permita evaluar su impacto de forma responsable.<br>
+                <strong>Aldair Ramos:</strong> Desarrollé el As-Is Summary, el Raw Material y las secciones de Analytics Goals, Tracking Plan, To-Be User Stories y To-Be Product Backlog, garantizando que las funcionalidades propuestas cuenten con criterios de aceptación definidos y un plan de seguimiento que permita evaluar su impacto de forma responsable.<br><br>
+                <strong>TF</strong><br>
+                <strong>Kevin Chi:</strong> Supervisé que el pipeline de despliegue final cumpliera con los estándares de seguridad definidos por el equipo, asumiendo la responsabilidad de que ninguna vulnerabilidad conocida llegara al entorno de producción en la entrega final.<br>
+                <strong>Álvaro Orozco:</strong> Consolidé la documentación final del informe, asegurando que cada capítulo reflejara con honestidad el trabajo realmente realizado por el equipo y cumpliera con los lineamientos éticos exigidos por el curso.<br>
+                <strong>Henry Reaño:</strong> Asumí la responsabilidad de verificar la corrección final de los errores reportados durante las auditorías, garantizando que el producto entregado cumpliera con los estándares de calidad acordados.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Documenté el cierre del proceso experimental de forma transparente, asegurando que las conclusiones finales reflejaran honestamente los resultados obtenidos, incluyendo aquellos que no confirmaron las hipótesis iniciales.<br>
+                <strong>Tatiana Paucar:</strong> Verifiqué que las prácticas de monitoreo continuo se mantuvieran activas en el entorno productivo final, asumiendo la responsabilidad profesional de que el equipo pudiera detectar y responder a incidentes reales.<br>
+                <strong>Aldair Ramos:</strong> Validé que las historias de usuario finales cumplieran los criterios de aceptación acordados con el equipo, asumiendo responsabilidad sobre la coherencia entre lo documentado y lo efectivamente implementado.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
@@ -37,7 +44,9 @@
                 <strong>TP</strong><br>
                 Se concluye que el equipo, en su nueva conformación, mantiene un fuerte compromiso ético mediante la adopción de prácticas de desarrollo y el uso exhaustivo de pruebas (unitarias, integración y BDD). Estas acciones resultan fundamentales para el despliegue de una solución de software de alta calidad, previniendo vulnerabilidades y garantizando un servicio fiable para los usuarios.<br><br>
                 <strong>TB2</strong><br>
-                Se concluye que el equipo asumió con responsabilidad el diseño experimental del producto, estructurando cada propuesta con criterios medibles y justificación metodológica. La documentación de pruebas estáticas, monitoreo continuo e hipótesis verificables refleja un compromiso profesional con la calidad y trazabilidad del proceso de desarrollo.
+                Se concluye que el equipo asumió con responsabilidad el diseño experimental del producto, estructurando cada propuesta con criterios medibles y justificación metodológica. La documentación de pruebas estáticas, monitoreo continuo e hipótesis verificables refleja un compromiso profesional con la calidad y trazabilidad del proceso de desarrollo.<br><br>
+                <strong>TF</strong><br>
+                Se concluye que el equipo cerró el proyecto con un fuerte sentido de responsabilidad profesional, verificando la seguridad del despliegue final, consolidando la documentación con honestidad y validando que el producto entregado corresponda fielmente a lo comprometido con el usuario final.
             </td>
         </tr>
         <tr>
@@ -62,7 +71,14 @@
                 <strong>Henry Reaño:</strong> Al aportar observaciones sobre la experiencia de usuario en el estado actual de la plataforma, contribuí a identificar qué problemas tienen mayor impacto en la productividad de agricultores y agrónomos, informando la priorización de los experimentos propuestos.<br>
                 <strong>Maria Fernanda Mostajo:</strong> Al priorizar los experimentos mediante scoring de confianza, riesgo, impacto e interés, emití juicios sobre qué mejoras generan mayor valor para agricultores y agrónomos, estableciendo un orden en el backlog experimental basado en evidencia y no en preferencias arbitrarias.<br>
                 <strong>Tatiana Paucar:</strong> Al documentar las métricas de negocio, medidas y condiciones de los experimentos, evalué el alcance estadístico necesario para detectar cambios reales en el comportamiento de los usuarios, evitando conclusiones basadas en evidencia insuficiente.<br>
-                <strong>Aldair Ramos:</strong> Al diseñar el Tracking Plan y los criterios de aceptación de las To-Be User Stories, consideré cómo cada funcionalidad debe ser medida para validar su impacto real en la experiencia del usuario y en los objetivos de negocio de EcoTrack.<br>
+                <strong>Aldair Ramos:</strong> Al diseñar el Tracking Plan y los criterios de aceptación de las To-Be User Stories, consideré cómo cada funcionalidad debe ser medida para validar su impacto real en la experiencia del usuario y en los objetivos de negocio de EcoTrack.<br><br>
+                <strong>TF</strong><br>
+                <strong>Kevin Chi:</strong> Al cerrar el pipeline de despliegue final, evalué el impacto que una falla de seguridad no detectada tendría sobre la confianza de los agricultores en la plataforma y sobre la continuidad del negocio.<br>
+                <strong>Álvaro Orozco:</strong> Al consolidar la documentación final, emití juicios sobre qué decisiones de producto tuvieron mayor impacto real en los usuarios agrícolas a lo largo de todo el proyecto, priorizando su registro honesto por sobre una narrativa favorable.<br>
+                <strong>Henry Reaño:</strong> Al verificar la corrección final de los hallazgos de auditoría, consideré el impacto que cada error no resuelto tendría en la accesibilidad y confianza de los usuarios finales del producto.<br>
+                <strong>Maria Fernanda Mostajo:</strong> Al documentar el cierre experimental, emití juicios sobre qué resultados, confirmados o no, debían influir en decisiones futuras de negocio, evitando descartar evidencia incómoda por conveniencia.<br>
+                <strong>Tatiana Paucar:</strong> Al verificar el monitoreo continuo en producción, evalué el impacto social que una interrupción del servicio tendría sobre agricultores que dependen de la plataforma para sus labores diarias.<br>
+                <strong>Aldair Ramos:</strong> Al validar la correspondencia entre las historias de usuario finales y lo implementado, consideré el impacto que cualquier discrepancia tendría sobre la confianza del negocio y de los usuarios en el producto entregado.<br>
             </td>
             <td>
                 <strong>TB1</strong><br>
@@ -70,7 +86,9 @@
                 <strong>TP</strong><br>
                 Se concluye que el equipo asume de forma empírica y responsable el impacto real de sus desarrollos. A través de la ejecución de despliegues críticos, el desarrollo orientado a las necesidades y las pruebas de comportamiento, logran salvaguardar la viabilidad económica del producto, previniendo fallos que pudiesen afectar la estabilidad del sistema y garantizando una experiencia accesible y segura para la sociedad.<br><br>
                 <strong>TB2</strong><br>
-                Se concluye que el equipo emitió juicios informados al estructurar los experimentos con scoring de priorización, métricas de negocio verificables e hipótesis nulas. Este enfoque demuestra una comprensión del impacto económico y social de las decisiones de producto, priorizando funcionalidades que generan valor real para los usuarios agrícolas antes de invertir en su desarrollo.
+                Se concluye que el equipo emitió juicios informados al estructurar los experimentos con scoring de priorización, métricas de negocio verificables e hipótesis nulas. Este enfoque demuestra una comprensión del impacto económico y social de las decisiones de producto, priorizando funcionalidades que generan valor real para los usuarios agrícolas antes de invertir en su desarrollo.<br><br>
+                <strong>TF</strong><br>
+                Se concluye que el equipo cerró el proyecto emitiendo juicios informados sobre el impacto económico y social de sus decisiones, priorizando la honestidad en la documentación de resultados y la continuidad del servicio por sobre una presentación favorable del producto, en beneficio de los usuarios agrícolas finales.
             </td>
         </tr>
     </tbody>
